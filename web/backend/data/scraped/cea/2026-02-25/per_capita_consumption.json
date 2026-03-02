@@ -1,0 +1,6158 @@
+[
+  {
+    "ID": "1405",
+    "Year": "2002-03",
+    "State": "Chandigarh",
+    "value": "648.46"
+  },
+  {
+    "ID": "1425",
+    "Year": "2002-03",
+    "State": "Delhi",
+    "value": "1426.17"
+  },
+  {
+    "ID": "1445",
+    "Year": "2002-03",
+    "State": "Haryana",
+    "value": "997.08"
+  },
+  {
+    "ID": "1465",
+    "Year": "2002-03",
+    "State": "Himachal Pradesh",
+    "value": "598.71"
+  },
+  {
+    "ID": "1485",
+    "Year": "2002-03",
+    "State": "Jammu & Kashmir",
+    "value": "592.41"
+  },
+  {
+    "ID": "1505",
+    "Year": "2002-03",
+    "State": "Punjab",
+    "value": "1227.39"
+  },
+  {
+    "ID": "1525",
+    "Year": "2002-03",
+    "State": "Rajasthan",
+    "value": "566.14"
+  },
+  {
+    "ID": "1545",
+    "Year": "2002-03",
+    "State": "Uttar Pradesh",
+    "value": "316.13"
+  },
+  {
+    "ID": "1565",
+    "Year": "2002-03",
+    "State": "Uttarakhand",
+    "value": "463.7"
+  },
+  {
+    "ID": "1585",
+    "Year": "2002-03",
+    "State": "Chhattisgarh",
+    "value": "675.86"
+  },
+  {
+    "ID": "1605",
+    "Year": "2002-03",
+    "State": "Gujarat",
+    "value": "1192.87"
+  },
+  {
+    "ID": "1625",
+    "Year": "2002-03",
+    "State": "Madhya Pradesh",
+    "value": "520.35"
+  },
+  {
+    "ID": "1645",
+    "Year": "2002-03",
+    "State": "Maharashtra",
+    "value": "848.02"
+  },
+  {
+    "ID": "1665",
+    "Year": "2002-03",
+    "State": "Daman & Diu",
+    "value": "7375.94"
+  },
+  {
+    "ID": "1685",
+    "Year": "2002-03",
+    "State": "D. & N. Haveli",
+    "value": "4135.15"
+  },
+  {
+    "ID": "1705",
+    "Year": "2002-03",
+    "State": "Goa",
+    "value": "1842.7"
+  },
+  {
+    "ID": "1725",
+    "Year": "2002-03",
+    "State": "Andhra Pradesh",
+    "value": "672.64"
+  },
+  {
+    "ID": "1745",
+    "Year": "2002-03",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1765",
+    "Year": "2002-03",
+    "State": "Karnataka",
+    "value": "611.16"
+  },
+  {
+    "ID": "1785",
+    "Year": "2002-03",
+    "State": "Kerala",
+    "value": "377.54"
+  },
+  {
+    "ID": "1805",
+    "Year": "2002-03",
+    "State": "Tamil Nadu",
+    "value": "815.26"
+  },
+  {
+    "ID": "1825",
+    "Year": "2002-03",
+    "State": "Puducherry",
+    "value": "1761.24"
+  },
+  {
+    "ID": "1845",
+    "Year": "2002-03",
+    "State": "Lakshadweep",
+    "value": "348.17"
+  },
+  {
+    "ID": "1865",
+    "Year": "2002-03",
+    "State": "Bihar",
+    "value": "81.55"
+  },
+  {
+    "ID": "1885",
+    "Year": "2002-03",
+    "State": "Jharkhand",
+    "value": "467.7"
+  },
+  {
+    "ID": "1905",
+    "Year": "2002-03",
+    "State": "Odisha",
+    "value": "470.18"
+  },
+  {
+    "ID": "1925",
+    "Year": "2002-03",
+    "State": "West Bengal",
+    "value": "366.5"
+  },
+  {
+    "ID": "1945",
+    "Year": "2002-03",
+    "State": "Sikkim",
+    "value": "246.87"
+  },
+  {
+    "ID": "1965",
+    "Year": "2002-03",
+    "State": "A.& N. Islands",
+    "value": "375.14"
+  },
+  {
+    "ID": "1985",
+    "Year": "2002-03",
+    "State": "Arunachal Pradesh",
+    "value": "132.45"
+  },
+  {
+    "ID": "2005",
+    "Year": "2002-03",
+    "State": "Assam",
+    "value": "159.97"
+  },
+  {
+    "ID": "2025",
+    "Year": "2002-03",
+    "State": "Manipur",
+    "value": "206.37"
+  },
+  {
+    "ID": "2045",
+    "Year": "2002-03",
+    "State": "Meghalaya",
+    "value": "335.86"
+  },
+  {
+    "ID": "2065",
+    "Year": "2002-03",
+    "State": "Mizoram",
+    "value": "299.85"
+  },
+  {
+    "ID": "2085",
+    "Year": "2002-03",
+    "State": "Nagaland",
+    "value": "139.11"
+  },
+  {
+    "ID": "2105",
+    "Year": "2002-03",
+    "State": "Tripura",
+    "value": "227.26"
+  },
+  {
+    "ID": "2125",
+    "Year": "2002-03",
+    "State": "N R",
+    "value": "550.42"
+  },
+  {
+    "ID": "2145",
+    "Year": "2002-03",
+    "State": "W R",
+    "value": "835.61"
+  },
+  {
+    "ID": "2165",
+    "Year": "2002-03",
+    "State": "S R",
+    "value": "660.3200000000001"
+  },
+  {
+    "ID": "2185",
+    "Year": "2002-03",
+    "State": "E R",
+    "value": "290.45"
+  },
+  {
+    "ID": "2205",
+    "Year": "2002-03",
+    "State": "N E R",
+    "value": "180.29"
+  },
+  {
+    "ID": "2225",
+    "Year": "2002-03",
+    "State": "All India",
+    "value": "566.6900000000001"
+  },
+  {
+    "ID": "1406",
+    "Year": "2003-04",
+    "State": "Chandigarh",
+    "value": "1499.58"
+  },
+  {
+    "ID": "1426",
+    "Year": "2003-04",
+    "State": "Delhi",
+    "value": "1542.04"
+  },
+  {
+    "ID": "1446",
+    "Year": "2003-04",
+    "State": "Haryana",
+    "value": "923.83"
+  },
+  {
+    "ID": "1466",
+    "Year": "2003-04",
+    "State": "Himachal Pradesh",
+    "value": "794.3200000000001"
+  },
+  {
+    "ID": "1486",
+    "Year": "2003-04",
+    "State": "Jammu & Kashmir",
+    "value": "647.46"
+  },
+  {
+    "ID": "1506",
+    "Year": "2003-04",
+    "State": "Punjab",
+    "value": "1277.11"
+  },
+  {
+    "ID": "1526",
+    "Year": "2003-04",
+    "State": "Rajasthan",
+    "value": "539.62"
+  },
+  {
+    "ID": "1546",
+    "Year": "2003-04",
+    "State": "Uttar Pradesh",
+    "value": "299.63"
+  },
+  {
+    "ID": "1566",
+    "Year": "2003-04",
+    "State": "Uttarakhand",
+    "value": "825.1"
+  },
+  {
+    "ID": "1586",
+    "Year": "2003-04",
+    "State": "Chhattisgarh",
+    "value": "677.66"
+  },
+  {
+    "ID": "1606",
+    "Year": "2003-04",
+    "State": "Gujarat",
+    "value": "1175.23"
+  },
+  {
+    "ID": "1626",
+    "Year": "2003-04",
+    "State": "Madhya Pradesh",
+    "value": "474.78"
+  },
+  {
+    "ID": "1646",
+    "Year": "2003-04",
+    "State": "Maharashtra",
+    "value": "878.5700000000001"
+  },
+  {
+    "ID": "1666",
+    "Year": "2003-04",
+    "State": "Daman & Diu",
+    "value": "7037.98"
+  },
+  {
+    "ID": "1686",
+    "Year": "2003-04",
+    "State": "D. & N. Haveli",
+    "value": "7496.78"
+  },
+  {
+    "ID": "1706",
+    "Year": "2003-04",
+    "State": "Goa",
+    "value": "2178.47"
+  },
+  {
+    "ID": "1726",
+    "Year": "2003-04",
+    "State": "Andhra Pradesh",
+    "value": "718.84"
+  },
+  {
+    "ID": "1746",
+    "Year": "2003-04",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1766",
+    "Year": "2003-04",
+    "State": "Karnataka",
+    "value": "642.26"
+  },
+  {
+    "ID": "1786",
+    "Year": "2003-04",
+    "State": "Kerala",
+    "value": "386.2"
+  },
+  {
+    "ID": "1806",
+    "Year": "2003-04",
+    "State": "Tamil Nadu",
+    "value": "866.4299999999999"
+  },
+  {
+    "ID": "1826",
+    "Year": "2003-04",
+    "State": "Puducherry",
+    "value": "1894.45"
+  },
+  {
+    "ID": "1846",
+    "Year": "2003-04",
+    "State": "Lakshadweep",
+    "value": "341.72"
+  },
+  {
+    "ID": "1866",
+    "Year": "2003-04",
+    "State": "Bihar",
+    "value": "75.44"
+  },
+  {
+    "ID": "1886",
+    "Year": "2003-04",
+    "State": "Jharkhand",
+    "value": "564.26"
+  },
+  {
+    "ID": "1906",
+    "Year": "2003-04",
+    "State": "Odisha",
+    "value": "695.42"
+  },
+  {
+    "ID": "1926",
+    "Year": "2003-04",
+    "State": "West Bengal",
+    "value": "410.19"
+  },
+  {
+    "ID": "1946",
+    "Year": "2003-04",
+    "State": "Sikkim",
+    "value": "765.6799999999999"
+  },
+  {
+    "ID": "1966",
+    "Year": "2003-04",
+    "State": "A.& N. Islands",
+    "value": "420.29"
+  },
+  {
+    "ID": "1986",
+    "Year": "2003-04",
+    "State": "Arunachal Pradesh",
+    "value": "224.64"
+  },
+  {
+    "ID": "2006",
+    "Year": "2003-04",
+    "State": "Assam",
+    "value": "160.08"
+  },
+  {
+    "ID": "2026",
+    "Year": "2003-04",
+    "State": "Manipur",
+    "value": "218.37"
+  },
+  {
+    "ID": "2046",
+    "Year": "2003-04",
+    "State": "Meghalaya",
+    "value": "416.02"
+  },
+  {
+    "ID": "2066",
+    "Year": "2003-04",
+    "State": "Mizoram",
+    "value": "300.76"
+  },
+  {
+    "ID": "2086",
+    "Year": "2003-04",
+    "State": "Nagaland",
+    "value": "155.91"
+  },
+  {
+    "ID": "2106",
+    "Year": "2003-04",
+    "State": "Tripura",
+    "value": "263.65"
+  },
+  {
+    "ID": "2126",
+    "Year": "2003-04",
+    "State": "N R",
+    "value": "558.79"
+  },
+  {
+    "ID": "2146",
+    "Year": "2003-04",
+    "State": "W R",
+    "value": "837.2"
+  },
+  {
+    "ID": "2166",
+    "Year": "2003-04",
+    "State": "S R",
+    "value": "699.34"
+  },
+  {
+    "ID": "2186",
+    "Year": "2003-04",
+    "State": "E R",
+    "value": "351.94"
+  },
+  {
+    "ID": "2206",
+    "Year": "2003-04",
+    "State": "N E R",
+    "value": "192.33"
+  },
+  {
+    "ID": "2226",
+    "Year": "2003-04",
+    "State": "All India",
+    "value": "592"
+  },
+  {
+    "ID": "1407",
+    "Year": "2004-05",
+    "State": "Chandigarh",
+    "value": "887.2621220265629"
+  },
+  {
+    "ID": "1427",
+    "Year": "2004-05",
+    "State": "Delhi",
+    "value": "1553.774338294076"
+  },
+  {
+    "ID": "1447",
+    "Year": "2004-05",
+    "State": "Haryana",
+    "value": "950.693573601755"
+  },
+  {
+    "ID": "1467",
+    "Year": "2004-05",
+    "State": "Himachal Pradesh",
+    "value": "831.1055599389962"
+  },
+  {
+    "ID": "1487",
+    "Year": "2004-05",
+    "State": "Jammu & Kashmir",
+    "value": "608.9303089125784"
+  },
+  {
+    "ID": "1507",
+    "Year": "2004-05",
+    "State": "Punjab",
+    "value": "1245.231201680915"
+  },
+  {
+    "ID": "1527",
+    "Year": "2004-05",
+    "State": "Rajasthan",
+    "value": "583.3176538906848"
+  },
+  {
+    "ID": "1547",
+    "Year": "2004-05",
+    "State": "Uttar Pradesh",
+    "value": "308.8270280459722"
+  },
+  {
+    "ID": "1567",
+    "Year": "2004-05",
+    "State": "Uttarakhand",
+    "value": "653.7787274819466"
+  },
+  {
+    "ID": "1587",
+    "Year": "2004-05",
+    "State": "Chhattisgarh",
+    "value": "684.835170159622"
+  },
+  {
+    "ID": "1607",
+    "Year": "2004-05",
+    "State": "Gujarat",
+    "value": "1298.778633786376"
+  },
+  {
+    "ID": "1627",
+    "Year": "2004-05",
+    "State": "Madhya Pradesh",
+    "value": "515.5022494020581"
+  },
+  {
+    "ID": "1647",
+    "Year": "2004-05",
+    "State": "Maharashtra",
+    "value": "879.0870435849318"
+  },
+  {
+    "ID": "1667",
+    "Year": "2004-05",
+    "State": "Daman & Diu",
+    "value": "7545.68295540595"
+  },
+  {
+    "ID": "1687",
+    "Year": "2004-05",
+    "State": "D. & N. Haveli",
+    "value": "8478.773182016756"
+  },
+  {
+    "ID": "1707",
+    "Year": "2004-05",
+    "State": "Goa",
+    "value": "2189.029853911559"
+  },
+  {
+    "ID": "1727",
+    "Year": "2004-05",
+    "State": "Andhra Pradesh",
+    "value": "764.7521318371093"
+  },
+  {
+    "ID": "1747",
+    "Year": "2004-05",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1767",
+    "Year": "2004-05",
+    "State": "Karnataka",
+    "value": "660.043850713554"
+  },
+  {
+    "ID": "1787",
+    "Year": "2004-05",
+    "State": "Kerala",
+    "value": "397.8326313086763"
+  },
+  {
+    "ID": "1807",
+    "Year": "2004-05",
+    "State": "Tamil Nadu",
+    "value": "918.0807472245833"
+  },
+  {
+    "ID": "1827",
+    "Year": "2004-05",
+    "State": "Puducherry",
+    "value": "2049.256201739533"
+  },
+  {
+    "ID": "1847",
+    "Year": "2004-05",
+    "State": "Lakshadweep",
+    "value": "376.8333333333333"
+  },
+  {
+    "ID": "1867",
+    "Year": "2004-05",
+    "State": "Bihar",
+    "value": "75.06228118517896"
+  },
+  {
+    "ID": "1887",
+    "Year": "2004-05",
+    "State": "Jharkhand",
+    "value": "546.2076433383085"
+  },
+  {
+    "ID": "1907",
+    "Year": "2004-05",
+    "State": "Odisha",
+    "value": "735.4938906071346"
+  },
+  {
+    "ID": "1927",
+    "Year": "2004-05",
+    "State": "West Bengal",
+    "value": "413.5321144784459"
+  },
+  {
+    "ID": "1947",
+    "Year": "2004-05",
+    "State": "Sikkim",
+    "value": "985.0556416644882"
+  },
+  {
+    "ID": "1967",
+    "Year": "2004-05",
+    "State": "A.& N. Islands",
+    "value": "345.6"
+  },
+  {
+    "ID": "1987",
+    "Year": "2004-05",
+    "State": "Arunachal Pradesh",
+    "value": "379.6465386951468"
+  },
+  {
+    "ID": "2007",
+    "Year": "2004-05",
+    "State": "Assam",
+    "value": "162.8210334686858"
+  },
+  {
+    "ID": "2027",
+    "Year": "2004-05",
+    "State": "Manipur",
+    "value": "257.7153764589029"
+  },
+  {
+    "ID": "2047",
+    "Year": "2004-05",
+    "State": "Meghalaya",
+    "value": "521.3835260725454"
+  },
+  {
+    "ID": "2067",
+    "Year": "2004-05",
+    "State": "Mizoram",
+    "value": "438.714447179132"
+  },
+  {
+    "ID": "2087",
+    "Year": "2004-05",
+    "State": "Nagaland",
+    "value": "181.2213232246368"
+  },
+  {
+    "ID": "2107",
+    "Year": "2004-05",
+    "State": "Tripura",
+    "value": "351.135523064068"
+  },
+  {
+    "ID": "2127",
+    "Year": "2004-05",
+    "State": "N R",
+    "value": "564.565716226233"
+  },
+  {
+    "ID": "2147",
+    "Year": "2004-05",
+    "State": "W R",
+    "value": "876.6762946589823"
+  },
+  {
+    "ID": "2167",
+    "Year": "2004-05",
+    "State": "S R",
+    "value": "735.7410795926728"
+  },
+  {
+    "ID": "2187",
+    "Year": "2004-05",
+    "State": "E R",
+    "value": "357.2162520752545"
+  },
+  {
+    "ID": "2207",
+    "Year": "2004-05",
+    "State": "N E R",
+    "value": "218.9196627801959"
+  },
+  {
+    "ID": "2227",
+    "Year": "2004-05",
+    "State": "All India",
+    "value": "612.498575569153"
+  },
+  {
+    "ID": "1408",
+    "Year": "2005-06",
+    "State": "Chandigarh",
+    "value": "1553.96"
+  },
+  {
+    "ID": "1428",
+    "Year": "2005-06",
+    "State": "Delhi",
+    "value": "1766.94"
+  },
+  {
+    "ID": "1448",
+    "Year": "2005-06",
+    "State": "Haryana",
+    "value": "1090.39"
+  },
+  {
+    "ID": "1468",
+    "Year": "2005-06",
+    "State": "Himachal Pradesh",
+    "value": "765.86"
+  },
+  {
+    "ID": "1488",
+    "Year": "2005-06",
+    "State": "Jammu & Kashmir",
+    "value": "711.01"
+  },
+  {
+    "ID": "1508",
+    "Year": "2005-06",
+    "State": "Punjab",
+    "value": "1436.79"
+  },
+  {
+    "ID": "1528",
+    "Year": "2005-06",
+    "State": "Rajasthan",
+    "value": "572.2"
+  },
+  {
+    "ID": "1548",
+    "Year": "2005-06",
+    "State": "Uttar Pradesh",
+    "value": "311.82"
+  },
+  {
+    "ID": "1568",
+    "Year": "2005-06",
+    "State": "Uttarakhand",
+    "value": "654.84"
+  },
+  {
+    "ID": "1588",
+    "Year": "2005-06",
+    "State": "Chhattisgarh",
+    "value": "685.8099999999999"
+  },
+  {
+    "ID": "1608",
+    "Year": "2005-06",
+    "State": "Gujarat",
+    "value": "1283.77"
+  },
+  {
+    "ID": "1628",
+    "Year": "2005-06",
+    "State": "Madhya Pradesh",
+    "value": "580.34"
+  },
+  {
+    "ID": "1648",
+    "Year": "2005-06",
+    "State": "Maharashtra",
+    "value": "934.4299999999999"
+  },
+  {
+    "ID": "1668",
+    "Year": "2005-06",
+    "State": "Daman & Diu",
+    "value": "8300.120000000001"
+  },
+  {
+    "ID": "1688",
+    "Year": "2005-06",
+    "State": "D. & N. Haveli",
+    "value": "11567.67"
+  },
+  {
+    "ID": "1708",
+    "Year": "2005-06",
+    "State": "Goa",
+    "value": "1970.08"
+  },
+  {
+    "ID": "1728",
+    "Year": "2005-06",
+    "State": "Andhra Pradesh",
+    "value": "723.1"
+  },
+  {
+    "ID": "1748",
+    "Year": "2005-06",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1768",
+    "Year": "2005-06",
+    "State": "Karnataka",
+    "value": "720.4299999999999"
+  },
+  {
+    "ID": "1788",
+    "Year": "2005-06",
+    "State": "Kerala",
+    "value": "424.13"
+  },
+  {
+    "ID": "1808",
+    "Year": "2005-06",
+    "State": "Tamil Nadu",
+    "value": "976.8099999999999"
+  },
+  {
+    "ID": "1828",
+    "Year": "2005-06",
+    "State": "Puducherry",
+    "value": "2509.25"
+  },
+  {
+    "ID": "1848",
+    "Year": "2005-06",
+    "State": "Lakshadweep",
+    "value": "368.29"
+  },
+  {
+    "ID": "1868",
+    "Year": "2005-06",
+    "State": "Bihar",
+    "value": "85.86"
+  },
+  {
+    "ID": "1888",
+    "Year": "2005-06",
+    "State": "Jharkhand",
+    "value": "548.74"
+  },
+  {
+    "ID": "1908",
+    "Year": "2005-06",
+    "State": "Odisha",
+    "value": "633.9299999999999"
+  },
+  {
+    "ID": "1928",
+    "Year": "2005-06",
+    "State": "West Bengal",
+    "value": "380.61"
+  },
+  {
+    "ID": "1948",
+    "Year": "2005-06",
+    "State": "Sikkim",
+    "value": "429.81"
+  },
+  {
+    "ID": "1968",
+    "Year": "2005-06",
+    "State": "A.& N. Islands",
+    "value": "407.77"
+  },
+  {
+    "ID": "1988",
+    "Year": "2005-06",
+    "State": "Arunachal Pradesh",
+    "value": "297.66"
+  },
+  {
+    "ID": "2008",
+    "Year": "2005-06",
+    "State": "Assam",
+    "value": "170.65"
+  },
+  {
+    "ID": "2028",
+    "Year": "2005-06",
+    "State": "Manipur",
+    "value": "215.21"
+  },
+  {
+    "ID": "2048",
+    "Year": "2005-06",
+    "State": "Meghalaya",
+    "value": "517.54"
+  },
+  {
+    "ID": "2068",
+    "Year": "2005-06",
+    "State": "Mizoram",
+    "value": "250.15"
+  },
+  {
+    "ID": "2088",
+    "Year": "2005-06",
+    "State": "Nagaland",
+    "value": "179.34"
+  },
+  {
+    "ID": "2108",
+    "Year": "2005-06",
+    "State": "Tripura",
+    "value": "190.62"
+  },
+  {
+    "ID": "2128",
+    "Year": "2005-06",
+    "State": "N R",
+    "value": "602.5599999999999"
+  },
+  {
+    "ID": "2148",
+    "Year": "2005-06",
+    "State": "W R",
+    "value": "916.28"
+  },
+  {
+    "ID": "2168",
+    "Year": "2005-06",
+    "State": "S R",
+    "value": "757.79"
+  },
+  {
+    "ID": "2188",
+    "Year": "2005-06",
+    "State": "E R",
+    "value": "332.21"
+  },
+  {
+    "ID": "2208",
+    "Year": "2005-06",
+    "State": "N E R",
+    "value": "201.44"
+  },
+  {
+    "ID": "2228",
+    "Year": "2005-06",
+    "State": "All India",
+    "value": "631.41"
+  },
+  {
+    "ID": "1409",
+    "Year": "2006-07",
+    "State": "Chandigarh",
+    "value": "1486.68"
+  },
+  {
+    "ID": "1429",
+    "Year": "2006-07",
+    "State": "Delhi",
+    "value": "1417.22"
+  },
+  {
+    "ID": "1449",
+    "Year": "2006-07",
+    "State": "Haryana",
+    "value": "1208.21"
+  },
+  {
+    "ID": "1469",
+    "Year": "2006-07",
+    "State": "Himachal Pradesh",
+    "value": "872"
+  },
+  {
+    "ID": "1489",
+    "Year": "2006-07",
+    "State": "Jammu & Kashmir",
+    "value": "758.63"
+  },
+  {
+    "ID": "1509",
+    "Year": "2006-07",
+    "State": "Punjab",
+    "value": "1506.28"
+  },
+  {
+    "ID": "1529",
+    "Year": "2006-07",
+    "State": "Rajasthan",
+    "value": "590.6900000000001"
+  },
+  {
+    "ID": "1549",
+    "Year": "2006-07",
+    "State": "Uttar Pradesh",
+    "value": "340.5"
+  },
+  {
+    "ID": "1569",
+    "Year": "2006-07",
+    "State": "Uttarakhand",
+    "value": "706.84"
+  },
+  {
+    "ID": "1589",
+    "Year": "2006-07",
+    "State": "Chhattisgarh",
+    "value": "934.78"
+  },
+  {
+    "ID": "1609",
+    "Year": "2006-07",
+    "State": "Gujarat",
+    "value": "1330.82"
+  },
+  {
+    "ID": "1629",
+    "Year": "2006-07",
+    "State": "Madhya Pradesh",
+    "value": "581.73"
+  },
+  {
+    "ID": "1649",
+    "Year": "2006-07",
+    "State": "Maharashtra",
+    "value": "975.4299999999999"
+  },
+  {
+    "ID": "1669",
+    "Year": "2006-07",
+    "State": "Daman & Diu",
+    "value": "8950.43"
+  },
+  {
+    "ID": "1689",
+    "Year": "2006-07",
+    "State": "D. & N. Haveli",
+    "value": "13310.33"
+  },
+  {
+    "ID": "1709",
+    "Year": "2006-07",
+    "State": "Goa",
+    "value": "2097.71"
+  },
+  {
+    "ID": "1729",
+    "Year": "2006-07",
+    "State": "Andhra Pradesh",
+    "value": "802.38"
+  },
+  {
+    "ID": "1749",
+    "Year": "2006-07",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1769",
+    "Year": "2006-07",
+    "State": "Karnataka",
+    "value": "805.5"
+  },
+  {
+    "ID": "1789",
+    "Year": "2006-07",
+    "State": "Kerala",
+    "value": "440.77"
+  },
+  {
+    "ID": "1809",
+    "Year": "2006-07",
+    "State": "Tamil Nadu",
+    "value": "1079.94"
+  },
+  {
+    "ID": "1829",
+    "Year": "2006-07",
+    "State": "Puducherry",
+    "value": "2692.81"
+  },
+  {
+    "ID": "1849",
+    "Year": "2006-07",
+    "State": "Lakshadweep",
+    "value": "402.14"
+  },
+  {
+    "ID": "1869",
+    "Year": "2006-07",
+    "State": "Bihar",
+    "value": "91"
+  },
+  {
+    "ID": "1889",
+    "Year": "2006-07",
+    "State": "Jharkhand",
+    "value": "659.15"
+  },
+  {
+    "ID": "1909",
+    "Year": "2006-07",
+    "State": "Odisha",
+    "value": "664.6799999999999"
+  },
+  {
+    "ID": "1929",
+    "Year": "2006-07",
+    "State": "West Bengal",
+    "value": "396.79"
+  },
+  {
+    "ID": "1949",
+    "Year": "2006-07",
+    "State": "Sikkim",
+    "value": "533.37"
+  },
+  {
+    "ID": "1969",
+    "Year": "2006-07",
+    "State": "A.& N. Islands",
+    "value": "458.05"
+  },
+  {
+    "ID": "1989",
+    "Year": "2006-07",
+    "State": "Arunachal Pradesh",
+    "value": "299.11"
+  },
+  {
+    "ID": "2009",
+    "Year": "2006-07",
+    "State": "Assam",
+    "value": "175.09"
+  },
+  {
+    "ID": "2029",
+    "Year": "2006-07",
+    "State": "Manipur",
+    "value": "194.8"
+  },
+  {
+    "ID": "2049",
+    "Year": "2006-07",
+    "State": "Meghalaya",
+    "value": "546.83"
+  },
+  {
+    "ID": "2069",
+    "Year": "2006-07",
+    "State": "Mizoram",
+    "value": "262.63"
+  },
+  {
+    "ID": "2089",
+    "Year": "2006-07",
+    "State": "Nagaland",
+    "value": "173.29"
+  },
+  {
+    "ID": "2109",
+    "Year": "2006-07",
+    "State": "Tripura",
+    "value": "178.9"
+  },
+  {
+    "ID": "2129",
+    "Year": "2006-07",
+    "State": "N R",
+    "value": "623.09"
+  },
+  {
+    "ID": "2149",
+    "Year": "2006-07",
+    "State": "W R",
+    "value": "969.08"
+  },
+  {
+    "ID": "2169",
+    "Year": "2006-07",
+    "State": "S R",
+    "value": "836.5599999999999"
+  },
+  {
+    "ID": "2189",
+    "Year": "2006-07",
+    "State": "E R",
+    "value": "357.67"
+  },
+  {
+    "ID": "2209",
+    "Year": "2006-07",
+    "State": "N E R",
+    "value": "203.98"
+  },
+  {
+    "ID": "2229",
+    "Year": "2006-07",
+    "State": "All India",
+    "value": "671.89"
+  },
+  {
+    "ID": "1410",
+    "Year": "2007-08",
+    "State": "Chandigarh",
+    "value": "1556.65"
+  },
+  {
+    "ID": "1430",
+    "Year": "2007-08",
+    "State": "Delhi",
+    "value": "1433.36"
+  },
+  {
+    "ID": "1450",
+    "Year": "2007-08",
+    "State": "Haryana",
+    "value": "1295.58"
+  },
+  {
+    "ID": "1470",
+    "Year": "2007-08",
+    "State": "Himachal Pradesh",
+    "value": "966.8"
+  },
+  {
+    "ID": "1490",
+    "Year": "2007-08",
+    "State": "Jammu & Kashmir",
+    "value": "794.54"
+  },
+  {
+    "ID": "1510",
+    "Year": "2007-08",
+    "State": "Punjab",
+    "value": "1613.71"
+  },
+  {
+    "ID": "1530",
+    "Year": "2007-08",
+    "State": "Rajasthan",
+    "value": "691.98"
+  },
+  {
+    "ID": "1550",
+    "Year": "2007-08",
+    "State": "Uttar Pradesh",
+    "value": "345.66"
+  },
+  {
+    "ID": "1570",
+    "Year": "2007-08",
+    "State": "Uttarakhand",
+    "value": "855.54"
+  },
+  {
+    "ID": "1590",
+    "Year": "2007-08",
+    "State": "Chhattisgarh",
+    "value": "873.5700000000001"
+  },
+  {
+    "ID": "1610",
+    "Year": "2007-08",
+    "State": "Gujarat",
+    "value": "1486.31"
+  },
+  {
+    "ID": "1630",
+    "Year": "2007-08",
+    "State": "Madhya Pradesh",
+    "value": "623.11"
+  },
+  {
+    "ID": "1650",
+    "Year": "2007-08",
+    "State": "Maharashtra",
+    "value": "1019.91"
+  },
+  {
+    "ID": "1670",
+    "Year": "2007-08",
+    "State": "Daman & Diu",
+    "value": "9472.790000000001"
+  },
+  {
+    "ID": "1690",
+    "Year": "2007-08",
+    "State": "D. & N. Haveli",
+    "value": "14787.38"
+  },
+  {
+    "ID": "1710",
+    "Year": "2007-08",
+    "State": "Goa",
+    "value": "2168.77"
+  },
+  {
+    "ID": "1730",
+    "Year": "2007-08",
+    "State": "Andhra Pradesh",
+    "value": "877.0599999999999"
+  },
+  {
+    "ID": "1750",
+    "Year": "2007-08",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1770",
+    "Year": "2007-08",
+    "State": "Karnataka",
+    "value": "843.67"
+  },
+  {
+    "ID": "1790",
+    "Year": "2007-08",
+    "State": "Kerala",
+    "value": "444.48"
+  },
+  {
+    "ID": "1810",
+    "Year": "2007-08",
+    "State": "Tamil Nadu",
+    "value": "1144.94"
+  },
+  {
+    "ID": "1830",
+    "Year": "2007-08",
+    "State": "Puducherry",
+    "value": "2357.28"
+  },
+  {
+    "ID": "1850",
+    "Year": "2007-08",
+    "State": "Lakshadweep",
+    "value": "426.86"
+  },
+  {
+    "ID": "1870",
+    "Year": "2007-08",
+    "State": "Bihar",
+    "value": "100.69"
+  },
+  {
+    "ID": "1890",
+    "Year": "2007-08",
+    "State": "Jharkhand",
+    "value": "643.05"
+  },
+  {
+    "ID": "1910",
+    "Year": "2007-08",
+    "State": "Odisha",
+    "value": "751.54"
+  },
+  {
+    "ID": "1930",
+    "Year": "2007-08",
+    "State": "West Bengal",
+    "value": "439.17"
+  },
+  {
+    "ID": "1950",
+    "Year": "2007-08",
+    "State": "Sikkim",
+    "value": "732.22"
+  },
+  {
+    "ID": "1970",
+    "Year": "2007-08",
+    "State": "A.& N. Islands",
+    "value": "514.61"
+  },
+  {
+    "ID": "1990",
+    "Year": "2007-08",
+    "State": "Arunachal Pradesh",
+    "value": "456.39"
+  },
+  {
+    "ID": "2010",
+    "Year": "2007-08",
+    "State": "Assam",
+    "value": "188.03"
+  },
+  {
+    "ID": "2030",
+    "Year": "2007-08",
+    "State": "Manipur",
+    "value": "222.31"
+  },
+  {
+    "ID": "2050",
+    "Year": "2007-08",
+    "State": "Meghalaya",
+    "value": "629.1900000000001"
+  },
+  {
+    "ID": "2070",
+    "Year": "2007-08",
+    "State": "Mizoram",
+    "value": "353.95"
+  },
+  {
+    "ID": "2090",
+    "Year": "2007-08",
+    "State": "Nagaland",
+    "value": "199.35"
+  },
+  {
+    "ID": "2110",
+    "Year": "2007-08",
+    "State": "Tripura",
+    "value": "202.41"
+  },
+  {
+    "ID": "2130",
+    "Year": "2007-08",
+    "State": "N R",
+    "value": "666.39"
+  },
+  {
+    "ID": "2150",
+    "Year": "2007-08",
+    "State": "W R",
+    "value": "1029.53"
+  },
+  {
+    "ID": "2170",
+    "Year": "2007-08",
+    "State": "S R",
+    "value": "887.97"
+  },
+  {
+    "ID": "2190",
+    "Year": "2007-08",
+    "State": "E R",
+    "value": "388.03"
+  },
+  {
+    "ID": "2210",
+    "Year": "2007-08",
+    "State": "N E R",
+    "value": "229.16"
+  },
+  {
+    "ID": "2230",
+    "Year": "2007-08",
+    "State": "All India",
+    "value": "717.13"
+  },
+  {
+    "ID": "1411",
+    "Year": "2008-09",
+    "State": "Chandigarh",
+    "value": "1247.49"
+  },
+  {
+    "ID": "1431",
+    "Year": "2008-09",
+    "State": "Delhi",
+    "value": "1374.16"
+  },
+  {
+    "ID": "1451",
+    "Year": "2008-09",
+    "State": "Haryana",
+    "value": "1278.85"
+  },
+  {
+    "ID": "1471",
+    "Year": "2008-09",
+    "State": "Himachal Pradesh",
+    "value": "1015.76"
+  },
+  {
+    "ID": "1491",
+    "Year": "2008-09",
+    "State": "Jammu & Kashmir",
+    "value": "894.4"
+  },
+  {
+    "ID": "1511",
+    "Year": "2008-09",
+    "State": "Punjab",
+    "value": "1552.99"
+  },
+  {
+    "ID": "1531",
+    "Year": "2008-09",
+    "State": "Rajasthan",
+    "value": "747.0700000000001"
+  },
+  {
+    "ID": "1551",
+    "Year": "2008-09",
+    "State": "Uttar Pradesh",
+    "value": "371.89"
+  },
+  {
+    "ID": "1571",
+    "Year": "2008-09",
+    "State": "Uttarakhand",
+    "value": "920.6900000000001"
+  },
+  {
+    "ID": "1591",
+    "Year": "2008-09",
+    "State": "Chhattisgarh",
+    "value": "1417.6"
+  },
+  {
+    "ID": "1611",
+    "Year": "2008-09",
+    "State": "Gujarat",
+    "value": "1457.29"
+  },
+  {
+    "ID": "1631",
+    "Year": "2008-09",
+    "State": "Madhya Pradesh",
+    "value": "583.75"
+  },
+  {
+    "ID": "1651",
+    "Year": "2008-09",
+    "State": "Maharashtra",
+    "value": "969.4"
+  },
+  {
+    "ID": "1671",
+    "Year": "2008-09",
+    "State": "Daman & Diu",
+    "value": "6507.96"
+  },
+  {
+    "ID": "1691",
+    "Year": "2008-09",
+    "State": "D. & N. Haveli",
+    "value": "11094.49"
+  },
+  {
+    "ID": "1711",
+    "Year": "2008-09",
+    "State": "Goa",
+    "value": "2259.85"
+  },
+  {
+    "ID": "1731",
+    "Year": "2008-09",
+    "State": "Andhra Pradesh",
+    "value": "928.16"
+  },
+  {
+    "ID": "1751",
+    "Year": "2008-09",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1771",
+    "Year": "2008-09",
+    "State": "Karnataka",
+    "value": "854.35"
+  },
+  {
+    "ID": "1791",
+    "Year": "2008-09",
+    "State": "Kerala",
+    "value": "444"
+  },
+  {
+    "ID": "1811",
+    "Year": "2008-09",
+    "State": "Tamil Nadu",
+    "value": "1134.48"
+  },
+  {
+    "ID": "1831",
+    "Year": "2008-09",
+    "State": "Puducherry",
+    "value": "1988.37"
+  },
+  {
+    "ID": "1851",
+    "Year": "2008-09",
+    "State": "Lakshadweep",
+    "value": "453"
+  },
+  {
+    "ID": "1871",
+    "Year": "2008-09",
+    "State": "Bihar",
+    "value": "107.14"
+  },
+  {
+    "ID": "1891",
+    "Year": "2008-09",
+    "State": "Jharkhand",
+    "value": "695.55"
+  },
+  {
+    "ID": "1911",
+    "Year": "2008-09",
+    "State": "Odisha",
+    "value": "775.16"
+  },
+  {
+    "ID": "1931",
+    "Year": "2008-09",
+    "State": "West Bengal",
+    "value": "442.45"
+  },
+  {
+    "ID": "1951",
+    "Year": "2008-09",
+    "State": "Sikkim",
+    "value": "806.29"
+  },
+  {
+    "ID": "1971",
+    "Year": "2008-09",
+    "State": "A.& N. Islands",
+    "value": "474.7"
+  },
+  {
+    "ID": "1991",
+    "Year": "2008-09",
+    "State": "Arunachal Pradesh",
+    "value": "447.47"
+  },
+  {
+    "ID": "2011",
+    "Year": "2008-09",
+    "State": "Assam",
+    "value": "199.15"
+  },
+  {
+    "ID": "2031",
+    "Year": "2008-09",
+    "State": "Manipur",
+    "value": "241.73"
+  },
+  {
+    "ID": "2051",
+    "Year": "2008-09",
+    "State": "Meghalaya",
+    "value": "655.38"
+  },
+  {
+    "ID": "2071",
+    "Year": "2008-09",
+    "State": "Mizoram",
+    "value": "378.29"
+  },
+  {
+    "ID": "2091",
+    "Year": "2008-09",
+    "State": "Nagaland",
+    "value": "225.98"
+  },
+  {
+    "ID": "2111",
+    "Year": "2008-09",
+    "State": "Tripura",
+    "value": "203.75"
+  },
+  {
+    "ID": "2131",
+    "Year": "2008-09",
+    "State": "N R",
+    "value": "688.15"
+  },
+  {
+    "ID": "2151",
+    "Year": "2008-09",
+    "State": "W R",
+    "value": "1039.02"
+  },
+  {
+    "ID": "2171",
+    "Year": "2008-09",
+    "State": "S R",
+    "value": "904.49"
+  },
+  {
+    "ID": "2191",
+    "Year": "2008-09",
+    "State": "E R",
+    "value": "401.11"
+  },
+  {
+    "ID": "2211",
+    "Year": "2008-09",
+    "State": "N E R",
+    "value": "241.85"
+  },
+  {
+    "ID": "2231",
+    "Year": "2008-09",
+    "State": "All India",
+    "value": "733.54"
+  },
+  {
+    "ID": "1412",
+    "Year": "2009-10",
+    "State": "Chandigarh",
+    "value": "1340"
+  },
+  {
+    "ID": "1432",
+    "Year": "2009-10",
+    "State": "Delhi",
+    "value": "1651.261139311901"
+  },
+  {
+    "ID": "1452",
+    "Year": "2009-10",
+    "State": "Haryana",
+    "value": "1222.20523138833"
+  },
+  {
+    "ID": "1472",
+    "Year": "2009-10",
+    "State": "Himachal Pradesh",
+    "value": "1379.989552238806"
+  },
+  {
+    "ID": "1492",
+    "Year": "2009-10",
+    "State": "Jammu & Kashmir",
+    "value": "952.0156385751521"
+  },
+  {
+    "ID": "1512",
+    "Year": "2009-10",
+    "State": "Punjab",
+    "value": "1526.857195301028"
+  },
+  {
+    "ID": "1532",
+    "Year": "2009-10",
+    "State": "Rajasthan",
+    "value": "736.2005730659025"
+  },
+  {
+    "ID": "1552",
+    "Year": "2009-10",
+    "State": "Uttar Pradesh",
+    "value": "348.3689236111111"
+  },
+  {
+    "ID": "1572",
+    "Year": "2009-10",
+    "State": "Uttarakhand",
+    "value": "1112.29363449692"
+  },
+  {
+    "ID": "1592",
+    "Year": "2009-10",
+    "State": "Chhattisgarh",
+    "value": "1546.943109243697"
+  },
+  {
+    "ID": "1612",
+    "Year": "2009-10",
+    "State": "Gujarat",
+    "value": "1615.241478155759"
+  },
+  {
+    "ID": "1632",
+    "Year": "2009-10",
+    "State": "Madhya Pradesh",
+    "value": "602.072966846132"
+  },
+  {
+    "ID": "1652",
+    "Year": "2009-10",
+    "State": "Maharashtra",
+    "value": "1028.223569876901"
+  },
+  {
+    "ID": "1672",
+    "Year": "2009-10",
+    "State": "Daman & Diu",
+    "value": "7118.230769230769"
+  },
+  {
+    "ID": "1692",
+    "Year": "2009-10",
+    "State": "D. & N. Haveli",
+    "value": "11863.63636363636"
+  },
+  {
+    "ID": "1712",
+    "Year": "2009-10",
+    "State": "Goa",
+    "value": "2263.633136094675"
+  },
+  {
+    "ID": "1732",
+    "Year": "2009-10",
+    "State": "Andhra Pradesh",
+    "value": "966.9924686192468"
+  },
+  {
+    "ID": "1752",
+    "Year": "2009-10",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1772",
+    "Year": "2009-10",
+    "State": "Karnataka",
+    "value": "903.2374039282665"
+  },
+  {
+    "ID": "1792",
+    "Year": "2009-10",
+    "State": "Kerala",
+    "value": "525.2475160724723"
+  },
+  {
+    "ID": "1812",
+    "Year": "2009-10",
+    "State": "Tamil Nadu",
+    "value": "1131.582286056253"
+  },
+  {
+    "ID": "1832",
+    "Year": "2009-10",
+    "State": "Puducherry",
+    "value": "1743.369230769231"
+  },
+  {
+    "ID": "1852",
+    "Year": "2009-10",
+    "State": "Lakshadweep",
+    "value": "418.1428571428571"
+  },
+  {
+    "ID": "1872",
+    "Year": "2009-10",
+    "State": "Bihar",
+    "value": "122.1093375065206"
+  },
+  {
+    "ID": "1892",
+    "Year": "2009-10",
+    "State": "Jharkhand",
+    "value": "880.4285714285714"
+  },
+  {
+    "ID": "1912",
+    "Year": "2009-10",
+    "State": "Odisha",
+    "value": "874.2599403578529"
+  },
+  {
+    "ID": "1932",
+    "Year": "2009-10",
+    "State": "West Bengal",
+    "value": "550.1593841974191"
+  },
+  {
+    "ID": "1952",
+    "Year": "2009-10",
+    "State": "Sikkim",
+    "value": "850"
+  },
+  {
+    "ID": "1972",
+    "Year": "2009-10",
+    "State": "A.& N. Islands",
+    "value": "493.9787234042553"
+  },
+  {
+    "ID": "1992",
+    "Year": "2009-10",
+    "State": "Arunachal Pradesh",
+    "value": "470"
+  },
+  {
+    "ID": "2012",
+    "Year": "2009-10",
+    "State": "Assam",
+    "value": "204.7966045272969"
+  },
+  {
+    "ID": "2032",
+    "Year": "2009-10",
+    "State": "Manipur",
+    "value": "240.2199170124481"
+  },
+  {
+    "ID": "2052",
+    "Year": "2009-10",
+    "State": "Meghalaya",
+    "value": "675.1937984496124"
+  },
+  {
+    "ID": "2072",
+    "Year": "2009-10",
+    "State": "Mizoram",
+    "value": "376.989898989899"
+  },
+  {
+    "ID": "2092",
+    "Year": "2009-10",
+    "State": "Nagaland",
+    "value": "218.0316742081448"
+  },
+  {
+    "ID": "2112",
+    "Year": "2009-10",
+    "State": "Tripura",
+    "value": "335.4747191011236"
+  },
+  {
+    "ID": "2132",
+    "Year": "2009-10",
+    "State": "N R",
+    "value": "695.1094779383269"
+  },
+  {
+    "ID": "2152",
+    "Year": "2009-10",
+    "State": "W R",
+    "value": "1116.91986417657"
+  },
+  {
+    "ID": "2172",
+    "Year": "2009-10",
+    "State": "S R",
+    "value": "938.8793279646814"
+  },
+  {
+    "ID": "2192",
+    "Year": "2009-10",
+    "State": "E R",
+    "value": "481.3608456527675"
+  },
+  {
+    "ID": "2212",
+    "Year": "2009-10",
+    "State": "N E R",
+    "value": "257.9813996744942"
+  },
+  {
+    "ID": "2232",
+    "Year": "2009-10",
+    "State": "All India",
+    "value": "778.7059693075398"
+  },
+  {
+    "ID": "1413",
+    "Year": "2010-11",
+    "State": "Chandigarh",
+    "value": "1282.862343680885"
+  },
+  {
+    "ID": "1433",
+    "Year": "2010-11",
+    "State": "Delhi",
+    "value": "1530.429776435878"
+  },
+  {
+    "ID": "1453",
+    "Year": "2010-11",
+    "State": "Haryana",
+    "value": "1485.067230001132"
+  },
+  {
+    "ID": "1473",
+    "Year": "2010-11",
+    "State": "Himachal Pradesh",
+    "value": "1250.931698213318"
+  },
+  {
+    "ID": "1493",
+    "Year": "2010-11",
+    "State": "Jammu & Kashmir",
+    "value": "988.2992374385153"
+  },
+  {
+    "ID": "1513",
+    "Year": "2010-11",
+    "State": "Punjab",
+    "value": "1735.511081036877"
+  },
+  {
+    "ID": "1533",
+    "Year": "2010-11",
+    "State": "Rajasthan",
+    "value": "843.7497864516432"
+  },
+  {
+    "ID": "1553",
+    "Year": "2010-11",
+    "State": "Uttar Pradesh",
+    "value": "411.9409425748115"
+  },
+  {
+    "ID": "1573",
+    "Year": "2010-11",
+    "State": "Uttarakhand",
+    "value": "1143.606210806404"
+  },
+  {
+    "ID": "1593",
+    "Year": "2010-11",
+    "State": "Chhattisgarh",
+    "value": "1117.530226881782"
+  },
+  {
+    "ID": "1613",
+    "Year": "2010-11",
+    "State": "Gujarat",
+    "value": "1508.137953665987"
+  },
+  {
+    "ID": "1633",
+    "Year": "2010-11",
+    "State": "Madhya Pradesh",
+    "value": "674.4833621247842"
+  },
+  {
+    "ID": "1653",
+    "Year": "2010-11",
+    "State": "Maharashtra",
+    "value": "1095.98644257182"
+  },
+  {
+    "ID": "1673",
+    "Year": "2010-11",
+    "State": "Daman & Diu",
+    "value": "7810.218560574101"
+  },
+  {
+    "ID": "1693",
+    "Year": "2010-11",
+    "State": "D. & N. Haveli",
+    "value": "13366.49856141288"
+  },
+  {
+    "ID": "1713",
+    "Year": "2010-11",
+    "State": "Goa",
+    "value": "2060.646703307228"
+  },
+  {
+    "ID": "1733",
+    "Year": "2010-11",
+    "State": "Andhra Pradesh",
+    "value": "1065.461230404611"
+  },
+  {
+    "ID": "1753",
+    "Year": "2010-11",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1773",
+    "Year": "2010-11",
+    "State": "Karnataka",
+    "value": "925.024178954847"
+  },
+  {
+    "ID": "1793",
+    "Year": "2010-11",
+    "State": "Kerala",
+    "value": "550.7998289748375"
+  },
+  {
+    "ID": "1813",
+    "Year": "2010-11",
+    "State": "Tamil Nadu",
+    "value": "1232.514854573325"
+  },
+  {
+    "ID": "1833",
+    "Year": "2010-11",
+    "State": "Puducherry",
+    "value": "1850.472778013586"
+  },
+  {
+    "ID": "1853",
+    "Year": "2010-11",
+    "State": "Lakshadweep",
+    "value": "531.625"
+  },
+  {
+    "ID": "1873",
+    "Year": "2010-11",
+    "State": "Bihar",
+    "value": "126.7499102943084"
+  },
+  {
+    "ID": "1893",
+    "Year": "2010-11",
+    "State": "Jharkhand",
+    "value": "749.2734813885761"
+  },
+  {
+    "ID": "1913",
+    "Year": "2010-11",
+    "State": "Odisha",
+    "value": "1070.34591760466"
+  },
+  {
+    "ID": "1933",
+    "Year": "2010-11",
+    "State": "West Bengal",
+    "value": "537.8500555071755"
+  },
+  {
+    "ID": "1953",
+    "Year": "2010-11",
+    "State": "Sikkim",
+    "value": "880.1070038262709"
+  },
+  {
+    "ID": "1973",
+    "Year": "2010-11",
+    "State": "A.& N. Islands",
+    "value": "499.1836734693878"
+  },
+  {
+    "ID": "1993",
+    "Year": "2010-11",
+    "State": "Arunachal Pradesh",
+    "value": "582.0827222521542"
+  },
+  {
+    "ID": "2013",
+    "Year": "2010-11",
+    "State": "Assam",
+    "value": "222.8835328251296"
+  },
+  {
+    "ID": "2033",
+    "Year": "2010-11",
+    "State": "Manipur",
+    "value": "242.3023879089665"
+  },
+  {
+    "ID": "2053",
+    "Year": "2010-11",
+    "State": "Meghalaya",
+    "value": "654.0765880747367"
+  },
+  {
+    "ID": "2073",
+    "Year": "2010-11",
+    "State": "Mizoram",
+    "value": "461.6878531219722"
+  },
+  {
+    "ID": "2093",
+    "Year": "2010-11",
+    "State": "Nagaland",
+    "value": "264.8064311693108"
+  },
+  {
+    "ID": "2113",
+    "Year": "2010-11",
+    "State": "Tripura",
+    "value": "221.8021075802362"
+  },
+  {
+    "ID": "2133",
+    "Year": "2010-11",
+    "State": "N R",
+    "value": "776.3656902782016"
+  },
+  {
+    "ID": "2153",
+    "Year": "2010-11",
+    "State": "W R",
+    "value": "1104.441942229985"
+  },
+  {
+    "ID": "2173",
+    "Year": "2010-11",
+    "State": "S R",
+    "value": "1009.625975240522"
+  },
+  {
+    "ID": "2193",
+    "Year": "2010-11",
+    "State": "E R",
+    "value": "493.3901885179894"
+  },
+  {
+    "ID": "2213",
+    "Year": "2010-11",
+    "State": "N E R",
+    "value": "267.5292797883152"
+  },
+  {
+    "ID": "2233",
+    "Year": "2010-11",
+    "State": "All India",
+    "value": "818.746167182854"
+  },
+  {
+    "ID": "1414",
+    "Year": "2011-12",
+    "State": "Chandigarh",
+    "value": "1217.365280068256"
+  },
+  {
+    "ID": "1434",
+    "Year": "2011-12",
+    "State": "Delhi",
+    "value": "1586.731099413364"
+  },
+  {
+    "ID": "1454",
+    "Year": "2011-12",
+    "State": "Haryana",
+    "value": "1628.311813460868"
+  },
+  {
+    "ID": "1474",
+    "Year": "2011-12",
+    "State": "Himachal Pradesh",
+    "value": "1289.389228584339"
+  },
+  {
+    "ID": "1494",
+    "Year": "2011-12",
+    "State": "Jammu & Kashmir",
+    "value": "1015.189027422747"
+  },
+  {
+    "ID": "1514",
+    "Year": "2011-12",
+    "State": "Punjab",
+    "value": "1799.00841291261"
+  },
+  {
+    "ID": "1534",
+    "Year": "2011-12",
+    "State": "Rajasthan",
+    "value": "927.3568097224398"
+  },
+  {
+    "ID": "1554",
+    "Year": "2011-12",
+    "State": "Uttar Pradesh",
+    "value": "449.8880953924032"
+  },
+  {
+    "ID": "1574",
+    "Year": "2011-12",
+    "State": "Uttarakhand",
+    "value": "1232.172013075641"
+  },
+  {
+    "ID": "1594",
+    "Year": "2011-12",
+    "State": "Chhattisgarh",
+    "value": "1319.556995540741"
+  },
+  {
+    "ID": "1614",
+    "Year": "2011-12",
+    "State": "Gujarat",
+    "value": "1663.229504584508"
+  },
+  {
+    "ID": "1634",
+    "Year": "2011-12",
+    "State": "Madhya Pradesh",
+    "value": "671.5364484551296"
+  },
+  {
+    "ID": "1654",
+    "Year": "2011-12",
+    "State": "Maharashtra",
+    "value": "1204.381255373521"
+  },
+  {
+    "ID": "1674",
+    "Year": "2011-12",
+    "State": "Daman & Diu",
+    "value": "7785.217344754508"
+  },
+  {
+    "ID": "1694",
+    "Year": "2011-12",
+    "State": "D. & N. Haveli",
+    "value": "13766.55964534192"
+  },
+  {
+    "ID": "1714",
+    "Year": "2011-12",
+    "State": "Goa",
+    "value": "2025.46071566056"
+  },
+  {
+    "ID": "1734",
+    "Year": "2011-12",
+    "State": "Andhra Pradesh",
+    "value": "1156.523619527905"
+  },
+  {
+    "ID": "1754",
+    "Year": "2011-12",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1774",
+    "Year": "2011-12",
+    "State": "Karnataka",
+    "value": "1081.347369057458"
+  },
+  {
+    "ID": "1794",
+    "Year": "2011-12",
+    "State": "Kerala",
+    "value": "593.7715657986565"
+  },
+  {
+    "ID": "1814",
+    "Year": "2011-12",
+    "State": "Tamil Nadu",
+    "value": "1276.574593904261"
+  },
+  {
+    "ID": "1834",
+    "Year": "2011-12",
+    "State": "Puducherry",
+    "value": "2124.710920971992"
+  },
+  {
+    "ID": "1854",
+    "Year": "2011-12",
+    "State": "Lakshadweep",
+    "value": "550.25"
+  },
+  {
+    "ID": "1874",
+    "Year": "2011-12",
+    "State": "Bihar",
+    "value": "133.6061664955301"
+  },
+  {
+    "ID": "1894",
+    "Year": "2011-12",
+    "State": "Jharkhand",
+    "value": "790.2000586748719"
+  },
+  {
+    "ID": "1914",
+    "Year": "2011-12",
+    "State": "Odisha",
+    "value": "1145.79383398825"
+  },
+  {
+    "ID": "1934",
+    "Year": "2011-12",
+    "State": "West Bengal",
+    "value": "563.7816380443609"
+  },
+  {
+    "ID": "1954",
+    "Year": "2011-12",
+    "State": "Sikkim",
+    "value": "886.3624688699177"
+  },
+  {
+    "ID": "1974",
+    "Year": "2011-12",
+    "State": "A.& N. Islands",
+    "value": "501.4"
+  },
+  {
+    "ID": "1994",
+    "Year": "2011-12",
+    "State": "Arunachal Pradesh",
+    "value": "683.1252305127173"
+  },
+  {
+    "ID": "2014",
+    "Year": "2011-12",
+    "State": "Assam",
+    "value": "249.8202037399606"
+  },
+  {
+    "ID": "2034",
+    "Year": "2011-12",
+    "State": "Manipur",
+    "value": "235.8570803349462"
+  },
+  {
+    "ID": "2054",
+    "Year": "2011-12",
+    "State": "Meghalaya",
+    "value": "657.565111952343"
+  },
+  {
+    "ID": "2074",
+    "Year": "2011-12",
+    "State": "Mizoram",
+    "value": "506.7438313104392"
+  },
+  {
+    "ID": "2094",
+    "Year": "2011-12",
+    "State": "Nagaland",
+    "value": "257.1786618530686"
+  },
+  {
+    "ID": "2114",
+    "Year": "2011-12",
+    "State": "Tripura",
+    "value": "253.8188451538322"
+  },
+  {
+    "ID": "2134",
+    "Year": "2011-12",
+    "State": "N R",
+    "value": "833.1876844571649"
+  },
+  {
+    "ID": "2154",
+    "Year": "2011-12",
+    "State": "W R",
+    "value": "1201.146787724073"
+  },
+  {
+    "ID": "2174",
+    "Year": "2011-12",
+    "State": "S R",
+    "value": "1098.009002141576"
+  },
+  {
+    "ID": "2194",
+    "Year": "2011-12",
+    "State": "E R",
+    "value": "521.1586924896434"
+  },
+  {
+    "ID": "2214",
+    "Year": "2011-12",
+    "State": "N E R",
+    "value": "292.359172425039"
+  },
+  {
+    "ID": "2234",
+    "Year": "2011-12",
+    "State": "All India",
+    "value": "883.6314912806516"
+  },
+  {
+    "ID": "1415",
+    "Year": "2012-13",
+    "State": "Chandigarh",
+    "value": "1167.625289103644"
+  },
+  {
+    "ID": "1435",
+    "Year": "2012-13",
+    "State": "Delhi",
+    "value": "1613.248372272059"
+  },
+  {
+    "ID": "1455",
+    "Year": "2012-13",
+    "State": "Haryana",
+    "value": "1722.302462268826"
+  },
+  {
+    "ID": "1475",
+    "Year": "2012-13",
+    "State": "Himachal Pradesh",
+    "value": "1379.776356108594"
+  },
+  {
+    "ID": "1495",
+    "Year": "2012-13",
+    "State": "Jammu & Kashmir",
+    "value": "1043.362925035318"
+  },
+  {
+    "ID": "1515",
+    "Year": "2012-13",
+    "State": "Punjab",
+    "value": "1761.07939383191"
+  },
+  {
+    "ID": "1535",
+    "Year": "2012-13",
+    "State": "Rajasthan",
+    "value": "981.8541146909365"
+  },
+  {
+    "ID": "1555",
+    "Year": "2012-13",
+    "State": "Uttar Pradesh",
+    "value": "449.9826036717599"
+  },
+  {
+    "ID": "1575",
+    "Year": "2012-13",
+    "State": "Uttarakhand",
+    "value": "1297.256163976094"
+  },
+  {
+    "ID": "1595",
+    "Year": "2012-13",
+    "State": "Chhattisgarh",
+    "value": "1495.407441987666"
+  },
+  {
+    "ID": "1615",
+    "Year": "2012-13",
+    "State": "Gujarat",
+    "value": "1796.289795254135"
+  },
+  {
+    "ID": "1635",
+    "Year": "2012-13",
+    "State": "Madhya Pradesh",
+    "value": "752.7357717923064"
+  },
+  {
+    "ID": "1655",
+    "Year": "2012-13",
+    "State": "Maharashtra",
+    "value": "1239.33267484701"
+  },
+  {
+    "ID": "1675",
+    "Year": "2012-13",
+    "State": "Daman & Diu",
+    "value": "7926.745681548375"
+  },
+  {
+    "ID": "1695",
+    "Year": "2012-13",
+    "State": "D. & N. Haveli",
+    "value": "14340.73919105203"
+  },
+  {
+    "ID": "1715",
+    "Year": "2012-13",
+    "State": "Goa",
+    "value": "2044.903489181473"
+  },
+  {
+    "ID": "1735",
+    "Year": "2012-13",
+    "State": "Andhra Pradesh",
+    "value": "1134.902142389795"
+  },
+  {
+    "ID": "1755",
+    "Year": "2012-13",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1775",
+    "Year": "2012-13",
+    "State": "Karnataka",
+    "value": "1129.091153500797"
+  },
+  {
+    "ID": "1795",
+    "Year": "2012-13",
+    "State": "Kerala",
+    "value": "630.0744141736152"
+  },
+  {
+    "ID": "1815",
+    "Year": "2012-13",
+    "State": "Tamil Nadu",
+    "value": "1226.259434140083"
+  },
+  {
+    "ID": "1835",
+    "Year": "2012-13",
+    "State": "Puducherry",
+    "value": "2135.739481702453"
+  },
+  {
+    "ID": "1855",
+    "Year": "2012-13",
+    "State": "Lakshadweep",
+    "value": "591.53125"
+  },
+  {
+    "ID": "1875",
+    "Year": "2012-13",
+    "State": "Bihar",
+    "value": "145.4159077681867"
+  },
+  {
+    "ID": "1895",
+    "Year": "2012-13",
+    "State": "Jharkhand",
+    "value": "846.8000471181225"
+  },
+  {
+    "ID": "1915",
+    "Year": "2012-13",
+    "State": "Odisha",
+    "value": "1209.205221701731"
+  },
+  {
+    "ID": "1935",
+    "Year": "2012-13",
+    "State": "West Bengal",
+    "value": "593.8552677892066"
+  },
+  {
+    "ID": "1955",
+    "Year": "2012-13",
+    "State": "Sikkim",
+    "value": "861.8029826689187"
+  },
+  {
+    "ID": "1975",
+    "Year": "2012-13",
+    "State": "A.& N. Islands",
+    "value": "558.9143197337387"
+  },
+  {
+    "ID": "1995",
+    "Year": "2012-13",
+    "State": "Arunachal Pradesh",
+    "value": "718.5679947954914"
+  },
+  {
+    "ID": "2015",
+    "Year": "2012-13",
+    "State": "Assam",
+    "value": "240.2768661800907"
+  },
+  {
+    "ID": "2035",
+    "Year": "2012-13",
+    "State": "Manipur",
+    "value": "352.8601133370588"
+  },
+  {
+    "ID": "2055",
+    "Year": "2012-13",
+    "State": "Meghalaya",
+    "value": "690.2030455327167"
+  },
+  {
+    "ID": "2075",
+    "Year": "2012-13",
+    "State": "Mizoram",
+    "value": "469.3760469655428"
+  },
+  {
+    "ID": "2095",
+    "Year": "2012-13",
+    "State": "Nagaland",
+    "value": "268.4936153837394"
+  },
+  {
+    "ID": "2115",
+    "Year": "2012-13",
+    "State": "Tripura",
+    "value": "296.0505963444401"
+  },
+  {
+    "ID": "2135",
+    "Year": "2012-13",
+    "State": "N R",
+    "value": "852.0909409941206"
+  },
+  {
+    "ID": "2155",
+    "Year": "2012-13",
+    "State": "W R",
+    "value": "1283.784551865696"
+  },
+  {
+    "ID": "2175",
+    "Year": "2012-13",
+    "State": "S R",
+    "value": "1093.779064252813"
+  },
+  {
+    "ID": "2195",
+    "Year": "2012-13",
+    "State": "E R",
+    "value": "552.1999331477409"
+  },
+  {
+    "ID": "2215",
+    "Year": "2012-13",
+    "State": "N E R",
+    "value": "298.3259207657813"
+  },
+  {
+    "ID": "2235",
+    "Year": "2012-13",
+    "State": "All India",
+    "value": "914.4106342175086"
+  },
+  {
+    "ID": "1416",
+    "Year": "2013-14",
+    "State": "Chandigarh",
+    "value": "1132.535345327211"
+  },
+  {
+    "ID": "1436",
+    "Year": "2013-14",
+    "State": "Delhi",
+    "value": "1445.972849335167"
+  },
+  {
+    "ID": "1456",
+    "Year": "2013-14",
+    "State": "Haryana",
+    "value": "1773.058931412166"
+  },
+  {
+    "ID": "1476",
+    "Year": "2013-14",
+    "State": "Himachal Pradesh",
+    "value": "1347.749871476078"
+  },
+  {
+    "ID": "1496",
+    "Year": "2013-14",
+    "State": "Jammu & Kashmir",
+    "value": "1066.039616219813"
+  },
+  {
+    "ID": "1516",
+    "Year": "2013-14",
+    "State": "Punjab",
+    "value": "1810.000974598693"
+  },
+  {
+    "ID": "1536",
+    "Year": "2013-14",
+    "State": "Rajasthan",
+    "value": "1011.187666026283"
+  },
+  {
+    "ID": "1556",
+    "Year": "2013-14",
+    "State": "Uttar Pradesh",
+    "value": "471.8877317395355"
+  },
+  {
+    "ID": "1576",
+    "Year": "2013-14",
+    "State": "Uttarakhand",
+    "value": "1285.251054570845"
+  },
+  {
+    "ID": "1596",
+    "Year": "2013-14",
+    "State": "Chhattisgarh",
+    "value": "1600.984714251498"
+  },
+  {
+    "ID": "1616",
+    "Year": "2013-14",
+    "State": "Gujarat",
+    "value": "1972.561582460877"
+  },
+  {
+    "ID": "1636",
+    "Year": "2013-14",
+    "State": "Madhya Pradesh",
+    "value": "764.2754987967911"
+  },
+  {
+    "ID": "1656",
+    "Year": "2013-14",
+    "State": "Maharashtra",
+    "value": "1183.115011158879"
+  },
+  {
+    "ID": "1676",
+    "Year": "2013-14",
+    "State": "Daman & Diu",
+    "value": "8003.492181855401"
+  },
+  {
+    "ID": "1696",
+    "Year": "2013-14",
+    "State": "D. & N. Haveli",
+    "value": "14515.3312282289"
+  },
+  {
+    "ID": "1716",
+    "Year": "2013-14",
+    "State": "Goa",
+    "value": "2197.733706816016"
+  },
+  {
+    "ID": "1736",
+    "Year": "2013-14",
+    "State": "Andhra Pradesh",
+    "value": "1196.120879202944"
+  },
+  {
+    "ID": "1756",
+    "Year": "2013-14",
+    "State": "Telangana",
+    "value": ""
+  },
+  {
+    "ID": "1776",
+    "Year": "2013-14",
+    "State": "Karnataka",
+    "value": "1179.231624364465"
+  },
+  {
+    "ID": "1796",
+    "Year": "2013-14",
+    "State": "Kerala",
+    "value": "645.2608865292179"
+  },
+  {
+    "ID": "1816",
+    "Year": "2013-14",
+    "State": "Tamil Nadu",
+    "value": "1543.835473423632"
+  },
+  {
+    "ID": "1836",
+    "Year": "2013-14",
+    "State": "Puducherry",
+    "value": "1692.420233159773"
+  },
+  {
+    "ID": "1856",
+    "Year": "2013-14",
+    "State": "Lakshadweep",
+    "value": "664.6153846153846"
+  },
+  {
+    "ID": "1876",
+    "Year": "2013-14",
+    "State": "Bihar",
+    "value": "159.8529409995351"
+  },
+  {
+    "ID": "1896",
+    "Year": "2013-14",
+    "State": "Jharkhand",
+    "value": "810.3329440993829"
+  },
+  {
+    "ID": "1916",
+    "Year": "2013-14",
+    "State": "Odisha",
+    "value": "1348.595665447304"
+  },
+  {
+    "ID": "1936",
+    "Year": "2013-14",
+    "State": "West Bengal",
+    "value": "608.5431262542918"
+  },
+  {
+    "ID": "1956",
+    "Year": "2013-14",
+    "State": "Sikkim",
+    "value": "699.7402033456735"
+  },
+  {
+    "ID": "1976",
+    "Year": "2013-14",
+    "State": "A.& N. Islands",
+    "value": "368.1818181818182"
+  },
+  {
+    "ID": "1996",
+    "Year": "2013-14",
+    "State": "Arunachal Pradesh",
+    "value": "502.7349916321127"
+  },
+  {
+    "ID": "2016",
+    "Year": "2013-14",
+    "State": "Assam",
+    "value": "280.0097725161667"
+  },
+  {
+    "ID": "2036",
+    "Year": "2013-14",
+    "State": "Manipur",
+    "value": "266.4916056764803"
+  },
+  {
+    "ID": "2056",
+    "Year": "2013-14",
+    "State": "Meghalaya",
+    "value": "683.9920805483611"
+  },
+  {
+    "ID": "2076",
+    "Year": "2013-14",
+    "State": "Mizoram",
+    "value": "444.683210095706"
+  },
+  {
+    "ID": "2096",
+    "Year": "2013-14",
+    "State": "Nagaland",
+    "value": "258.9646014846784"
+  },
+  {
+    "ID": "2116",
+    "Year": "2013-14",
+    "State": "Tripura",
+    "value": "330.6418687614926"
+  },
+  {
+    "ID": "2136",
+    "Year": "2013-14",
+    "State": "N R",
+    "value": "867.3043693102911"
+  },
+  {
+    "ID": "2156",
+    "Year": "2013-14",
+    "State": "W R",
+    "value": "1313.038399420521"
+  },
+  {
+    "ID": "2176",
+    "Year": "2013-14",
+    "State": "S R",
+    "value": "1212.500593252906"
+  },
+  {
+    "ID": "2196",
+    "Year": "2013-14",
+    "State": "E R",
+    "value": "578.7030243617072"
+  },
+  {
+    "ID": "2216",
+    "Year": "2013-14",
+    "State": "N E R",
+    "value": "316.6124712432917"
+  },
+  {
+    "ID": "2236",
+    "Year": "2013-14",
+    "State": "All India",
+    "value": "956.6382874171793"
+  },
+  {
+    "ID": "1417",
+    "Year": "2014-15",
+    "State": "Chandigarh",
+    "value": "1051.995101752389"
+  },
+  {
+    "ID": "1437",
+    "Year": "2014-15",
+    "State": "Delhi",
+    "value": "1560.64120905821"
+  },
+  {
+    "ID": "1457",
+    "Year": "2014-15",
+    "State": "Haryana",
+    "value": "1909.26312959492"
+  },
+  {
+    "ID": "1477",
+    "Year": "2014-15",
+    "State": "Himachal Pradesh",
+    "value": "1336.194344503789"
+  },
+  {
+    "ID": "1497",
+    "Year": "2014-15",
+    "State": "Jammu & Kashmir",
+    "value": "1168.655533378731"
+  },
+  {
+    "ID": "1517",
+    "Year": "2014-15",
+    "State": "Punjab",
+    "value": "1857.881768955849"
+  },
+  {
+    "ID": "1537",
+    "Year": "2014-15",
+    "State": "Rajasthan",
+    "value": "1122.823432186461"
+  },
+  {
+    "ID": "1557",
+    "Year": "2014-15",
+    "State": "Uttar Pradesh",
+    "value": "501.5950603031251"
+  },
+  {
+    "ID": "1577",
+    "Year": "2014-15",
+    "State": "Uttarakhand",
+    "value": "1357.832131230366"
+  },
+  {
+    "ID": "1597",
+    "Year": "2014-15",
+    "State": "Chhattisgarh",
+    "value": "1719.00232959347"
+  },
+  {
+    "ID": "1617",
+    "Year": "2014-15",
+    "State": "Gujarat",
+    "value": "2104.635177581681"
+  },
+  {
+    "ID": "1637",
+    "Year": "2014-15",
+    "State": "Madhya Pradesh",
+    "value": "812.8007393522602"
+  },
+  {
+    "ID": "1657",
+    "Year": "2014-15",
+    "State": "Maharashtra",
+    "value": "1257.093698563525"
+  },
+  {
+    "ID": "1677",
+    "Year": "2014-15",
+    "State": "Daman & Diu",
+    "value": "6960.328791907799"
+  },
+  {
+    "ID": "1697",
+    "Year": "2014-15",
+    "State": "D. & N. Haveli",
+    "value": "13768.98218317318"
+  },
+  {
+    "ID": "1717",
+    "Year": "2014-15",
+    "State": "Goa",
+    "value": "1803.242840691327"
+  },
+  {
+    "ID": "1737",
+    "Year": "2014-15",
+    "State": "Andhra Pradesh",
+    "value": "1039.713383791741"
+  },
+  {
+    "ID": "1757",
+    "Year": "2014-15",
+    "State": "Telangana",
+    "value": "1355.793610581488"
+  },
+  {
+    "ID": "1777",
+    "Year": "2014-15",
+    "State": "Karnataka",
+    "value": "1211.460572677511"
+  },
+  {
+    "ID": "1797",
+    "Year": "2014-15",
+    "State": "Kerala",
+    "value": "671.7228314682081"
+  },
+  {
+    "ID": "1817",
+    "Year": "2014-15",
+    "State": "Tamil Nadu",
+    "value": "1615.656466433285"
+  },
+  {
+    "ID": "1837",
+    "Year": "2014-15",
+    "State": "Puducherry",
+    "value": "1654.89710389486"
+  },
+  {
+    "ID": "1857",
+    "Year": "2014-15",
+    "State": "Lakshadweep",
+    "value": "657.1139240506329"
+  },
+  {
+    "ID": "1877",
+    "Year": "2014-15",
+    "State": "Bihar",
+    "value": "202.942969032726"
+  },
+  {
+    "ID": "1897",
+    "Year": "2014-15",
+    "State": "Jharkhand",
+    "value": "834.8105500927826"
+  },
+  {
+    "ID": "1917",
+    "Year": "2014-15",
+    "State": "Odisha",
+    "value": "1418.993156540122"
+  },
+  {
+    "ID": "1937",
+    "Year": "2014-15",
+    "State": "West Bengal",
+    "value": "647.3394656199742"
+  },
+  {
+    "ID": "1957",
+    "Year": "2014-15",
+    "State": "Sikkim",
+    "value": "684.9287284144427"
+  },
+  {
+    "ID": "1977",
+    "Year": "2014-15",
+    "State": "A.& N. Islands",
+    "value": "360.5000000000001"
+  },
+  {
+    "ID": "1997",
+    "Year": "2014-15",
+    "State": "Arunachal Pradesh",
+    "value": "525.2281515854603"
+  },
+  {
+    "ID": "2017",
+    "Year": "2014-15",
+    "State": "Assam",
+    "value": "313.9893875383045"
+  },
+  {
+    "ID": "2037",
+    "Year": "2014-15",
+    "State": "Manipur",
+    "value": "295.2564484515877"
+  },
+  {
+    "ID": "2057",
+    "Year": "2014-15",
+    "State": "Meghalaya",
+    "value": "704.4225225670793"
+  },
+  {
+    "ID": "2077",
+    "Year": "2014-15",
+    "State": "Mizoram",
+    "value": "449.3823135755258"
+  },
+  {
+    "ID": "2097",
+    "Year": "2014-15",
+    "State": "Nagaland",
+    "value": "311.3178403755869"
+  },
+  {
+    "ID": "2117",
+    "Year": "2014-15",
+    "State": "Tripura",
+    "value": "303.1428723121847"
+  },
+  {
+    "ID": "2137",
+    "Year": "2014-15",
+    "State": "N R",
+    "value": "927.4472606297562"
+  },
+  {
+    "ID": "2157",
+    "Year": "2014-15",
+    "State": "W R",
+    "value": "1393.449298571339"
+  },
+  {
+    "ID": "2177",
+    "Year": "2014-15",
+    "State": "S R",
+    "value": "1270.952443231016"
+  },
+  {
+    "ID": "2197",
+    "Year": "2014-15",
+    "State": "E R",
+    "value": "617.9658918367996"
+  },
+  {
+    "ID": "2217",
+    "Year": "2014-15",
+    "State": "N E R",
+    "value": "338.1996990882613"
+  },
+  {
+    "ID": "2237",
+    "Year": "2014-15",
+    "State": "All India",
+    "value": "1009.60802699043"
+  },
+  {
+    "ID": "1418",
+    "Year": "2015-16",
+    "State": "Chandigarh",
+    "value": "1112.381204219512"
+  },
+  {
+    "ID": "1438",
+    "Year": "2015-16",
+    "State": "Delhi",
+    "value": "1556.579126848922"
+  },
+  {
+    "ID": "1458",
+    "Year": "2015-16",
+    "State": "Haryana",
+    "value": "1936.173907902839"
+  },
+  {
+    "ID": "1478",
+    "Year": "2015-16",
+    "State": "Himachal Pradesh",
+    "value": "1338.86442226547"
+  },
+  {
+    "ID": "1498",
+    "Year": "2015-16",
+    "State": "Jammu & Kashmir",
+    "value": "1234.264898314416"
+  },
+  {
+    "ID": "1518",
+    "Year": "2015-16",
+    "State": "Punjab",
+    "value": "1919.133687123682"
+  },
+  {
+    "ID": "1538",
+    "Year": "2015-16",
+    "State": "Rajasthan",
+    "value": "1163.520696428935"
+  },
+  {
+    "ID": "1558",
+    "Year": "2015-16",
+    "State": "Uttar Pradesh",
+    "value": "524.4263596116529"
+  },
+  {
+    "ID": "1578",
+    "Year": "2015-16",
+    "State": "Uttarakhand",
+    "value": "1431.221357694921"
+  },
+  {
+    "ID": "1598",
+    "Year": "2015-16",
+    "State": "Chhattisgarh",
+    "value": "2022.373610166594"
+  },
+  {
+    "ID": "1618",
+    "Year": "2015-16",
+    "State": "Gujarat",
+    "value": "2247.684627584971"
+  },
+  {
+    "ID": "1638",
+    "Year": "2015-16",
+    "State": "Madhya Pradesh",
+    "value": "928.9487503841348"
+  },
+  {
+    "ID": "1658",
+    "Year": "2015-16",
+    "State": "Maharashtra",
+    "value": "1317.661066984002"
+  },
+  {
+    "ID": "1678",
+    "Year": "2015-16",
+    "State": "Daman & Diu",
+    "value": "7835.984085341841"
+  },
+  {
+    "ID": "1698",
+    "Year": "2015-16",
+    "State": "D. & N. Haveli",
+    "value": "15137.34770454407"
+  },
+  {
+    "ID": "1718",
+    "Year": "2015-16",
+    "State": "Goa",
+    "value": "2737.718408568574"
+  },
+  {
+    "ID": "1738",
+    "Year": "2015-16",
+    "State": "Andhra Pradesh",
+    "value": "1229.505368461962"
+  },
+  {
+    "ID": "1758",
+    "Year": "2015-16",
+    "State": "Telangana",
+    "value": "1439.405332567708"
+  },
+  {
+    "ID": "1778",
+    "Year": "2015-16",
+    "State": "Karnataka",
+    "value": "1242.305968315896"
+  },
+  {
+    "ID": "1798",
+    "Year": "2015-16",
+    "State": "Kerala",
+    "value": "704.2244178233667"
+  },
+  {
+    "ID": "1818",
+    "Year": "2015-16",
+    "State": "Tamil Nadu",
+    "value": "1687.931233682365"
+  },
+  {
+    "ID": "1838",
+    "Year": "2015-16",
+    "State": "Puducherry",
+    "value": "1671.924435467329"
+  },
+  {
+    "ID": "1858",
+    "Year": "2015-16",
+    "State": "Lakshadweep",
+    "value": "648.9"
+  },
+  {
+    "ID": "1878",
+    "Year": "2015-16",
+    "State": "Bihar",
+    "value": "257.6966004941274"
+  },
+  {
+    "ID": "1898",
+    "Year": "2015-16",
+    "State": "Jharkhand",
+    "value": "884.0527589244919"
+  },
+  {
+    "ID": "1918",
+    "Year": "2015-16",
+    "State": "Odisha",
+    "value": "1563.568973415207"
+  },
+  {
+    "ID": "1938",
+    "Year": "2015-16",
+    "State": "West Bengal",
+    "value": "660.4697961624349"
+  },
+  {
+    "ID": "1958",
+    "Year": "2015-16",
+    "State": "Sikkim",
+    "value": "686.5964025507662"
+  },
+  {
+    "ID": "1978",
+    "Year": "2015-16",
+    "State": "A.& N. Islands",
+    "value": "354.5901639344263"
+  },
+  {
+    "ID": "1998",
+    "Year": "2015-16",
+    "State": "Arunachal Pradesh",
+    "value": "600.4394644223413"
+  },
+  {
+    "ID": "2018",
+    "Year": "2015-16",
+    "State": "Assam",
+    "value": "322.235430281311"
+  },
+  {
+    "ID": "2038",
+    "Year": "2015-16",
+    "State": "Manipur",
+    "value": "359.9358227519381"
+  },
+  {
+    "ID": "2058",
+    "Year": "2015-16",
+    "State": "Meghalaya",
+    "value": "834.871663238337"
+  },
+  {
+    "ID": "2078",
+    "Year": "2015-16",
+    "State": "Mizoram",
+    "value": "503.4747699432893"
+  },
+  {
+    "ID": "2098",
+    "Year": "2015-16",
+    "State": "Nagaland",
+    "value": "346.0581727733222"
+  },
+  {
+    "ID": "2118",
+    "Year": "2015-16",
+    "State": "Tripura",
+    "value": "328.9592505381991"
+  },
+  {
+    "ID": "2138",
+    "Year": "2015-16",
+    "State": "N R",
+    "value": "956.823041298464"
+  },
+  {
+    "ID": "2158",
+    "Year": "2015-16",
+    "State": "W R",
+    "value": "1515.411984468432"
+  },
+  {
+    "ID": "2178",
+    "Year": "2015-16",
+    "State": "S R",
+    "value": "1316.319013897225"
+  },
+  {
+    "ID": "2198",
+    "Year": "2015-16",
+    "State": "E R",
+    "value": "674.7289014029241"
+  },
+  {
+    "ID": "2218",
+    "Year": "2015-16",
+    "State": "N E R",
+    "value": "368.7988662114752"
+  },
+  {
+    "ID": "2238",
+    "Year": "2015-16",
+    "State": "All India",
+    "value": "1074.646514491741"
+  },
+  {
+    "ID": "1419",
+    "Year": "2016-17",
+    "State": "Chandigarh",
+    "value": "1127.76809176821"
+  },
+  {
+    "ID": "1439",
+    "Year": "2016-17",
+    "State": "Delhi",
+    "value": "1573.994036041755"
+  },
+  {
+    "ID": "1459",
+    "Year": "2016-17",
+    "State": "Haryana",
+    "value": "1974.596396731067"
+  },
+  {
+    "ID": "1479",
+    "Year": "2016-17",
+    "State": "Himachal Pradesh",
+    "value": "1339.633069216142"
+  },
+  {
+    "ID": "1499",
+    "Year": "2016-17",
+    "State": "Jammu & Kashmir",
+    "value": "1281.727333800735"
+  },
+  {
+    "ID": "1519",
+    "Year": "2016-17",
+    "State": "Punjab",
+    "value": "2027.513984025072"
+  },
+  {
+    "ID": "1539",
+    "Year": "2016-17",
+    "State": "Rajasthan",
+    "value": "1165.944476027679"
+  },
+  {
+    "ID": "1559",
+    "Year": "2016-17",
+    "State": "Uttar Pradesh",
+    "value": "584.8677925513355"
+  },
+  {
+    "ID": "1579",
+    "Year": "2016-17",
+    "State": "Uttarakhand",
+    "value": "1453.681246294659"
+  },
+  {
+    "ID": "1599",
+    "Year": "2016-17",
+    "State": "Chhattisgarh",
+    "value": "2016.443385361956"
+  },
+  {
+    "ID": "1619",
+    "Year": "2016-17",
+    "State": "Gujarat",
+    "value": "2278.981221829"
+  },
+  {
+    "ID": "1639",
+    "Year": "2016-17",
+    "State": "Madhya Pradesh",
+    "value": "988.8823556727095"
+  },
+  {
+    "ID": "1659",
+    "Year": "2016-17",
+    "State": "Maharashtra",
+    "value": "1307.30167209039"
+  },
+  {
+    "ID": "1679",
+    "Year": "2016-17",
+    "State": "Daman & Diu",
+    "value": "7964.842558214385"
+  },
+  {
+    "ID": "1699",
+    "Year": "2016-17",
+    "State": "D. & N. Haveli",
+    "value": "15782.73149329249"
+  },
+  {
+    "ID": "1719",
+    "Year": "2016-17",
+    "State": "Goa",
+    "value": "2466.490740607783"
+  },
+  {
+    "ID": "1739",
+    "Year": "2016-17",
+    "State": "Andhra Pradesh",
+    "value": "1318.79550506768"
+  },
+  {
+    "ID": "1759",
+    "Year": "2016-17",
+    "State": "Telangana",
+    "value": "1551.434858752189"
+  },
+  {
+    "ID": "1779",
+    "Year": "2016-17",
+    "State": "Karnataka",
+    "value": "1367.098195597352"
+  },
+  {
+    "ID": "1799",
+    "Year": "2016-17",
+    "State": "Kerala",
+    "value": "762.9710616329155"
+  },
+  {
+    "ID": "1819",
+    "Year": "2016-17",
+    "State": "Tamil Nadu",
+    "value": "1847.372957949282"
+  },
+  {
+    "ID": "1839",
+    "Year": "2016-17",
+    "State": "Puducherry",
+    "value": "1783.748856392829"
+  },
+  {
+    "ID": "1859",
+    "Year": "2016-17",
+    "State": "Lakshadweep",
+    "value": "633.0731707317074"
+  },
+  {
+    "ID": "1879",
+    "Year": "2016-17",
+    "State": "Bihar",
+    "value": "271.9533118204711"
+  },
+  {
+    "ID": "1899",
+    "Year": "2016-17",
+    "State": "Jharkhand",
+    "value": "915.1535191362353"
+  },
+  {
+    "ID": "1919",
+    "Year": "2016-17",
+    "State": "Odisha",
+    "value": "1622.230505114255"
+  },
+  {
+    "ID": "1939",
+    "Year": "2016-17",
+    "State": "West Bengal",
+    "value": "664.7390012030029"
+  },
+  {
+    "ID": "1959",
+    "Year": "2016-17",
+    "State": "Sikkim",
+    "value": "806.2267948617098"
+  },
+  {
+    "ID": "1979",
+    "Year": "2016-17",
+    "State": "A.& N. Islands",
+    "value": "369.5773381294964"
+  },
+  {
+    "ID": "1999",
+    "Year": "2016-17",
+    "State": "Arunachal Pradesh",
+    "value": "648.2089337544425"
+  },
+  {
+    "ID": "2019",
+    "Year": "2016-17",
+    "State": "Assam",
+    "value": "338.6436831101569"
+  },
+  {
+    "ID": "2039",
+    "Year": "2016-17",
+    "State": "Manipur",
+    "value": "325.5254794790442"
+  },
+  {
+    "ID": "2059",
+    "Year": "2016-17",
+    "State": "Meghalaya",
+    "value": "832.408868010664"
+  },
+  {
+    "ID": "2079",
+    "Year": "2016-17",
+    "State": "Mizoram",
+    "value": "522.676740726218"
+  },
+  {
+    "ID": "2099",
+    "Year": "2016-17",
+    "State": "Nagaland",
+    "value": "344.9255301072017"
+  },
+  {
+    "ID": "2119",
+    "Year": "2016-17",
+    "State": "Tripura",
+    "value": "470.2362217259833"
+  },
+  {
+    "ID": "2139",
+    "Year": "2016-17",
+    "State": "N R",
+    "value": "1003.380190432491"
+  },
+  {
+    "ID": "2159",
+    "Year": "2016-17",
+    "State": "W R",
+    "value": "1532.616278835662"
+  },
+  {
+    "ID": "2179",
+    "Year": "2016-17",
+    "State": "S R",
+    "value": "1432.192456049946"
+  },
+  {
+    "ID": "2199",
+    "Year": "2016-17",
+    "State": "E R",
+    "value": "694.4038226460152"
+  },
+  {
+    "ID": "2219",
+    "Year": "2016-17",
+    "State": "N E R",
+    "value": "391.5708865212085"
+  },
+  {
+    "ID": "2239",
+    "Year": "2016-17",
+    "State": "All India",
+    "value": "1121.731963055623"
+  },
+  {
+    "ID": "1420",
+    "Year": "2017-18",
+    "State": "Chandigarh",
+    "value": "1004.309057552078"
+  },
+  {
+    "ID": "1440",
+    "Year": "2017-18",
+    "State": "Delhi",
+    "value": "1563.537111742532"
+  },
+  {
+    "ID": "1460",
+    "Year": "2017-18",
+    "State": "Haryana",
+    "value": "1990.177428902043"
+  },
+  {
+    "ID": "1480",
+    "Year": "2017-18",
+    "State": "Himachal Pradesh",
+    "value": "1392.824558703358"
+  },
+  {
+    "ID": "1500",
+    "Year": "2017-18",
+    "State": "Jammu & Kashmir",
+    "value": "1283.579020271447"
+  },
+  {
+    "ID": "1520",
+    "Year": "2017-18",
+    "State": "Punjab",
+    "value": "2048.950002759592"
+  },
+  {
+    "ID": "1540",
+    "Year": "2017-18",
+    "State": "Rajasthan",
+    "value": "1178.034763971039"
+  },
+  {
+    "ID": "1560",
+    "Year": "2017-18",
+    "State": "Uttar Pradesh",
+    "value": "627.576842103169"
+  },
+  {
+    "ID": "1580",
+    "Year": "2017-18",
+    "State": "Uttarakhand",
+    "value": "1450.120151737476"
+  },
+  {
+    "ID": "1600",
+    "Year": "2017-18",
+    "State": "Chhattisgarh",
+    "value": "2003.032235560262"
+  },
+  {
+    "ID": "1620",
+    "Year": "2017-18",
+    "State": "Gujarat",
+    "value": "2320.78886453982"
+  },
+  {
+    "ID": "1640",
+    "Year": "2017-18",
+    "State": "Madhya Pradesh",
+    "value": "1019.985433624208"
+  },
+  {
+    "ID": "1660",
+    "Year": "2017-18",
+    "State": "Maharashtra",
+    "value": "1370.992251074262"
+  },
+  {
+    "ID": "1680",
+    "Year": "2017-18",
+    "State": "Daman & Diu",
+    "value": "7902.137256385426"
+  },
+  {
+    "ID": "1700",
+    "Year": "2017-18",
+    "State": "D. & N. Haveli",
+    "value": "15218.04757972968"
+  },
+  {
+    "ID": "1720",
+    "Year": "2017-18",
+    "State": "Goa",
+    "value": "2228.940410069215"
+  },
+  {
+    "ID": "1740",
+    "Year": "2017-18",
+    "State": "Andhra Pradesh",
+    "value": "1388.241944070037"
+  },
+  {
+    "ID": "1760",
+    "Year": "2017-18",
+    "State": "Telangana",
+    "value": "1727.402640415269"
+  },
+  {
+    "ID": "1780",
+    "Year": "2017-18",
+    "State": "Karnataka",
+    "value": "1355.765795056266"
+  },
+  {
+    "ID": "1800",
+    "Year": "2017-18",
+    "State": "Kerala",
+    "value": "765.8590813831452"
+  },
+  {
+    "ID": "1820",
+    "Year": "2017-18",
+    "State": "Tamil Nadu",
+    "value": "1834.01332430458"
+  },
+  {
+    "ID": "1840",
+    "Year": "2017-18",
+    "State": "Puducherry",
+    "value": "1749.294317080541"
+  },
+  {
+    "ID": "1860",
+    "Year": "2017-18",
+    "State": "Lakshadweep",
+    "value": "562.8915662650602"
+  },
+  {
+    "ID": "1880",
+    "Year": "2017-18",
+    "State": "Bihar",
+    "value": "280.0164493341018"
+  },
+  {
+    "ID": "1900",
+    "Year": "2017-18",
+    "State": "Jharkhand",
+    "value": "926.9433343104535"
+  },
+  {
+    "ID": "1920",
+    "Year": "2017-18",
+    "State": "Odisha",
+    "value": "1592.7010577114"
+  },
+  {
+    "ID": "1940",
+    "Year": "2017-18",
+    "State": "West Bengal",
+    "value": "698.9770644741038"
+  },
+  {
+    "ID": "1960",
+    "Year": "2017-18",
+    "State": "Sikkim",
+    "value": "810.378815926135"
+  },
+  {
+    "ID": "1980",
+    "Year": "2017-18",
+    "State": "A.& N. Islands",
+    "value": "569.2845236842105"
+  },
+  {
+    "ID": "2000",
+    "Year": "2017-18",
+    "State": "Arunachal Pradesh",
+    "value": "656.207372505243"
+  },
+  {
+    "ID": "2020",
+    "Year": "2017-18",
+    "State": "Assam",
+    "value": "330.4783567128863"
+  },
+  {
+    "ID": "2040",
+    "Year": "2017-18",
+    "State": "Manipur",
+    "value": "346.7769574996395"
+  },
+  {
+    "ID": "2060",
+    "Year": "2017-18",
+    "State": "Meghalaya",
+    "value": "743.0047087793002"
+  },
+  {
+    "ID": "2080",
+    "Year": "2017-18",
+    "State": "Mizoram",
+    "value": "489.7722877950324"
+  },
+  {
+    "ID": "2100",
+    "Year": "2017-18",
+    "State": "Nagaland",
+    "value": "348.2439430146198"
+  },
+  {
+    "ID": "2120",
+    "Year": "2017-18",
+    "State": "Tripura",
+    "value": "714.1598847483598"
+  },
+  {
+    "ID": "2140",
+    "Year": "2017-18",
+    "State": "N R",
+    "value": "1030.857159503247"
+  },
+  {
+    "ID": "2160",
+    "Year": "2017-18",
+    "State": "W R",
+    "value": "1573.276340857091"
+  },
+  {
+    "ID": "2180",
+    "Year": "2017-18",
+    "State": "S R",
+    "value": "1465.148983899194"
+  },
+  {
+    "ID": "2200",
+    "Year": "2017-18",
+    "State": "E R",
+    "value": "705.9656552334915"
+  },
+  {
+    "ID": "2220",
+    "Year": "2017-18",
+    "State": "N E R",
+    "value": "401.42176314609"
+  },
+  {
+    "ID": "2240",
+    "Year": "2017-18",
+    "State": "All India",
+    "value": "1149.102247331867"
+  },
+  {
+    "ID": "1421",
+    "Year": "2018-19",
+    "State": "Chandigarh",
+    "value": "978.0602937237179"
+  },
+  {
+    "ID": "1441",
+    "Year": "2018-19",
+    "State": "Delhi",
+    "value": "1548.482468325064"
+  },
+  {
+    "ID": "1461",
+    "Year": "2018-19",
+    "State": "Haryana",
+    "value": "2081.679523009728"
+  },
+  {
+    "ID": "1481",
+    "Year": "2018-19",
+    "State": "Himachal Pradesh",
+    "value": "1417.926230336422"
+  },
+  {
+    "ID": "1501",
+    "Year": "2018-19",
+    "State": "Jammu & Kashmir",
+    "value": "1322.289451098159"
+  },
+  {
+    "ID": "1521",
+    "Year": "2018-19",
+    "State": "Punjab",
+    "value": "2046.008191480533"
+  },
+  {
+    "ID": "1541",
+    "Year": "2018-19",
+    "State": "Rajasthan",
+    "value": "1282.456217969047"
+  },
+  {
+    "ID": "1561",
+    "Year": "2018-19",
+    "State": "Uttar Pradesh",
+    "value": "605.7398169105003"
+  },
+  {
+    "ID": "1581",
+    "Year": "2018-19",
+    "State": "Uttarakhand",
+    "value": "1466.846083956337"
+  },
+  {
+    "ID": "1601",
+    "Year": "2018-19",
+    "State": "Chhattisgarh",
+    "value": "1960.656922859914"
+  },
+  {
+    "ID": "1621",
+    "Year": "2018-19",
+    "State": "Gujarat",
+    "value": "2377.690715950682"
+  },
+  {
+    "ID": "1641",
+    "Year": "2018-19",
+    "State": "Madhya Pradesh",
+    "value": "1084.002599895505"
+  },
+  {
+    "ID": "1661",
+    "Year": "2018-19",
+    "State": "Maharashtra",
+    "value": "1424.265404203051"
+  },
+  {
+    "ID": "1681",
+    "Year": "2018-19",
+    "State": "Daman & Diu",
+    "value": "7758.050610966446"
+  },
+  {
+    "ID": "1701",
+    "Year": "2018-19",
+    "State": "D. & N. Haveli",
+    "value": "15178.68008300977"
+  },
+  {
+    "ID": "1721",
+    "Year": "2018-19",
+    "State": "Goa",
+    "value": "2274.4366093464"
+  },
+  {
+    "ID": "1741",
+    "Year": "2018-19",
+    "State": "Andhra Pradesh",
+    "value": "1479.579176149637"
+  },
+  {
+    "ID": "1761",
+    "Year": "2018-19",
+    "State": "Telangana",
+    "value": "1896.283688818686"
+  },
+  {
+    "ID": "1781",
+    "Year": "2018-19",
+    "State": "Karnataka",
+    "value": "1395.697171558929"
+  },
+  {
+    "ID": "1801",
+    "Year": "2018-19",
+    "State": "Kerala",
+    "value": "757.1017426233846"
+  },
+  {
+    "ID": "1821",
+    "Year": "2018-19",
+    "State": "Tamil Nadu",
+    "value": "1866.34117197172"
+  },
+  {
+    "ID": "1841",
+    "Year": "2018-19",
+    "State": "Puducherry",
+    "value": "1744.501165782581"
+  },
+  {
+    "ID": "1861",
+    "Year": "2018-19",
+    "State": "Lakshadweep",
+    "value": "553.5714285714286"
+  },
+  {
+    "ID": "1881",
+    "Year": "2018-19",
+    "State": "Bihar",
+    "value": "311.3097973361104"
+  },
+  {
+    "ID": "1901",
+    "Year": "2018-19",
+    "State": "Jharkhand",
+    "value": "938.4716924788878"
+  },
+  {
+    "ID": "1921",
+    "Year": "2018-19",
+    "State": "Odisha",
+    "value": "1627.722779591872"
+  },
+  {
+    "ID": "1941",
+    "Year": "2018-19",
+    "State": "West Bengal",
+    "value": "703.2648698280861"
+  },
+  {
+    "ID": "1961",
+    "Year": "2018-19",
+    "State": "Sikkim",
+    "value": "872.7336618256562"
+  },
+  {
+    "ID": "1981",
+    "Year": "2018-19",
+    "State": "A.& N. Islands",
+    "value": "596.6671821305841"
+  },
+  {
+    "ID": "2001",
+    "Year": "2018-19",
+    "State": "Arunachal Pradesh",
+    "value": "703.23661479591"
+  },
+  {
+    "ID": "2021",
+    "Year": "2018-19",
+    "State": "Assam",
+    "value": "341.3891999259503"
+  },
+  {
+    "ID": "2041",
+    "Year": "2018-19",
+    "State": "Manipur",
+    "value": "371.06686432855"
+  },
+  {
+    "ID": "2061",
+    "Year": "2018-19",
+    "State": "Meghalaya",
+    "value": "880.5528490815459"
+  },
+  {
+    "ID": "2081",
+    "Year": "2018-19",
+    "State": "Mizoram",
+    "value": "617.4379425342644"
+  },
+  {
+    "ID": "2101",
+    "Year": "2018-19",
+    "State": "Nagaland",
+    "value": "356.1695777030837"
+  },
+  {
+    "ID": "2121",
+    "Year": "2018-19",
+    "State": "Tripura",
+    "value": "513.5336683611664"
+  },
+  {
+    "ID": "2141",
+    "Year": "2018-19",
+    "State": "N R",
+    "value": "1044.674008675309"
+  },
+  {
+    "ID": "2161",
+    "Year": "2018-19",
+    "State": "W R",
+    "value": "1621.557907994346"
+  },
+  {
+    "ID": "2181",
+    "Year": "2018-19",
+    "State": "S R",
+    "value": "1524.810130558544"
+  },
+  {
+    "ID": "2201",
+    "Year": "2018-19",
+    "State": "E R",
+    "value": "725.9307952297355"
+  },
+  {
+    "ID": "2221",
+    "Year": "2018-19",
+    "State": "N E R",
+    "value": "406.7344028392429"
+  },
+  {
+    "ID": "2241",
+    "Year": "2018-19",
+    "State": "All India",
+    "value": "1180.856497937833"
+  },
+  {
+    "ID": "1422",
+    "Year": "2019-20",
+    "State": "Chandigarh",
+    "value": "985.6682226761573"
+  },
+  {
+    "ID": "1442",
+    "Year": "2019-20",
+    "State": "Delhi",
+    "value": "1571.581349837499"
+  },
+  {
+    "ID": "1462",
+    "Year": "2019-20",
+    "State": "Haryana",
+    "value": "2229.226518246068"
+  },
+  {
+    "ID": "1482",
+    "Year": "2019-20",
+    "State": "Himachal Pradesh",
+    "value": "1527.204520661568"
+  },
+  {
+    "ID": "1502",
+    "Year": "2019-20",
+    "State": "Jammu & Kashmir",
+    "value": "1383.635874121316"
+  },
+  {
+    "ID": "1522",
+    "Year": "2019-20",
+    "State": "Punjab",
+    "value": "2171.191820520062"
+  },
+  {
+    "ID": "1542",
+    "Year": "2019-20",
+    "State": "Rajasthan",
+    "value": "1316.637164129984"
+  },
+  {
+    "ID": "1562",
+    "Year": "2019-20",
+    "State": "Uttar Pradesh",
+    "value": "628.7279283796698"
+  },
+  {
+    "ID": "1582",
+    "Year": "2019-20",
+    "State": "Uttarakhand",
+    "value": "1527.901646691726"
+  },
+  {
+    "ID": "1602",
+    "Year": "2019-20",
+    "State": "Chhattisgarh",
+    "value": "2044.001714123209"
+  },
+  {
+    "ID": "1622",
+    "Year": "2019-20",
+    "State": "Gujarat",
+    "value": "2387.935585045441"
+  },
+  {
+    "ID": "1642",
+    "Year": "2019-20",
+    "State": "Madhya Pradesh",
+    "value": "1085.960873217447"
+  },
+  {
+    "ID": "1662",
+    "Year": "2019-20",
+    "State": "Maharashtra",
+    "value": "1417.734862994916"
+  },
+  {
+    "ID": "1682",
+    "Year": "2019-20",
+    "State": "Daman & Diu",
+    "value": "7560.974838248183"
+  },
+  {
+    "ID": "1702",
+    "Year": "2019-20",
+    "State": "D. & N. Haveli",
+    "value": "15517.22812333313"
+  },
+  {
+    "ID": "1722",
+    "Year": "2019-20",
+    "State": "Goa",
+    "value": "2396.039147445711"
+  },
+  {
+    "ID": "1742",
+    "Year": "2019-20",
+    "State": "Andhra Pradesh",
+    "value": "1506.553462304572"
+  },
+  {
+    "ID": "1762",
+    "Year": "2019-20",
+    "State": "Telangana",
+    "value": "2070.950750414448"
+  },
+  {
+    "ID": "1782",
+    "Year": "2019-20",
+    "State": "Karnataka",
+    "value": "1468.062716691284"
+  },
+  {
+    "ID": "1802",
+    "Year": "2019-20",
+    "State": "Kerala",
+    "value": "825.6539167910144"
+  },
+  {
+    "ID": "1822",
+    "Year": "2019-20",
+    "State": "Tamil Nadu",
+    "value": "1843.92589511384"
+  },
+  {
+    "ID": "1842",
+    "Year": "2019-20",
+    "State": "Puducherry",
+    "value": "1751.923181638998"
+  },
+  {
+    "ID": "1862",
+    "Year": "2019-20",
+    "State": "Lakshadweep",
+    "value": "550.9484905567647"
+  },
+  {
+    "ID": "1882",
+    "Year": "2019-20",
+    "State": "Bihar",
+    "value": "332.1205273519145"
+  },
+  {
+    "ID": "1902",
+    "Year": "2019-20",
+    "State": "Jharkhand",
+    "value": "853.4878531110652"
+  },
+  {
+    "ID": "1922",
+    "Year": "2019-20",
+    "State": "Odisha",
+    "value": "1559.341830706938"
+  },
+  {
+    "ID": "1942",
+    "Year": "2019-20",
+    "State": "West Bengal",
+    "value": "756.6473535086377"
+  },
+  {
+    "ID": "1962",
+    "Year": "2019-20",
+    "State": "Sikkim",
+    "value": "928.8926098959521"
+  },
+  {
+    "ID": "1982",
+    "Year": "2019-20",
+    "State": "A.& N. Islands",
+    "value": "585.4460618103194"
+  },
+  {
+    "ID": "2002",
+    "Year": "2019-20",
+    "State": "Arunachal Pradesh",
+    "value": "631.3775733454752"
+  },
+  {
+    "ID": "2022",
+    "Year": "2019-20",
+    "State": "Assam",
+    "value": "348.028629107371"
+  },
+  {
+    "ID": "2042",
+    "Year": "2019-20",
+    "State": "Manipur",
+    "value": "385.0134462492969"
+  },
+  {
+    "ID": "2062",
+    "Year": "2019-20",
+    "State": "Meghalaya",
+    "value": "861.0902862280417"
+  },
+  {
+    "ID": "2082",
+    "Year": "2019-20",
+    "State": "Mizoram",
+    "value": "628.7847516269945"
+  },
+  {
+    "ID": "2102",
+    "Year": "2019-20",
+    "State": "Nagaland",
+    "value": "367.0435749524494"
+  },
+  {
+    "ID": "2122",
+    "Year": "2019-20",
+    "State": "Tripura",
+    "value": "425.3904948711378"
+  },
+  {
+    "ID": "2142",
+    "Year": "2019-20",
+    "State": "N R",
+    "value": "1088.630705009384"
+  },
+  {
+    "ID": "2162",
+    "Year": "2019-20",
+    "State": "W R",
+    "value": "1630.525485005281"
+  },
+  {
+    "ID": "2182",
+    "Year": "2019-20",
+    "State": "S R",
+    "value": "1576.52883504297"
+  },
+  {
+    "ID": "2202",
+    "Year": "2019-20",
+    "State": "E R",
+    "value": "730.6796448379625"
+  },
+  {
+    "ID": "2222",
+    "Year": "2019-20",
+    "State": "N E R",
+    "value": "402.4983356036902"
+  },
+  {
+    "ID": "2242",
+    "Year": "2019-20",
+    "State": "All India",
+    "value": "1207.890924613903"
+  },
+  {
+    "ID": "1423",
+    "Year": "2020-21",
+    "State": "Chandigarh",
+    "value": "1460.266170174564"
+  },
+  {
+    "ID": "1443",
+    "Year": "2020-21",
+    "State": "Delhi",
+    "value": "1619.472261317792"
+  },
+  {
+    "ID": "1463",
+    "Year": "2020-21",
+    "State": "Haryana",
+    "value": "2131.10882672871"
+  },
+  {
+    "ID": "1483",
+    "Year": "2020-21",
+    "State": "Himachal Pradesh",
+    "value": "1478.365583757007"
+  },
+  {
+    "ID": "1503",
+    "Year": "2020-21",
+    "State": "Jammu & Kashmir",
+    "value": "1402.434641200363"
+  },
+  {
+    "ID": "1523",
+    "Year": "2020-21",
+    "State": "Punjab",
+    "value": "2199.555210265386"
+  },
+  {
+    "ID": "1543",
+    "Year": "2020-21",
+    "State": "Rajasthan",
+    "value": "1300.770813657192"
+  },
+  {
+    "ID": "1563",
+    "Year": "2020-21",
+    "State": "Uttar Pradesh",
+    "value": "634.1883464411703"
+  },
+  {
+    "ID": "1583",
+    "Year": "2020-21",
+    "State": "Uttarakhand",
+    "value": "1384.295672470211"
+  },
+  {
+    "ID": "1603",
+    "Year": "2020-21",
+    "State": "Chhattisgarh",
+    "value": "1923.414076493082"
+  },
+  {
+    "ID": "1623",
+    "Year": "2020-21",
+    "State": "Gujarat",
+    "value": "2048.18452511074"
+  },
+  {
+    "ID": "1643",
+    "Year": "2020-21",
+    "State": "Madhya Pradesh",
+    "value": "1271.332609821789"
+  },
+  {
+    "ID": "1663",
+    "Year": "2020-21",
+    "State": "Maharashtra",
+    "value": "1378.087282072029"
+  },
+  {
+    "ID": "1683",
+    "Year": "2020-21",
+    "State": "Daman & Diu",
+    "value": "5472.741769337244"
+  },
+  {
+    "ID": "1703",
+    "Year": "2020-21",
+    "State": "D. & N. Haveli",
+    "value": "10478.04310151832"
+  },
+  {
+    "ID": "1723",
+    "Year": "2020-21",
+    "State": "Goa",
+    "value": "3136.755707108242"
+  },
+  {
+    "ID": "1743",
+    "Year": "2020-21",
+    "State": "Andhra Pradesh",
+    "value": "1434.114276863062"
+  },
+  {
+    "ID": "1763",
+    "Year": "2020-21",
+    "State": "Telangana",
+    "value": "2012.424022755205"
+  },
+  {
+    "ID": "1783",
+    "Year": "2020-21",
+    "State": "Karnataka",
+    "value": "1283.837358323461"
+  },
+  {
+    "ID": "1803",
+    "Year": "2020-21",
+    "State": "Kerala",
+    "value": "814.2600696390125"
+  },
+  {
+    "ID": "1823",
+    "Year": "2020-21",
+    "State": "Tamil Nadu",
+    "value": "1548.738317542899"
+  },
+  {
+    "ID": "1843",
+    "Year": "2020-21",
+    "State": "Puducherry",
+    "value": "2031.04148415024"
+  },
+  {
+    "ID": "1863",
+    "Year": "2020-21",
+    "State": "Lakshadweep",
+    "value": "819.6323529411766"
+  },
+  {
+    "ID": "1883",
+    "Year": "2020-21",
+    "State": "Bihar",
+    "value": "315.5541044849403"
+  },
+  {
+    "ID": "1903",
+    "Year": "2020-21",
+    "State": "Jharkhand",
+    "value": "794.2173216139164"
+  },
+  {
+    "ID": "1923",
+    "Year": "2020-21",
+    "State": "Odisha",
+    "value": "1828.949350367661"
+  },
+  {
+    "ID": "1943",
+    "Year": "2020-21",
+    "State": "West Bengal",
+    "value": "697.2655705794077"
+  },
+  {
+    "ID": "1963",
+    "Year": "2020-21",
+    "State": "Sikkim",
+    "value": "911.3061871108773"
+  },
+  {
+    "ID": "1983",
+    "Year": "2020-21",
+    "State": "A.& N. Islands",
+    "value": "873.1256500000002"
+  },
+  {
+    "ID": "2003",
+    "Year": "2020-21",
+    "State": "Arunachal Pradesh",
+    "value": "527.9466338084862"
+  },
+  {
+    "ID": "2023",
+    "Year": "2020-21",
+    "State": "Assam",
+    "value": "350.0073565590555"
+  },
+  {
+    "ID": "2043",
+    "Year": "2020-21",
+    "State": "Manipur",
+    "value": "347.0200921683385"
+  },
+  {
+    "ID": "2063",
+    "Year": "2020-21",
+    "State": "Meghalaya",
+    "value": "678.5140490307534"
+  },
+  {
+    "ID": "2083",
+    "Year": "2020-21",
+    "State": "Mizoram",
+    "value": "645.332684944008"
+  },
+  {
+    "ID": "2103",
+    "Year": "2020-21",
+    "State": "Nagaland",
+    "value": "421.198641130226"
+  },
+  {
+    "ID": "2123",
+    "Year": "2020-21",
+    "State": "Tripura",
+    "value": "449.2045427603937"
+  },
+  {
+    "ID": "2143",
+    "Year": "2020-21",
+    "State": "N R",
+    "value": "1084.622124123922"
+  },
+  {
+    "ID": "2163",
+    "Year": "2020-21",
+    "State": "W R",
+    "value": "1583.538339583681"
+  },
+  {
+    "ID": "2183",
+    "Year": "2020-21",
+    "State": "S R",
+    "value": "1431.926015196355"
+  },
+  {
+    "ID": "2203",
+    "Year": "2020-21",
+    "State": "E R",
+    "value": "720.2325483267014"
+  },
+  {
+    "ID": "2223",
+    "Year": "2020-21",
+    "State": "N E R",
+    "value": "394.7899245496947"
+  },
+  {
+    "ID": "2243",
+    "Year": "2020-21",
+    "State": "All India",
+    "value": "1160.543093266555"
+  },
+  {
+    "ID": "1424",
+    "Year": "2021-22",
+    "State": "Chandigarh",
+    "value": "1528.574299322965"
+  },
+  {
+    "ID": "1444",
+    "Year": "2021-22",
+    "State": "Delhi",
+    "value": "1683.752359151823"
+  },
+  {
+    "ID": "1464",
+    "Year": "2021-22",
+    "State": "Haryana",
+    "value": "2186.439150617337"
+  },
+  {
+    "ID": "1484",
+    "Year": "2021-22",
+    "State": "Himachal Pradesh",
+    "value": "1742.428562507529"
+  },
+  {
+    "ID": "1504",
+    "Year": "2021-22",
+    "State": "Jammu & Kashmir",
+    "value": "1474.840858447558"
+  },
+  {
+    "ID": "1524",
+    "Year": "2021-22",
+    "State": "Punjab",
+    "value": "2350.056802773702"
+  },
+  {
+    "ID": "1544",
+    "Year": "2021-22",
+    "State": "Rajasthan",
+    "value": "1345.297006554976"
+  },
+  {
+    "ID": "1564",
+    "Year": "2021-22",
+    "State": "Uttar Pradesh",
+    "value": "662.9097000578955"
+  },
+  {
+    "ID": "1584",
+    "Year": "2021-22",
+    "State": "Uttarakhand",
+    "value": "1519.54055972175"
+  },
+  {
+    "ID": "1604",
+    "Year": "2021-22",
+    "State": "Chhattisgarh",
+    "value": "2211.484602713371"
+  },
+  {
+    "ID": "1624",
+    "Year": "2021-22",
+    "State": "Gujarat",
+    "value": "2238.870166340665"
+  },
+  {
+    "ID": "1644",
+    "Year": "2021-22",
+    "State": "Madhya Pradesh",
+    "value": "1231.825762572371"
+  },
+  {
+    "ID": "1664",
+    "Year": "2021-22",
+    "State": "Maharashtra",
+    "value": "1588.317495278143"
+  },
+  {
+    "ID": "1684",
+    "Year": "2021-22",
+    "State": "Daman & Diu",
+    "value": "5913.657646810102"
+  },
+  {
+    "ID": "1704",
+    "Year": "2021-22",
+    "State": "D. & N. Haveli",
+    "value": "12249.97684488309"
+  },
+  {
+    "ID": "1724",
+    "Year": "2021-22",
+    "State": "Goa",
+    "value": "3735.51469428718"
+  },
+  {
+    "ID": "1744",
+    "Year": "2021-22",
+    "State": "Andhra Pradesh",
+    "value": "1567.228514340416"
+  },
+  {
+    "ID": "1764",
+    "Year": "2021-22",
+    "State": "Telangana",
+    "value": "2126.180327326189"
+  },
+  {
+    "ID": "1784",
+    "Year": "2021-22",
+    "State": "Karnataka",
+    "value": "1375.562323275236"
+  },
+  {
+    "ID": "1804",
+    "Year": "2021-22",
+    "State": "Kerala",
+    "value": "844.1016754377865"
+  },
+  {
+    "ID": "1824",
+    "Year": "2021-22",
+    "State": "Tamil Nadu",
+    "value": "1714.310011789842"
+  },
+  {
+    "ID": "1844",
+    "Year": "2021-22",
+    "State": "Puducherry",
+    "value": "2138.421846387113"
+  },
+  {
+    "ID": "1864",
+    "Year": "2021-22",
+    "State": "Lakshadweep",
+    "value": "818.7058823529412"
+  },
+  {
+    "ID": "1884",
+    "Year": "2021-22",
+    "State": "Bihar",
+    "value": "328.7093735488722"
+  },
+  {
+    "ID": "1904",
+    "Year": "2021-22",
+    "State": "Jharkhand",
+    "value": "867.3733809549892"
+  },
+  {
+    "ID": "1924",
+    "Year": "2021-22",
+    "State": "Odisha",
+    "value": "2263.702519036148"
+  },
+  {
+    "ID": "1944",
+    "Year": "2021-22",
+    "State": "West Bengal",
+    "value": "733.418004397958"
+  },
+  {
+    "ID": "1964",
+    "Year": "2021-22",
+    "State": "Sikkim",
+    "value": "1010.839691117073"
+  },
+  {
+    "ID": "1984",
+    "Year": "2021-22",
+    "State": "A.& N. Islands",
+    "value": "877.5289775561097"
+  },
+  {
+    "ID": "2004",
+    "Year": "2021-22",
+    "State": "Arunachal Pradesh",
+    "value": "644.9154635902361"
+  },
+  {
+    "ID": "2024",
+    "Year": "2021-22",
+    "State": "Assam",
+    "value": "384.3223462181892"
+  },
+  {
+    "ID": "2044",
+    "Year": "2021-22",
+    "State": "Manipur",
+    "value": "361.9890484082471"
+  },
+  {
+    "ID": "2064",
+    "Year": "2021-22",
+    "State": "Meghalaya",
+    "value": "751.3292231949887"
+  },
+  {
+    "ID": "2084",
+    "Year": "2021-22",
+    "State": "Mizoram",
+    "value": "581.8867529027061"
+  },
+  {
+    "ID": "2104",
+    "Year": "2021-22",
+    "State": "Nagaland",
+    "value": "433.0890992679799"
+  },
+  {
+    "ID": "2124",
+    "Year": "2021-22",
+    "State": "Tripura",
+    "value": "434.9902282478704"
+  },
+  {
+    "ID": "2144",
+    "Year": "2021-22",
+    "State": "N R",
+    "value": "1136.923570194754"
+  },
+  {
+    "ID": "2164",
+    "Year": "2021-22",
+    "State": "W R",
+    "value": "1735.895664323218"
+  },
+  {
+    "ID": "2184",
+    "Year": "2021-22",
+    "State": "S R",
+    "value": "1547.603233316184"
+  },
+  {
+    "ID": "2204",
+    "Year": "2021-22",
+    "State": "E R",
+    "value": "807.4465241821501"
+  },
+  {
+    "ID": "2224",
+    "Year": "2021-22",
+    "State": "N E R",
+    "value": "425.6503717563752"
+  },
+  {
+    "ID": "2244",
+    "Year": "2021-22",
+    "State": "All India",
+    "value": "1255.139533748563"
+  },
+  {
+    "ID": "2245",
+    "Year": "2022-23",
+    "State": "Chandigarh",
+    "value": "1674"
+  },
+  {
+    "ID": "2246",
+    "Year": "2022-23",
+    "State": "Delhi",
+    "value": "1848"
+  },
+  {
+    "ID": "2247",
+    "Year": "2022-23",
+    "State": "Haryana",
+    "value": "2360"
+  },
+  {
+    "ID": "2248",
+    "Year": "2022-23",
+    "State": "Himachal Pradesh",
+    "value": "1799"
+  },
+  {
+    "ID": "2249",
+    "Year": "2022-23",
+    "State": "Jammu & Kashmir",
+    "value": "1526"
+  },
+  {
+    "ID": "2250",
+    "Year": "2022-23",
+    "State": "Punjab",
+    "value": "2574"
+  },
+  {
+    "ID": "2251",
+    "Year": "2022-23",
+    "State": "Rajasthan",
+    "value": "1501"
+  },
+  {
+    "ID": "2252",
+    "Year": "2022-23",
+    "State": "Uttar Pradesh",
+    "value": "723"
+  },
+  {
+    "ID": "2253",
+    "Year": "2022-23",
+    "State": "Uttarakhand",
+    "value": "1536"
+  },
+  {
+    "ID": "2254",
+    "Year": "2022-23",
+    "State": "Sub-Total (N R)",
+    "value": "1238"
+  },
+  {
+    "ID": "2255",
+    "Year": "2022-23",
+    "State": "Chhattisgarh",
+    "value": "2117"
+  },
+  {
+    "ID": "2256",
+    "Year": "2022-23",
+    "State": "Gujarat",
+    "value": "2393"
+  },
+  {
+    "ID": "2257",
+    "Year": "2022-23",
+    "State": "Madhya Pradesh",
+    "value": "1230"
+  },
+  {
+    "ID": "2258",
+    "Year": "2022-23",
+    "State": "Maharashtra",
+    "value": "1676"
+  },
+  {
+    "ID": "2259",
+    "Year": "2022-23",
+    "State": "Daman & Diu",
+    "value": "8870"
+  },
+  {
+    "ID": "2260",
+    "Year": "2022-23",
+    "State": "Chandigarh",
+    "value": "1674"
+  },
+  {
+    "ID": "2261",
+    "Year": "2022-23",
+    "State": "Delhi",
+    "value": "1848"
+  },
+  {
+    "ID": "2262",
+    "Year": "2022-23",
+    "State": "Haryana",
+    "value": "2360"
+  },
+  {
+    "ID": "2263",
+    "Year": "2022-23",
+    "State": "Himachal Pradesh",
+    "value": "1799"
+  },
+  {
+    "ID": "2264",
+    "Year": "2022-23",
+    "State": "Jammu & Kashmir",
+    "value": "1526"
+  },
+  {
+    "ID": "2265",
+    "Year": "2022-23",
+    "State": "Punjab",
+    "value": "2574"
+  },
+  {
+    "ID": "2266",
+    "Year": "2022-23",
+    "State": "Rajasthan",
+    "value": "1501"
+  },
+  {
+    "ID": "2267",
+    "Year": "2022-23",
+    "State": "Uttar Pradesh",
+    "value": "723"
+  },
+  {
+    "ID": "2268",
+    "Year": "2022-23",
+    "State": "Uttarakhand",
+    "value": "1536"
+  },
+  {
+    "ID": "2269",
+    "Year": "2022-23",
+    "State": "Sub-Total (N R)",
+    "value": "1238"
+  },
+  {
+    "ID": "2270",
+    "Year": "2022-23",
+    "State": "Chhattisgarh",
+    "value": "2117"
+  },
+  {
+    "ID": "2271",
+    "Year": "2022-23",
+    "State": "Gujarat",
+    "value": "2393"
+  },
+  {
+    "ID": "2272",
+    "Year": "2022-23",
+    "State": "Madhya Pradesh",
+    "value": "1230"
+  },
+  {
+    "ID": "2273",
+    "Year": "2022-23",
+    "State": "Maharashtra",
+    "value": "1676"
+  },
+  {
+    "ID": "2274",
+    "Year": "2022-23",
+    "State": "Daman & Diu",
+    "value": "8870"
+  },
+  {
+    "ID": "2275",
+    "Year": "2022-23",
+    "State": "Chandigarh",
+    "value": "1674"
+  },
+  {
+    "ID": "2276",
+    "Year": "2022-23",
+    "State": "Delhi",
+    "value": "1848"
+  },
+  {
+    "ID": "2277",
+    "Year": "2022-23",
+    "State": "Haryana",
+    "value": "2360"
+  },
+  {
+    "ID": "2278",
+    "Year": "2022-23",
+    "State": "Himachal Pradesh",
+    "value": "1799"
+  },
+  {
+    "ID": "2279",
+    "Year": "2022-23",
+    "State": "Jammu & Kashmir",
+    "value": "1526"
+  },
+  {
+    "ID": "2280",
+    "Year": "2022-23",
+    "State": "Punjab",
+    "value": "2574"
+  },
+  {
+    "ID": "2281",
+    "Year": "2022-23",
+    "State": "Rajasthan",
+    "value": "1501"
+  },
+  {
+    "ID": "2282",
+    "Year": "2022-23",
+    "State": "Uttar Pradesh",
+    "value": "723"
+  },
+  {
+    "ID": "2283",
+    "Year": "2022-23",
+    "State": "Uttarakhand",
+    "value": "1536"
+  },
+  {
+    "ID": "2284",
+    "Year": "2022-23",
+    "State": "Sub-Total (N R)",
+    "value": "1238"
+  },
+  {
+    "ID": "2285",
+    "Year": "2022-23",
+    "State": "Chhattisgarh",
+    "value": "2117"
+  },
+  {
+    "ID": "2286",
+    "Year": "2022-23",
+    "State": "Gujarat",
+    "value": "2393"
+  },
+  {
+    "ID": "2287",
+    "Year": "2022-23",
+    "State": "Madhya Pradesh",
+    "value": "1230"
+  },
+  {
+    "ID": "2288",
+    "Year": "2022-23",
+    "State": "Maharashtra",
+    "value": "1676"
+  },
+  {
+    "ID": "2289",
+    "Year": "2022-23",
+    "State": "Daman & Diu",
+    "value": "8870"
+  },
+  {
+    "ID": "2290",
+    "Year": "2022-23",
+    "State": "Chandigarh",
+    "value": "1674"
+  },
+  {
+    "ID": "2291",
+    "Year": "2022-23",
+    "State": "Delhi",
+    "value": "1848"
+  },
+  {
+    "ID": "2292",
+    "Year": "2022-23",
+    "State": "Haryana",
+    "value": "2360"
+  },
+  {
+    "ID": "2293",
+    "Year": "2022-23",
+    "State": "Himachal Pradesh",
+    "value": "1799"
+  },
+  {
+    "ID": "2294",
+    "Year": "2022-23",
+    "State": "Jammu & Kashmir",
+    "value": "1526"
+  },
+  {
+    "ID": "2295",
+    "Year": "2022-23",
+    "State": "Punjab",
+    "value": "2574"
+  },
+  {
+    "ID": "2296",
+    "Year": "2022-23",
+    "State": "Rajasthan",
+    "value": "1501"
+  },
+  {
+    "ID": "2297",
+    "Year": "2022-23",
+    "State": "Uttar Pradesh",
+    "value": "723"
+  },
+  {
+    "ID": "2298",
+    "Year": "2022-23",
+    "State": "Uttarakhand",
+    "value": "1536"
+  },
+  {
+    "ID": "2299",
+    "Year": "2022-23",
+    "State": "Sub-Total (N R)",
+    "value": "1238"
+  },
+  {
+    "ID": "2300",
+    "Year": "2022-23",
+    "State": "Chhattisgarh",
+    "value": "2117"
+  },
+  {
+    "ID": "2301",
+    "Year": "2022-23",
+    "State": "Gujarat",
+    "value": "2393"
+  },
+  {
+    "ID": "2302",
+    "Year": "2022-23",
+    "State": "Madhya Pradesh",
+    "value": "1230"
+  },
+  {
+    "ID": "2303",
+    "Year": "2022-23",
+    "State": "Maharashtra",
+    "value": "1676"
+  },
+  {
+    "ID": "2304",
+    "Year": "2022-23",
+    "State": "Daman & Diu",
+    "value": "8870"
+  },
+  {
+    "ID": "2305",
+    "Year": "2022-23",
+    "State": "Chandigarh",
+    "value": "1674"
+  },
+  {
+    "ID": "2306",
+    "Year": "2022-23",
+    "State": "Delhi",
+    "value": "1848"
+  },
+  {
+    "ID": "2307",
+    "Year": "2022-23",
+    "State": "Haryana",
+    "value": "2360"
+  },
+  {
+    "ID": "2308",
+    "Year": "2022-23",
+    "State": "Himachal Pradesh",
+    "value": "1799"
+  },
+  {
+    "ID": "2309",
+    "Year": "2022-23",
+    "State": "Jammu & Kashmir",
+    "value": "1526"
+  },
+  {
+    "ID": "2310",
+    "Year": "2022-23",
+    "State": "Punjab",
+    "value": "2574"
+  },
+  {
+    "ID": "2311",
+    "Year": "2022-23",
+    "State": "Rajasthan",
+    "value": "1501"
+  },
+  {
+    "ID": "2312",
+    "Year": "2022-23",
+    "State": "Uttar Pradesh",
+    "value": "723"
+  },
+  {
+    "ID": "2313",
+    "Year": "2022-23",
+    "State": "Uttarakhand",
+    "value": "1536"
+  },
+  {
+    "ID": "2314",
+    "Year": "2022-23",
+    "State": "Sub-Total (N R)",
+    "value": "1238"
+  },
+  {
+    "ID": "2315",
+    "Year": "2022-23",
+    "State": "Chhattisgarh",
+    "value": "2117"
+  },
+  {
+    "ID": "2316",
+    "Year": "2022-23",
+    "State": "Gujarat",
+    "value": "2393"
+  },
+  {
+    "ID": "2317",
+    "Year": "2022-23",
+    "State": "Madhya Pradesh",
+    "value": "1230"
+  },
+  {
+    "ID": "2318",
+    "Year": "2022-23",
+    "State": "Maharashtra",
+    "value": "1676"
+  },
+  {
+    "ID": "2319",
+    "Year": "2022-23",
+    "State": "Daman & Diu",
+    "value": "8870"
+  },
+  {
+    "ID": "2320",
+    "Year": "2022-23",
+    "State": "D. & N. Haveli",
+    "value": ""
+  },
+  {
+    "ID": "2321",
+    "Year": "2022-23",
+    "State": "Goa",
+    "value": "3360"
+  },
+  {
+    "ID": "2322",
+    "Year": "2022-23",
+    "State": "Sub-Total (W R)",
+    "value": "1794"
+  },
+  {
+    "ID": "2323",
+    "Year": "2022-23",
+    "State": "Andhra Pradesh",
+    "value": "1634"
+  },
+  {
+    "ID": "2324",
+    "Year": "2022-23",
+    "State": "Telangana",
+    "value": "2349"
+  },
+  {
+    "ID": "2325",
+    "Year": "2022-23",
+    "State": "Karnataka",
+    "value": "1425"
+  },
+  {
+    "ID": "2326",
+    "Year": "2022-23",
+    "State": "Kerala",
+    "value": "882"
+  },
+  {
+    "ID": "2327",
+    "Year": "2022-23",
+    "State": "Tamil Nadu",
+    "value": "1763"
+  },
+  {
+    "ID": "2328",
+    "Year": "2022-23",
+    "State": "Puducherry",
+    "value": "2145"
+  },
+  {
+    "ID": "2329",
+    "Year": "2022-23",
+    "State": "Lakshadweep",
+    "value": "960"
+  },
+  {
+    "ID": "2330",
+    "Year": "2022-23",
+    "State": "Sub-Total (S R)",
+    "value": "1623"
+  },
+  {
+    "ID": "2331",
+    "Year": "2022-23",
+    "State": "Bihar",
+    "value": "348"
+  },
+  {
+    "ID": "2332",
+    "Year": "2022-23",
+    "State": "Jharkhand",
+    "value": "992"
+  },
+  {
+    "ID": "2333",
+    "Year": "2022-23",
+    "State": "Odisha",
+    "value": "2419"
+  },
+  {
+    "ID": "2334",
+    "Year": "2022-23",
+    "State": "West Bengal",
+    "value": "819"
+  },
+  {
+    "ID": "2335",
+    "Year": "2022-23",
+    "State": "Sikkim",
+    "value": "954"
+  },
+  {
+    "ID": "2336",
+    "Year": "2022-23",
+    "State": "A.& N. Islands",
+    "value": "932"
+  },
+  {
+    "ID": "2337",
+    "Year": "2022-23",
+    "State": "Sub-Total (E R)",
+    "value": "879"
+  },
+  {
+    "ID": "2338",
+    "Year": "2022-23",
+    "State": "Arunachal Pradesh",
+    "value": "651"
+  },
+  {
+    "ID": "2339",
+    "Year": "2022-23",
+    "State": "Assam",
+    "value": "398"
+  },
+  {
+    "ID": "2340",
+    "Year": "2022-23",
+    "State": "Manipur",
+    "value": "354"
+  },
+  {
+    "ID": "2341",
+    "Year": "2022-23",
+    "State": "Meghalaya",
+    "value": "730"
+  },
+  {
+    "ID": "2342",
+    "Year": "2022-23",
+    "State": "Mizoram",
+    "value": "564"
+  },
+  {
+    "ID": "2343",
+    "Year": "2022-23",
+    "State": "Nagaland",
+    "value": "445"
+  },
+  {
+    "ID": "2344",
+    "Year": "2022-23",
+    "State": "Tripura",
+    "value": "444"
+  },
+  {
+    "ID": "2345",
+    "Year": "2022-23",
+    "State": "Sub-Total (N E R)",
+    "value": "434"
+  },
+  {
+    "ID": "2346",
+    "Year": "2022-23",
+    "State": "Total All India",
+    "value": "1331"
+  },
+  {
+    "ID": "2347",
+    "Year": "2022-23",
+    "State": "Chandigarh",
+    "value": "1674"
+  },
+  {
+    "ID": "2348",
+    "Year": "2022-23",
+    "State": "Delhi",
+    "value": "1848"
+  },
+  {
+    "ID": "2349",
+    "Year": "2022-23",
+    "State": "Haryana",
+    "value": "2360"
+  },
+  {
+    "ID": "2350",
+    "Year": "2022-23",
+    "State": "Himachal Pradesh",
+    "value": "1799"
+  },
+  {
+    "ID": "2351",
+    "Year": "2022-23",
+    "State": "Jammu & Kashmir",
+    "value": "1526"
+  },
+  {
+    "ID": "2352",
+    "Year": "2022-23",
+    "State": "Punjab",
+    "value": "2574"
+  },
+  {
+    "ID": "2353",
+    "Year": "2022-23",
+    "State": "Rajasthan",
+    "value": "1501"
+  },
+  {
+    "ID": "2354",
+    "Year": "2022-23",
+    "State": "Uttar Pradesh",
+    "value": "723"
+  },
+  {
+    "ID": "2355",
+    "Year": "2022-23",
+    "State": "Uttarakhand",
+    "value": "1536"
+  },
+  {
+    "ID": "2356",
+    "Year": "2022-23",
+    "State": "Sub-Total (N R)",
+    "value": "1238"
+  },
+  {
+    "ID": "2357",
+    "Year": "2022-23",
+    "State": "Chhattisgarh",
+    "value": "2117"
+  },
+  {
+    "ID": "2358",
+    "Year": "2022-23",
+    "State": "Gujarat",
+    "value": "2393"
+  },
+  {
+    "ID": "2359",
+    "Year": "2022-23",
+    "State": "Madhya Pradesh",
+    "value": "1230"
+  },
+  {
+    "ID": "2360",
+    "Year": "2022-23",
+    "State": "Maharashtra",
+    "value": "1676"
+  },
+  {
+    "ID": "2361",
+    "Year": "2022-23",
+    "State": "Daman & Diu",
+    "value": "8870"
+  },
+  {
+    "ID": "2362",
+    "Year": "2022-23",
+    "State": "D. & N. Haveli",
+    "value": ""
+  },
+  {
+    "ID": "2363",
+    "Year": "2022-23",
+    "State": "Goa",
+    "value": "3360"
+  },
+  {
+    "ID": "2364",
+    "Year": "2022-23",
+    "State": "Sub-Total (W R)",
+    "value": "1794"
+  },
+  {
+    "ID": "2365",
+    "Year": "2022-23",
+    "State": "Andhra Pradesh",
+    "value": "1634"
+  },
+  {
+    "ID": "2366",
+    "Year": "2022-23",
+    "State": "Telangana",
+    "value": "2349"
+  },
+  {
+    "ID": "2367",
+    "Year": "2022-23",
+    "State": "Karnataka",
+    "value": "1425"
+  },
+  {
+    "ID": "2368",
+    "Year": "2022-23",
+    "State": "Kerala",
+    "value": "882"
+  },
+  {
+    "ID": "2369",
+    "Year": "2022-23",
+    "State": "Tamil Nadu",
+    "value": "1763"
+  },
+  {
+    "ID": "2370",
+    "Year": "2022-23",
+    "State": "Puducherry",
+    "value": "2145"
+  },
+  {
+    "ID": "2371",
+    "Year": "2022-23",
+    "State": "Lakshadweep",
+    "value": "960"
+  },
+  {
+    "ID": "2372",
+    "Year": "2022-23",
+    "State": "Sub-Total (S R)",
+    "value": "1623"
+  },
+  {
+    "ID": "2373",
+    "Year": "2022-23",
+    "State": "Bihar",
+    "value": "348"
+  },
+  {
+    "ID": "2374",
+    "Year": "2022-23",
+    "State": "Jharkhand",
+    "value": "992"
+  },
+  {
+    "ID": "2375",
+    "Year": "2022-23",
+    "State": "Odisha",
+    "value": "2419"
+  },
+  {
+    "ID": "2376",
+    "Year": "2022-23",
+    "State": "West Bengal",
+    "value": "819"
+  },
+  {
+    "ID": "2377",
+    "Year": "2022-23",
+    "State": "Sikkim",
+    "value": "954"
+  },
+  {
+    "ID": "2378",
+    "Year": "2022-23",
+    "State": "A.& N. Islands",
+    "value": "932"
+  },
+  {
+    "ID": "2379",
+    "Year": "2022-23",
+    "State": "Sub-Total (E R)",
+    "value": "879"
+  },
+  {
+    "ID": "2380",
+    "Year": "2022-23",
+    "State": "Arunachal Pradesh",
+    "value": "651"
+  },
+  {
+    "ID": "2381",
+    "Year": "2022-23",
+    "State": "Assam",
+    "value": "398"
+  },
+  {
+    "ID": "2382",
+    "Year": "2022-23",
+    "State": "Manipur",
+    "value": "354"
+  },
+  {
+    "ID": "2383",
+    "Year": "2022-23",
+    "State": "Meghalaya",
+    "value": "730"
+  },
+  {
+    "ID": "2384",
+    "Year": "2022-23",
+    "State": "Mizoram",
+    "value": "564"
+  },
+  {
+    "ID": "2385",
+    "Year": "2022-23",
+    "State": "Nagaland",
+    "value": "445"
+  },
+  {
+    "ID": "2386",
+    "Year": "2022-23",
+    "State": "Tripura",
+    "value": "444"
+  },
+  {
+    "ID": "2387",
+    "Year": "2022-23",
+    "State": "Sub-Total (N E R)",
+    "value": "434"
+  },
+  {
+    "ID": "2388",
+    "Year": "2022-23",
+    "State": "Total All India",
+    "value": "1331"
+  },
+  {
+    "ID": "2389",
+    "Year": "2023-24",
+    "State": "Chandigarh",
+    "value": "1782"
+  },
+  {
+    "ID": "2390",
+    "Year": "2023-24",
+    "State": "Delhi",
+    "value": "1932"
+  },
+  {
+    "ID": "2391",
+    "Year": "2023-24",
+    "State": "Haryana",
+    "value": "2436"
+  },
+  {
+    "ID": "2392",
+    "Year": "2023-24",
+    "State": "Himachal Pradesh",
+    "value": "1909"
+  },
+  {
+    "ID": "2393",
+    "Year": "2023-24",
+    "State": "Jammu & Kashmir",
+    "value": "1582"
+  },
+  {
+    "ID": "2394",
+    "Year": "2023-24",
+    "State": "Punjab",
+    "value": "2727"
+  },
+  {
+    "ID": "2395",
+    "Year": "2023-24",
+    "State": "Rajasthan",
+    "value": "1561"
+  },
+  {
+    "ID": "2396",
+    "Year": "2023-24",
+    "State": "Uttar Pradesh",
+    "value": "756"
+  },
+  {
+    "ID": "2397",
+    "Year": "2023-24",
+    "State": "Uttarakhand",
+    "value": "1553"
+  },
+  {
+    "ID": "2398",
+    "Year": "2023-24",
+    "State": "Sub-Total (N R)",
+    "value": "1292"
+  },
+  {
+    "ID": "2399",
+    "Year": "2023-24",
+    "State": "Chhattisgarh",
+    "value": "2159"
+  },
+  {
+    "ID": "2400",
+    "Year": "2023-24",
+    "State": "Gujarat",
+    "value": "2410"
+  },
+  {
+    "ID": "2401",
+    "Year": "2023-24",
+    "State": "Madhya Pradesh",
+    "value": "1270"
+  },
+  {
+    "ID": "2402",
+    "Year": "2023-24",
+    "State": "Maharashtra",
+    "value": "1745"
+  },
+  {
+    "ID": "2403",
+    "Year": "2023-24",
+    "State": "Daman & Diu",
+    "value": "8518"
+  },
+  {
+    "ID": "2404",
+    "Year": "2023-24",
+    "State": "D. & N. Haveli",
+    "value": ""
+  },
+  {
+    "ID": "2405",
+    "Year": "2023-24",
+    "State": "Goa",
+    "value": "3704"
+  },
+  {
+    "ID": "2406",
+    "Year": "2023-24",
+    "State": "Sub-Total (W R)",
+    "value": "1840"
+  },
+  {
+    "ID": "2407",
+    "Year": "2023-24",
+    "State": "Andhra Pradesh",
+    "value": "1703"
+  },
+  {
+    "ID": "2408",
+    "Year": "2023-24",
+    "State": "Telangana",
+    "value": "2478"
+  },
+  {
+    "ID": "2409",
+    "Year": "2023-24",
+    "State": "Karnataka",
+    "value": "1432"
+  },
+  {
+    "ID": "2410",
+    "Year": "2023-24",
+    "State": "Kerala",
+    "value": "916"
+  },
+  {
+    "ID": "2411",
+    "Year": "2023-24",
+    "State": "Tamil Nadu",
+    "value": "1739"
+  },
+  {
+    "ID": "2412",
+    "Year": "2023-24",
+    "State": "Puducherry",
+    "value": "2259"
+  },
+  {
+    "ID": "2413",
+    "Year": "2023-24",
+    "State": "Lakshadweep",
+    "value": "1102"
+  },
+  {
+    "ID": "2414",
+    "Year": "2023-24",
+    "State": "Sub-Total (S R)",
+    "value": "1648"
+  },
+  {
+    "ID": "2415",
+    "Year": "2023-24",
+    "State": "Bihar",
+    "value": "368"
+  },
+  {
+    "ID": "2416",
+    "Year": "2023-24",
+    "State": "Jharkhand",
+    "value": "1006"
+  },
+  {
+    "ID": "2417",
+    "Year": "2023-24",
+    "State": "Odisha",
+    "value": "2492"
+  },
+  {
+    "ID": "2418",
+    "Year": "2023-24",
+    "State": "West Bengal",
+    "value": "851"
+  },
+  {
+    "ID": "2419",
+    "Year": "2023-24",
+    "State": "Sikkim",
+    "value": "976"
+  },
+  {
+    "ID": "2420",
+    "Year": "2023-24",
+    "State": "A.& N. Islands",
+    "value": "1042"
+  },
+  {
+    "ID": "2421",
+    "Year": "2023-24",
+    "State": "Sub-Total (E R)",
+    "value": "922"
+  },
+  {
+    "ID": "2422",
+    "Year": "2023-24",
+    "State": "Arunachal Pradesh",
+    "value": "639"
+  },
+  {
+    "ID": "2423",
+    "Year": "2023-24",
+    "State": "Assam",
+    "value": "414"
+  },
+  {
+    "ID": "2424",
+    "Year": "2023-24",
+    "State": "Manipur",
+    "value": "350"
+  },
+  {
+    "ID": "2425",
+    "Year": "2023-24",
+    "State": "Meghalaya",
+    "value": "696"
+  },
+  {
+    "ID": "2426",
+    "Year": "2023-24",
+    "State": "Mizoram",
+    "value": "552"
+  },
+  {
+    "ID": "2427",
+    "Year": "2023-24",
+    "State": "Nagaland",
+    "value": "471"
+  },
+  {
+    "ID": "2428",
+    "Year": "2023-24",
+    "State": "Tripura",
+    "value": "428"
+  },
+  {
+    "ID": "2429",
+    "Year": "2023-24",
+    "State": "Sub-Total (N E R)",
+    "value": "442"
+  },
+  {
+    "ID": "2430",
+    "Year": "2023-24",
+    "State": "Total All India",
+    "value": "1395"
+  }
+]

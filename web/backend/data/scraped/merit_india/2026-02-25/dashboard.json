@@ -1,0 +1,440 @@
+{
+  "url": "https://meritindia.in/Dashboard",
+  "fetched_at": "2026-02-25T11:45:57.962208",
+  "generation_mix": {},
+  "demand_met": null,
+  "key_metrics": {},
+  "tables": [
+    {
+      "table_index": 1,
+      "headers": [
+        "POWER PROCUREMENT ON",
+        "",
+        "POWER PROCUREMENT ON",
+        ""
+      ],
+      "data": [
+        [
+          "",
+          "POWER PROCUREMENT ON",
+          ""
+        ],
+        [
+          "ALL INDIA POWER POSITION (MW) [CURRENT]DEMANDMET2,30,068MWTHERMALGENERATION1,39,536MWGASGENERATION1,927MWNUCLEARGENERATION6,172MWHYDROGENERATION7,716MWRENEWABLEGENERATION76,524MW> 6.005.004.003.503.002.40< 1.00NO DATADisplaying Data For Marginal CostAuto ModeMarginal CostWeighted Avg CostAndhra Pradesh4.84Arunachal Pradesh-Assam-Bihar-Chandigarh-Chhattisgarh-Dadra & Nagar Haveli-Daman & Diu-Delhi-Goa-Gujarat10.04Haryana4.71Himachal Pradesh4.78Jammu & Kashmir-Jharkhand-Karnataka-Kerala4.65Madhya Pradesh3.21Maharashtra4.42Manipur-Meghalaya-Mizoram-Nagaland2.97Odisha-Puducherry-Punjab-Rajasthan-Sikkim2.84Tamil Nadu8.26Telangana4.42Tripura2.97Uttar Pradesh-Uttarakhand-West Bengal3.98Andaman & Nicobar-Lakshadweep-",
+          "",
+          "ALL INDIA POWER POSITION (MW) [CURRENT]",
+          "",
+          "DEMANDMET2,30,068MW",
+          "THERMALGENERATION1,39,536MW",
+          "GASGENERATION1,927MW",
+          "NUCLEARGENERATION6,172MW",
+          "HYDROGENERATION7,716MW",
+          "RENEWABLEGENERATION76,524MW",
+          "> 6.005.004.003.503.002.40< 1.00NO DATA",
+          "",
+          "> 6.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "5.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "4.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "3.50",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "3.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "2.40",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "< 1.00",
+          "",
+          "NO DATA",
+          "",
+          "Displaying Data For Marginal CostAuto ModeMarginal CostWeighted Avg CostAndhra Pradesh4.84Arunachal Pradesh-Assam-Bihar-Chandigarh-Chhattisgarh-Dadra & Nagar Haveli-Daman & Diu-Delhi-Goa-Gujarat10.04Haryana4.71Himachal Pradesh4.78Jammu & Kashmir-Jharkhand-Karnataka-Kerala4.65Madhya Pradesh3.21Maharashtra4.42Manipur-Meghalaya-Mizoram-Nagaland2.97Odisha-Puducherry-Punjab-Rajasthan-Sikkim2.84Tamil Nadu8.26Telangana4.42Tripura2.97Uttar Pradesh-Uttarakhand-West Bengal3.98Andaman & Nicobar-Lakshadweep-",
+          ""
+        ],
+        [
+          "",
+          "ALL INDIA POWER POSITION (MW) [CURRENT]",
+          ""
+        ],
+        [
+          "DEMANDMET2,30,068MW",
+          "THERMALGENERATION1,39,536MW",
+          "GASGENERATION1,927MW",
+          "NUCLEARGENERATION6,172MW",
+          "HYDROGENERATION7,716MW",
+          "RENEWABLEGENERATION76,524MW"
+        ],
+        [
+          "DEMANDMET2,30,068MW",
+          "THERMALGENERATION1,39,536MW",
+          "GASGENERATION1,927MW",
+          "NUCLEARGENERATION6,172MW",
+          "HYDROGENERATION7,716MW",
+          "RENEWABLEGENERATION76,524MW"
+        ],
+        [
+          "> 6.005.004.003.503.002.40< 1.00NO DATA",
+          "",
+          "> 6.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "5.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "4.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "3.50",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "3.00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "2.40",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "< 1.00",
+          "",
+          "NO DATA",
+          "",
+          "Displaying Data For Marginal CostAuto ModeMarginal CostWeighted Avg CostAndhra Pradesh4.84Arunachal Pradesh-Assam-Bihar-Chandigarh-Chhattisgarh-Dadra & Nagar Haveli-Daman & Diu-Delhi-Goa-Gujarat10.04Haryana4.71Himachal Pradesh4.78Jammu & Kashmir-Jharkhand-Karnataka-Kerala4.65Madhya Pradesh3.21Maharashtra4.42Manipur-Meghalaya-Mizoram-Nagaland2.97Odisha-Puducherry-Punjab-Rajasthan-Sikkim2.84Tamil Nadu8.26Telangana4.42Tripura2.97Uttar Pradesh-Uttarakhand-West Bengal3.98Andaman & Nicobar-Lakshadweep-",
+          ""
+        ],
+        [
+          "",
+          "> 6.00"
+        ],
+        [
+          "",
+          "5.00"
+        ],
+        [
+          "",
+          "4.00"
+        ],
+        [
+          "",
+          "3.50"
+        ],
+        [
+          "",
+          "3.00"
+        ],
+        [
+          "",
+          "2.40"
+        ],
+        [
+          "",
+          "< 1.00"
+        ],
+        [
+          "",
+          "NO DATA"
+        ],
+        [
+          "* Value indicated in map are marginal cost or / weighted average cost in Rs/Unit (kWh)* All data in map is as provided by the respective statesFrequently Asked QuestionsDisclaimerAll information in MERIT app is provided for information purposes only and does not constitute a legal contract between the information provider and any person or entity unless otherwise specified. Information on MERIT app is subject to change without prior notice. Although every reasonable effort is made to display current and accurate information, the information provider makes no guarantees of any kindVisitors",
+          "* Value indicated in map are marginal cost or / weighted average cost in Rs/Unit (kWh)* All data in map is as provided by the respective statesFrequently Asked QuestionsDisclaimerAll information in MERIT app is provided for information purposes only and does not constitute a legal contract between the information provider and any person or entity unless otherwise specified. Information on MERIT app is subject to change without prior notice. Although every reasonable effort is made to display current and accurate information, the information provider makes no guarantees of any kind",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Visitors"
+        ],
+        [
+          "* Value indicated in map are marginal cost or / weighted average cost in Rs/Unit (kWh)* All data in map is as provided by the respective statesFrequently Asked QuestionsDisclaimerAll information in MERIT app is provided for information purposes only and does not constitute a legal contract between the information provider and any person or entity unless otherwise specified. Information on MERIT app is subject to change without prior notice. Although every reasonable effort is made to display current and accurate information, the information provider makes no guarantees of any kind"
+        ],
+        [
+          "Visitors"
+        ]
+      ]
+    },
+    {
+      "table_index": 3,
+      "headers": [
+        "",
+        "ALL INDIA POWER POSITION (MW) [CURRENT]",
+        ""
+      ],
+      "data": [
+        [
+          "DEMANDMET2,30,068MW",
+          "THERMALGENERATION1,39,536MW",
+          "GASGENERATION1,927MW",
+          "NUCLEARGENERATION6,172MW",
+          "HYDROGENERATION7,716MW",
+          "RENEWABLEGENERATION76,524MW"
+        ],
+        [
+          "DEMANDMET2,30,068MW",
+          "THERMALGENERATION1,39,536MW",
+          "GASGENERATION1,927MW",
+          "NUCLEARGENERATION6,172MW",
+          "HYDROGENERATION7,716MW",
+          "RENEWABLEGENERATION76,524MW"
+        ]
+      ]
+    },
+    {
+      "table_index": 5,
+      "headers": [
+        "> 6.005.004.003.503.002.40< 1.00NO DATA",
+        "",
+        "> 6.00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "5.00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "4.00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "3.50",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "3.00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "2.40",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "< 1.00",
+        "",
+        "NO DATA",
+        "",
+        "Displaying Data For Marginal CostAuto ModeMarginal CostWeighted Avg CostAndhra Pradesh4.84Arunachal Pradesh-Assam-Bihar-Chandigarh-Chhattisgarh-Dadra & Nagar Haveli-Daman & Diu-Delhi-Goa-Gujarat10.04Haryana4.71Himachal Pradesh4.78Jammu & Kashmir-Jharkhand-Karnataka-Kerala4.65Madhya Pradesh3.21Maharashtra4.42Manipur-Meghalaya-Mizoram-Nagaland2.97Odisha-Puducherry-Punjab-Rajasthan-Sikkim2.84Tamil Nadu8.26Telangana4.42Tripura2.97Uttar Pradesh-Uttarakhand-West Bengal3.98Andaman & Nicobar-Lakshadweep-",
+        ""
+      ],
+      "data": [
+        [
+          "",
+          "> 6.00"
+        ],
+        [
+          "",
+          "5.00"
+        ],
+        [
+          "",
+          "4.00"
+        ],
+        [
+          "",
+          "3.50"
+        ],
+        [
+          "",
+          "3.00"
+        ],
+        [
+          "",
+          "2.40"
+        ],
+        [
+          "",
+          "< 1.00"
+        ],
+        [
+          "",
+          "NO DATA"
+        ]
+      ]
+    },
+    {
+      "table_index": 6,
+      "headers": [
+        "",
+        "> 6.00"
+      ],
+      "data": [
+        [
+          "",
+          "5.00"
+        ],
+        [
+          "",
+          "4.00"
+        ],
+        [
+          "",
+          "3.50"
+        ],
+        [
+          "",
+          "3.00"
+        ],
+        [
+          "",
+          "2.40"
+        ],
+        [
+          "",
+          "< 1.00"
+        ],
+        [
+          "",
+          "NO DATA"
+        ]
+      ]
+    },
+    {
+      "table_index": 7,
+      "headers": [
+        "* Value indicated in map are marginal cost or / weighted average cost in Rs/Unit (kWh)* All data in map is as provided by the respective statesFrequently Asked QuestionsDisclaimerAll information in MERIT app is provided for information purposes only and does not constitute a legal contract between the information provider and any person or entity unless otherwise specified. Information on MERIT app is subject to change without prior notice. Although every reasonable effort is made to display current and accurate information, the information provider makes no guarantees of any kind"
+      ],
+      "data": [
+        [
+          "Visitors"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "at_and_c_losses",
+  "description": "State-wise AT&C losses in power distribution",
+  "resource_id": "d0c5b1e2-5c9a-4b1a-9c1a-1a2b3c4d5e6f",
+  "catalog_url": "https://data.gov.in/resource/d0c5b1e2-5c9a-4b1a-9c1a-1a2b3c4d5e6f",
+  "download_links": [
+    {
+      "text": "apis",
+      "url": "/apis"
+    }
+  ],
+  "table_data": [],
+  "fetched_at": "2026-02-25T11:32:33.740131"
+}

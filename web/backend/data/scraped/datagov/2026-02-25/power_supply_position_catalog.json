@@ -1,0 +1,14 @@
+{
+  "dataset": "power_supply_position",
+  "description": "Monthly demand and availability of power at state level",
+  "resource_id": "632fae95-46cd-45e4-b120-d040830a3a9f",
+  "catalog_url": "https://data.gov.in/resource/632fae95-46cd-45e4-b120-d040830a3a9f",
+  "download_links": [
+    {
+      "text": "apis",
+      "url": "/apis"
+    }
+  ],
+  "table_data": [],
+  "fetched_at": "2026-02-25T11:32:23.823624"
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>India Energy Atlas - Simple View</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#20d3ee",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#0F1115",
+                        "card-dark": "#161A22",
+                        "border-dark": "#262C3A",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F1115;
+        }
+        .sidebar-item-active {
+            background-color: rgba(32, 211, 238, 0.1);
+            color: #20d3ee;
+            border-right: 2px solid #20d3ee;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+<!-- Top Navigation Bar -->
+<header class="h-16 border-b border-border-dark flex items-center justify-between px-6 bg-background-dark sticky top-0 z-50">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-1.5 rounded-lg flex items-center justify-center text-background-dark">
+<span class="material-symbols-outlined font-bold">bolt</span>
+</div>
+<h1 class="text-lg font-bold tracking-tight uppercase">India Energy Atlas</h1>
+</div>
+<nav class="flex items-center bg-card-dark rounded-lg p-1 border border-border-dark">
+<a class="px-4 py-1.5 text-sm font-medium rounded-md hover:text-primary transition-colors" href="#">Map</a>
+<a class="px-4 py-1.5 text-sm font-medium bg-primary text-background-dark rounded-md" href="#">Simple</a>
+<a class="px-4 py-1.5 text-sm font-medium rounded-md hover:text-primary transition-colors" href="#">Pro</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="h-8 w-8 rounded-full bg-border-dark flex items-center justify-center border border-border-dark">
+<span class="material-symbols-outlined text-sm">person</span>
+</div>
+</div>
+</header>
+<div class="flex flex-1">
+<!-- Vertical Sidebar -->
+<aside class="w-64 border-r border-border-dark flex flex-col py-6 sticky top-16 h-[calc(100vh-64px)] overflow-y-auto">
+<div class="px-6 mb-8">
+<p class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Sectors</p>
+</div>
+<div class="space-y-1">
+<a class="flex items-center gap-3 px-6 py-3 sidebar-item-active group" href="#">
+<span class="material-symbols-outlined text-[20px]">dashboard</span>
+<span class="text-sm font-semibold">Overview</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-slate-400 hover:text-white hover:bg-card-dark transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">wb_sunny</span>
+<span class="text-sm font-semibold">Solar Energy</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-slate-400 hover:text-white hover:bg-card-dark transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">air</span>
+<span class="text-sm font-semibold">Wind Power</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-slate-400 hover:text-white hover:bg-card-dark transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">factory</span>
+<span class="text-sm font-semibold">Coal &amp; Thermal</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-slate-400 hover:text-white hover:bg-card-dark transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">grid_view</span>
+<span class="text-sm font-semibold">National Grid</span>
+</a>
+</div>
+<div class="mt-auto px-6 py-4 border-t border-border-dark">
+<div class="bg-card-dark p-4 rounded-lg border border-border-dark">
+<p class="text-xs text-slate-400 mb-2">Current System Health</p>
+<div class="flex items-center gap-2">
+<div class="h-2 w-2 rounded-full bg-primary animate-pulse"></div>
+<span class="text-sm font-bold">Stable (50.02 Hz)</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Content Section -->
+<main class="flex-1 p-8 lg:p-12 overflow-y-auto bg-background-dark">
+<!-- Headline Insight -->
+<section class="max-w-6xl mx-auto mb-12">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-bold uppercase tracking-wider mb-6">
+<span class="material-symbols-outlined text-[14px]">auto_graph</span> Q3 2024 Energy Report
+                </div>
+<h2 class="text-4xl lg:text-5xl font-black text-white leading-[1.1] tracking-tight max-w-4xl">
+                    India reaches a historic <span class="text-primary">180GW</span> of Renewable Energy capacity as of Q3 2024.
+                </h2>
+<p class="mt-6 text-lg text-slate-400 max-w-2xl leading-relaxed">
+                    A quarterly analysis of the nation's progress towards sustainable energy sovereignty, tracking growth across solar, wind, and storage sectors.
+                </p>
+</section>
+<!-- Insight Cards -->
+<section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+<!-- Total Capacity Card -->
+<div class="bg-card-dark border border-border-dark rounded-md p-6 relative overflow-hidden group">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<p class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Total Capacity</p>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-white tracking-tight">180 GW</span>
+<span class="text-primary text-xs font-bold flex items-center">
+<span class="material-symbols-outlined text-[14px]">arrow_upward</span> 15.2%
+                        </span>
+</div>
+<p class="text-[10px] text-slate-500 mt-2 italic">YoY Growth vs 2023</p>
+</div>
+<!-- Solar Card -->
+<div class="bg-card-dark border border-border-dark rounded-md p-6 relative overflow-hidden group">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<p class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Solar Contribution</p>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-white tracking-tight">72 GW</span>
+<span class="text-primary text-xs font-bold flex items-center">
+<span class="material-symbols-outlined text-[14px]">arrow_upward</span> 18.4%
+                        </span>
+</div>
+<p class="text-[10px] text-slate-500 mt-2 italic">40% of renewable mix</p>
+</div>
+<!-- Carbon Intensity Card -->
+<div class="bg-card-dark border border-border-dark rounded-md p-6 relative overflow-hidden group">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<p class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Carbon Intensity</p>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-white tracking-tight">712</span>
+<span class="text-xs text-slate-400 font-medium">gCO2/kWh</span>
+</div>
+<p class="text-primary text-xs font-bold flex items-center mt-2">
+<span class="material-symbols-outlined text-[14px]">arrow_downward</span> 4.1% reduction
+                    </p>
+</div>
+<!-- Peak Demand Card -->
+<div class="bg-card-dark border border-border-dark rounded-md p-6 relative overflow-hidden group">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<p class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Peak Demand</p>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold text-white tracking-tight">243 GW</span>
+<span class="text-primary text-xs font-bold flex items-center">
+<span class="material-symbols-outlined text-[14px]">arrow_upward</span> 6.8%
+                        </span>
+</div>
+<p class="text-[10px] text-slate-500 mt-2 italic">All-time record high</p>
+</div>
+</section>
+<!-- Primary Trend Chart Section -->
+<section class="max-w-6xl mx-auto">
+<div class="bg-card-dark border border-border-dark rounded-lg p-8">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
+<div>
+<h3 class="text-xl font-bold text-white mb-2">Renewable vs. Fossil Fuel Generation</h3>
+<p class="text-sm text-slate-400">Monthly energy mix comparison over the last 12 months (in TWh)</p>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2">
+<div class="h-1.5 w-6 bg-primary rounded-full"></div>
+<span class="text-xs font-semibold text-slate-300">Renewable</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="h-1.5 w-6 bg-slate-600 rounded-full"></div>
+<span class="text-xs font-semibold text-slate-300">Fossil Fuel</span>
+</div>
+</div>
+</div>
+<!-- Visual Chart Placeholder (CSS Styled) -->
+<div class="h-[400px] w-full relative">
+<div class="absolute inset-0 flex flex-col justify-between py-1 pointer-events-none">
+<div class="w-full h-px bg-border-dark flex items-center"><span class="text-[10px] text-slate-600 -mt-4">150 TWh</span></div>
+<div class="w-full h-px bg-border-dark flex items-center"><span class="text-[10px] text-slate-600 -mt-4">100 TWh</span></div>
+<div class="w-full h-px bg-border-dark flex items-center"><span class="text-[10px] text-slate-600 -mt-4">50 TWh</span></div>
+<div class="w-full h-px bg-border-dark flex items-center"><span class="text-[10px] text-slate-600 -mt-4">0 TWh</span></div>
+</div>
+<!-- Simplified SVG Chart Representation -->
+<div class="absolute inset-0 flex items-end justify-between px-10">
+<!-- SVG Path for Renewable Trend -->
+<svg class="absolute inset-0 w-full h-full" preserveaspectratio="none">
+<!-- Fossil Fuel (Darker) -->
+<path d="M0,150 L100,160 L200,140 L300,155 L400,145 L500,130 L600,150 L700,160 L800,140 L900,135 L1000,145 L1100,130" fill="none" stroke="#475569" stroke-width="2.5" vector-effect="non-scaling-stroke"></path>
+<!-- Renewable (Cyan) -->
+<path d="M0,320 L100,300 L200,310 L300,280 L400,260 L500,240 L600,220 L700,200 L800,190 L900,170 L1000,160 L1100,155" fill="none" stroke="#20d3ee" stroke-width="3" vector-effect="non-scaling-stroke"></path>
+</svg>
+<!-- Legend / X-Axis -->
+<div class="flex flex-1 justify-between items-end h-full w-full relative z-10 pt-4 pb-0 text-slate-600 text-[10px] font-medium">
+<span>OCT 23</span>
+<span>NOV 23</span>
+<span>DEC 23</span>
+<span>JAN 24</span>
+<span>FEB 24</span>
+<span>MAR 24</span>
+<span>APR 24</span>
+<span>MAY 24</span>
+<span>JUN 24</span>
+<span>JUL 24</span>
+<span>AUG 24</span>
+<span>SEP 24</span>
+</div>
+</div>
+<!-- Tooltip Hover Simulation -->
+<div class="absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-full mb-4 bg-background-dark border border-border-dark p-3 rounded-lg shadow-2xl z-20 hidden md:block group-hover:block transition-all">
+<p class="text-[10px] text-slate-500 font-bold uppercase mb-2">May 2024</p>
+<div class="space-y-2">
+<div class="flex justify-between gap-8 items-center">
+<span class="text-xs text-slate-300">Renewable</span>
+<span class="text-sm font-bold text-primary">82.4 TWh</span>
+</div>
+<div class="flex justify-between gap-8 items-center">
+<span class="text-xs text-slate-300">Fossil Fuel</span>
+<span class="text-sm font-bold text-white">112.1 TWh</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-border-dark flex items-center justify-between text-slate-500 text-xs italic">
+<p>Source: Central Electricity Authority (CEA) - Grid Real-time Data Platform</p>
+<button class="flex items-center gap-2 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-sm">download</span> Download Full Report (PDF)
+                        </button>
+</div>
+</div>
+</section>
+</main>
+</div>
+</body></html>

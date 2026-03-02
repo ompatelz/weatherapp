@@ -1,0 +1,7070 @@
+{
+  "Andhra Pradesh": {
+    "latitude": 15.9129,
+    "longitude": 79.74,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998857925,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1537.1893310546875,
+          "DNI": 1296.546875,
+          "GHI": 1905.4375,
+          "DIF": 953.4375,
+          "GTI_opta": 1978.2890625,
+          "OPTA": 18,
+          "TEMP": 27.9375,
+          "ELE": 101
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998857925,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            23.75,
+            25.625,
+            28.375,
+            30.8125,
+            33.25,
+            31.5,
+            29.3125,
+            28.75,
+            28.375,
+            27.0625,
+            25,
+            23.625
+          ],
+          "PVOUT_csi": [
+            141.20501708984375,
+            144.78125,
+            161.6650390625,
+            150.69000244140625,
+            135.656005859375,
+            106.97998046875,
+            100.40899658203125,
+            110.11199951171875,
+            117.29998779296875,
+            123.93798828125,
+            118.5,
+            125.9530029296875
+          ],
+          "DNI": [
+            134.109375,
+            150.9375,
+            162.0703125,
+            149.25,
+            121.3984375,
+            75.359375,
+            56.7265625,
+            67.2421875,
+            81.6015625,
+            94.1796875,
+            95.546875,
+            108.125
+          ],
+          "GTI_opta": [
+            178.25,
+            186.703125,
+            212.1953125,
+            199.53125,
+            180.109375,
+            138.9609375,
+            128.4609375,
+            140.6484375,
+            149.8515625,
+            157.421875,
+            148.7421875,
+            157.421875
+          ],
+          "DIF": [
+            68.6015625,
+            64.296875,
+            80.1953125,
+            84.2734375,
+            93.28125,
+            88.0234375,
+            88.5703125,
+            89.1875,
+            82.40625,
+            77.40625,
+            69.03125,
+            68.171875
+          ],
+          "GHI": [
+            152.4921875,
+            165.9375,
+            201.75,
+            202.2265625,
+            191.2421875,
+            149.7578125,
+            136.7734375,
+            145.421875,
+            147.453125,
+            146.2890625,
+            131.34375,
+            134.7578125
+          ]
+        }
+      }
+    }
+  },
+  "Arunachal Pradesh": {
+    "latitude": 27.0844,
+    "longitude": 93.6053,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998861095,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1279.3212890625,
+          "DNI": 1012.9140625,
+          "GHI": 1456.0546875,
+          "DIF": 799.3046875,
+          "GTI_opta": 1603.859375,
+          "OPTA": 29,
+          "TEMP": 22.25,
+          "ELE": 292
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998861095,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            15.75,
+            17.375,
+            20.375,
+            22.5,
+            24.5625,
+            26.0625,
+            26.5625,
+            26.75,
+            26.125,
+            23.75,
+            20.1875,
+            17.0625
+          ],
+          "PVOUT_csi": [
+            117.676025390625,
+            101.50225830078125,
+            107.8800048828125,
+            94.71002197265625,
+            98.6729736328125,
+            85.77001953125,
+            92.59698486328125,
+            97.5880126953125,
+            100.83001708984375,
+            121.14801025390625,
+            131.46002197265625,
+            129.48699951171875
+          ],
+          "DNI": [
+            107.0703125,
+            75.625,
+            66.125,
+            52.2265625,
+            58.8359375,
+            46.6171875,
+            59.796875,
+            62.15625,
+            75.390625,
+            117.6484375,
+            149.25,
+            142.1640625
+          ],
+          "GTI_opta": [
+            142.7265625,
+            125.0078125,
+            134.6953125,
+            119.34375,
+            125.453125,
+            109.203125,
+            118.203125,
+            124.8046875,
+            128.3671875,
+            153.421875,
+            164.0078125,
+            158.625
+          ],
+          "DIF": [
+            50.75,
+            57.8828125,
+            76.6640625,
+            78.84375,
+            86.0859375,
+            81.390625,
+            81.21875,
+            80.3203125,
+            68.15625,
+            55.6796875,
+            41.4296875,
+            40.890625
+          ],
+          "GHI": [
+            107.3203125,
+            104.5234375,
+            125.0546875,
+            120.78125,
+            134.7890625,
+            120.5703125,
+            129.484375,
+            129.703125,
+            122.609375,
+            129.3046875,
+            120.71875,
+            111.1953125
+          ]
+        }
+      }
+    }
+  },
+  "Assam": {
+    "latitude": 26.2006,
+    "longitude": 92.9376,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998864601,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1393.7330322265625,
+          "DNI": 1083.5,
+          "GHI": 1593.5546875,
+          "DIF": 861.421875,
+          "GTI_opta": 1736.625,
+          "OPTA": 27,
+          "TEMP": 23,
+          "ELE": 202
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998864601,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            16.25,
+            18.625,
+            22.375,
+            24.125,
+            25.4375,
+            26.625,
+            26.875,
+            26.875,
+            26.25,
+            24.25,
+            20.625,
+            17.3125
+          ],
+          "PVOUT_csi": [
+            119.6910400390625,
+            117.1810302734375,
+            131.6259765625,
+            117.5999755859375,
+            111.38299560546875,
+            97.2900390625,
+            103.509033203125,
+            107.10498046875,
+            108.9000244140625,
+            120.52801513671875,
+            130.8900146484375,
+            128.030029296875
+          ],
+          "DNI": [
+            102.484375,
+            90.90625,
+            92.8125,
+            77.578125,
+            71.265625,
+            57.8125,
+            69.59375,
+            69.6875,
+            77.671875,
+            105.1484375,
+            137.5234375,
+            131.0078125
+          ],
+          "GTI_opta": [
+            144.0546875,
+            143.765625,
+            165.2265625,
+            148.6484375,
+            140.953125,
+            123.1171875,
+            131.1015625,
+            135.5625,
+            137.4296875,
+            150.6328125,
+            161.28125,
+            154.84375
+          ],
+          "DIF": [
+            55.921875,
+            63.6484375,
+            84.6015625,
+            86.96875,
+            90.859375,
+            85.3828125,
+            83.296875,
+            82.6171875,
+            72.6328125,
+            61.78125,
+            47.4296875,
+            46.28125
+          ],
+          "GHI": [
+            111.6015625,
+            120.4296875,
+            151.8984375,
+            148.59375,
+            149.8203125,
+            134.1875,
+            141.546875,
+            139.4375,
+            130.921875,
+            129.609375,
+            122.703125,
+            112.8125
+          ]
+        }
+      }
+    }
+  },
+  "Bihar": {
+    "latitude": 25.0961,
+    "longitude": 85.3131,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998867982,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1484.4853515625,
+          "DNI": 1167.171875,
+          "GHI": 1770.2578125,
+          "DIF": 946.390625,
+          "GTI_opta": 1888.328125,
+          "OPTA": 23,
+          "TEMP": 25.5,
+          "ELE": 69
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998867982,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            16,
+            19.6875,
+            25.625,
+            30.8125,
+            32.5,
+            31.625,
+            28.9375,
+            28.375,
+            27.75,
+            25.5,
+            21.5,
+            17.375
+          ],
+          "PVOUT_csi": [
+            105.864990234375,
+            128.50927734375,
+            156.05401611328125,
+            150.57000732421875,
+            141.66998291015625,
+            116.1300048828125,
+            107.50799560546875,
+            114.1729736328125,
+            115.530029296875,
+            129.9210205078125,
+            115.16998291015625,
+            103.385009765625
+          ],
+          "DNI": [
+            78.3359375,
+            116.390625,
+            149.296875,
+            140.671875,
+            115.0078125,
+            78.2109375,
+            69.75,
+            73.21875,
+            80.25,
+            104.1328125,
+            86.609375,
+            75.296875
+          ],
+          "GTI_opta": [
+            127.96875,
+            159.921875,
+            201.8125,
+            199.890625,
+            187.453125,
+            151.171875,
+            137.234375,
+            145.296875,
+            146.5234375,
+            163.7421875,
+            142.2890625,
+            125.0234375
+          ],
+          "DIF": [
+            60.8515625,
+            62.4609375,
+            78.3046875,
+            88.3828125,
+            102.765625,
+            97.109375,
+            88.0703125,
+            87.9453125,
+            78.8671875,
+            74.5859375,
+            66.9296875,
+            60.109375
+          ],
+          "GHI": [
+            104.8125,
+            134.1875,
+            182.7421875,
+            196.59375,
+            195.734375,
+            161.578125,
+            145.453125,
+            147.65625,
+            139.40625,
+            143.40625,
+            117.65625,
+            101.03125
+          ]
+        }
+      }
+    }
+  },
+  "Chhattisgarh": {
+    "latitude": 21.2787,
+    "longitude": 81.8661,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998870877,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1581.54150390625,
+          "DNI": 1422.03125,
+          "GHI": 1885.3515625,
+          "DIF": 898.0078125,
+          "GTI_opta": 2028.1171875,
+          "OPTA": 24,
+          "TEMP": 26.4375,
+          "ELE": 279
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998870877,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            19.9375,
+            23.1875,
+            27.8125,
+            32.125,
+            34.6875,
+            31.1875,
+            26.875,
+            26.375,
+            26.75,
+            25.625,
+            22.625,
+            20
+          ],
+          "PVOUT_csi": [
+            148.17999267578125,
+            145.37451171875,
+            160.7349853515625,
+            151.800048828125,
+            143.281982421875,
+            106.260009765625,
+            91.38800048828125,
+            94.3330078125,
+            114.53997802734375,
+            143.9329833984375,
+            139.8599853515625,
+            141.85601806640625
+          ],
+          "GTI_opta": [
+            184.296875,
+            185.6875,
+            210.890625,
+            203.4609375,
+            192.7890625,
+            138.09375,
+            115.1328125,
+            118.6953125,
+            144.9296875,
+            182.8359375,
+            175.53125,
+            175.7734375
+          ],
+          "DIF": [
+            54.34375,
+            55.59375,
+            75.109375,
+            82.5,
+            95.390625,
+            91.171875,
+            87.9453125,
+            85.40625,
+            80.3984375,
+            73.28125,
+            61.5,
+            55.3671875
+          ],
+          "GHI": [
+            144.4921875,
+            155.4609375,
+            194.4609375,
+            204.8984375,
+            206.984375,
+            151.046875,
+            124.0625,
+            123.4453125,
+            140.578125,
+            161.265625,
+            142.5,
+            136.1484375
+          ],
+          "DNI": [
+            157.4765625,
+            156.7890625,
+            165.5390625,
+            158.1015625,
+            138.1640625,
+            71.8828125,
+            42.34375,
+            45.4140625,
+            77.7890625,
+            129.484375,
+            134.703125,
+            144.3359375
+          ]
+        }
+      }
+    }
+  },
+  "Goa": {
+    "latitude": 15.2993,
+    "longitude": 74.124,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998873710,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1537.9395751953125,
+          "DNI": 1322.765625,
+          "GHI": 1872,
+          "DIF": 922.2734375,
+          "GTI_opta": 1964.421875,
+          "OPTA": 20,
+          "TEMP": 25.8125,
+          "ELE": 105
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998873710,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            25,
+            25.75,
+            26.875,
+            27.875,
+            27.875,
+            25.375,
+            24.3125,
+            24.3125,
+            24.75,
+            25.875,
+            26.125,
+            25.5
+          ],
+          "PVOUT_csi": [
+            157.0460205078125,
+            152.94549560546875,
+            163.4940185546875,
+            147.84002685546875,
+            132.2769775390625,
+            87.3599853515625,
+            76.9420166015625,
+            93.30999755859375,
+            110.3699951171875,
+            128.96002197265625,
+            138.75,
+            148.64501953125
+          ],
+          "GTI_opta": [
+            201.78125,
+            198.9375,
+            213.40625,
+            192.2421875,
+            170.34375,
+            109.140625,
+            94.828125,
+            115.2890625,
+            137.8515625,
+            163.21875,
+            177.1484375,
+            190.25
+          ],
+          "DIF": [
+            61.2578125,
+            60.8203125,
+            81.6875,
+            90.8671875,
+            92.71875,
+            80.546875,
+            80.90625,
+            87.8828125,
+            82.203125,
+            79.203125,
+            64.7734375,
+            59.3984375
+          ],
+          "GHI": [
+            169.015625,
+            175.5703125,
+            204.1015625,
+            197.4296875,
+            184.390625,
+            119.4296875,
+            102.0546875,
+            120.9609375,
+            137.21875,
+            151.7734375,
+            152.703125,
+            157.359375
+          ],
+          "DNI": [
+            171.953125,
+            168.453125,
+            162.96875,
+            133.921875,
+            115.5078125,
+            47.4921875,
+            24.2734375,
+            38.65625,
+            69.1796875,
+            97.9296875,
+            133.6171875,
+            158.8125
+          ]
+        }
+      }
+    }
+  },
+  "Gujarat": {
+    "latitude": 22.2587,
+    "longitude": 71.1924,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998876519,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1732.4329833984375,
+          "DNI": 1855.203125,
+          "GHI": 2050.5078125,
+          "DIF": 808.3203125,
+          "GTI_opta": 2234.7578125,
+          "OPTA": 26,
+          "TEMP": 26.125,
+          "ELE": 296
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998876518,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            19.6875,
+            22.5,
+            26.8125,
+            30.1875,
+            31.5,
+            30,
+            27.125,
+            26.1875,
+            26.5,
+            27.1875,
+            24.625,
+            21
+          ],
+          "PVOUT_csi": [
+            164.8890380859375,
+            161.2509765625,
+            177.10302734375,
+            164.42999267578125,
+            159.123046875,
+            122.52001953125,
+            95.47998046875,
+            100.594970703125,
+            125.3399658203125,
+            158.906005859375,
+            148.22998046875,
+            154.5660400390625
+          ],
+          "GTI_opta": [
+            206.3671875,
+            207.046875,
+            233.9296875,
+            220.6796875,
+            213.09375,
+            159.359375,
+            120.6171875,
+            126.421875,
+            159.0625,
+            205.71875,
+            189.09375,
+            193.375
+          ],
+          "DIF": [
+            45.8203125,
+            45.453125,
+            60.046875,
+            68.0703125,
+            78.2421875,
+            90.8125,
+            92.1640625,
+            89.7109375,
+            78.296875,
+            61.1953125,
+            52.40625,
+            46.09375
+          ],
+          "GHI": [
+            154.78125,
+            167.6640625,
+            211.8515625,
+            222.390625,
+            232.75,
+            177.9921875,
+            131.1640625,
+            132.15625,
+            153.09375,
+            176.140625,
+            147.84375,
+            142.6953125
+          ],
+          "DNI": [
+            197.65625,
+            200.0390625,
+            220.0390625,
+            207.9296875,
+            201.15625,
+            110.21875,
+            46.5625,
+            52.390625,
+            101.0078125,
+            174.84375,
+            162.5703125,
+            180.7890625
+          ]
+        }
+      }
+    }
+  },
+  "Haryana": {
+    "latitude": 29.0588,
+    "longitude": 76.0856,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998879334,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1518.172607421875,
+          "DNI": 1245.703125,
+          "GHI": 1767.0390625,
+          "DIF": 928.578125,
+          "GTI_opta": 1936.2890625,
+          "OPTA": 28,
+          "TEMP": 24.9375,
+          "ELE": 218
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998879334,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            13.0625,
+            16.625,
+            22.375,
+            29,
+            33.125,
+            33.75,
+            30.9375,
+            29.5625,
+            28.8125,
+            25.9375,
+            20.5625,
+            15.1875
+          ],
+          "PVOUT_csi": [
+            99.10699462890625,
+            127.0684814453125,
+            156.54998779296875,
+            149.82000732421875,
+            139.31402587890625,
+            114.9000244140625,
+            107.9110107421875,
+            124,
+            134.1600341796875,
+            139.0040283203125,
+            116.0400390625,
+            110.2979736328125
+          ],
+          "DNI": [
+            77.375,
+            117.40625,
+            150.4140625,
+            139.046875,
+            112.375,
+            76.7109375,
+            60.9453125,
+            85.40625,
+            115.140625,
+            119.0703125,
+            95.4609375,
+            96.3515625
+          ],
+          "DIF": [
+            51.3671875,
+            56.2421875,
+            74.5859375,
+            88.5625,
+            105,
+            99.8125,
+            97.7109375,
+            93.7734375,
+            78,
+            73.875,
+            59.28125,
+            50.375
+          ],
+          "GHI": [
+            91.109375,
+            124.359375,
+            175.4609375,
+            192.71875,
+            194.9609375,
+            163.40625,
+            148.1484375,
+            160.765625,
+            159.2109375,
+            148.6796875,
+            110.8203125,
+            97.3984375
+          ],
+          "GTI_opta": [
+            118.328125,
+            156.21875,
+            199.859375,
+            198.328125,
+            186.46875,
+            152.0703125,
+            139.40625,
+            159.1875,
+            172.796875,
+            177.6328125,
+            143.21875,
+            132.7734375
+          ]
+        }
+      }
+    }
+  },
+  "Himachal Pradesh": {
+    "latitude": 31.1048,
+    "longitude": 77.1734,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998882393,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1642.93505859375,
+          "DNI": 1609.7734375,
+          "GHI": 1756.8984375,
+          "DIF": 737.296875,
+          "GTI_opta": 2005.984375,
+          "OPTA": 32,
+          "TEMP": 10.9375,
+          "ELE": 2197
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998882392,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            1.9375,
+            3.6875,
+            7.6875,
+            12,
+            15.6875,
+            17.5625,
+            17.5,
+            17.125,
+            15.375,
+            11.375,
+            7.4375,
+            4.0625
+          ],
+          "PVOUT_csi": [
+            129.27001953125,
+            130.4019775390625,
+            160.58001708984375,
+            159,
+            156.54998779296875,
+            127.8900146484375,
+            98.61102294921875,
+            102.98199462890625,
+            125.489990234375,
+            165.9429931640625,
+            145.260009765625,
+            140.95703125
+          ],
+          "DNI": [
+            135.71875,
+            134.328125,
+            165.2890625,
+            169.6796875,
+            166.0390625,
+            114.6875,
+            50.6875,
+            62.1875,
+            107.3125,
+            180.9140625,
+            160.7421875,
+            162.1953125
+          ],
+          "GTI_opta": [
+            151.25,
+            155.1171875,
+            195.0859375,
+            198.4765625,
+            198.2421875,
+            161.1015625,
+            121.4296875,
+            126.7265625,
+            154.171875,
+            202.3671875,
+            175.109375,
+            166.90625
+          ],
+          "DIF": [
+            36.0234375,
+            40.6484375,
+            58.15625,
+            70.59375,
+            85.46875,
+            88.9765625,
+            91.140625,
+            82.4921875,
+            66.453125,
+            48.234375,
+            37.6796875,
+            31.4375
+          ],
+          "GHI": [
+            102.390625,
+            116.5625,
+            167.1484375,
+            192.78125,
+            211.7890625,
+            178.859375,
+            131.78125,
+            130.140625,
+            141.296875,
+            157.8515625,
+            120.2421875,
+            106.0546875
+          ]
+        }
+      }
+    }
+  },
+  "Jharkhand": {
+    "latitude": 23.6102,
+    "longitude": 85.2799,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998885243,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1542.5992431640625,
+          "DNI": 1348.0625,
+          "GHI": 1819.7421875,
+          "DIF": 894.1171875,
+          "GTI_opta": 1963.8984375,
+          "OPTA": 25,
+          "TEMP": 24.1875,
+          "ELE": 413
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998885243,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            16,
+            19.75,
+            24.8125,
+            29.5625,
+            31.125,
+            29.5625,
+            26.5,
+            26.0625,
+            25.6875,
+            24,
+            20.3125,
+            16.5625
+          ],
+          "PVOUT_csi": [
+            138.8489990234375,
+            141.3912353515625,
+            158.68902587890625,
+            148.95001220703125,
+            136.3070068359375,
+            108.989990234375,
+            97.86700439453125,
+            101.5870361328125,
+            109.77001953125,
+            135.5009765625,
+            133.32000732421875,
+            131.37799072265625
+          ],
+          "GTI_opta": [
+            170.125,
+            178.4296875,
+            206.4921875,
+            198.9609375,
+            181.3203125,
+            141.421875,
+            123.65625,
+            127.96875,
+            138.421875,
+            170.9921875,
+            165.75,
+            160.359375
+          ],
+          "DIF": [
+            55.1171875,
+            52.65625,
+            70.7109375,
+            80.0703125,
+            96.78125,
+            92.96875,
+            89.9921875,
+            87.7265625,
+            79.2265625,
+            70.7734375,
+            61.171875,
+            56.9140625
+          ],
+          "GHI": [
+            132.21875,
+            146.7890625,
+            187.859375,
+            198.71875,
+            193.5625,
+            154.40625,
+            133.484375,
+            132.7109375,
+            133.7734375,
+            149.484375,
+            133.078125,
+            123.65625
+          ],
+          "DNI": [
+            138.7265625,
+            152.4921875,
+            167.3359375,
+            155.90625,
+            119.9375,
+            73.53125,
+            51.984375,
+            54.3125,
+            71.15625,
+            118.390625,
+            121.890625,
+            122.390625
+          ]
+        }
+      }
+    }
+  },
+  "Karnataka": {
+    "latitude": 15.3173,
+    "longitude": 75.7139,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998888079,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1616.87109375,
+          "DNI": 1487.109375,
+          "GHI": 1971.5546875,
+          "DIF": 913.953125,
+          "GTI_opta": 2067.5546875,
+          "OPTA": 20,
+          "TEMP": 25.0625,
+          "ELE": 652
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998888078,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            23.125,
+            25.25,
+            28,
+            29.25,
+            28.4375,
+            25,
+            23.625,
+            23.5625,
+            23.875,
+            24.125,
+            23.5,
+            22.6875
+          ],
+          "PVOUT_csi": [
+            162.3470458984375,
+            157.2960205078125,
+            167.864990234375,
+            149.0999755859375,
+            138.6939697265625,
+            105.030029296875,
+            93.6820068359375,
+            105.3070068359375,
+            117.84002685546875,
+            131.2850341796875,
+            136.67999267578125,
+            151.7449951171875
+          ],
+          "DNI": [
+            187.3671875,
+            184.984375,
+            181.875,
+            147.6875,
+            134.7578125,
+            72.03125,
+            43.09375,
+            55.3046875,
+            79.921875,
+            101.8984375,
+            130.921875,
+            167.2734375
+          ],
+          "GTI_opta": [
+            206.6796875,
+            204.25,
+            221.25,
+            196.7109375,
+            181.0390625,
+            132.6328125,
+            116.7734375,
+            131.53125,
+            148.046875,
+            165.3828125,
+            171.9921875,
+            191.2734375
+          ],
+          "DIF": [
+            56.671875,
+            55.734375,
+            75.640625,
+            84,
+            87.7265625,
+            87.5078125,
+            89.7421875,
+            91.7265625,
+            84.2421875,
+            79.109375,
+            64.6796875,
+            57.1640625
+          ],
+          "GHI": [
+            171.5859375,
+            178.8515625,
+            210.3671875,
+            201.359375,
+            195.734375,
+            145.4375,
+            125.671875,
+            137.453125,
+            146.578125,
+            153.234375,
+            148.140625,
+            157.140625
+          ]
+        }
+      }
+    }
+  },
+  "Kerala": {
+    "latitude": 10.8505,
+    "longitude": 76.2711,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998890891,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1516.9542236328125,
+          "DNI": 1234.484375,
+          "GHI": 1881.5859375,
+          "DIF": 969.296875,
+          "GTI_opta": 1934.0078125,
+          "OPTA": 16,
+          "TEMP": 26.4375,
+          "ELE": 58
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998890891,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            27.25,
+            28.4375,
+            29.1875,
+            28.375,
+            27.125,
+            25.25,
+            24.6875,
+            24.875,
+            25.25,
+            25.375,
+            25.5625,
+            26
+          ],
+          "PVOUT_csi": [
+            156.08502197265625,
+            147.94525146484375,
+            155.37200927734375,
+            131.3699951171875,
+            119.10198974609375,
+            94.32000732421875,
+            94.364013671875,
+            106.14398193359375,
+            120.5999755859375,
+            121.79901123046875,
+            126.5400390625,
+            143.31298828125
+          ],
+          "GHI": [
+            177.0078125,
+            177.296875,
+            197.9375,
+            173.703125,
+            161.3515625,
+            127.6484375,
+            125.859375,
+            138.7265625,
+            151.828125,
+            146.3203125,
+            144.75,
+            159.15625
+          ],
+          "DIF": [
+            66.8671875,
+            65.2890625,
+            86.6171875,
+            93.71875,
+            93.46875,
+            81.75,
+            86.4609375,
+            88.71875,
+            84.78125,
+            82.6484375,
+            73.0234375,
+            65.96875
+          ],
+          "DNI": [
+            166.96875,
+            159.046875,
+            144.5859375,
+            98.7578125,
+            84.96875,
+            57.2734375,
+            47.8671875,
+            60.140625,
+            84.9609375,
+            83.140625,
+            102.71875,
+            144.0546875
+          ],
+          "GTI_opta": [
+            201.4375,
+            193.6796875,
+            203.296875,
+            169.0234375,
+            151.1875,
+            118.0234375,
+            117.6796875,
+            132.8671875,
+            151.890625,
+            153.359375,
+            159.421875,
+            182.15625
+          ]
+        }
+      }
+    }
+  },
+  "Madhya Pradesh": {
+    "latitude": 22.9734,
+    "longitude": 78.6569,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998893744,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1612.7171630859375,
+          "DNI": 1509.5859375,
+          "GHI": 1906.609375,
+          "DIF": 874.015625,
+          "GTI_opta": 2069.203125,
+          "OPTA": 26,
+          "TEMP": 25.625,
+          "ELE": 332
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998893744,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            17.875,
+            21.3125,
+            26.375,
+            31.3125,
+            34.1875,
+            31.5,
+            26.625,
+            25.75,
+            26.3125,
+            25.5625,
+            22.3125,
+            18.6875
+          ],
+          "PVOUT_csi": [
+            143.77801513671875,
+            148.51025390625,
+            167.52398681640625,
+            156.47998046875,
+            148.89300537109375,
+            114.030029296875,
+            88.4739990234375,
+            92.4420166015625,
+            118.97998046875,
+            150.3499755859375,
+            141.0899658203125,
+            142.166015625
+          ],
+          "GHI": [
+            136.2734375,
+            154.53125,
+            199.359375,
+            211.078125,
+            216.4453125,
+            164.15625,
+            120.7109375,
+            120.7734375,
+            144.71875,
+            166.25,
+            140.640625,
+            131.65625
+          ],
+          "DIF": [
+            53.3515625,
+            54.1015625,
+            70.2734375,
+            82.203125,
+            96.2890625,
+            93.328125,
+            85.71875,
+            82.1484375,
+            75.6015625,
+            70.03125,
+            59.4609375,
+            51.5234375
+          ],
+          "DNI": [
+            149.265625,
+            161.5625,
+            183.1484375,
+            168.8671875,
+            150.65625,
+            85.9765625,
+            41.1953125,
+            46.78125,
+            91.3828125,
+            144.6171875,
+            137.7578125,
+            148.3671875
+          ],
+          "GTI_opta": [
+            177.1015625,
+            188.5390625,
+            219.7265625,
+            210.4765625,
+            200.7578125,
+            148.921875,
+            111.5390625,
+            115.90625,
+            150.75,
+            192.5390625,
+            177.5390625,
+            175.3984375
+          ]
+        }
+      }
+    }
+  },
+  "Maharashtra": {
+    "latitude": 19.7515,
+    "longitude": 75.7139,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998896459,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1593.0205078125,
+          "DNI": 1409.046875,
+          "GHI": 1923.6015625,
+          "DIF": 938.9765625,
+          "GTI_opta": 2046.75,
+          "OPTA": 22,
+          "TEMP": 26.0625,
+          "ELE": 505
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998896459,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            21.625,
+            24.1875,
+            28,
+            31.75,
+            32.875,
+            28.625,
+            25.625,
+            24.9375,
+            25,
+            24.9375,
+            23.375,
+            21.5625
+          ],
+          "PVOUT_csi": [
+            148.52099609375,
+            148.08648681640625,
+            164.052001953125,
+            151.67999267578125,
+            146.44403076171875,
+            108.75,
+            88.75299072265625,
+            96.2860107421875,
+            115.77001953125,
+            140.61602783203125,
+            140.1600341796875,
+            143.9019775390625
+          ],
+          "DNI": [
+            150.4765625,
+            153.90625,
+            167.6171875,
+            150.8671875,
+            147.125,
+            75.421875,
+            37.265625,
+            45.3203125,
+            76.2578125,
+            121.2734375,
+            136.046875,
+            147.46875
+          ],
+          "GTI_opta": [
+            186.46875,
+            190.515625,
+            216.4453125,
+            203.546875,
+            196.015625,
+            139.953125,
+            111.4453125,
+            120.46875,
+            145.6484375,
+            179.0234375,
+            177.1796875,
+            180.046875
+          ],
+          "DIF": [
+            62.4375,
+            63.703125,
+            79.640625,
+            88.2890625,
+            93.5859375,
+            91.4375,
+            88.4765625,
+            88.5078125,
+            83.609375,
+            76.5390625,
+            63.5390625,
+            59.2109375
+          ],
+          "GHI": [
+            151.375,
+            163.3125,
+            201.65625,
+            205.6171875,
+            210.4921875,
+            152.8203125,
+            119.71875,
+            125.3671875,
+            142.2578125,
+            160.640625,
+            147.09375,
+            143.25
+          ]
+        }
+      }
+    }
+  },
+  "Manipur": {
+    "latitude": 24.6637,
+    "longitude": 93.9063,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998899311,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1507.319580078125,
+          "DNI": 1335.984375,
+          "GHI": 1713.203125,
+          "DIF": 818.8203125,
+          "GTI_opta": 1872.5,
+          "OPTA": 27,
+          "TEMP": 20.5,
+          "ELE": 777
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998899311,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            14.6875,
+            16.75,
+            20.0625,
+            22.4375,
+            23.25,
+            23.6875,
+            23.5,
+            23.4375,
+            23.0625,
+            21.5625,
+            18.375,
+            15.5
+          ],
+          "PVOUT_csi": [
+            144.677001953125,
+            141.9844970703125,
+            148.489990234375,
+            135.3900146484375,
+            121.24102783203125,
+            104.25,
+            100.44000244140625,
+            105.89599609375,
+            115.1099853515625,
+            125.27099609375,
+            133.44000244140625,
+            131.1300048828125
+          ],
+          "GTI_opta": [
+            175.5546875,
+            175.3515625,
+            186.5234375,
+            171.9296875,
+            153.109375,
+            130.53125,
+            125.2734375,
+            132.125,
+            143.609375,
+            155.6796875,
+            164.0703125,
+            158.75
+          ],
+          "DIF": [
+            46.6875,
+            53.140625,
+            78.2109375,
+            82.3515625,
+            87.421875,
+            85.953125,
+            85.1875,
+            81.71875,
+            72.71875,
+            58.21875,
+            44.0703125,
+            43.1484375
+          ],
+          "GHI": [
+            131.28125,
+            142.609375,
+            170.375,
+            172.3515625,
+            164.484375,
+            143.8828125,
+            136.2109375,
+            137.109375,
+            137.578125,
+            134.5390625,
+            126.2109375,
+            116.5625
+          ],
+          "DNI": [
+            155.9921875,
+            146.5859375,
+            130.7890625,
+            117.5703125,
+            95.359375,
+            70.2265625,
+            61.8125,
+            68.6953125,
+            86.96875,
+            115.2890625,
+            144.9921875,
+            141.703125
+          ]
+        }
+      }
+    }
+  },
+  "Meghalaya": {
+    "latitude": 25.467,
+    "longitude": 91.3662,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998902165,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1465.43505859375,
+          "DNI": 1227.9765625,
+          "GHI": 1643.2734375,
+          "DIF": 849.65625,
+          "GTI_opta": 1809.3046875,
+          "OPTA": 28,
+          "TEMP": 17.25,
+          "ELE": 1552
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998902165,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            11,
+            12.9375,
+            16.25,
+            18.375,
+            19.75,
+            20.6875,
+            20.75,
+            20.75,
+            20.25,
+            18.4375,
+            15.1875,
+            12.3125
+          ],
+          "PVOUT_csi": [
+            142.44500732421875,
+            135.14801025390625,
+            151.6829833984375,
+            135.21002197265625,
+            115.97100830078125,
+            89.4000244140625,
+            93.46502685546875,
+            97.24700927734375,
+            98.8499755859375,
+            124.96099853515625,
+            141.0899658203125,
+            139.96502685546875
+          ],
+          "DNI": [
+            144.4609375,
+            125.203125,
+            135.1875,
+            109.4375,
+            77.25,
+            45.6015625,
+            52.234375,
+            53.84375,
+            62.15625,
+            113.921875,
+            155.4296875,
+            153.234375
+          ],
+          "GTI_opta": [
+            171.7421875,
+            165.4296875,
+            189.1953125,
+            169.59375,
+            145.359375,
+            111.6015625,
+            116.59375,
+            121.1484375,
+            122.8203125,
+            154.2578125,
+            172.5,
+            169.0703125
+          ],
+          "DIF": [
+            50.65625,
+            59.46875,
+            78.6484375,
+            86.671875,
+            95.4453125,
+            86.1015625,
+            85.34375,
+            84.4140625,
+            73.9765625,
+            60.6953125,
+            45.1796875,
+            43.0625
+          ],
+          "GHI": [
+            128.03125,
+            135.3984375,
+            171.984375,
+            170.4921875,
+            156.796875,
+            123.2734375,
+            127.59375,
+            126.7578125,
+            119.25,
+            132.6171875,
+            130.046875,
+            121.0234375
+          ]
+        }
+      }
+    }
+  },
+  "Mizoram": {
+    "latitude": 23.1645,
+    "longitude": 92.9376,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998904777,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1430.9237060546875,
+          "DNI": 1194.625,
+          "GHI": 1647.2421875,
+          "DIF": 792.7578125,
+          "GTI_opta": 1771.4921875,
+          "OPTA": 27,
+          "TEMP": 21.375,
+          "ELE": 608
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998904776,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            15.125,
+            17.9375,
+            22.0625,
+            24.4375,
+            24.4375,
+            23.9375,
+            23.6875,
+            23.5625,
+            23.375,
+            22.25,
+            19.3125,
+            16.0625
+          ],
+          "PVOUT_csi": [
+            138.04296875,
+            135.2327880859375,
+            141.66998291015625,
+            131.6700439453125,
+            113.46002197265625,
+            92.42999267578125,
+            95.0460205078125,
+            99.35498046875,
+            106.47003173828125,
+            119.07098388671875,
+            127.469970703125,
+            131.0059814453125
+          ],
+          "GTI_opta": [
+            168.640625,
+            168.484375,
+            179.765625,
+            167.4609375,
+            142.6953125,
+            114.2734375,
+            116.8359375,
+            122.390625,
+            131.1015625,
+            146.1015625,
+            157.3203125,
+            156.4296875
+          ],
+          "DIF": [
+            43.4609375,
+            49.8359375,
+            74.9609375,
+            83.4609375,
+            86.1796875,
+            81.9921875,
+            82.4921875,
+            79.578125,
+            71.0703125,
+            57.875,
+            42.09375,
+            39.7734375
+          ],
+          "GHI": [
+            129.2421875,
+            139.8671875,
+            166.96875,
+            170.34375,
+            155.5546875,
+            127.921875,
+            129.1171875,
+            129.2734375,
+            128.3671875,
+            129.484375,
+            123.8984375,
+            117.2109375
+          ],
+          "DNI": [
+            144.3671875,
+            135.5703125,
+            121.2734375,
+            107.4296875,
+            81.9609375,
+            52.203125,
+            53.1640625,
+            57.5390625,
+            70.953125,
+            99.8828125,
+            134.0390625,
+            136.2421875
+          ]
+        }
+      }
+    }
+  },
+  "Nagaland": {
+    "latitude": 26.1584,
+    "longitude": 94.5624,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998907498,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1339.1209716796875,
+          "DNI": 1044.390625,
+          "GHI": 1507.8984375,
+          "DIF": 800.9921875,
+          "GTI_opta": 1619.6640625,
+          "OPTA": 29,
+          "TEMP": 18,
+          "ELE": 1338
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998907498,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            11.5625,
+            13.3125,
+            16.5,
+            18.8125,
+            20.625,
+            22.0625,
+            22.3125,
+            22.25,
+            21.5,
+            19.1875,
+            15.625,
+            12.625
+          ],
+          "PVOUT_csi": [
+            128.5260009765625,
+            118.989013671875,
+            130.26202392578125,
+            113.6400146484375,
+            100.0369873046875,
+            86.72998046875,
+            90.89202880859375,
+            92.62799072265625,
+            98.03997802734375,
+            115.41302490234375,
+            133.02001953125,
+            130.9439697265625
+          ],
+          "DNI": [
+            121.0546875,
+            101.78125,
+            101.1875,
+            82.3203125,
+            62.9296875,
+            45.75,
+            52.8828125,
+            51.3671875,
+            63.03125,
+            98.859375,
+            135.65625,
+            127.5625
+          ],
+          "GTI_opta": [
+            150.65625,
+            142.609375,
+            159.8671875,
+            140.703125,
+            123.5625,
+            106.6796875,
+            111.96875,
+            113.984375,
+            120.5703125,
+            141.484375,
+            158.3125,
+            149.265625
+          ],
+          "DIF": [
+            44.828125,
+            54.328125,
+            76.5703125,
+            81.1796875,
+            87.234375,
+            84.8125,
+            83.296875,
+            81.84375,
+            72.0625,
+            57.9375,
+            39.9609375,
+            36.953125
+          ],
+          "GHI": [
+            114.109375,
+            118.9609375,
+            149.234375,
+            144.9609375,
+            137.578125,
+            122.3125,
+            126.7265625,
+            122.9453125,
+            119.0703125,
+            123.4453125,
+            120.1171875,
+            108.4375
+          ]
+        }
+      }
+    }
+  },
+  "Odisha": {
+    "latitude": 20.9517,
+    "longitude": 85.0985,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998910289,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1492.9674072265625,
+          "DNI": 1223.3125,
+          "GHI": 1793.1953125,
+          "DIF": 925.2578125,
+          "GTI_opta": 1905.9140625,
+          "OPTA": 23,
+          "TEMP": 26.5,
+          "ELE": 124
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998910289,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            20.75,
+            24.0625,
+            28.125,
+            31,
+            32.0625,
+            30.0625,
+            27.4375,
+            27.0625,
+            27.0625,
+            26.1875,
+            23.625,
+            20.9375
+          ],
+          "PVOUT_csi": [
+            137.6090087890625,
+            136.645263671875,
+            150.16400146484375,
+            144.5400390625,
+            136.74102783203125,
+            104.25,
+            91.35699462890625,
+            97.06103515625,
+            106.530029296875,
+            129.2080078125,
+            128.9100341796875,
+            129.9520263671875
+          ],
+          "GTI_opta": [
+            170.96875,
+            174.46875,
+            196.171875,
+            191.7890625,
+            180.7890625,
+            134.5234375,
+            115.5078125,
+            122.453125,
+            134.671875,
+            163.125,
+            161.15625,
+            160.3046875
+          ],
+          "DIF": [
+            58.6796875,
+            58.875,
+            81.15625,
+            85.953125,
+            96.84375,
+            91.7734375,
+            87.265625,
+            86.5234375,
+            80.4921875,
+            74.5234375,
+            63.65625,
+            59.5234375
+          ],
+          "GHI": [
+            137.984375,
+            148.9375,
+            182.8671875,
+            192.9609375,
+            192.7578125,
+            146.0703125,
+            124,
+            127.0078125,
+            131.5234375,
+            146.6328125,
+            134.1328125,
+            128.34375
+          ],
+          "DNI": [
+            135.59375,
+            138.734375,
+            137.859375,
+            134.8515625,
+            116.8359375,
+            63.9921875,
+            42.90625,
+            48.046875,
+            64.0234375,
+            104.0390625,
+            115.4375,
+            120.9921875
+          ]
+        }
+      }
+    }
+  },
+  "Punjab": {
+    "latitude": 31.1471,
+    "longitude": 75.3412,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998913044,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1500.306884765625,
+          "DNI": 1243.7734375,
+          "GHI": 1731.796875,
+          "DIF": 903.6796875,
+          "GTI_opta": 1900.8671875,
+          "OPTA": 28,
+          "TEMP": 23.375,
+          "ELE": 223
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998913044,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            11.5,
+            14.6875,
+            20.1875,
+            26.5,
+            31.3125,
+            32.5,
+            29.9375,
+            28.875,
+            27.9375,
+            24.625,
+            18.9375,
+            13.5
+          ],
+          "PVOUT_csi": [
+            91.2330322265625,
+            116.70074462890625,
+            148.21099853515625,
+            149.1600341796875,
+            147.9010009765625,
+            127.260009765625,
+            113.7080078125,
+            127.50299072265625,
+            133.6500244140625,
+            135.34600830078125,
+            109.3800048828125,
+            100.2540283203125
+          ],
+          "DNI": [
+            70.3359375,
+            103.5625,
+            136.1171875,
+            144.03125,
+            134.2265625,
+            98.671875,
+            66.6171875,
+            88.84375,
+            111.421875,
+            115.5078125,
+            90.5078125,
+            83.9140625
+          ],
+          "GTI_opta": [
+            107.5703125,
+            141.4453125,
+            186.46875,
+            195.2421875,
+            197.1875,
+            168.2734375,
+            146.2578125,
+            163.125,
+            171.1484375,
+            171.3671875,
+            133.5625,
+            119.2265625
+          ],
+          "DIF": [
+            47.1484375,
+            53.7890625,
+            72.7265625,
+            82.46875,
+            99.8828125,
+            101.1015625,
+            99.4453125,
+            94.3359375,
+            78.4765625,
+            71.390625,
+            55.2890625,
+            47.6171875
+          ],
+          "GHI": [
+            81.84375,
+            111.7890625,
+            162.375,
+            187.5625,
+            204.5703125,
+            180.1171875,
+            154.3203125,
+            163,
+            155.7578125,
+            141.609375,
+            102.03125,
+            86.828125
+          ]
+        }
+      }
+    }
+  },
+  "Rajasthan": {
+    "latitude": 27.0238,
+    "longitude": 74.2179,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998916136,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1711.434814453125,
+          "DNI": 1679.84375,
+          "GHI": 1966.859375,
+          "DIF": 865.0390625,
+          "GTI_opta": 2196.9765625,
+          "OPTA": 30,
+          "TEMP": 25.375,
+          "ELE": 343
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998916136,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            14.625,
+            18.4375,
+            24.1875,
+            29.75,
+            33.3125,
+            33.1875,
+            30,
+            28.125,
+            28.75,
+            26.875,
+            21.375,
+            16.25
+          ],
+          "PVOUT_csi": [
+            146.38201904296875,
+            150.7137451171875,
+            168.5469970703125,
+            156.5999755859375,
+            146.5059814453125,
+            126.8699951171875,
+            111.2900390625,
+            118.0479736328125,
+            139.469970703125,
+            159.7120361328125,
+            141.72003173828125,
+            145.57598876953125
+          ],
+          "GTI_opta": [
+            177.9375,
+            188.8828125,
+            218.859375,
+            209.3125,
+            196.5078125,
+            167.8828125,
+            143.46875,
+            150.9375,
+            180.328125,
+            207.171875,
+            177.78125,
+            177.90625
+          ],
+          "DIF": [
+            46.8125,
+            47.2890625,
+            66.7734375,
+            83.1328125,
+            105.1171875,
+            101.609375,
+            98.546875,
+            89.6171875,
+            73.140625,
+            59.2421875,
+            50.7890625,
+            42.96875
+          ],
+          "GHI": [
+            126.9453125,
+            145.7421875,
+            191.859375,
+            206.15625,
+            209.8359375,
+            185.4921875,
+            155.7421875,
+            155.6796875,
+            167.4296875,
+            168.546875,
+            131.15625,
+            122.265625
+          ],
+          "DNI": [
+            154.1953125,
+            168.0625,
+            185.71875,
+            164.1875,
+            131.1640625,
+            103.7734375,
+            69.3125,
+            84.90625,
+            133.6796875,
+            176.609375,
+            147.6875,
+            160.546875
+          ]
+        }
+      }
+    }
+  },
+  "Sikkim": {
+    "latitude": 27.533,
+    "longitude": 88.5122,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998918951,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1123.51806640625,
+          "DNI": 794.6953125,
+          "GHI": 1248.03125,
+          "DIF": 688.1015625,
+          "GTI_opta": 1329.9296875,
+          "OPTA": 28,
+          "TEMP": 18.0625,
+          "ELE": 815
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998918950,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            12.3125,
+            13.1875,
+            15.625,
+            18,
+            19.875,
+            21.875,
+            22.375,
+            22.4375,
+            21.75,
+            19.5625,
+            16.1875,
+            13.8125
+          ],
+          "PVOUT_csi": [
+            95.5419921875,
+            82.71600341796875,
+            92.65899658203125,
+            86.6099853515625,
+            87.885009765625,
+            79.77001953125,
+            89.2490234375,
+            96.44097900390625,
+            92.280029296875,
+            111.6619873046875,
+            107.52001953125,
+            101.18402099609375
+          ],
+          "DNI": [
+            78.5234375,
+            62.40625,
+            57.65625,
+            47.609375,
+            46.6875,
+            38.25,
+            48.828125,
+            57.2578125,
+            60.2109375,
+            107.2578125,
+            100.0234375,
+            89.9921875
+          ],
+          "GTI_opta": [
+            103.6953125,
+            98.140625,
+            110.890625,
+            104.9375,
+            106.296875,
+            96.5390625,
+            108.96875,
+            118.453125,
+            113.21875,
+            137.859375,
+            121.2578125,
+            109.6796875
+          ],
+          "DIF": [
+            32.671875,
+            43.1953125,
+            63.0546875,
+            70.046875,
+            76.8828125,
+            76.0234375,
+            78.1171875,
+            76.2578125,
+            63.65625,
+            46.03125,
+            32.4921875,
+            29.6640625
+          ],
+          "GHI": [
+            80.1328125,
+            83.5390625,
+            105.1171875,
+            108.1171875,
+            116.09375,
+            108.359375,
+            120.3125,
+            124.15625,
+            109.9765625,
+            117.2734375,
+            93.5390625,
+            81.40625
+          ]
+        }
+      }
+    }
+  },
+  "Tamil Nadu": {
+    "latitude": 11.1271,
+    "longitude": 78.6569,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998921658,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1576.8681640625,
+          "DNI": 1379.125,
+          "GHI": 1989.90625,
+          "DIF": 955.6875,
+          "GTI_opta": 2026.8203125,
+          "OPTA": 12,
+          "TEMP": 27.9375,
+          "ELE": 137
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998921658,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            24.4375,
+            26.1875,
+            28.9375,
+            30.875,
+            31.125,
+            30,
+            29.125,
+            28.875,
+            28.8125,
+            27.125,
+            25.3125,
+            24.3125
+          ],
+          "PVOUT_csi": [
+            140.864013671875,
+            144.301025390625,
+            161.4169921875,
+            144.75,
+            134.35400390625,
+            123.45001220703125,
+            119.72198486328125,
+            125.54998779296875,
+            130.59002685546875,
+            123.59698486328125,
+            109.1400146484375,
+            119.13299560546875
+          ],
+          "GHI": [
+            160.984375,
+            172.8359375,
+            205.28125,
+            192.71875,
+            183.3359375,
+            169.2265625,
+            161.3515625,
+            165.6015625,
+            166.53125,
+            150.1328125,
+            126.84375,
+            135.0703125
+          ],
+          "DIF": [
+            70.8671875,
+            64.296875,
+            78.4296875,
+            85.3828125,
+            90.953125,
+            82.953125,
+            89.6484375,
+            89.3125,
+            82.6171875,
+            81.28125,
+            71.15625,
+            68.7890625
+          ],
+          "DNI": [
+            137.890625,
+            155.265625,
+            167.7421875,
+            136.3203125,
+            114.703125,
+            108.296875,
+            87.9453125,
+            92.65625,
+            104.4296875,
+            90.4921875,
+            81.2421875,
+            102.1484375
+          ],
+          "GTI_opta": [
+            177.84375,
+            186.25,
+            211.390625,
+            190.078125,
+            175.5234375,
+            159.6328125,
+            153.7578125,
+            161.4765625,
+            168.2109375,
+            156.984375,
+            136.6796875,
+            148.984375
+          ]
+        }
+      }
+    }
+  },
+  "Telangana": {
+    "latitude": 18.1124,
+    "longitude": 79.0193,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998924691,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1601.9532470703125,
+          "DNI": 1440.4453125,
+          "GHI": 1941.3359375,
+          "DIF": 920.8515625,
+          "GTI_opta": 2056.9765625,
+          "OPTA": 22,
+          "TEMP": 26.6875,
+          "ELE": 406
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998924691,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            22.5625,
+            25.1875,
+            28.6875,
+            31.3125,
+            33.1875,
+            29.6875,
+            26.5625,
+            26.0625,
+            26,
+            25.4375,
+            23.625,
+            22.125
+          ],
+          "PVOUT_csi": [
+            151.156005859375,
+            149.188232421875,
+            161.35498046875,
+            147.510009765625,
+            139.748046875,
+            106.91998291015625,
+            95.572998046875,
+            103.5400390625,
+            118.530029296875,
+            141.01904296875,
+            140.97003173828125,
+            146.44403076171875
+          ],
+          "DNI": [
+            158.0703125,
+            159.921875,
+            162.59375,
+            144.421875,
+            132.6796875,
+            76.3203125,
+            48.296875,
+            57.0078125,
+            81.09375,
+            123.3828125,
+            141.6328125,
+            155.03125
+          ],
+          "GTI_opta": [
+            190.4921875,
+            192.3515625,
+            212.3203125,
+            196.078125,
+            186.21875,
+            138.1796875,
+            120.8359375,
+            130.5703125,
+            149.8828125,
+            178.7734375,
+            177.84375,
+            183.4296875
+          ],
+          "DIF": [
+            60.140625,
+            60.2265625,
+            79.046875,
+            84.8984375,
+            93.8359375,
+            88.7421875,
+            89.34375,
+            88.5078125,
+            83.8828125,
+            75.296875,
+            60.5703125,
+            56.359375
+          ],
+          "GHI": [
+            155.375,
+            165.828125,
+            199.421875,
+            199.140625,
+            200.5703125,
+            151.40625,
+            130.140625,
+            135.96875,
+            146.90625,
+            161.3828125,
+            148.40625,
+            146.78125
+          ]
+        }
+      }
+    }
+  },
+  "Tripura": {
+    "latitude": 23.9408,
+    "longitude": 91.9882,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998927503,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1448.402099609375,
+          "DNI": 1150.9609375,
+          "GHI": 1692.515625,
+          "DIF": 898.21875,
+          "GTI_opta": 1820.203125,
+          "OPTA": 25,
+          "TEMP": 24.4375,
+          "ELE": 65
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998927503,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            18.3125,
+            21.125,
+            24.9375,
+            26.75,
+            27.1875,
+            27.0625,
+            26.875,
+            26.8125,
+            26.6875,
+            25.625,
+            22.6875,
+            19.4375
+          ],
+          "PVOUT_csi": [
+            123.5040283203125,
+            128.02899169921875,
+            138.35302734375,
+            126.6300048828125,
+            115.010009765625,
+            99.33001708984375,
+            108.593017578125,
+            111.6309814453125,
+            113.97003173828125,
+            124,
+            133.739990234375,
+            125.61199951171875
+          ],
+          "GTI_opta": [
+            151,
+            160.375,
+            176.671875,
+            162.0625,
+            146.4453125,
+            125.546875,
+            137.078125,
+            140.8984375,
+            143.90625,
+            155.9609375,
+            166.5625,
+            153.6953125
+          ],
+          "DIF": [
+            59.1171875,
+            64.7734375,
+            84.1640625,
+            93.6875,
+            94.796875,
+            87,
+            88.4453125,
+            86.1171875,
+            75.84375,
+            63.0234375,
+            50.28125,
+            50.9609375
+          ],
+          "GHI": [
+            120.3125,
+            135.484375,
+            163.8046875,
+            163.2265625,
+            156.2109375,
+            137.0078125,
+            148.0546875,
+            145.546875,
+            138.296875,
+            136.3359375,
+            130.890625,
+            117.3359375
+          ],
+          "DNI": [
+            108.03125,
+            111.640625,
+            109.984375,
+            87.8671875,
+            74.4609375,
+            58.796875,
+            71.296875,
+            71.640625,
+            81.65625,
+            109.8671875,
+            141.421875,
+            124.28125
+          ]
+        }
+      }
+    }
+  },
+  "Uttar Pradesh": {
+    "latitude": 26.8467,
+    "longitude": 80.9462,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998930390,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1461.8648681640625,
+          "DNI": 1153.421875,
+          "GHI": 1733.609375,
+          "DIF": 929.3046875,
+          "GTI_opta": 1860.53125,
+          "OPTA": 24,
+          "TEMP": 25,
+          "ELE": 118
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998930385,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            14.75,
+            18.3125,
+            24.125,
+            30,
+            32.6875,
+            32.3125,
+            29,
+            28.3125,
+            27.6875,
+            25.4375,
+            21,
+            16.3125
+          ],
+          "PVOUT_csi": [
+            96.47198486328125,
+            122.915771484375,
+            157.16998291015625,
+            151.02001953125,
+            144.739013671875,
+            119.19000244140625,
+            105.833984375,
+            110.6080322265625,
+            114.780029296875,
+            129.2080078125,
+            108.92999267578125,
+            100.99798583984375
+          ],
+          "GTI_opta": [
+            115.7265625,
+            151.84375,
+            202.0546875,
+            200.640625,
+            192.4140625,
+            156.359375,
+            135.28125,
+            140.7109375,
+            145.6171875,
+            163.6171875,
+            134.546875,
+            121.703125
+          ],
+          "DIF": [
+            54.9921875,
+            59.7734375,
+            73.4375,
+            84.453125,
+            103.2265625,
+            99,
+            93.7734375,
+            89.7734375,
+            79.7734375,
+            73.9375,
+            61.921875,
+            55.2421875
+          ],
+          "GHI": [
+            93.5859375,
+            125.796875,
+            180.546875,
+            195.84375,
+            200.1953125,
+            166.953125,
+            143.03125,
+            142.8203125,
+            137.7890625,
+            141.515625,
+            109.53125,
+            96.0078125
+          ],
+          "DNI": [
+            70.6171875,
+            109.1328125,
+            154.90625,
+            146.4609375,
+            120.375,
+            83.21875,
+            59.984375,
+            65.9375,
+            79.40625,
+            103.171875,
+            82.53125,
+            77.6875
+          ]
+        }
+      }
+    }
+  },
+  "Uttarakhand": {
+    "latitude": 30.0668,
+    "longitude": 79.0193,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998933081,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1693.077880859375,
+          "DNI": 1673.234375,
+          "GHI": 1767.671875,
+          "DIF": 703.40625,
+          "GTI_opta": 2016.2578125,
+          "OPTA": 32,
+          "TEMP": 11.375,
+          "ELE": 2219
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998933081,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            3.5625,
+            5,
+            8.375,
+            11.75,
+            14.5,
+            16.5,
+            16.9375,
+            16.875,
+            15.5,
+            12.125,
+            9.125,
+            6.125
+          ],
+          "PVOUT_csi": [
+            143.9639892578125,
+            142.01275634765625,
+            169.07403564453125,
+            161.0400390625,
+            155.46502685546875,
+            123.80999755859375,
+            95.88299560546875,
+            101.12200927734375,
+            119.25,
+            166.28399658203125,
+            159.1500244140625,
+            156.02301025390625
+          ],
+          "DNI": [
+            156.2421875,
+            149.953125,
+            182.09375,
+            170.7578125,
+            158.46875,
+            104.4609375,
+            47.3359375,
+            56.7265625,
+            95.703125,
+            183.765625,
+            182.34375,
+            185.3828125
+          ],
+          "GTI_opta": [
+            162.53125,
+            164.1328125,
+            203.734375,
+            198.4765625,
+            193.1015625,
+            151.7421875,
+            113.3984375,
+            119.84375,
+            142.7421875,
+            200.2890625,
+            185.90625,
+            180.359375
+          ],
+          "DIF": [
+            31.7109375,
+            38.1640625,
+            54.8359375,
+            69.1484375,
+            85.59375,
+            88.109375,
+            87.234375,
+            80.8203125,
+            66.03125,
+            45.4453125,
+            31.171875,
+            25.140625
+          ],
+          "GHI": [
+            109.8671875,
+            123.875,
+            175.8046875,
+            194.640625,
+            208.3203125,
+            170.546875,
+            125.765625,
+            125.671875,
+            133.7734375,
+            157.9453125,
+            127.2890625,
+            114.171875
+          ]
+        }
+      }
+    }
+  },
+  "West Bengal": {
+    "latitude": 22.9868,
+    "longitude": 87.855,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998935831,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1466.9193115234375,
+          "DNI": 1098.046875,
+          "GHI": 1746.171875,
+          "DIF": 962.0546875,
+          "GTI_opta": 1858.3671875,
+          "OPTA": 23,
+          "TEMP": 25.6875,
+          "ELE": 26
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998935831,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            18.1875,
+            21.75,
+            26.5625,
+            29.875,
+            30.5,
+            29.6875,
+            28.1875,
+            27.8125,
+            27.5,
+            26.125,
+            22.875,
+            19.25
+          ],
+          "PVOUT_csi": [
+            122.32598876953125,
+            129.5262451171875,
+            150.31903076171875,
+            144.239990234375,
+            132.21502685546875,
+            105.75,
+            102.6099853515625,
+            106.17498779296875,
+            110.30999755859375,
+            126.697021484375,
+            121.71002197265625,
+            115.041015625
+          ],
+          "GTI_opta": [
+            149.296875,
+            162.546875,
+            194.125,
+            189.1171875,
+            171.953125,
+            135.75,
+            130.296875,
+            134.5078125,
+            139.5625,
+            159.5234375,
+            151.3515625,
+            140.3359375
+          ],
+          "DIF": [
+            65.78125,
+            64.578125,
+            82.0546875,
+            90.359375,
+            101.8359375,
+            94.5,
+            90.0546875,
+            87.9140625,
+            79.796875,
+            74.5859375,
+            66.6328125,
+            63.953125
+          ],
+          "GHI": [
+            122.046875,
+            138.2578125,
+            178.7734375,
+            188.15625,
+            181.0703125,
+            145.921875,
+            138.8515625,
+            137.890625,
+            134.4609375,
+            141.734375,
+            125.4609375,
+            113.5546875
+          ],
+          "DNI": [
+            96.78125,
+            114.6953125,
+            132.7109375,
+            123.9296875,
+            96.5,
+            60.75,
+            58.3125,
+            59.578125,
+            69.75,
+            98.984375,
+            97.953125,
+            88.1015625
+          ]
+        }
+      }
+    }
+  },
+  "Delhi": {
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998938522,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1468.868896484375,
+          "DNI": 1159.140625,
+          "GHI": 1712.953125,
+          "DIF": 922.7265625,
+          "GTI_opta": 1864.0859375,
+          "OPTA": 27,
+          "TEMP": 24.5,
+          "ELE": 216
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998938522,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            13.1875,
+            16.6875,
+            22.375,
+            28.75,
+            32.5625,
+            33,
+            30,
+            28.75,
+            28.0625,
+            25.375,
+            20.3125,
+            15.125
+          ],
+          "PVOUT_csi": [
+            98.239013671875,
+            121.89874267578125,
+            151.59002685546875,
+            147.57000732421875,
+            138.135986328125,
+            118.6199951171875,
+            106.20599365234375,
+            114.4520263671875,
+            125.1600341796875,
+            133.0830078125,
+            109.32000732421875,
+            104.593994140625
+          ],
+          "DNI": [
+            75.109375,
+            110.03125,
+            143.28125,
+            137.90625,
+            108.9921875,
+            77.5234375,
+            53.6328125,
+            68.9140625,
+            98.1328125,
+            111.1640625,
+            87.09375,
+            87.359375
+          ],
+          "DIF": [
+            51.5859375,
+            55.8515625,
+            72.6015625,
+            84.453125,
+            103.4140625,
+            103.5,
+            99.9140625,
+            93.15625,
+            78.390625,
+            71.953125,
+            57.5390625,
+            50.375
+          ],
+          "GHI": [
+            91.140625,
+            120.34375,
+            170.15625,
+            188.96875,
+            191.484375,
+            167.3671875,
+            144.4296875,
+            147.8984375,
+            148.6796875,
+            142.8203125,
+            105.6875,
+            93.9609375
+          ],
+          "GTI_opta": [
+            116.8671875,
+            149.2734375,
+            192.8203125,
+            194.609375,
+            183.703125,
+            156.2109375,
+            136.2109375,
+            145.9765625,
+            159.8125,
+            168.984375,
+            134.3671875,
+            125.2421875
+          ]
+        }
+      }
+    }
+  },
+  "Jammu and Kashmir": {
+    "latitude": 33.7782,
+    "longitude": 76.5762,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998941266,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1855.2510986328125,
+          "DNI": 2060.28125,
+          "GHI": 1895.3359375,
+          "DIF": 576.0390625,
+          "GTI_opta": 2144.4375,
+          "OPTA": 35,
+          "TEMP": -14.3125,
+          "ELE": 5562
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998941266,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            -26.5625,
+            -24.625,
+            -21,
+            -16.8125,
+            -12.375,
+            -7.0625,
+            -0.6875,
+            0.125,
+            -4.625,
+            -12.875,
+            -19.9375,
+            -25
+          ],
+          "PVOUT_csi": [
+            87.0479736328125,
+            95.259033203125,
+            149.48199462890625,
+            186.9000244140625,
+            201.56201171875,
+            182.1300048828125,
+            173.135009765625,
+            176.4520263671875,
+            183.17999267578125,
+            192.572021484375,
+            129.5400390625,
+            97.99102783203125
+          ],
+          "DNI": [
+            80.5078125,
+            79.609375,
+            133.703125,
+            186.9921875,
+            222.0546875,
+            209.578125,
+            205.6875,
+            216.4453125,
+            228.359375,
+            245.4921875,
+            149.0703125,
+            102.796875
+          ],
+          "GTI_opta": [
+            96.4375,
+            103.84375,
+            165.4765625,
+            208.2578125,
+            227.9140625,
+            210.65625,
+            206.828125,
+            213,
+            219.5703125,
+            228.8125,
+            151.5625,
+            112.0625
+          ],
+          "DIF": [
+            26.6875,
+            32.375,
+            50,
+            59.3984375,
+            70.8046875,
+            75.421875,
+            71.296875,
+            62.1875,
+            42.6875,
+            29.546875,
+            29.28125,
+            26.3515625
+          ],
+          "GHI": [
+            62.46875,
+            75.65625,
+            135.875,
+            193.6484375,
+            236.8984375,
+            231.9609375,
+            224.96875,
+            213.7421875,
+            189.390625,
+            165.4453125,
+            96.8984375,
+            68.3828125
+          ]
+        }
+      }
+    }
+  },
+  "Ladakh": {
+    "latitude": 34.1526,
+    "longitude": 77.5771,
+    "solar_data": {
+      "annual": {
+        "metadata": {
+          "ts": 1771998944071,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          },
+          "layers": {
+            "PVOUT_csi": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, TEMP, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/kWp"
+            },
+            "DNI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GHI": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "DIF": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "Solargis solar model (Solargis)"
+              ],
+              "updated": "2025-04-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "GTI_opta": {
+              "method": "Solar model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "DNI, GHI, OPTA, ALBEDO, ELE (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "kWh/m2"
+            },
+            "OPTA": {
+              "method": "PV simulation model",
+              "period": {
+                "from": "satregion",
+                "to": "2024"
+              },
+              "sources": [
+                "GHI, DNI, ALBEDO (Solargis)"
+              ],
+              "updated": "2025-03-15",
+              "version": "2.2.61",
+              "unit": "°"
+            },
+            "TEMP": {
+              "method": "Data processing",
+              "period": {
+                "from": "1994",
+                "to": "2024"
+              },
+              "sources": [
+                "ERA (ECMWF)"
+              ],
+              "updated": "2025-03-01",
+              "version": "2.2.61",
+              "unit": "°C"
+            },
+            "ELE": {
+              "method": "Data merging, cleaning, processing",
+              "sources": [
+                "SRTM v4.1 (CGIAR CSI)",
+                "Viewfinder Panoramas (Jonathan de Ferranti BA)",
+                "GEBCO_2014 Grid (GEBCO)"
+              ],
+              "updated": "2019-02-01",
+              "version": "2.1.27",
+              "unit": "m"
+            }
+          }
+        },
+        "data": {
+          "PVOUT_csi": 1921.802978515625,
+          "DNI": 2189.5625,
+          "GHI": 1966.4765625,
+          "DIF": 640.6640625,
+          "GTI_opta": 2298.515625,
+          "OPTA": 35,
+          "TEMP": -0.1875,
+          "ELE": 3409
+        }
+      },
+      "monthly": {
+        "metadata": {
+          "ts": 1771998944071,
+          "version": {
+            "data": "1.6",
+            "modules": {
+              "@solargis/prospect-service": "9.8.0"
+            }
+          }
+        },
+        "data": {
+          "TEMP": [
+            -15.0625,
+            -12.375,
+            -8.75,
+            -4,
+            2.375,
+            9.1875,
+            15.75,
+            16.25,
+            11.75,
+            2.5625,
+            -6.8125,
+            -13.25
+          ],
+          "PVOUT_csi": [
+            136.1829833984375,
+            137.9730224609375,
+            175.89404296875,
+            161.9100341796875,
+            166.34600830078125,
+            153.92999267578125,
+            154.4420166015625,
+            158.81298828125,
+            171.5400390625,
+            187.9840087890625,
+            163.71002197265625,
+            153.0780029296875
+          ],
+          "DNI": [
+            145.765625,
+            142.71875,
+            185.1015625,
+            164.25,
+            183.984375,
+            179.1015625,
+            178.5,
+            177.2578125,
+            214.6796875,
+            239.8125,
+            196.859375,
+            181.5390625
+          ],
+          "GTI_opta": [
+            149.671875,
+            155.9375,
+            203.296875,
+            191.3984375,
+            202.2734375,
+            192.5703125,
+            198.09375,
+            203.296875,
+            216.421875,
+            228.1875,
+            187.828125,
+            169.5390625
+          ],
+          "DIF": [
+            27.9921875,
+            35.0859375,
+            54.21875,
+            69.71875,
+            82.0234375,
+            82.171875,
+            82.890625,
+            75.984375,
+            49.7421875,
+            33.078125,
+            25.5625,
+            22.1953125
+          ],
+          "GHI": [
+            91.7578125,
+            109.1328125,
+            167.2421875,
+            183.1796875,
+            215.515625,
+            215.546875,
+            216.4765625,
+            203.296875,
+            186.9296875,
+            164.734375,
+            116.1015625,
+            96.5625
+          ]
+        }
+      }
+    }
+  }
+}

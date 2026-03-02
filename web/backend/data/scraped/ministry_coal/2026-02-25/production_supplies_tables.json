@@ -1,0 +1,130 @@
+{
+  "category": "production_supplies",
+  "url": "https://coal.gov.in/en/major-statistics/production-and-supplies",
+  "tables": [
+    {
+      "table_index": 0,
+      "headers": [
+        "",
+        "Production*",
+        "Offtake/Dispatch*"
+      ],
+      "data": [
+        [
+          "Company",
+          "Target",
+          "Ach. (Prov)",
+          "Actual During Coresperiod of previous year",
+          "Growth (%)",
+          "Target",
+          "Ach. (Prov.)",
+          "Actual During Coresperiod of previous year",
+          "Growth (%)"
+        ],
+        [
+          "CIL",
+          "875.00",
+          "453.54",
+          "470.98",
+          "-3.71",
+          "900.00",
+          "479.73",
+          "493.11",
+          "-2.71"
+        ],
+        [
+          "SCCL",
+          "72.00",
+          "37.98",
+          "40.15",
+          "-5.42",
+          "72.00",
+          "38.50",
+          "40.40",
+          "-4.69"
+        ],
+        [
+          "Captive & Others",
+          "210.00",
+          "127.908",
+          "117.231",
+          "9.11",
+          "210.00",
+          "133.5405",
+          "125.261",
+          "6.61"
+        ],
+        [
+          "Total",
+          "1157.00",
+          "619.40",
+          "628.37",
+          "-1.43",
+          "1182.00",
+          "651.78",
+          "658.77",
+          "-1.06"
+        ],
+        [
+          "*Production/Despatch (Apr-25 to Nov-25)Source: DDG Office ,Ministry of Coal"
+        ]
+      ],
+      "row_count": 6
+    },
+    {
+      "table_index": 1,
+      "headers": [
+        "Coal",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26*"
+      ],
+      "data": [
+        [
+          "Coking Coal",
+          "51.20",
+          "57.16",
+          "56.05",
+          "58.81",
+          "57.58",
+          "50.56"
+        ],
+        [
+          "Non-Coking Coal",
+          "164.05",
+          "151.77",
+          "181.62",
+          "205.72",
+          "186.05",
+          "138.76"
+        ],
+        [
+          "Total Coal Import",
+          "215.25",
+          "208.93",
+          "237.67",
+          "264.53",
+          "243.63",
+          "189.32"
+        ],
+        [
+          "Coke",
+          "2.46",
+          "2.48",
+          "3.63",
+          "3.96",
+          "4.88",
+          "2.12"
+        ],
+        [
+          "*Import upto Apr-25-Dec-25  (Source:-DDG Office)* - Provisional"
+        ]
+      ],
+      "row_count": 5
+    }
+  ],
+  "fetched_at": "2026-02-25T11:47:04.856793"
+}

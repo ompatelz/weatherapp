@@ -1,0 +1,44 @@
+State                    | Wikipedia (MW) | NPP Source (MW)| Diff      
+----------------------------------------------------------------------
+gujarat                  | 66489.89       | 68509.95       | 2020.06
+maharashtra              | 57847.63       | 58916.81       | 1069.18
+madhya_pradesh           | 33049.86       | 33130.96       | 81.10
+chhattisgarh             | 26288.82       | 26354.72       | 65.90
+MISSING in NPP: dadra_and_nagar_haveli_and_daman_and_diu| 133.15         
+goa                      | 73.43          | 75.63          | 2.20
+MISSING in NPP: southern_region| 136051.35      
+tamil_nadu               | 44821.11       | 45697.13       | 876.02
+karnataka                | 36738.88       | 36893.87       | 154.99
+andhra_pradesh           | 30501.78       | 31065.89       | 564.11
+telangana                | 18939.24       | 19752.64       | 813.40
+kerala                   | 4910.03        | 4958.49        | 48.46
+puducherry               | 106.91         | 110.11         | 3.20
+lakshadweep              | 33.40          | 33.40          | 0.00
+MISSING in NPP: northern_region| 138427.19      
+rajasthan                | 56158.20       | 57424.89       | 1266.69
+uttar_pradesh            | 38633.41       | 38640.61       | 7.20
+himachal_pradesh         | 12778.21       | 12778.20       | 0.01
+punjab                   | 9083.80        | 9089.98        | 6.18
+haryana                  | 8673.72        | 8700.84        | 27.12
+uttarakhand              | 6670.63        | 6670.63        | 0.00
+jammu_and_kashmir        | 3629.41        | 3629.41        | 0.00
+delhi                    | 2574.77        | 2588.87        | 14.10
+ladakh                   | 146.19         | 146.81         | 0.62
+chandigarh               | 78.85          | 78.85          | 0.00
+MISSING in NPP: eastern_region| 49210.17       
+west_bengal              | 15347.18       | 15347.18       | 0.00
+odisha                   | 13072.42       | 13082.72       | 10.30
+bihar                    | 10816.26       | 10816.26       | 0.00
+jharkhand                | 7499.96        | 7499.96        | 0.00
+sikkim                   | 2344.67        | 2344.67        | 0.00
+andaman_nicobar          | 129.68         | 130.08         | 0.40
+MISSING in NPP: north-eastern_region| 5552.31        
+assam                    | 2105.38        | 2203.67        | 98.29
+arunachal_pradesh        | 1521.05        | 1771.05        | 250.00
+tripura                  | 1118.63        | 1118.77        | 0.14
+meghalaya                | 395.11         | 395.11         | 0.00
+manipur                  | 163.97         | 163.97         | 0.00
+mizoram                  | 137.16         | 139.16         | 2.00
+nagaland                 | 111.01         | 111.01         | 0.00
+----------------------------------------------------------------------
+Found 15 mismatches out of 35 states checked.

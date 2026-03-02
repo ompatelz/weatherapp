@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pro Analytics View - India Energy Atlas</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#22D3EE",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#0F1115",
+                        "surface": "#161A22",
+                        "border-muted": "#262C3A",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F1115;
+        }
+        .tabular-nums {
+            font-variant-numeric: tabular-nums;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0F1115;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #262C3A;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #22D3EE;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+<div class="flex h-screen overflow-hidden">
+<!-- Left Sidebar Navigation -->
+<aside class="w-64 bg-surface border-r border-border-muted flex flex-col hidden lg:flex">
+<div class="p-6 flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-primary flex items-center justify-center text-background-dark">
+<span class="material-symbols-outlined font-bold">bolt</span>
+</div>
+<div class="flex flex-col">
+<h1 class="text-sm font-bold tracking-tight uppercase">India Energy Atlas</h1>
+<span class="text-[10px] text-slate-400 font-medium">Institutional Pro v4.2</span>
+</div>
+</div>
+<nav class="flex-1 px-4 py-2 space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded transition-colors group" href="#">
+<span class="material-symbols-outlined text-[20px]">dashboard</span>
+<span class="text-sm font-medium">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 bg-primary/10 text-primary rounded border border-primary/20" href="#">
+<span class="material-symbols-outlined text-[20px]">analytics</span>
+<span class="text-sm font-medium">Pro Analytics</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">map</span>
+<span class="text-sm font-medium">Geospatial</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">database</span>
+<span class="text-sm font-medium">Datasets</span>
+</a>
+<div class="pt-4 pb-2 px-3">
+<p class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Reports</p>
+</div>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">monitoring</span>
+<span class="text-sm font-medium">Efficiency Trends</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white hover:bg-white/5 rounded transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">description</span>
+<span class="text-sm font-medium">Policy Audit</span>
+</a>
+</nav>
+<div class="p-4 border-t border-border-muted">
+<div class="flex items-center gap-3 p-2 rounded-lg bg-background-dark/50 border border-border-muted">
+<div class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center overflow-hidden border border-border-muted">
+<img class="w-full h-full object-cover" data-alt="User profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIPkqjb0D2keMug1ubYhzb_PJtbnt74Cnd_oo1e_WO7QXYp8VkVq7ohwSN9fuxV4IzY72ZAbWlOQvTso0vt0FK92iGHKTEze-cnPhS2vQMeD_Mf8axjYStcmSfahpJ1KNAbHqufNU1sctwFPzkUXSNhQzK-JKhV_d9bmweS7OJTegdRSR3FZKpjOUTMiU4UWuV7EDHxJlnDJgeWLgzYG4FRqpxZo8nN566FIpV4fZ6FBMTiGSYbKuUvnSFMNIBrrqnUgBcSUWqsxLw"/>
+</div>
+<div class="flex-1 overflow-hidden">
+<p class="text-xs font-bold truncate">Dr. Anirudh S.</p>
+<p class="text-[10px] text-slate-500 truncate">Senior Analyst</p>
+</div>
+<span class="material-symbols-outlined text-slate-500 text-sm">settings</span>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 flex flex-col min-w-0 overflow-hidden">
+<!-- Top Navigation Bar -->
+<header class="h-14 border-b border-border-muted bg-surface/50 backdrop-blur-md px-6 flex items-center justify-between">
+<div class="flex items-center gap-8 h-full">
+<div class="flex h-full">
+<a class="flex items-center px-4 text-sm font-medium text-slate-400 border-b-2 border-transparent hover:text-slate-200" href="#">Map</a>
+<a class="flex items-center px-4 text-sm font-medium text-slate-400 border-b-2 border-transparent hover:text-slate-200" href="#">Simple</a>
+<a class="flex items-center px-4 text-sm font-medium text-primary border-b-2 border-primary" href="#">Pro Analytics</a>
+</div>
+<div class="h-6 w-[1px] bg-border-muted"></div>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2">
+<label class="text-[11px] text-slate-500 font-bold uppercase tracking-tighter">Fiscal Year</label>
+<select class="bg-background-dark border-border-muted text-xs rounded py-1 pl-2 pr-8 text-slate-200 focus:border-primary focus:ring-0">
+<option>FY 2023-24</option>
+<option>FY 2022-23</option>
+</select>
+</div>
+<div class="flex items-center gap-2">
+<label class="text-[11px] text-slate-500 font-bold uppercase tracking-tighter">Sector</label>
+<select class="bg-background-dark border-border-muted text-xs rounded py-1 pl-2 pr-8 text-slate-200 focus:border-primary focus:ring-0">
+<option>All Sectors</option>
+<option>Industrial</option>
+<option>Residential</option>
+<option>Agriculture</option>
+</select>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button class="p-1.5 text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">notifications</span>
+</button>
+<button class="p-1.5 text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</button>
+</div>
+</header>
+<!-- Scrollable Content -->
+<div class="flex-1 overflow-y-auto p-6 space-y-6">
+<!-- Metric Tiles (Top Row) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-surface border border-border-muted p-4 rounded-lg flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<p class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Correlation Index</p>
+<span class="material-symbols-outlined text-primary text-sm">info</span>
+</div>
+<div class="flex items-end gap-3 mt-1">
+<p class="text-2xl font-bold tabular-nums">0.84</p>
+<p class="text-[11px] font-medium text-emerald-500 mb-1 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> +2.1%
+                            </p>
+</div>
+<div class="w-full h-1 bg-border-muted rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full w-[84%]"></div>
+</div>
+</div>
+<div class="bg-surface border border-border-muted p-4 rounded-lg flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<p class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Energy Intensity</p>
+<span class="material-symbols-outlined text-slate-500 text-sm">speed</span>
+</div>
+<div class="flex items-end gap-3 mt-1">
+<p class="text-2xl font-bold tabular-nums tracking-tight">4.2 <span class="text-xs font-normal text-slate-400 uppercase">MJ/GDP</span></p>
+<p class="text-[11px] font-medium text-rose-500 mb-1 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_down</span> -1.4%
+                            </p>
+</div>
+<div class="w-full h-1 bg-border-muted rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full w-[42%]"></div>
+</div>
+</div>
+<div class="bg-surface border border-border-muted p-4 rounded-lg flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<p class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Emissions Intensity</p>
+<span class="material-symbols-outlined text-slate-500 text-sm">co2</span>
+</div>
+<div class="flex items-end gap-3 mt-1">
+<p class="text-2xl font-bold tabular-nums tracking-tight">0.52 <span class="text-xs font-normal text-slate-400 uppercase">kg CO2</span></p>
+<p class="text-[11px] font-medium text-rose-500 mb-1 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_down</span> -3.2%
+                            </p>
+</div>
+<div class="w-full h-1 bg-border-muted rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full w-[52%]"></div>
+</div>
+</div>
+<div class="bg-surface border border-border-muted p-4 rounded-lg flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<p class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Renewable Share</p>
+<span class="material-symbols-outlined text-slate-500 text-sm">eco</span>
+</div>
+<div class="flex items-end gap-3 mt-1">
+<p class="text-2xl font-bold tabular-nums">24.8%</p>
+<p class="text-[11px] font-medium text-emerald-500 mb-1 flex items-center">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> +5.7%
+                            </p>
+</div>
+<div class="w-full h-1 bg-border-muted rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full w-[24.8%]"></div>
+</div>
+</div>
+</div>
+<!-- Middle Row: Charts -->
+<div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+<div class="bg-surface border border-border-muted rounded-lg p-5">
+<div class="flex items-center justify-between mb-6">
+<div>
+<h3 class="text-sm font-bold text-slate-200">Energy Consumption vs. GDP</h3>
+<p class="text-[11px] text-slate-500">Correlation by State (Linear regression r²=0.88)</p>
+</div>
+<div class="flex gap-2">
+<button class="p-1 rounded bg-background-dark text-slate-400 border border-border-muted hover:text-primary transition-colors"><span class="material-symbols-outlined text-xs">fullscreen</span></button>
+</div>
+</div>
+<div class="relative h-64 w-full flex items-end">
+<!-- Minimalist Scatter Plot Mockup -->
+<div class="absolute inset-0 grid grid-cols-4 grid-rows-4">
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div>
+<div class="border-b border-border-muted/50"></div>
+<div class="border-r border-border-muted/50"></div>
+<div class="border-r border-border-muted/50"></div>
+<div class="border-r border-border-muted/50"></div>
+<div></div>
+</div>
+<!-- Data points -->
+<div class="absolute inset-0 pointer-events-none">
+<div class="absolute bottom-[20%] left-[15%] w-2 h-2 rounded-full bg-primary/40 border border-primary animate-pulse shadow-[0_0_8px_rgba(34,211,238,0.5)]"></div>
+<div class="absolute bottom-[40%] left-[35%] w-2.5 h-2.5 rounded-full bg-primary/40 border border-primary"></div>
+<div class="absolute bottom-[55%] left-[50%] w-3 h-3 rounded-full bg-primary/40 border border-primary"></div>
+<div class="absolute bottom-[75%] left-[70%] w-3.5 h-3.5 rounded-full bg-primary/40 border border-primary"></div>
+<div class="absolute bottom-[90%] left-[85%] w-4 h-4 rounded-full bg-primary border border-white/20"></div>
+<div class="absolute bottom-[10%] left-[5%] w-1.5 h-1.5 rounded-full bg-slate-600"></div>
+<div class="absolute bottom-[30%] left-[60%] w-2 h-2 rounded-full bg-slate-600"></div>
+<!-- Trend line -->
+<svg class="absolute inset-0 w-full h-full" overflow="visible">
+<line opacity="0.4" stroke="#22D3EE" stroke-dasharray="4 4" stroke-width="1" x1="10%" x2="90%" y1="90%" y2="10%"></line>
+</svg>
+</div>
+<!-- Labels -->
+<div class="absolute -left-10 bottom-0 top-0 flex flex-col justify-between py-2 text-[10px] text-slate-600 tabular-nums">
+<span>100T</span><span>75T</span><span>50T</span><span>25T</span><span>0</span>
+</div>
+<div class="absolute -bottom-6 left-0 right-0 flex justify-between px-2 text-[10px] text-slate-600 tabular-nums">
+<span>0</span><span>2.5T</span><span>5.0T</span><span>7.5T</span><span>10T (GDP)</span>
+</div>
+</div>
+<div class="mt-8 flex justify-center gap-6">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="text-[10px] text-slate-400 uppercase">Top Tier States</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-slate-600"></span>
+<span class="text-[10px] text-slate-400 uppercase">Emerging Economies</span>
+</div>
+</div>
+</div>
+<div class="bg-surface border border-border-muted rounded-lg p-5">
+<div class="flex items-center justify-between mb-6">
+<div>
+<h3 class="text-sm font-bold text-slate-200">Emissions vs. Renewable Adoption</h3>
+<p class="text-[11px] text-slate-500">Inversion trend analysis by regional cluster</p>
+</div>
+<div class="flex gap-2">
+<button class="p-1 rounded bg-background-dark text-slate-400 border border-border-muted hover:text-primary transition-colors"><span class="material-symbols-outlined text-xs">tune</span></button>
+</div>
+</div>
+<div class="relative h-64 w-full flex items-end">
+<div class="absolute inset-0 grid grid-cols-4 grid-rows-4">
+<div class="border-b border-r border-border-muted/50"></div><div class="border-b border-r border-border-muted/50"></div><div class="border-b border-r border-border-muted/50"></div><div class="border-b border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div><div class="border-b border-r border-border-muted/50"></div><div class="border-b border-r border-border-muted/50"></div><div class="border-b border-border-muted/50"></div>
+<div class="border-b border-r border-border-muted/50"></div><div class="border-b border-r border-border-muted/50"></div><div class="border-b border-r border-border-muted/50"></div><div class="border-b border-border-muted/50"></div>
+<div class="border-r border-border-muted/50"></div><div class="border-r border-border-muted/50"></div><div class="border-r border-border-muted/50"></div><div></div>
+</div>
+<!-- Data points -->
+<div class="absolute inset-0 pointer-events-none">
+<div class="absolute top-[20%] left-[10%] w-3 h-3 rounded-full bg-rose-500/40 border border-rose-500"></div>
+<div class="absolute top-[35%] left-[25%] w-3 h-3 rounded-full bg-rose-500/40 border border-rose-500"></div>
+<div class="absolute top-[50%] left-[45%] w-3 h-3 rounded-full bg-slate-600/40 border border-slate-400"></div>
+<div class="absolute bottom-[20%] left-[75%] w-3.5 h-3.5 rounded-full bg-primary/40 border border-primary shadow-[0_0_8px_rgba(34,211,238,0.3)]"></div>
+<div class="absolute bottom-[10%] left-[90%] w-4 h-4 rounded-full bg-primary/40 border border-primary"></div>
+<svg class="absolute inset-0 w-full h-full" overflow="visible">
+<path d="M10% 20% Q 40% 50% 90% 90%" fill="none" opacity="0.3" stroke="#22D3EE" stroke-dasharray="6 3" stroke-width="1.5"></path>
+</svg>
+</div>
+<div class="absolute -left-10 bottom-0 top-0 flex flex-col justify-between py-2 text-[10px] text-slate-600 tabular-nums">
+<span>1.0</span><span>0.75</span><span>0.5</span><span>0.25</span><span>0</span>
+</div>
+<div class="absolute -bottom-6 left-0 right-0 flex justify-between px-2 text-[10px] text-slate-600 tabular-nums">
+<span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100% (RE Share)</span>
+</div>
+</div>
+<div class="mt-8 flex justify-center gap-6">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded bg-rose-500"></span>
+<span class="text-[10px] text-slate-400 uppercase">High Carbon Risk</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded bg-primary"></span>
+<span class="text-[10px] text-slate-400 uppercase">Decarbonized Zones</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Row: Data Table -->
+<div class="bg-surface border border-border-muted rounded-lg overflow-hidden">
+<div class="px-6 py-4 border-b border-border-muted flex items-center justify-between bg-surface/50">
+<div class="flex items-center gap-4">
+<h3 class="text-sm font-bold">State-wise Efficiency Benchmarks</h3>
+<div class="px-2 py-0.5 rounded bg-primary/10 border border-primary/20 text-[10px] font-bold text-primary uppercase">32 Entities Loaded</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-2 top-1/2 -translate-y-1/2 text-slate-500 text-xs">search</span>
+<input class="bg-background-dark border-border-muted text-[11px] rounded py-1 pl-7 pr-3 text-slate-200 focus:border-primary focus:ring-0 w-48" placeholder="Filter states..." type="text"/>
+</div>
+<button class="flex items-center gap-1.5 px-3 py-1 bg-transparent border border-border-muted rounded text-[11px] font-bold text-slate-400 hover:text-white hover:border-slate-500 transition-all uppercase tracking-tight">
+<span class="material-symbols-outlined text-[16px]">download</span>
+                                CSV Export
+                            </button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead class="bg-background-dark/30 text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+<tr>
+<th class="px-6 py-3 border-b border-border-muted">
+<div class="flex items-center gap-1 cursor-pointer hover:text-primary">Region/State <span class="material-symbols-outlined text-[14px]">expand_more</span></div>
+</th>
+<th class="px-6 py-3 border-b border-border-muted">Sector Focus</th>
+<th class="px-6 py-3 border-b border-border-muted text-right">Energy (TWh)</th>
+<th class="px-6 py-3 border-b border-border-muted text-right">CO2 Output (Mt)</th>
+<th class="px-6 py-3 border-b border-border-muted text-right">Efficiency Score</th>
+<th class="px-6 py-3 border-b border-border-muted text-right">YoY Change</th>
+<th class="px-6 py-3 border-b border-border-muted text-center">Status</th>
+</tr>
+</thead>
+<tbody class="text-xs text-slate-300 divide-y divide-border-muted/50 tabular-nums">
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-6 py-2.5 font-medium text-slate-200">Maharashtra</td>
+<td class="px-6 py-2.5"><span class="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400">Industrial</span></td>
+<td class="px-6 py-2.5 text-right">142.8</td>
+<td class="px-6 py-2.5 text-right">84.2</td>
+<td class="px-6 py-2.5 text-right">
+<div class="flex items-center justify-end gap-2">
+<span>0.92</span>
+<div class="w-12 h-1 bg-border-muted rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[92%]"></div>
+</div>
+</div>
+</td>
+<td class="px-6 py-2.5 text-right text-emerald-500">+4.2%</td>
+<td class="px-6 py-2.5 text-center">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-6 py-2.5 font-medium text-slate-200">Gujarat</td>
+<td class="px-6 py-2.5"><span class="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400">Mixed-Use</span></td>
+<td class="px-6 py-2.5 text-right">118.4</td>
+<td class="px-6 py-2.5 text-right">72.1</td>
+<td class="px-6 py-2.5 text-right">
+<div class="flex items-center justify-end gap-2">
+<span>0.88</span>
+<div class="w-12 h-1 bg-border-muted rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[88%]"></div>
+</div>
+</div>
+</td>
+<td class="px-6 py-2.5 text-right text-emerald-500">+2.8%</td>
+<td class="px-6 py-2.5 text-center">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-6 py-2.5 font-medium text-slate-200">Tamil Nadu</td>
+<td class="px-6 py-2.5"><span class="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400">Renewable Hub</span></td>
+<td class="px-6 py-2.5 text-right">102.1</td>
+<td class="px-6 py-2.5 text-right">41.4</td>
+<td class="px-6 py-2.5 text-right">
+<div class="flex items-center justify-end gap-2">
+<span>0.96</span>
+<div class="w-12 h-1 bg-border-muted rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[96%]"></div>
+</div>
+</div>
+</td>
+<td class="px-6 py-2.5 text-right text-emerald-500">+8.1%</td>
+<td class="px-6 py-2.5 text-center">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-6 py-2.5 font-medium text-slate-200">Uttar Pradesh</td>
+<td class="px-6 py-2.5"><span class="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400">Agriculture</span></td>
+<td class="px-6 py-2.5 text-right">126.5</td>
+<td class="px-6 py-2.5 text-right">98.2</td>
+<td class="px-6 py-2.5 text-right">
+<div class="flex items-center justify-end gap-2">
+<span>0.72</span>
+<div class="w-12 h-1 bg-border-muted rounded-full overflow-hidden">
+<div class="bg-rose-500 h-full w-[72%]"></div>
+</div>
+</div>
+</td>
+<td class="px-6 py-2.5 text-right text-rose-500">-1.4%</td>
+<td class="px-6 py-2.5 text-center">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-500 inline-block"></span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-6 py-2.5 font-medium text-slate-200">Karnataka</td>
+<td class="px-6 py-2.5"><span class="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400">Commercial</span></td>
+<td class="px-6 py-2.5 text-right">88.4</td>
+<td class="px-6 py-2.5 text-right">32.8</td>
+<td class="px-6 py-2.5 text-right">
+<div class="flex items-center justify-end gap-2">
+<span>0.91</span>
+<div class="w-12 h-1 bg-border-muted rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[91%]"></div>
+</div>
+</div>
+</td>
+<td class="px-6 py-2.5 text-right text-emerald-500">+3.3%</td>
+<td class="px-6 py-2.5 text-center">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"></span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-6 py-2.5 font-medium text-slate-200">West Bengal</td>
+<td class="px-6 py-2.5"><span class="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400">Mining</span></td>
+<td class="px-6 py-2.5 text-right">76.2</td>
+<td class="px-6 py-2.5 text-right">62.5</td>
+<td class="px-6 py-2.5 text-right">
+<div class="flex items-center justify-end gap-2">
+<span>0.65</span>
+<div class="w-12 h-1 bg-border-muted rounded-full overflow-hidden">
+<div class="bg-rose-500 h-full w-[65%]"></div>
+</div>
+</div>
+</td>
+<td class="px-6 py-2.5 text-right text-rose-500">-2.1%</td>
+<td class="px-6 py-2.5 text-center">
+<span class="w-1.5 h-1.5 rounded-full bg-rose-500 inline-block"></span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="px-6 py-3 border-t border-border-muted flex items-center justify-between text-[11px] text-slate-500">
+<p>Showing 1-6 of 32 states</p>
+<div class="flex items-center gap-2">
+<button class="p-1 hover:text-white transition-colors disabled:opacity-30" disabled="">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</button>
+<span class="px-2 text-primary font-bold">1</span>
+<button class="p-1 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>

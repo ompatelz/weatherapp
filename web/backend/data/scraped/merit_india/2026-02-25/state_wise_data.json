@@ -1,0 +1,5663 @@
+{
+  "fetched_at": "2026-02-25T11:45:57.975996",
+  "date": "25 Feb 2026",
+  "states": {
+    "Andhra Pradesh": {
+      "state_code": "APD",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Arunachal Pradesh": {
+      "state_code": "ARP",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Assam": {
+      "state_code": "ASM",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "SURYATAAP SOLAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "DOYANG, NEEPCO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KHANDONG, NEEPCO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KLHEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KOPILI-1, NEEPCO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KOPILI-2, NEEPCO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "LOKTAK, NHPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "MINI HYDEL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "RANGANADI, NEEPCO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "AGBPP, NEEPCO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "AGTPP-CC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "FARAKKA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FARAKKA III",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAHALGAON - I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "LAKWA TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MYNTRING",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NTPC BONGAIGAON",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NTPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "PALATANA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "TALCHER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Bihar": {
+      "state_code": "BHR",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "ALFA SPD RAFIGANJ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "AVANTIKA SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "BAHERA SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "BHARAT SUGAR MILLS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "GLAT SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "HARI NAGAR SUGAR MILLS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "HASANPUR SUGAR MILLS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "LAURIA PLANT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "MAGADH SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "MURERA SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "NALANDA SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "NEW SWADESHI SUGAR MILLS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "RESPONSE SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "SAVKALA SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "SUGAULI PLANT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "SUNMARK SPD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "AGNOOR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "ARWAL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "BARUN",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "BELSAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHUKHA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DEHRI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DHELABAGH",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "JAINAGRA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KATAIYA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "MANGDECHU",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "NASARIGANJ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "RANGEET",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SEBARI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SHRIKHINDA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TALA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TEESTA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TRIVENI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "VALMIKI NAGAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "BTPS BARAUNI STAGE-1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BTPS BARAUNI STAGE-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH STG-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BRBCL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FARAKKA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FARAKKA III",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAHALGAON - I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KANTI BIJLEE UTPADAN NIGAM LTD. STAGE-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KBUNL STAGE-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NPGC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DARIPALINTPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TALCHER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Chandigarh": {
+      "state_code": "CHD",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Chhattisgarh": {
+      "state_code": "CHG",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "BHAKRA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHAMERA HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHAMERA-II HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHAMERA-III HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DEHAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DHAULIGANGA HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DULHASTI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KOLDAM HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KOTESHWAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "NATHPA JHAKRI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "PARBATI-III",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "PONG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "RAMPUR HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SALAL HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SEWA-II HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TANAKPUR HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TEHRI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "URI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "URI-II HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "NAPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "RAPPB",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "RAPPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "ANTA (GAS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "ANTA (LIQUID)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "ANTA (RLNG)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "ANTANTPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "AURAIYA (GAS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "AURAIYA (LIQUID)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "AURAIYA (RLNG)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI (GAS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI (LIQUID)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI (RLNG)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI-II TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JHAJJAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RIHAND STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RIHAND-II STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RIHAND-III STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SINGRAULI STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR-I TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR-II TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR-III TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Dadra & Nagar Haveli": {
+      "state_code": "DNH",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "KAPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "TAPS 3&4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "GADARWARA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GAN_NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GANDHAR ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GANDHAR RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAWAS GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS LIQUID",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KHARGONE",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS 3-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "LARA-1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NSPCL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RGPPL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "SIPAT  2-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT_1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SOLAPUR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-5",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Daman & Diu": {
+      "state_code": "DMN",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Delhi": {
+      "state_code": "DLH",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Goa": {
+      "state_code": "GOA",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "KAPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "TAPS 3&4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "GADARWARA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GAN_NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GANDHAR ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GANDHAR RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GANCOMRLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GEPL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GSPL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAWAS GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS LIQUID",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWCOMRLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KHARGONE",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS 3-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "LARA-1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NTPC SOLAPUR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAMAGUNDAM STPS STG-1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RGPPL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "SSL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT  2-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT_1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-5",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Gujarat": {
+      "state_code": "GJT",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "SOLAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "WIND",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "KHPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "UHPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SSP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KAPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "TAPS 1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "TAPS 3&4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "DGB 1 HIGH SEA GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP I ON ONGC WO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP II ON ONGC WO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP-I (GSECL) ON GAIL(APM)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP-I GAIL SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP-I GSPC SPOT GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP-II (GSECL) ON GAIL(APM)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP-II GAIL SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DGBPS_3_GAIL_SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GIPCL-I ON GAS - APM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GSEG_SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GSEGH HIGH SEA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "UGBPS_2_GAIL_SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "ACBIL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DARLIPALLI_I_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "LSTPP_WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT_1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT  2-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS 3-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TSTPS I_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-5",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "AKRIMOTA THERMAL POWER STATION (ALTPS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NABINAGAR STPP_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SLPP  II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SLPP-1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH I_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPP I_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TANDA II_NR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FSTPSIII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GADARWARA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FSRPS I_II_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "AMGEN DEF",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR I_NR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "CGPL MUNDRA UMPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNO SUGEN",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KHTPP_WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BECL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ESSAR POWER GUJ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ADANI POWER LIMITED(MUNDRA) UNIT-5 -6",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "APL 2 234 MW",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "WTPS 8",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UTPS 6",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ADANI POWER LIMITED(MUNDRA) UNIT-1-4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KLTPS 1-3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "APL 1 200 MW",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UTPS 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SSTPP_WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KLTPS 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DADRI I_NR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "WTPS 3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SUGEN",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GTPS 5",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "WTPS_7",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "WTPS_1_6",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UTPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GTPS34",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GANDHAR ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GAN_NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "SUGEN SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "STPS 3&4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GSEG II HIGH SEAGAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DGB 3 HIGH SEA GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "UGBPS 2 HIGH SEA GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GPPC HIGH SEA GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS_COMRLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GANDHAR RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DGB 2 HIGH SEA GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP-III GSPC SPOT GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "UGBPS2_GSPC_SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GSEG_2_SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GPPC SPOT",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DHUVARAN CCPP-II GSPC SPOT GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS LIQUID",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Haryana": {
+      "state_code": "HRY",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Himachal Pradesh": {
+      "state_code": "HMP",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Jammu & Kashmir": {
+      "state_code": "JMK",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Jharkhand": {
+      "state_code": "JHK",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "RANGEET",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TALA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TEESTA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "ABCIL ,GARHWA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ADHUNIK POWER AND NATURAL GAS ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH STG-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FARAKKA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FARAKKA III",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "INLAND POWER LTD.(IPL)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAHALGAON - I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MTPS II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS7",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NPGC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DARIPALINTPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RUNGTA MINES",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TALCHER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TENUGHAT TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Karnataka": {
+      "state_code": "KNT",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Kerala": {
+      "state_code": "KRL",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "WIND",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "SOLAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "ULLUNKAL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "IRUTTUKKANAM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KARIKKAYAM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "MEENVALLOM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "HYDRO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SMALL HYDRO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "MAPS KALPAKKAM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KAIGA 1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KAIGA 3 & 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KKNPP UNIT-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "NPCIL,KKNPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "JPL-PPA2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BALCO_TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JINDAL POWER LIMITED STAGE-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TALCHER STPS-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NNTPP-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAITHON POWER LIMITED (MPL)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS I- EXPANSION",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- EXPANSION",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- STG I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- STG II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MEJIA TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAGHUNATHPUR (DVC)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TELAN STPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAMAGUNDAM STPS STG-3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAMAGUNDAM STPS STG-1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIMHADRI STPS 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NTPL (NLC TAMILDANU POWER LIMI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VALLUR (NTECL) STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KUDGI STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JHABUA POWER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JHABUA-PPA_2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JIINDAL POWER LIMITED STAGE-1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JITPL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Madhya Pradesh": {
+      "state_code": "MDP",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Maharashtra": {
+      "state_code": "MHA",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "DAHANU SOLAR POWER PRIVATE LIMITED (DSPPL)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "SOLAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "WIND",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "SSP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KAPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "TAPS 3&4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "TROMBAY UNIT-6",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS 3-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-5",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT_1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VTPS 1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT  2-WR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "CGPL MUNDRA UMPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GTPS URAN (UNIT 05 TO 10)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ADANI TIRODA (UNIT- 2,3)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "EMCO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TROMBAY UNIT-7",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "JSW U1, JAIGAD",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GANDHAR ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KORADI UNIT - 08 TO 10",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAWAS GAS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "CHANDRAPUR UNIT - 08,09",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "PARAS UNIT - 03 & 04",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KORADI UNIT - 05 TO 07",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "CHANDRAPUR UNIT - 03 TO 07",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KHAPERKHEDA UNIT - 05",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ADANI- TIRODA (UNIT- 1,4,5)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ADANI- TIRODA (UNIT- 1,4,5)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VIDARBHA INDUSRTIES POWER LTD. (VIPL UNIT 1 & 2)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GAN_NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS NAPM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KHAPERKHEDA UNIT - 01 TO 04",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BHUSAWAL UNIT - 04 & 05",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MAUDA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "PARALI UNIT -08",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RATAN INDIA UNIT-01 TO 05",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BHUSAWAL UNIT - 2 & 3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NASIK UNIT - 03 TO 05",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DAHANU THERMAL POWER STATION (DTPS UNIT 1 & 2)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "PARALI UNIT - 06 & 07",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TROMBAY UNIT-5",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TROMBAY UNIT-8",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GANDHAR RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS RLNG",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "KAWAS LIQUID",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "GADARWARA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KHARGONE",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "LARA-1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RGPPL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Manipur": {
+      "state_code": "MNP",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Meghalaya": {
+      "state_code": "MGH",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Mizoram": {
+      "state_code": "MZR",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Nagaland": {
+      "state_code": "NGL",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Odisha": {
+      "state_code": "ODS",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Puducherry": {
+      "state_code": "PDC",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Punjab": {
+      "state_code": "PNJ",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Rajasthan": {
+      "state_code": "RJT",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Sikkim": {
+      "state_code": "SKM",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "TEESTA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "RANGEET",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TALCHER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAHALGAON - I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH STG-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FARAKKA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DARIPALINTPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Tamil Nadu": {
+      "state_code": "TND",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "SOLAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "WIND",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "MAPS KALPAKKAM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KAIGA 1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KAIGA 3 & 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KKNPP UNIT-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "NPCIL,KKNPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "DUMMY",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TALCHER STPS-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TALCHER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ADHUNIK POWER AND NATURAL GAS ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GMRKEL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GMRKEL_STU",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JINDAL POWER LIMITED STAGE-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DB POWER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSK MAHANADI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GMR (EMCO)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TTPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TSTPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAHALGAON - I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIMHADRI STPS 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NNTPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DHARIWAL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FARAKKA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VALLUR (NTECL) STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS I- EXPANSION",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAMAGUNDAM STPS STG-1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NCTPS STAGE 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAMAGUNDAM STPS STG-3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- STG I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NCTPS STAGE 1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BALCO ",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- EXPANSION",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- STG II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "CPP_BIOMASS_COGEN",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MTPS STAGE 1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NTPL (NLC TAMILDANU POWER LIMI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MTPS STAGE 3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TAQA (STCMS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SEPC-IPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KUDGI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "ILFS(LTOA)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "COASTAL ENERGEN",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KUTTALAM GTPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VALUTHUR GTPS STAGE 1 & 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH STG-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BASIN BRIDGE GTPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BGTPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "DB POWER (MTOA)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "JPNIGRIE-JNSTPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KOVILKALAPPAL GTPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MTPS2 BSEB",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "PPN",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Telangana": {
+      "state_code": "TLG",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "SOLAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "WIND",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "LOWER JURALA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "MINI HYDEL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "NAGARJUNA SAGAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "LCPH",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "POCHAMPADU STAGE-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "PRIYADARSHINI JURALA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "PULICHINTALA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SINGUR HES",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SMALL HYDEL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SRISAILAM LEFT BANK",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KAIGA 1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KAIGA 3 & 4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KKNPP UNIT-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "KKNPP_U1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "MAPS KALPAKKAM",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "LSTPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS-VII",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIPAT-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TSTPP-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIMHADRI STPS 2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-IV",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-III",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-V",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VSTPS-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "VALLUR (NTECL) STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SIMADHARI STAGE I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TALCHER STPS-2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAMAGUNDAM STPS STG-1&2",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TELANGANA STPP U1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RAMAGUNDAM STPS STG-3",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KHSTPP-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAKTIYA TPP-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BARH",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KTS-VII",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KAKTIYA TPP-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KHSTPP-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SINGARENI TPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TPCIL-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NTPL (NLC TAMILDANU POWER LIMI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MSTPS-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MSTPS-II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GADARWARA-I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "BHADRADRI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FSTPP-III",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "FSTPP I&II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MTPS2 BSEB",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KHARGONE",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLCSTAGEIEXP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "YTPSYADADRI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "YTPS_U1",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLCSTAGEIIEXP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KTPS-V",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- STG I",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NLC TPS II- STG II",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KOTHAGUDEM -VI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KUDGI STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SSTPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "MARWA TPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "NNTPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "YTPS_U4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Tripura": {
+      "state_code": "TRP",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Uttar Pradesh": {
+      "state_code": "UTP",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Uttarakhand": {
+      "state_code": "UTK",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [
+        {
+          "PowerStationName": "SOLAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Renewable"
+        },
+        {
+          "PowerStationName": "ALAKNANDA HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "BHILANGANA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHAMERA HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHAMERA-II HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHAMERA-III HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHIBRO",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "CHILLA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DHAKRANI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DHALIPUR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DHARASU",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DHAULIGANGA HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "DULHASTI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KHATIMA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KHODRI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KOLDAM HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KOTESHWAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "KULHAL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "MANERI BHALI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "MOHAMMADPUR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "NATHPA JHAKRI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "PARBATI-III",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "PATHRI",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "RAMPUR HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SALAL HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "SEWA-II HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TANAKPUR HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "TEHRI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "URI HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "URI-II HEP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Hydro"
+        },
+        {
+          "PowerStationName": "NAPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "RAPPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Nuclear"
+        },
+        {
+          "PowerStationName": "ANTA (GAS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "ANTA (LIQUID)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "ANTA (RLNG)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "ANTANTPC",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "AURAIYA (GAS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "AURAIYA (LIQUID)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "AURAIYA (RLNG)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI (GAS)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI (LIQUID)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI (RLNG)",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "DADRI-II TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "GAMMA",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "JHAJJAR",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "KSTPPII_ER",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RIHAND STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RIHAND-II STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "RIHAND-III STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SASAN UMPP",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "SEPL",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Gas"
+        },
+        {
+          "PowerStationName": "SINGRAULI STPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "TRN ENERGY PVT. LTD.",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR4",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR-I TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR-II TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        },
+        {
+          "PowerStationName": "UNCHAHAR-III TPS",
+          "NonSchedule": null,
+          "Schedule": null,
+          "ChartShowingScheduleValue": null,
+          "ChartShowingNonScheduleValue": null,
+          "TypeOfGeneration": "Thermal"
+        }
+      ],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "West Bengal": {
+      "state_code": "WBN",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Andaman & Nicobar": {
+      "state_code": "ANI",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    },
+    "Lakshadweep": {
+      "state_code": "LKS",
+      "portfolio": [
+        {
+          "TypeOfEnergy": "State Generation",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Central ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Other ISGS",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Bilateral",
+          "EnergyValue": null
+        },
+        {
+          "TypeOfEnergy": "Power Exchange",
+          "EnergyValue": null
+        }
+      ],
+      "plants": [],
+      "summary": {
+        "State Generation": null,
+        "Central ISGS": null,
+        "Other ISGS": null,
+        "Bilateral": null,
+        "Power Exchange": null
+      }
+    }
+  }
+}

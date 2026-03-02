@@ -1,0 +1,44 @@
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Misc
+.DS_Store
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.env.local
+.env
+
+# Large data/model files
+*.pkl
+*.h5
+*.hdf5
+*.bin
+*.model
+*.pt
+*.pth
+*.weights
+*.ckpt
+*.onnx
+*.joblib
+*.npz
+*.npy
+
+# Backup directories created during UI redesign
+web/frontend/app_backup_v0.4.0/
+web/frontend/features_backup_v0.4.0/

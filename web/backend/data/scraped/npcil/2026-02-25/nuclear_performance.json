@@ -1,0 +1,798 @@
+{
+  "all_plants": {
+    "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+    "tables": [
+      {
+        "table_index": 0,
+        "headers": [
+          "S.No.",
+          "Plant Location",
+          "Unit",
+          "Reactor Type",
+          "Capacity (MWe)",
+          "Date of Commercial Operation"
+        ],
+        "data": [
+          [
+            "01",
+            "Tarapur, Maharashtra",
+            "TAPS Unit-1",
+            "BWR",
+            "160",
+            "October 28, 1969"
+          ],
+          [
+            "02",
+            "TAPS Unit-2",
+            "BWR",
+            "160",
+            "October 28, 1969"
+          ],
+          [
+            "03",
+            "TAPS Unit-3",
+            "PHWR",
+            "540",
+            "August 18, 2006"
+          ],
+          [
+            "04",
+            "TAPS Unit-4",
+            "PHWR",
+            "540",
+            "September 12, 2005"
+          ],
+          [
+            "05",
+            "Rawatbhata, Rajasthan",
+            "RAPS Unit-2",
+            "PHWR",
+            "200",
+            "April 1, 1981"
+          ],
+          [
+            "06",
+            "RAPS Unit-3",
+            "PHWR",
+            "220",
+            "June 1, 2000"
+          ],
+          [
+            "07",
+            "RAPS Unit-4",
+            "PHWR",
+            "220",
+            "December 23, 2000"
+          ],
+          [
+            "08",
+            "RAPS Unit-5",
+            "PHWR",
+            "220",
+            "February 4, 2010"
+          ],
+          [
+            "09",
+            "RAPS Unit-6",
+            "PHWR",
+            "220",
+            "March 31, 2010"
+          ],
+          [
+            "10",
+            "RAPS Unit-7",
+            "PHWR",
+            "700",
+            "March 17, 2025"
+          ],
+          [
+            "11",
+            "Kalpakkam, Tamilnadu",
+            "MAPS Unit-1",
+            "PHWR",
+            "220",
+            "January 27, 1984"
+          ],
+          [
+            "12",
+            "MAPS Unit-2",
+            "PHWR",
+            "220",
+            "March 21, 1986"
+          ],
+          [
+            "13",
+            "Narora, Uttar pradesh",
+            "NAPS Unit-1",
+            "PHWR",
+            "220",
+            "January 1, 1991"
+          ],
+          [
+            "14",
+            "NAPS Unit-2",
+            "PHWR",
+            "220",
+            "July 1, 1992"
+          ],
+          [
+            "15",
+            "Kakrapar, Gujarat",
+            "KAPS Unit-1",
+            "PHWR",
+            "220",
+            "May 6, 1993"
+          ],
+          [
+            "16",
+            "KAPS Unit-2",
+            "PHWR",
+            "220",
+            "September 1, 1995"
+          ],
+          [
+            "17",
+            "KAPS Unit-3",
+            "PHWR",
+            "700",
+            "June 30, 2023"
+          ],
+          [
+            "18",
+            "KAPS Unit-4",
+            "PHWR",
+            "700",
+            "March 31, 2024"
+          ],
+          [
+            "19",
+            "Kaiga, Karnataka",
+            "KGS Unit-1",
+            "PHWR",
+            "220",
+            "November 16, 2000"
+          ],
+          [
+            "20",
+            "KGS Unit-2",
+            "PHWR",
+            "220",
+            "March 16, 2000"
+          ],
+          [
+            "21",
+            "KGS Unit-3",
+            "PHWR",
+            "220",
+            "May 6, 2007"
+          ],
+          [
+            "22",
+            "KGS Unit-4",
+            "PHWR",
+            "220",
+            "January 20, 2011"
+          ],
+          [
+            "23",
+            "Kudankulam, Tamilnadu",
+            "KKNPS Unit-1",
+            "VVER -1000 (PWR)",
+            "1000",
+            "December 31, 2014"
+          ],
+          [
+            "24",
+            "KKNPS Unit-2",
+            "VVER -1000 (PWR)",
+            "1000",
+            "March 31, 2017"
+          ],
+          [
+            "NPCIL's Total Nuclear Power Installed Capacity",
+            "8780",
+            ""
+          ]
+        ],
+        "row_count": 25
+      },
+      {
+        "table_index": 1,
+        "headers": [
+          "Period",
+          "Cumulative Generation (MUs)",
+          "Contribution in avoidance ofCO2eq emission (Million Tonnes)"
+        ],
+        "data": [
+          [
+            "From October 1969 to March 2025",
+            "963660",
+            "829"
+          ]
+        ],
+        "row_count": 1
+      },
+      {
+        "table_index": 2,
+        "headers": [
+          "Period",
+          "Gross Generation(MUs)",
+          "Capacity Factor (%)",
+          "Availability Factor (%)"
+        ],
+        "data": [
+          [
+            "Up to January 2026in FY 2025-26",
+            "45193",
+            "77",
+            "82"
+          ]
+        ],
+        "row_count": 1
+      }
+    ]
+  },
+  "stations": {
+    "TAPS": {
+      "url": "https://www.npcil.nic.in/content/253_1_OperatingPerformance.aspx",
+      "tables": [
+        {
+          "table_index": 0,
+          "headers": [
+            "Unit",
+            "Reactor Type",
+            "Capacity (MWe)",
+            "Date of Commercial Operation",
+            "Cumulative Generation SinceCommercial Operation (MUs)"
+          ],
+          "data": [
+            [
+              "TAPS Unit-1",
+              "BWR",
+              "160",
+              "October 28, 1969",
+              "49157"
+            ],
+            [
+              "TAPS Unit-2",
+              "BWR",
+              "160",
+              "October 28, 1969",
+              "50702"
+            ],
+            [
+              "TAPS Unit-3",
+              "PHWR",
+              "540",
+              "August 18, 2006",
+              "74331"
+            ],
+            [
+              "TAPS Unit-4",
+              "PHWR",
+              "540",
+              "September 12, 2005",
+              "71742"
+            ],
+            [
+              "Total",
+              "1400",
+              "-",
+              "245932"
+            ]
+          ],
+          "row_count": 5
+        },
+        {
+          "table_index": 1,
+          "headers": [
+            "Unit",
+            "Up to January 2026 in FY 2025-26"
+          ],
+          "data": [
+            [
+              "Gross Generation(MUs)",
+              "Capacity Factor(%)"
+            ],
+            [
+              "TAPS Unit-1",
+              "0",
+              "5"
+            ],
+            [
+              "TAPS Unit-2",
+              "0",
+              "0"
+            ],
+            [
+              "TAPS Unit-3",
+              "2944",
+              "74"
+            ],
+            [
+              "TAPS Unit-4",
+              "3172",
+              "80"
+            ]
+          ],
+          "row_count": 5
+        }
+      ]
+    },
+    "RAPS": {
+      "url": "https://www.npcil.nic.in/content/151_1_OperatingPerformance.aspx",
+      "tables": [
+        {
+          "table_index": 0,
+          "headers": [
+            "Unit",
+            "Reactor Type",
+            "Capacity(MWe)",
+            "Date of Commercial Operation",
+            "Cumulative Generation SinceCommercial Operation (MUs)"
+          ],
+          "data": [
+            [
+              "RAPS Unit-1",
+              "PHWR",
+              "(*)",
+              "December 16,1973",
+              "12089"
+            ],
+            [
+              "RAPS Unit-2",
+              "PHWR",
+              "200",
+              "April 1,1981",
+              "49617"
+            ],
+            [
+              "RAPS Unit-3",
+              "PHWR",
+              "220",
+              "June 1, 2000",
+              "38114"
+            ],
+            [
+              "RAPS Unit-4",
+              "PHWR",
+              "220",
+              "December 23, 2000",
+              "40482"
+            ],
+            [
+              "RAPS Unit-5",
+              "PHWR",
+              "220",
+              "February 4, 2010",
+              "29027"
+            ],
+            [
+              "RAPS Unit-6",
+              "PHWR",
+              "220",
+              "March 31, 2010",
+              "26672"
+            ],
+            [
+              "RAPS Unit-7",
+              "PHWR",
+              "700",
+              "March 17, 2025",
+              "1804"
+            ],
+            [
+              "Total",
+              "1780",
+              "-",
+              "197805"
+            ]
+          ],
+          "row_count": 8
+        },
+        {
+          "table_index": 1,
+          "headers": [
+            "Unit",
+            "Up to January - 2026 in FY 2025-26"
+          ],
+          "data": [
+            [
+              "Gross Generation(MUs)",
+              "Capacity Factor(%)"
+            ],
+            [
+              "RAPS Unit-2",
+              "1172",
+              "80"
+            ],
+            [
+              "RAPS Unit-3",
+              "1478",
+              "91"
+            ],
+            [
+              "RAPS Unit-4",
+              "1423",
+              "88"
+            ],
+            [
+              "RAPS Unit-5",
+              "1661",
+              "103"
+            ],
+            [
+              "RAPS Unit-6",
+              "1632",
+              "101"
+            ],
+            [
+              "RAPS Unit-7",
+              "1804",
+              "37"
+            ]
+          ],
+          "row_count": 7
+        }
+      ]
+    },
+    "MAPS": {
+      "url": "https://www.npcil.nic.in/content/324_1_OperatingPerformance.aspx",
+      "tables": [
+        {
+          "table_index": 0,
+          "headers": [
+            "Unit",
+            "Reactor Type",
+            "Capacity(MWe)",
+            "Date of Commercial Operation",
+            "Cumulative Generation SinceCommercial Operation (MUs)"
+          ],
+          "data": [
+            [
+              "MAPS Unit-1",
+              "PHWR",
+              "220",
+              "January 27,1984",
+              "34934"
+            ],
+            [
+              "MAPS Unit-2",
+              "PHWR",
+              "220",
+              "March 21,1986",
+              "47104"
+            ],
+            [
+              "Total",
+              "440",
+              "-",
+              "82038"
+            ]
+          ],
+          "row_count": 3
+        },
+        {
+          "table_index": 1,
+          "headers": [
+            "Unit",
+            "Up to January 2026 in FY 2025-26"
+          ],
+          "data": [
+            [
+              "Gross Generation(MUs)",
+              "Capacity Factor(%)"
+            ],
+            [
+              "MAPS Unit-1",
+              "0",
+              "0"
+            ],
+            [
+              "MAPS Unit-2",
+              "1112",
+              "69"
+            ]
+          ],
+          "row_count": 3
+        }
+      ]
+    },
+    "KGS": {
+      "url": "https://www.npcil.nic.in/content/323_1_OperatingPerformance.aspx",
+      "tables": [
+        {
+          "table_index": 0,
+          "headers": [
+            "Unit",
+            "Reactor Type",
+            "Capacity(MWe)",
+            "Date of Commercial Operation",
+            "Cumulative Generation SinceCommercial Operation (MUs)"
+          ],
+          "data": [
+            [
+              "KGS Unit-1",
+              "PHWR",
+              "220",
+              "November 16, 2000",
+              "37619"
+            ],
+            [
+              "KGS Unit-2",
+              "PHWR",
+              "220",
+              "March 16, 2000",
+              "39616"
+            ],
+            [
+              "KGS Unit-3",
+              "PHWR",
+              "220",
+              "May 6, 2007",
+              "29084"
+            ],
+            [
+              "KGS Unit-4",
+              "PHWR",
+              "220",
+              "January 20, 2011",
+              "27111"
+            ],
+            [
+              "Total",
+              "880",
+              "-",
+              "133430"
+            ]
+          ],
+          "row_count": 5
+        },
+        {
+          "table_index": 1,
+          "headers": [
+            "Unit",
+            "Up to January 2026 in FY 2025-26"
+          ],
+          "data": [
+            [
+              "Gross Generation(MUs)",
+              "Capacity Factor(%)"
+            ],
+            [
+              "KGS Unit-1",
+              "0",
+              "0"
+            ],
+            [
+              "KGS Unit-2",
+              "1493",
+              "92"
+            ],
+            [
+              "KGS Unit-3",
+              "1534",
+              "95"
+            ],
+            [
+              "KGS Unit-4",
+              "1748",
+              "108"
+            ]
+          ],
+          "row_count": 5
+        }
+      ]
+    },
+    "NAPS": {
+      "url": "https://www.npcil.nic.in/content/322_1_OperatingPerformance.aspx",
+      "tables": [
+        {
+          "table_index": 0,
+          "headers": [
+            "Unit",
+            "Reactor Type",
+            "Capacity(MWe)",
+            "Date of Commercial Operation",
+            "Cumulative Generation SinceCommercial Operation (MUs)"
+          ],
+          "data": [
+            [
+              "NAPS Unit-1",
+              "PHWR",
+              "220",
+              "January 1,1991",
+              "43808"
+            ],
+            [
+              "NAPS Unit-2",
+              "PHWR",
+              "220",
+              "July 1,1992",
+              "44198"
+            ],
+            [
+              "Total",
+              "440",
+              "-",
+              "88006"
+            ]
+          ],
+          "row_count": 3
+        },
+        {
+          "table_index": 1,
+          "headers": [
+            "Unit",
+            "Up to January 2026 in FY 2025-26"
+          ],
+          "data": [
+            [
+              "Gross Generation(MUs)",
+              "Capacity Factor(%)"
+            ],
+            [
+              "NAPS Unit-1",
+              "556",
+              "34"
+            ],
+            [
+              "NAPS Unit-2",
+              "1584",
+              "98"
+            ]
+          ],
+          "row_count": 3
+        }
+      ]
+    },
+    "KAPS": {
+      "url": "https://www.npcil.nic.in/content/321_1_OperatingPerformance.aspx",
+      "tables": [
+        {
+          "table_index": 0,
+          "headers": [
+            "Unit",
+            "Reactor Type",
+            "Capacity(MWe)",
+            "Date of Commercial Operation",
+            "Cumulative Generation SinceCommercial Operation (MUs)"
+          ],
+          "data": [
+            [
+              "KAPS Unit-1",
+              "PHWR",
+              "220",
+              "May 6, 1993",
+              "41041"
+            ],
+            [
+              "KAPS Unit-2",
+              "PHWR",
+              "220",
+              "September 1, 1995",
+              "42352"
+            ],
+            [
+              "KAPS Unit-3",
+              "PHWR",
+              "700",
+              "June 30, 2023",
+              "12380"
+            ],
+            [
+              "KAPS Unit-4",
+              "PHWR",
+              "700",
+              "March 31, 2024",
+              "7987"
+            ],
+            [
+              "Total",
+              "1840",
+              "-",
+              "103760"
+            ]
+          ],
+          "row_count": 5
+        },
+        {
+          "table_index": 1,
+          "headers": [
+            "Unit",
+            "Up to January 2026 in FY 2025-26"
+          ],
+          "data": [
+            [
+              "Gross Generation(MUs)",
+              "Capacity Factor(%)"
+            ],
+            [
+              "KAPS Unit-1",
+              "1593",
+              "99"
+            ],
+            [
+              "KAPS Unit-2",
+              "1303",
+              "81"
+            ],
+            [
+              "KAPS Unit-3",
+              "4204",
+              "82"
+            ],
+            [
+              "KAPS Unit-4",
+              "3403",
+              "66"
+            ]
+          ],
+          "row_count": 5
+        }
+      ]
+    },
+    "KKNPS": {
+      "url": "https://www.npcil.nic.in/content/320_1_OperatingPerformance.aspx",
+      "tables": [
+        {
+          "table_index": 0,
+          "headers": [
+            "Unit",
+            "Reactor Type",
+            "Capacity(MWe)",
+            "Date of Commercial Operation",
+            "Cumulative Generation SinceCommercial Operation (MUs)"
+          ],
+          "data": [
+            [
+              "KKNPS Unit-1",
+              "PWR",
+              "1000",
+              "December 31, 2014",
+              "65557"
+            ],
+            [
+              "KKNPS Unit-2",
+              "PWR",
+              "1000",
+              "March 31, 2017",
+              "52160"
+            ],
+            [
+              "Total",
+              "2000",
+              "-",
+              "117717"
+            ]
+          ],
+          "row_count": 3
+        },
+        {
+          "table_index": 1,
+          "headers": [
+            "Unit",
+            "Up to January 2026 in FY 2025-26"
+          ],
+          "data": [
+            [
+              "Gross Generation(MUs)",
+              "Capacity Factor(%)"
+            ],
+            [
+              "KKNPS Unit-1",
+              "5897",
+              "80"
+            ],
+            [
+              "KKNPS Unit-2",
+              "5481",
+              "75"
+            ]
+          ],
+          "row_count": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "ID": 1,
+    "Month": "Jan-2019",
+    "small_hydro_power": "4517.45",
+    "wind_power": "35138.15",
+    "bmpower_congen": "9075.50",
+    "wastetoenergy": "138.30",
+    "solar_power": "25212.26"
+  },
+  {
+    "ID": 2,
+    "Month": "Feb-2019",
+    "small_hydro_power": "4528.05",
+    "wind_power": "35288.10",
+    "bmpower_congen": "9075.50",
+    "wastetoenergy": "138.30",
+    "solar_power": "26025.97"
+  },
+  {
+    "ID": 3,
+    "Month": "Mar-2019",
+    "small_hydro_power": "4593.15",
+    "wind_power": "35625.97",
+    "bmpower_congen": "9103.50",
+    "wastetoenergy": "138.30",
+    "solar_power": "28180.71"
+  },
+  {
+    "ID": 4,
+    "Month": "Apr-2019",
+    "small_hydro_power": "4593.15",
+    "wind_power": "35625.97",
+    "bmpower_congen": "9103.50",
+    "wastetoenergy": "138.30",
+    "solar_power": "28180.71"
+  },
+  {
+    "ID": 5,
+    "Month": "May-2019",
+    "small_hydro_power": "4594.15",
+    "wind_power": "35815.88",
+    "bmpower_congen": "9131.50",
+    "wastetoenergy": "138.30",
+    "solar_power": "28679.21"
+  },
+  {
+    "ID": 6,
+    "Month": "Jun-2019",
+    "small_hydro_power": "4604.80",
+    "wind_power": "36368.47",
+    "bmpower_congen": "9131.50",
+    "wastetoenergy": "138.30",
+    "solar_power": "29549.31"
+  },
+  {
+    "ID": 7,
+    "Month": "Jul-2019",
+    "small_hydro_power": "4604.80",
+    "wind_power": "36686.82",
+    "bmpower_congen": "9131.50",
+    "wastetoenergy": "138.30",
+    "solar_power": "30071.38"
+  },
+  {
+    "ID": 8,
+    "Month": "Aug-2019",
+    "small_hydro_power": "4608.81",
+    "wind_power": "36750.42",
+    "bmpower_congen": "9131.50",
+    "wastetoenergy": "139.80",
+    "solar_power": "30708.85"
+  },
+  {
+    "ID": 9,
+    "Month": "Sep-2019",
+    "small_hydro_power": "4610.81",
+    "wind_power": "36930.32",
+    "bmpower_congen": "9806.31",
+    "wastetoenergy": "139.80",
+    "solar_power": "31101.71"
+  },
+  {
+    "ID": 10,
+    "Month": "Oct-2019",
+    "small_hydro_power": "4647.11",
+    "wind_power": "37090.02",
+    "bmpower_congen": "9806.31",
+    "wastetoenergy": "139.80",
+    "solar_power": "31696.26"
+  },
+  {
+    "ID": 11,
+    "Month": "Nov-2019",
+    "small_hydro_power": "4647.56",
+    "wind_power": "37278.68",
+    "bmpower_congen": "9806.31",
+    "wastetoenergy": "139.80",
+    "solar_power": "32527.55"
+  },
+  {
+    "ID": 12,
+    "Month": "Dec-2019",
+    "small_hydro_power": "4647.56",
+    "wind_power": "37278.68",
+    "bmpower_congen": "9806.31",
+    "wastetoenergy": "139.80",
+    "solar_power": "32527.55"
+  },
+  {
+    "ID": 13,
+    "Month": "Jan-2020",
+    "small_hydro_power": "4676.56",
+    "wind_power": "37607.70",
+    "bmpower_congen": "9861.31",
+    "wastetoenergy": "139.80",
+    "solar_power": "34035.66"
+  },
+  {
+    "ID": 14,
+    "Month": "Feb-2020",
+    "small_hydro_power": "4683.16",
+    "wind_power": "37669.25",
+    "bmpower_congen": "9861.31",
+    "wastetoenergy": "139.80",
+    "solar_power": "34405.67"
+  },
+  {
+    "ID": 15,
+    "Month": "Mar-2020",
+    "small_hydro_power": "4683.16",
+    "wind_power": "37693.75",
+    "bmpower_congen": "9875.31",
+    "wastetoenergy": "147.64",
+    "solar_power": "34627.82"
+  },
+  {
+    "ID": 16,
+    "Month": "Apr-2020",
+    "small_hydro_power": "4683.16",
+    "wind_power": "37745.85",
+    "bmpower_congen": "9880.31",
+    "wastetoenergy": "147.64",
+    "solar_power": "34811.78"
+  },
+  {
+    "ID": 17,
+    "Month": "May-2020",
+    "small_hydro_power": "4683.16",
+    "wind_power": "37756.35",
+    "bmpower_congen": "9880.31",
+    "wastetoenergy": "148.84",
+    "solar_power": "34915.36"
+  },
+  {
+    "ID": 18,
+    "Month": "Jun-2020",
+    "small_hydro_power": "4688.16",
+    "wind_power": "37829.55",
+    "bmpower_congen": "9880.31",
+    "wastetoenergy": "148.84",
+    "solar_power": "35122.33"
+  },
+  {
+    "ID": 19,
+    "Month": "Jul-2020",
+    "small_hydro_power": "4712.17",
+    "wind_power": "37940.95",
+    "bmpower_congen": "9936.65",
+    "wastetoenergy": "148.84",
+    "solar_power": "35303.30"
+  },
+  {
+    "ID": 20,
+    "Month": "Aug-2020",
+    "small_hydro_power": "4739.97",
+    "wind_power": "37999.55",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "35739.35"
+  },
+  {
+    "ID": 21,
+    "Month": "Sep-2020",
+    "small_hydro_power": "4739.97",
+    "wind_power": "38124.15",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "36050.74"
+  },
+  {
+    "ID": 22,
+    "Month": "Oct-2020",
+    "small_hydro_power": "4740.47",
+    "wind_power": "38263.05",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "36317.57"
+  },
+  {
+    "ID": 23,
+    "Month": "Nov-2020",
+    "small_hydro_power": "4740.47",
+    "wind_power": "38433.55",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "36910.53"
+  },
+  {
+    "ID": 24,
+    "Month": "Dec-2020",
+    "small_hydro_power": "4750.46",
+    "wind_power": "38624.15",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "37464.64"
+  },
+  {
+    "ID": 25,
+    "Month": "Jan-2021",
+    "small_hydro_power": "4758.46",
+    "wind_power": "38683.65",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "38794.07"
+  },
+  {
+    "ID": 26,
+    "Month": "Feb-2021",
+    "small_hydro_power": "4783.06",
+    "wind_power": "38789.15",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "39083.71"
+  },
+  {
+    "ID": 27,
+    "Month": "Mar-2021",
+    "small_hydro_power": "4786.81",
+    "wind_power": "39247.05",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "40085.37"
+  },
+  {
+    "ID": 28,
+    "Month": "Apr-2021",
+    "small_hydro_power": "4786.81",
+    "wind_power": "39410.45",
+    "bmpower_congen": "10145.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "40500.77"
+  },
+  {
+    "ID": 29,
+    "Month": "May-2021",
+    "small_hydro_power": "4786.81",
+    "wind_power": "39442.25",
+    "bmpower_congen": "10170.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "41087.63"
+  },
+  {
+    "ID": 30,
+    "Month": "Jun-2021",
+    "small_hydro_power": "4793.81",
+    "wind_power": "39486.65",
+    "bmpower_congen": "10170.92",
+    "wastetoenergy": "168.64",
+    "solar_power": "42335.49"
+  },
+  {
+    "ID": 31,
+    "Month": "Jul-2021",
+    "small_hydro_power": "4794.61",
+    "wind_power": "39588.85",
+    "bmpower_congen": "10170.92",
+    "wastetoenergy": "388.22",
+    "solar_power": "43940.12"
+  },
+  {
+    "ID": 32,
+    "Month": "Aug-2021",
+    "small_hydro_power": "4807.81",
+    "wind_power": "39691.15",
+    "bmpower_congen": "10170.61",
+    "wastetoenergy": "401.84",
+    "solar_power": "45611.91"
+  },
+  {
+    "ID": 33,
+    "Month": "Sep-2021",
+    "small_hydro_power": "4809.81",
+    "wind_power": "39870.45",
+    "bmpower_congen": "10175.61",
+    "wastetoenergy": "401.84",
+    "solar_power": "46275.14"
+  },
+  {
+    "ID": 34,
+    "Month": "Oct-2021",
+    "small_hydro_power": "4821.81",
+    "wind_power": "39990.10",
+    "bmpower_congen": "10175.61",
+    "wastetoenergy": "401.84",
+    "solar_power": "47665.89"
+  },
+  {
+    "ID": 35,
+    "Month": "Nov-2021",
+    "small_hydro_power": "4831.35",
+    "wind_power": "40033.60",
+    "bmpower_congen": "10175.61",
+    "wastetoenergy": "434.11",
+    "solar_power": "48556.64"
+  },
+  {
+    "ID": 36,
+    "Month": "Dec-2021",
+    "small_hydro_power": "4839.40",
+    "wind_power": "40082.70",
+    "bmpower_congen": "10175.61",
+    "wastetoenergy": "434.11",
+    "solar_power": "49346.71"
+  },
+  {
+    "ID": 37,
+    "Month": "Jan-2022",
+    "small_hydro_power": "4839.90",
+    "wind_power": "40100.93",
+    "bmpower_congen": "10175.61",
+    "wastetoenergy": "434.11",
+    "solar_power": "50303.58"
+  },
+  {
+    "ID": 38,
+    "Month": "Feb-2022",
+    "small_hydro_power": "4839.90",
+    "wind_power": "40129.78",
+    "bmpower_congen": "10175.61",
+    "wastetoenergy": "451.57",
+    "solar_power": "50777.77"
+  },
+  {
+    "ID": 39,
+    "Month": "Mar-2022",
+    "small_hydro_power": "4848.90",
+    "wind_power": "40357.58",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "476.75",
+    "solar_power": "53996.54"
+  },
+  {
+    "ID": 40,
+    "Month": "Apr-2022",
+    "small_hydro_power": "4850.90",
+    "wind_power": "40528.08",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "476.75",
+    "solar_power": "55337.66"
+  },
+  {
+    "ID": 41,
+    "Month": "May-2022",
+    "small_hydro_power": "4886.40",
+    "wind_power": "40706.38",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "476.75",
+    "solar_power": "56951.33"
+  },
+  {
+    "ID": 42,
+    "Month": "Jun-2022",
+    "small_hydro_power": "4887.90",
+    "wind_power": "40788.03",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "476.75",
+    "solar_power": "57705.72"
+  },
+  {
+    "ID": 43,
+    "Month": "Jul-2022",
+    "small_hydro_power": "4887.90",
+    "wind_power": "40893.33",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "476.75",
+    "solar_power": "57973.78"
+  },
+  {
+    "ID": 44,
+    "Month": "Aug-2022",
+    "small_hydro_power": "4887.90",
+    "wind_power": "41204.68",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "476.75",
+    "solar_power": "59302.70"
+  },
+  {
+    "ID": 45,
+    "Month": "Sep-2022",
+    "small_hydro_power": "4899.50",
+    "wind_power": "41666.08",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "495.23",
+    "solar_power": "60813.90"
+  },
+  {
+    "ID": 46,
+    "Month": "Oct-2022",
+    "small_hydro_power": "4923.50",
+    "wind_power": "41843.98",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "495.23",
+    "solar_power": "61624.27"
+  },
+  {
+    "ID": 47,
+    "Month": "Nov-2022",
+    "small_hydro_power": "4924.65",
+    "wind_power": "41895.28",
+    "bmpower_congen": "10205.61",
+    "wastetoenergy": "520.23",
+    "solar_power": "61966.36"
+  },
+  {
+    "ID": 48,
+    "Month": "Dec-2022",
+    "small_hydro_power": "4935.65",
+    "wind_power": "41929.78",
+    "bmpower_congen": "10209.81",
+    "wastetoenergy": "522.42",
+    "solar_power": "63302.49"
+  },
+  {
+    "ID": 49,
+    "Month": "Jan-2023",
+    "small_hydro_power": "4939.65",
+    "wind_power": "41983.18",
+    "bmpower_congen": "10209.81",
+    "wastetoenergy": "523.05",
+    "solar_power": "63893.83"
+  },
+  {
+    "ID": 50,
+    "Month": "Feb-2023",
+    "small_hydro_power": "4943.10",
+    "wind_power": "42015.38",
+    "bmpower_congen": "10217.51",
+    "wastetoenergy": "556.39",
+    "solar_power": "64380.68"
+  },
+  {
+    "ID": 51,
+    "Month": "Mar-2023",
+    "small_hydro_power": "4944.30",
+    "wind_power": "42633.13",
+    "bmpower_congen": "10248.01",
+    "wastetoenergy": "554.03",
+    "solar_power": "66780.34"
+  },
+  {
+    "ID": 52,
+    "Month": "Apr-2023",
+    "small_hydro_power": "4944.30",
+    "wind_power": "42868.08",
+    "bmpower_congen": "10248.01",
+    "wastetoenergy": "554.03",
+    "solar_power": "67077.88"
+  },
+  {
+    "ID": 53,
+    "Month": "Dec-2024",
+    "small_hydro_power": "5100.55",
+    "wind_power": "48163.15",
+    "bmpower_congen": "10728.21",
+    "wastetoenergy": "619.94",
+    "solar_power": "97864.72"
+  },
+  {
+    "ID": 54,
+    "Month": "Jan-2025",
+    "small_hydro_power": "5100.55",
+    "wind_power": "48365.26",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "663.46",
+    "solar_power": "100329.83"
+  },
+  {
+    "ID": 55,
+    "Month": "Feb-2025",
+    "small_hydro_power": "5100.55",
+    "wind_power": "48588.56",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "711.29",
+    "solar_power": "102566.02"
+  },
+  {
+    "ID": 56,
+    "Month": "Mar-2025",
+    "small_hydro_power": "5100.55",
+    "wind_power": "50037.82",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "840.21",
+    "solar_power": "105646.49"
+  },
+  {
+    "ID": 57,
+    "Month": "Apr-2025",
+    "small_hydro_power": "5102.05",
+    "wind_power": "51058.55",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "850.91",
+    "solar_power": "107945.61"
+  },
+  {
+    "ID": 58,
+    "Month": "May-2025",
+    "small_hydro_power": "5102.05",
+    "wind_power": "51292.25",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "850.91",
+    "solar_power": "110834.28"
+  },
+  {
+    "ID": 59,
+    "Month": "Jun-2025",
+    "small_hydro_power": "5102.05",
+    "wind_power": "51674.85",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "853.2",
+    "solar_power": "116247.83"
+  },
+  {
+    "ID": 60,
+    "Month": "Jul-2025",
+    "small_hydro_power": "5108.71",
+    "wind_power": "52140.1",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "854.45",
+    "solar_power": "119016.54"
+  },
+  {
+    "ID": 61,
+    "Month": "Aug-2025",
+    "small_hydro_power": "5108.71",
+    "wind_power": "52681.19",
+    "bmpower_congen": "10743.11",
+    "wastetoenergy": "854.45",
+    "solar_power": "123130.13"
+  },
+  {
+    "ID": 62,
+    "Month": "Sep-2025",
+    "small_hydro_power": "5133.61",
+    "wind_power": "53123.79",
+    "bmpower_congen": "10757.31",
+    "wastetoenergy": "854.45",
+    "solar_power": "127332.27"
+  },
+  {
+    "ID": 63,
+    "Month": "Oct-2025",
+    "small_hydro_power": "5158.61",
+    "wind_power": "53599.91",
+    "bmpower_congen": "10757.31",
+    "wastetoenergy": "855.62",
+    "solar_power": "129923.83"
+  },
+  {
+    "ID": 64,
+    "Month": "Nov-2025",
+    "small_hydro_power": "5158.61",
+    "wind_power": "53986.01",
+    "bmpower_congen": "10757.31",
+    "wastetoenergy": "856.62",
+    "solar_power": "132848.26"
+  },
+  {
+    "ID": 65,
+    "Month": "Dec-2025",
+    "small_hydro_power": "5158.61",
+    "wind_power": "54510.93",
+    "bmpower_congen": "10757.31",
+    "wastetoenergy": "856.62",
+    "solar_power": "135809.95"
+  }
+]

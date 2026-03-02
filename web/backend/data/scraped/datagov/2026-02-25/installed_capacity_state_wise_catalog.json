@@ -1,0 +1,14 @@
+{
+  "dataset": "installed_capacity_state_wise",
+  "description": "State/UT-wise installed capacity of grid-interactive renewable power",
+  "resource_id": "52577566-1a3d-43f5-9e98-1b84e161f3f4",
+  "catalog_url": "https://data.gov.in/resource/52577566-1a3d-43f5-9e98-1b84e161f3f4",
+  "download_links": [
+    {
+      "text": "apis",
+      "url": "/apis"
+    }
+  ],
+  "table_data": [],
+  "fetched_at": "2026-02-25T11:32:21.015990"
+}

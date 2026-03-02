@@ -1,0 +1,116 @@
+/**
+ * Centralized API layer — all fetch logic goes here.
+ * No direct fetch calls allowed in components.
+ */
+import type {
+    StateSummary,
+    StateDetail,
+    GeoJSONFeatureCollection,
+    YearsMeta,
+    PowerPlantFilterStats,
+    AnalyticsMeta,
+    CorrelationResult,
+    ComparisonResult,
+    InsightsResult,
+} from "@/types";
+
+const API = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+
+/** Shared fetch wrapper with error handling. */
+async function apiFetch<T>(path: string): Promise<T> {
+    let res: Response;
+    try {
+        res = await fetch(`${API}${path}`);
+    } catch {
+        throw new Error(
+            `Network error: backend unreachable at ${API}${path}. Is the server running?`
+        );
+    }
+    if (!res.ok) {
+        const body = await res.text().catch(() => "");
+        throw new Error(`API ${res.status}: ${res.statusText} — ${path} ${body}`);
+    }
+    return res.json() as Promise<T>;
+}
+
+/** GET /api/states → [{id, name, code}] */
+export function fetchStates(): Promise<StateSummary[]> {
+    return apiFetch<StateSummary[]>("/api/states");
+}
+
+/** GET /api/states/{id}?year=&start=&end= → full computed detail */
+export function fetchStateDetail(
+    stateId: string,
+    params?: { year?: number; start?: number; end?: number }
+): Promise<StateDetail> {
+    const qs = new URLSearchParams();
+    if (params?.year !== undefined) qs.set("year", String(params.year));
+    if (params?.start !== undefined) qs.set("start", String(params.start));
+    if (params?.end !== undefined) qs.set("end", String(params.end));
+    const query = qs.toString();
+    return apiFetch<StateDetail>(
+        `/api/states/${stateId}${query ? `?${query}` : ""}`
+    );
+}
+
+/** GET /api/states/geojson → FeatureCollection */
+export function fetchGeoJSON(): Promise<GeoJSONFeatureCollection> {
+    return apiFetch<GeoJSONFeatureCollection>("/api/states/geojson");
+}
+
+/** GET /api/meta/years → {min_year, max_year} */
+export function fetchYearsMeta(): Promise<YearsMeta> {
+    return apiFetch<YearsMeta>("/api/meta/years");
+}
+
+/** GET /api/power-plants?state=&type=&min_capacity= → GeoJSON FeatureCollection */
+export function fetchPowerPlants(filters?: {
+    states?: string[];
+    types?: string[];
+    minCapacity?: number;
+}): Promise<GeoJSONFeatureCollection> {
+    const qs = new URLSearchParams();
+    if (filters?.states?.length) qs.set("state", filters.states.join(","));
+    if (filters?.types?.length) qs.set("type", filters.types.join(","));
+    if (filters?.minCapacity !== undefined && filters.minCapacity > 0)
+        qs.set("min_capacity", String(filters.minCapacity));
+    const query = qs.toString();
+    return apiFetch<GeoJSONFeatureCollection>(
+        `/api/power-plants${query ? `?${query}` : ""}`
+    );
+}
+
+/** GET /api/power-plants/stats → filter metadata */
+export function fetchPowerPlantStats(): Promise<PowerPlantFilterStats> {
+    return apiFetch<PowerPlantFilterStats>("/api/power-plants/stats");
+}
+
+/* ── Analytics API ─── */
+
+/** GET /api/analytics/meta → available states & year range */
+export function fetchAnalyticsMeta(): Promise<AnalyticsMeta> {
+    return apiFetch<AnalyticsMeta>("/api/analytics/meta");
+}
+
+/** GET /api/analytics/correlation?year= → correlation results */
+export function fetchCorrelation(year?: number): Promise<CorrelationResult> {
+    const qs = year !== undefined ? `?year=${year}` : "";
+    return apiFetch<CorrelationResult>(`/api/analytics/correlation${qs}`);
+}
+
+/** GET /api/analytics/compare?states=...&year= → comparison results */
+export function fetchComparison(stateIds: string[], year?: number): Promise<ComparisonResult> {
+    const qs = new URLSearchParams();
+    qs.set("states", stateIds.join(","));
+    if (year !== undefined) qs.set("year", String(year));
+    return apiFetch<ComparisonResult>(`/api/analytics/compare?${qs.toString()}`);
+}
+
+/* ── Insights API ─── */
+
+/** GET /api/insights/state?state_id= → auto-generated insights */
+export function fetchInsights(stateId?: string): Promise<InsightsResult> {
+    const qs = stateId ? `?state_id=${stateId}` : "";
+    return apiFetch<InsightsResult>(`/api/insights/state${qs}`);
+}
+

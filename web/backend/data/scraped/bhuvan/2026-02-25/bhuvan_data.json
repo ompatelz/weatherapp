@@ -1,0 +1,7 @@
+{
+  "capabilities": {
+    "layers": [],
+    "error": "[bhuvan] Failed after 3 attempts: HTTP 504: Server error '504 Gateway Time-out' for url 'https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms?service=WMS&version=1.1.1&request=GetCapabilities'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+  },
+  "layer_data": {}
+}

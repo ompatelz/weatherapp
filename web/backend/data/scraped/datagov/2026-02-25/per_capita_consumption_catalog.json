@@ -1,0 +1,14 @@
+{
+  "dataset": "per_capita_consumption",
+  "description": "State-wise per capita consumption of electricity",
+  "resource_id": "5f6f3d35-2e2b-4e7c-8a8a-2b0f9d4e4e4e",
+  "catalog_url": "https://data.gov.in/resource/5f6f3d35-2e2b-4e7c-8a8a-2b0f9d4e4e4e",
+  "download_links": [
+    {
+      "text": "apis",
+      "url": "/apis"
+    }
+  ],
+  "table_data": [],
+  "fetched_at": "2026-02-25T11:32:26.301024"
+}

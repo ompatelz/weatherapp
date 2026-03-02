@@ -1,0 +1,968 @@
+[
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2019,
+        "coal_emissions_mt": 128.5,
+        "total_emissions_mt": 156.0
+    },
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2020,
+        "coal_emissions_mt": 118.2,
+        "total_emissions_mt": 144.0
+    },
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2021,
+        "coal_emissions_mt": 125.6,
+        "total_emissions_mt": 150.8
+    },
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2022,
+        "coal_emissions_mt": 130.1,
+        "total_emissions_mt": 155.2
+    },
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2023,
+        "coal_emissions_mt": 127.3,
+        "total_emissions_mt": 152.0
+    },
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2024,
+        "coal_emissions_mt": 122.8,
+        "total_emissions_mt": 147.5
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2019,
+        "coal_emissions_mt": 85.0,
+        "total_emissions_mt": 108.0
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2020,
+        "coal_emissions_mt": 78.5,
+        "total_emissions_mt": 100.2
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2021,
+        "coal_emissions_mt": 82.0,
+        "total_emissions_mt": 104.0
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2022,
+        "coal_emissions_mt": 84.6,
+        "total_emissions_mt": 106.5
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2023,
+        "coal_emissions_mt": 81.2,
+        "total_emissions_mt": 102.8
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2024,
+        "coal_emissions_mt": 77.5,
+        "total_emissions_mt": 98.2
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2019,
+        "coal_emissions_mt": 62.0,
+        "total_emissions_mt": 78.5
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2020,
+        "coal_emissions_mt": 56.8,
+        "total_emissions_mt": 72.0
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2021,
+        "coal_emissions_mt": 59.2,
+        "total_emissions_mt": 74.8
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2022,
+        "coal_emissions_mt": 61.5,
+        "total_emissions_mt": 77.0
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2023,
+        "coal_emissions_mt": 58.8,
+        "total_emissions_mt": 74.2
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2024,
+        "coal_emissions_mt": 55.4,
+        "total_emissions_mt": 70.5
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2019,
+        "coal_emissions_mt": 72.0,
+        "total_emissions_mt": 88.5
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2020,
+        "coal_emissions_mt": 66.5,
+        "total_emissions_mt": 82.0
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2021,
+        "coal_emissions_mt": 68.8,
+        "total_emissions_mt": 84.2
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2022,
+        "coal_emissions_mt": 70.2,
+        "total_emissions_mt": 85.8
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2023,
+        "coal_emissions_mt": 67.5,
+        "total_emissions_mt": 82.6
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2024,
+        "coal_emissions_mt": 64.0,
+        "total_emissions_mt": 78.8
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2019,
+        "coal_emissions_mt": 38.0,
+        "total_emissions_mt": 52.5
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2020,
+        "coal_emissions_mt": 34.2,
+        "total_emissions_mt": 48.0
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2021,
+        "coal_emissions_mt": 35.6,
+        "total_emissions_mt": 49.5
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2022,
+        "coal_emissions_mt": 36.8,
+        "total_emissions_mt": 50.8
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2023,
+        "coal_emissions_mt": 35.0,
+        "total_emissions_mt": 48.5
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2024,
+        "coal_emissions_mt": 32.5,
+        "total_emissions_mt": 45.8
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2019,
+        "coal_emissions_mt": 110.0,
+        "total_emissions_mt": 138.0
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2020,
+        "coal_emissions_mt": 102.5,
+        "total_emissions_mt": 128.5
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2021,
+        "coal_emissions_mt": 108.0,
+        "total_emissions_mt": 134.0
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2022,
+        "coal_emissions_mt": 112.5,
+        "total_emissions_mt": 139.0
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2023,
+        "coal_emissions_mt": 109.2,
+        "total_emissions_mt": 135.0
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2024,
+        "coal_emissions_mt": 105.0,
+        "total_emissions_mt": 130.5
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2019,
+        "coal_emissions_mt": 42.0,
+        "total_emissions_mt": 55.0
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2020,
+        "coal_emissions_mt": 38.5,
+        "total_emissions_mt": 50.8
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2021,
+        "coal_emissions_mt": 40.2,
+        "total_emissions_mt": 52.5
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2022,
+        "coal_emissions_mt": 41.0,
+        "total_emissions_mt": 53.2
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2023,
+        "coal_emissions_mt": 39.0,
+        "total_emissions_mt": 50.8
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2024,
+        "coal_emissions_mt": 36.5,
+        "total_emissions_mt": 48.0
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2019,
+        "coal_emissions_mt": 65.0,
+        "total_emissions_mt": 80.5
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2020,
+        "coal_emissions_mt": 60.0,
+        "total_emissions_mt": 74.5
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2021,
+        "coal_emissions_mt": 62.5,
+        "total_emissions_mt": 77.0
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2022,
+        "coal_emissions_mt": 64.2,
+        "total_emissions_mt": 79.0
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2023,
+        "coal_emissions_mt": 61.5,
+        "total_emissions_mt": 76.0
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2024,
+        "coal_emissions_mt": 58.0,
+        "total_emissions_mt": 72.5
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2019,
+        "coal_emissions_mt": 52.0,
+        "total_emissions_mt": 65.0
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2020,
+        "coal_emissions_mt": 47.5,
+        "total_emissions_mt": 60.0
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2021,
+        "coal_emissions_mt": 50.0,
+        "total_emissions_mt": 62.5
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2022,
+        "coal_emissions_mt": 52.5,
+        "total_emissions_mt": 65.2
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2023,
+        "coal_emissions_mt": 50.0,
+        "total_emissions_mt": 62.0
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2024,
+        "coal_emissions_mt": 47.0,
+        "total_emissions_mt": 59.0
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2019,
+        "coal_emissions_mt": 32.0,
+        "total_emissions_mt": 42.0
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2020,
+        "coal_emissions_mt": 29.5,
+        "total_emissions_mt": 39.0
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2021,
+        "coal_emissions_mt": 30.8,
+        "total_emissions_mt": 40.5
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2022,
+        "coal_emissions_mt": 31.5,
+        "total_emissions_mt": 41.2
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2023,
+        "coal_emissions_mt": 30.0,
+        "total_emissions_mt": 39.5
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2024,
+        "coal_emissions_mt": 28.2,
+        "total_emissions_mt": 37.5
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2019,
+        "coal_emissions_mt": 68.0,
+        "total_emissions_mt": 82.5
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2020,
+        "coal_emissions_mt": 62.5,
+        "total_emissions_mt": 76.2
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2021,
+        "coal_emissions_mt": 65.2,
+        "total_emissions_mt": 79.0
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2022,
+        "coal_emissions_mt": 67.0,
+        "total_emissions_mt": 81.0
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2023,
+        "coal_emissions_mt": 64.5,
+        "total_emissions_mt": 78.0
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2024,
+        "coal_emissions_mt": 61.0,
+        "total_emissions_mt": 74.5
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2019,
+        "coal_emissions_mt": 8.5,
+        "total_emissions_mt": 15.0
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2020,
+        "coal_emissions_mt": 7.8,
+        "total_emissions_mt": 13.8
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2021,
+        "coal_emissions_mt": 8.0,
+        "total_emissions_mt": 14.2
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2022,
+        "coal_emissions_mt": 8.2,
+        "total_emissions_mt": 14.5
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2023,
+        "coal_emissions_mt": 7.5,
+        "total_emissions_mt": 13.5
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2024,
+        "coal_emissions_mt": 7.0,
+        "total_emissions_mt": 12.8
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2019,
+        "coal_emissions_mt": 75.0,
+        "total_emissions_mt": 88.0
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2020,
+        "coal_emissions_mt": 69.0,
+        "total_emissions_mt": 81.5
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2021,
+        "coal_emissions_mt": 72.5,
+        "total_emissions_mt": 85.0
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2022,
+        "coal_emissions_mt": 74.8,
+        "total_emissions_mt": 87.5
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2023,
+        "coal_emissions_mt": 71.0,
+        "total_emissions_mt": 83.5
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2024,
+        "coal_emissions_mt": 67.5,
+        "total_emissions_mt": 80.0
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2019,
+        "coal_emissions_mt": 35.0,
+        "total_emissions_mt": 45.5
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2020,
+        "coal_emissions_mt": 32.0,
+        "total_emissions_mt": 42.0
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2021,
+        "coal_emissions_mt": 33.5,
+        "total_emissions_mt": 43.5
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2022,
+        "coal_emissions_mt": 34.2,
+        "total_emissions_mt": 44.5
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2023,
+        "coal_emissions_mt": 32.5,
+        "total_emissions_mt": 42.5
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2024,
+        "coal_emissions_mt": 30.0,
+        "total_emissions_mt": 40.0
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2019,
+        "coal_emissions_mt": 82.0,
+        "total_emissions_mt": 92.0
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2020,
+        "coal_emissions_mt": 75.0,
+        "total_emissions_mt": 85.0
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2021,
+        "coal_emissions_mt": 78.5,
+        "total_emissions_mt": 88.0
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2022,
+        "coal_emissions_mt": 80.8,
+        "total_emissions_mt": 90.5
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2023,
+        "coal_emissions_mt": 77.0,
+        "total_emissions_mt": 86.8
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2024,
+        "coal_emissions_mt": 73.5,
+        "total_emissions_mt": 83.2
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2019,
+        "coal_emissions_mt": 22.0,
+        "total_emissions_mt": 30.0
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2020,
+        "coal_emissions_mt": 20.2,
+        "total_emissions_mt": 27.8
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2021,
+        "coal_emissions_mt": 21.0,
+        "total_emissions_mt": 28.8
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2022,
+        "coal_emissions_mt": 22.5,
+        "total_emissions_mt": 30.5
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2023,
+        "coal_emissions_mt": 21.5,
+        "total_emissions_mt": 29.2
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2024,
+        "coal_emissions_mt": 20.0,
+        "total_emissions_mt": 27.5
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2019,
+        "coal_emissions_mt": 78.0,
+        "total_emissions_mt": 90.0
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2020,
+        "coal_emissions_mt": 72.0,
+        "total_emissions_mt": 83.5
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2021,
+        "coal_emissions_mt": 75.0,
+        "total_emissions_mt": 86.5
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2022,
+        "coal_emissions_mt": 77.5,
+        "total_emissions_mt": 89.0
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2023,
+        "coal_emissions_mt": 74.0,
+        "total_emissions_mt": 85.5
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2024,
+        "coal_emissions_mt": 70.5,
+        "total_emissions_mt": 82.0
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2019,
+        "coal_emissions_mt": 8.0,
+        "total_emissions_mt": 12.0
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2020,
+        "coal_emissions_mt": 7.2,
+        "total_emissions_mt": 11.0
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2021,
+        "coal_emissions_mt": 7.5,
+        "total_emissions_mt": 11.5
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2022,
+        "coal_emissions_mt": 7.8,
+        "total_emissions_mt": 11.8
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2023,
+        "coal_emissions_mt": 7.2,
+        "total_emissions_mt": 11.0
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2024,
+        "coal_emissions_mt": 6.8,
+        "total_emissions_mt": 10.5
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2019,
+        "coal_emissions_mt": 2.5,
+        "total_emissions_mt": 5.0
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2020,
+        "coal_emissions_mt": 2.2,
+        "total_emissions_mt": 4.5
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2021,
+        "coal_emissions_mt": 2.3,
+        "total_emissions_mt": 4.6
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2022,
+        "coal_emissions_mt": 2.4,
+        "total_emissions_mt": 4.8
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2023,
+        "coal_emissions_mt": 2.2,
+        "total_emissions_mt": 4.5
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2024,
+        "coal_emissions_mt": 2.0,
+        "total_emissions_mt": 4.2
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2019,
+        "coal_emissions_mt": 0.8,
+        "total_emissions_mt": 2.5
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2020,
+        "coal_emissions_mt": 0.7,
+        "total_emissions_mt": 2.3
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2021,
+        "coal_emissions_mt": 0.7,
+        "total_emissions_mt": 2.3
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2022,
+        "coal_emissions_mt": 0.8,
+        "total_emissions_mt": 2.4
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2023,
+        "coal_emissions_mt": 0.7,
+        "total_emissions_mt": 2.2
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2024,
+        "coal_emissions_mt": 0.6,
+        "total_emissions_mt": 2.0
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2019,
+        "coal_emissions_mt": 1.2,
+        "total_emissions_mt": 3.0
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2020,
+        "coal_emissions_mt": 1.0,
+        "total_emissions_mt": 2.8
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2021,
+        "coal_emissions_mt": 1.1,
+        "total_emissions_mt": 2.9
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2022,
+        "coal_emissions_mt": 1.2,
+        "total_emissions_mt": 3.0
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2023,
+        "coal_emissions_mt": 1.0,
+        "total_emissions_mt": 2.7
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2024,
+        "coal_emissions_mt": 0.9,
+        "total_emissions_mt": 2.5
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2019,
+        "coal_emissions_mt": 2.0,
+        "total_emissions_mt": 3.5
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2020,
+        "coal_emissions_mt": 1.8,
+        "total_emissions_mt": 3.2
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2021,
+        "coal_emissions_mt": 1.9,
+        "total_emissions_mt": 3.3
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2022,
+        "coal_emissions_mt": 1.8,
+        "total_emissions_mt": 3.2
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2023,
+        "coal_emissions_mt": 1.6,
+        "total_emissions_mt": 2.9
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2024,
+        "coal_emissions_mt": 1.4,
+        "total_emissions_mt": 2.7
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2019,
+        "coal_emissions_mt": 18.0,
+        "total_emissions_mt": 28.0
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2020,
+        "coal_emissions_mt": 15.5,
+        "total_emissions_mt": 25.0
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2021,
+        "coal_emissions_mt": 16.2,
+        "total_emissions_mt": 26.0
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2022,
+        "coal_emissions_mt": 16.8,
+        "total_emissions_mt": 26.5
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2023,
+        "coal_emissions_mt": 15.0,
+        "total_emissions_mt": 24.5
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2024,
+        "coal_emissions_mt": 13.5,
+        "total_emissions_mt": 22.8
+    }
+]

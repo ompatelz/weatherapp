@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>India Energy Atlas - Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#20d3ee",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#0F1115",
+                        "panel-dark": "#161A22",
+                        "border-dark": "#262C3A",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .active-nav { border-left: 3px solid #20d3ee; background: rgba(32, 211, 238, 0.1); }
+        .chart-grid { background-image: linear-gradient(#262C3A 1px, transparent 1px), linear-gradient(90deg, #262C3A 1px, transparent 1px); background-size: 40px 40px; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 h-screen overflow-hidden flex flex-col font-display">
+<!-- Top Utility Bar -->
+<header class="h-14 border-b border-border-dark flex items-center justify-between px-4 bg-panel-dark z-50">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<span class="material-symbols-outlined text-3xl">energy_program_saving</span>
+</div>
+<h1 class="text-lg font-bold tracking-tight">INDIA ENERGY <span class="text-primary">ATLAS</span></h1>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center bg-background-dark border border-border-dark rounded overflow-hidden">
+<button class="px-3 py-1 text-xs hover:bg-border-dark transition-colors">2019</button>
+<button class="px-3 py-1 text-xs hover:bg-border-dark transition-colors">2020</button>
+<button class="px-3 py-1 text-xs hover:bg-border-dark transition-colors">2021</button>
+<button class="px-3 py-1 text-xs bg-primary text-background-dark font-bold">2022</button>
+<button class="px-3 py-1 text-xs hover:bg-border-dark transition-colors">2023</button>
+<button class="px-3 py-1 text-xs hover:bg-border-dark transition-colors">2024</button>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex bg-background-dark border border-border-dark p-1 rounded">
+<button class="px-4 py-1 text-xs font-medium rounded-sm bg-border-dark text-white">Map</button>
+<button class="px-4 py-1 text-xs font-medium rounded-sm hover:text-primary">Simple</button>
+<button class="px-4 py-1 text-xs font-medium rounded-sm hover:text-primary">Pro</button>
+</div>
+<div class="h-8 w-px bg-border-dark mx-2"></div>
+<button class="text-slate-400 hover:text-white">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-primary/20 border border-primary/40 flex items-center justify-center text-primary text-xs font-bold">
+                AD
+            </div>
+</div>
+</header>
+<div class="flex-1 flex overflow-hidden">
+<!-- Left Navigation Sidebar -->
+<aside class="w-16 flex flex-col items-center py-4 gap-6 bg-panel-dark border-r border-border-dark">
+<div class="flex flex-col gap-4 w-full">
+<a class="w-full h-12 flex items-center justify-center text-primary active-nav" href="#" title="Dashboard">
+<span class="material-symbols-outlined">dashboard</span>
+</a>
+<a class="w-full h-12 flex items-center justify-center text-slate-400 hover:text-white transition-colors" href="#" title="Layers">
+<span class="material-symbols-outlined">layers</span>
+</a>
+<a class="w-full h-12 flex items-center justify-center text-slate-400 hover:text-white transition-colors" href="#" title="Analytics">
+<span class="material-symbols-outlined">analytics</span>
+</a>
+<a class="w-full h-12 flex items-center justify-center text-slate-400 hover:text-white transition-colors" href="#" title="Reports">
+<span class="material-symbols-outlined">description</span>
+</a>
+<a class="w-full h-12 flex items-center justify-center text-slate-400 hover:text-white transition-colors" href="#" title="Database">
+<span class="material-symbols-outlined">database</span>
+</a>
+</div>
+<div class="mt-auto flex flex-col gap-4">
+<button class="text-slate-400 hover:text-white">
+<span class="material-symbols-outlined">help</span>
+</button>
+<button class="text-slate-400 hover:text-white">
+<span class="material-symbols-outlined">logout</span>
+</button>
+</div>
+</aside>
+<!-- Main Map Canvas -->
+<main class="flex-1 relative bg-[#0B0D11] overflow-hidden">
+<!-- Mock Map Background -->
+<div class="absolute inset-0 opacity-40 chart-grid pointer-events-none"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<img class="w-full h-full object-cover opacity-60" data-alt="High-contrast dark mode vector map of India with colored energy intensity layers" data-location="India" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQzQFKE0Jfwsi4dPkCPVAXyP71MfmOO5ONswmXR3wnRbnENFvEiyxspgZC_XX9IfgNfkSex8XP-9os1qEyFoqMI3eX0hFL2kYKXE58wLFde3YQ6tpgq_p5H4n1w37V7G33D3bH17mosewDjQ7e_-5kRNyN53U2vXSuU3G1nQZGckMG5kLfIs5LLdWK5O5Mx8QFVI-F7TgUFhx8tp--8Ytrqp3hNaRnJdNk85KQq8FDdUPQdXLWXshIhumY4OjK0BGDNYpWcw-ZUYtm"/>
+</div>
+<!-- Map Controls -->
+<div class="absolute bottom-6 left-6 flex flex-col gap-2">
+<div class="flex flex-col bg-panel-dark border border-border-dark rounded-md overflow-hidden">
+<button class="w-10 h-10 flex items-center justify-center hover:bg-border-dark border-b border-border-dark">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+<button class="w-10 h-10 flex items-center justify-center hover:bg-border-dark">
+<span class="material-symbols-outlined text-sm">remove</span>
+</button>
+</div>
+<button class="w-10 h-10 bg-panel-dark border border-border-dark rounded-md flex items-center justify-center hover:bg-border-dark">
+<span class="material-symbols-outlined text-sm">my_location</span>
+</button>
+</div>
+<!-- Map Legend -->
+<div class="absolute bottom-6 left-20 bg-panel-dark border border-border-dark p-3 rounded-md flex flex-col gap-2">
+<span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Generation (GWh)</span>
+<div class="flex items-center gap-2">
+<div class="h-2 w-24 rounded-full bg-gradient-to-r from-primary/10 via-primary/50 to-primary"></div>
+<span class="text-[10px] text-slate-400">0 - 50k+</span>
+</div>
+</div>
+<!-- State Selector Search -->
+<div class="absolute top-6 left-6 w-64">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">search</span>
+<input class="w-full bg-panel-dark border-border-dark border rounded-md pl-9 pr-4 py-2 text-sm focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-slate-500" placeholder="Search State or District..." type="text"/>
+</div>
+</div>
+</main>
+<!-- Right Side-over State Panel -->
+<aside class="w-80 bg-panel-dark border-l border-border-dark flex flex-col no-scrollbar overflow-y-auto">
+<div class="p-4 border-b border-border-dark flex items-center justify-between sticky top-0 bg-panel-dark z-10">
+<div>
+<h2 class="text-lg font-bold">Karnataka</h2>
+<p class="text-[10px] text-slate-400 uppercase tracking-widest font-medium">State Overview</p>
+</div>
+<button class="p-1 hover:bg-border-dark rounded">
+<span class="material-symbols-outlined text-xl">close</span>
+</button>
+</div>
+<div class="p-4 flex flex-col gap-4">
+<!-- Stat Grid -->
+<div class="grid grid-cols-2 gap-3">
+<div class="p-3 border border-border-dark rounded-md bg-background-dark/30">
+<p class="text-[10px] text-slate-400 uppercase font-semibold mb-1">Total Capacity</p>
+<p class="text-lg font-bold text-primary">31.2 <span class="text-xs font-normal">GW</span></p>
+</div>
+<div class="p-3 border border-border-dark rounded-md bg-background-dark/30">
+<p class="text-[10px] text-slate-400 uppercase font-semibold mb-1">State GDP</p>
+<p class="text-lg font-bold text-slate-100">$220B</p>
+</div>
+<div class="p-3 border border-border-dark rounded-md bg-background-dark/30">
+<p class="text-[10px] text-slate-400 uppercase font-semibold mb-1">Renewable %</p>
+<p class="text-lg font-bold text-primary">52%</p>
+</div>
+<div class="p-3 border border-border-dark rounded-md bg-background-dark/30">
+<p class="text-[10px] text-slate-400 uppercase font-semibold mb-1">Emissions</p>
+<p class="text-lg font-bold text-slate-100">0.42 <span class="text-[10px] font-normal opacity-60">tCO2</span></p>
+</div>
+</div>
+<!-- Line Chart Mockup -->
+<div class="mt-4">
+<div class="flex items-center justify-between mb-3">
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-300">Generation Trend</h3>
+<span class="text-[10px] text-primary">GWh / Year</span>
+</div>
+<div class="h-32 w-full border border-border-dark rounded-md relative flex items-end p-2 overflow-hidden bg-background-dark/20">
+<div class="absolute inset-0 opacity-10 chart-grid"></div>
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M0,80 Q10,75 20,60 T40,65 T60,40 T80,30 T100,10" fill="none" stroke="#20d3ee" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+<path d="M0,80 Q10,75 20,60 T40,65 T60,40 T80,30 T100,10 V100 H0 Z" fill="url(#grad)" fill-opacity="0.1"></path>
+<defs>
+<lineargradient id="grad" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" style="stop-color:#20d3ee;stop-opacity:1"></stop>
+<stop offset="100%" style="stop-color:#20d3ee;stop-opacity:0"></stop>
+</lineargradient>
+</defs>
+</svg>
+</div>
+<div class="flex justify-between mt-2 px-1">
+<span class="text-[8px] text-slate-500 uppercase">2018</span>
+<span class="text-[8px] text-slate-500 uppercase">2021</span>
+<span class="text-[8px] text-slate-500 uppercase">2024</span>
+</div>
+</div>
+<!-- Pie Chart Mockup -->
+<div class="mt-4">
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3">Energy Mix Composition</h3>
+<div class="flex items-center gap-6 p-4 border border-border-dark rounded-md bg-background-dark/30">
+<div class="relative w-20 h-20">
+<!-- Circular Donut SVG -->
+<svg class="w-full h-full -rotate-90" viewbox="0 0 36 36">
+<circle cx="18" cy="18" fill="transparent" r="16" stroke="#262C3A" stroke-width="4"></circle>
+<circle cx="18" cy="18" fill="transparent" r="16" stroke="#20d3ee" stroke-dasharray="65, 100" stroke-width="4"></circle>
+<circle cx="18" cy="18" fill="transparent" r="16" stroke="#0e5663" stroke-dasharray="15, 100" stroke-dashoffset="-65" stroke-width="4"></circle>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="text-[10px] font-bold">RE</span>
+</div>
+</div>
+<div class="flex flex-col gap-2 flex-1">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<div class="flex-1 flex justify-between text-[10px]">
+<span class="text-slate-400">Solar &amp; Wind</span>
+<span class="font-bold">65%</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-[#0e5663]"></div>
+<div class="flex-1 flex justify-between text-[10px]">
+<span class="text-slate-400">Hydro</span>
+<span class="font-bold">15%</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-border-dark"></div>
+<div class="flex-1 flex justify-between text-[10px]">
+<span class="text-slate-400">Fossil</span>
+<span class="font-bold">20%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Activities / News -->
+<div class="mt-4 pb-6">
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3">Recent Policy Changes</h3>
+<div class="flex flex-col gap-3">
+<div class="p-3 border-l-2 border-primary bg-background-dark/50">
+<p class="text-[11px] font-medium leading-tight">State Solar Policy Amendment 2024 published for public review.</p>
+<span class="text-[9px] text-slate-500 mt-1 block">2 DAYS AGO</span>
+</div>
+<div class="p-3 border-l-2 border-border-dark bg-background-dark/50">
+<p class="text-[11px] font-medium leading-tight text-slate-400">PPA targets for distributed wind projects updated.</p>
+<span class="text-[9px] text-slate-500 mt-1 block">1 WEEK AGO</span>
+</div>
+</div>
+</div>
+<button class="w-full py-2 bg-primary/10 border border-primary/40 text-primary text-xs font-bold rounded hover:bg-primary/20 transition-all uppercase tracking-widest mt-auto mb-4">
+                    Download Full Dataset
+                </button>
+</div>
+</aside>
+</div>
+</body></html>

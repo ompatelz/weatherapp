@@ -1,0 +1,14 @@
+{
+  "dataset": "village_electrification",
+  "description": "Village electrification status",
+  "resource_id": "a167e67c-22fa-48f4-85aa-13e6b963c571",
+  "catalog_url": "https://data.gov.in/resource/a167e67c-22fa-48f4-85aa-13e6b963c571",
+  "download_links": [
+    {
+      "text": "apis",
+      "url": "/apis"
+    }
+  ],
+  "table_data": [],
+  "fetched_at": "2026-02-25T11:32:28.724421"
+}

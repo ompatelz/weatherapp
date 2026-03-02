@@ -1,0 +1,14 @@
+{
+  "dataset": "power_generation",
+  "description": "Station-wise monthly power generation details",
+  "resource_id": "6dd33e60-9d8c-4e51-b3d5-cc9943f5f0ab",
+  "catalog_url": "https://data.gov.in/resource/6dd33e60-9d8c-4e51-b3d5-cc9943f5f0ab",
+  "download_links": [
+    {
+      "text": "apis",
+      "url": "/apis"
+    }
+  ],
+  "table_data": [],
+  "fetched_at": "2026-02-25T11:32:31.156918"
+}

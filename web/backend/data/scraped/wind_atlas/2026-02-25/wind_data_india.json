@@ -1,0 +1,7194 @@
+{
+  "Andhra Pradesh": {
+    "latitude": 15.9129,
+    "longitude": 79.74,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.74,
+          15.913,
+          75.52
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 100.53,
+            "FEB": 100.4,
+            "MAR": 100.16,
+            "APR": 99.91,
+            "MAY": 99.54,
+            "JUN": 99.44,
+            "JUL": 99.47,
+            "AUG": 99.55,
+            "SEP": 99.72,
+            "OCT": 100.04,
+            "NOV": 100.34,
+            "DEC": 100.5,
+            "ANN": 99.96
+          },
+          "T2M": {
+            "JAN": 23.95,
+            "FEB": 26.46,
+            "MAR": 29.68,
+            "APR": 31.99,
+            "MAY": 33.85,
+            "JUN": 31.09,
+            "JUL": 29.61,
+            "AUG": 28.55,
+            "SEP": 27.86,
+            "OCT": 26.78,
+            "NOV": 24.59,
+            "DEC": 23.26,
+            "ANN": 28.14
+          },
+          "WD10M": {
+            "JAN": 116.4,
+            "FEB": 141.5,
+            "MAR": 155.5,
+            "APR": 160.2,
+            "MAY": 191.3,
+            "JUN": 261.1,
+            "JUL": 266.3,
+            "AUG": 270.2,
+            "SEP": 267.9,
+            "OCT": 35.1,
+            "NOV": 59.1,
+            "DEC": 75.1,
+            "ANN": 205.0
+          },
+          "WD50M": {
+            "JAN": 119.4,
+            "FEB": 144.3,
+            "MAR": 158.3,
+            "APR": 162.3,
+            "MAY": 195.3,
+            "JUN": 260.0,
+            "JUL": 265.3,
+            "AUG": 268.9,
+            "SEP": 265.7,
+            "OCT": 36.4,
+            "NOV": 60.9,
+            "DEC": 78.4,
+            "ANN": 206.1
+          },
+          "WS10M": {
+            "JAN": 2.87,
+            "FEB": 3.31,
+            "MAR": 3.81,
+            "APR": 4.29,
+            "MAY": 4.41,
+            "JUN": 5.02,
+            "JUL": 5.25,
+            "AUG": 4.57,
+            "SEP": 3.28,
+            "OCT": 2.8,
+            "NOV": 3.04,
+            "DEC": 2.94,
+            "ANN": 3.8
+          },
+          "WS10M_MAX": {
+            "JAN": 7.14,
+            "FEB": 7.76,
+            "MAR": 9.38,
+            "APR": 9.09,
+            "MAY": 12.09,
+            "JUN": 13.75,
+            "JUL": 12.98,
+            "AUG": 12.61,
+            "SEP": 10.93,
+            "OCT": 8.49,
+            "NOV": 9.55,
+            "DEC": 9.67,
+            "ANN": 13.75
+          },
+          "WS10M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.07,
+            "MAR": 0.1,
+            "APR": 0.09,
+            "MAY": 0.01,
+            "JUN": 0.04,
+            "JUL": 0.05,
+            "AUG": 0.04,
+            "SEP": 0.02,
+            "OCT": 0.04,
+            "NOV": 0.01,
+            "DEC": 0.07,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 4.28,
+            "FEB": 4.67,
+            "MAR": 5.05,
+            "APR": 5.4,
+            "MAY": 5.66,
+            "JUN": 6.82,
+            "JUL": 7.31,
+            "AUG": 6.57,
+            "SEP": 4.9,
+            "OCT": 4.22,
+            "NOV": 4.56,
+            "DEC": 4.45,
+            "ANN": 5.33
+          },
+          "WS50M_MAX": {
+            "JAN": 8.82,
+            "FEB": 9.54,
+            "MAR": 11.13,
+            "APR": 10.96,
+            "MAY": 14.78,
+            "JUN": 17.06,
+            "JUL": 16.01,
+            "AUG": 16.01,
+            "SEP": 14.26,
+            "OCT": 11.85,
+            "NOV": 12.56,
+            "DEC": 12.12,
+            "ANN": 17.06
+          },
+          "WS50M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.08,
+            "MAR": 0.07,
+            "APR": 0.02,
+            "MAY": 0.05,
+            "JUN": 0.09,
+            "JUL": 0.15,
+            "AUG": 0.03,
+            "SEP": 0.04,
+            "OCT": 0.05,
+            "NOV": 0.03,
+            "DEC": 0.09,
+            "ANN": 0.02
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.818,
+        "process": 0.08
+      }
+    }
+  },
+  "Arunachal Pradesh": {
+    "latitude": 27.0844,
+    "longitude": 93.6053,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.605,
+          27.084,
+          474.71
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 96.18,
+            "FEB": 96.03,
+            "MAR": 95.79,
+            "APR": 95.57,
+            "MAY": 95.3,
+            "JUN": 94.98,
+            "JUL": 94.97,
+            "AUG": 95.08,
+            "SEP": 95.41,
+            "OCT": 95.83,
+            "NOV": 96.08,
+            "DEC": 96.19,
+            "ANN": 95.62
+          },
+          "T2M": {
+            "JAN": 14.46,
+            "FEB": 16.99,
+            "MAR": 20.86,
+            "APR": 23.99,
+            "MAY": 25.8,
+            "JUN": 27.06,
+            "JUL": 27.03,
+            "AUG": 27.25,
+            "SEP": 25.95,
+            "OCT": 23.14,
+            "NOV": 18.98,
+            "DEC": 15.68,
+            "ANN": 22.29
+          },
+          "WD10M": {
+            "JAN": 24.9,
+            "FEB": 345.5,
+            "MAR": 276.0,
+            "APR": 232.3,
+            "MAY": 204.8,
+            "JUN": 201.5,
+            "JUL": 201.8,
+            "AUG": 193.7,
+            "SEP": 141.4,
+            "OCT": 43.6,
+            "NOV": 34.9,
+            "DEC": 33.1,
+            "ANN": 174.0
+          },
+          "WD50M": {
+            "JAN": 20.1,
+            "FEB": 340.6,
+            "MAR": 279.6,
+            "APR": 237.8,
+            "MAY": 216.9,
+            "JUN": 206.1,
+            "JUL": 205.6,
+            "AUG": 201.0,
+            "SEP": 137.4,
+            "OCT": 37.5,
+            "NOV": 31.0,
+            "DEC": 29.4,
+            "ANN": 314.0
+          },
+          "WS10M": {
+            "JAN": 1.67,
+            "FEB": 1.8,
+            "MAR": 2.04,
+            "APR": 2.33,
+            "MAY": 2.17,
+            "JUN": 2.19,
+            "JUL": 2.25,
+            "AUG": 1.92,
+            "SEP": 1.88,
+            "OCT": 1.77,
+            "NOV": 1.77,
+            "DEC": 1.72,
+            "ANN": 1.96
+          },
+          "WS10M_MAX": {
+            "JAN": 5.39,
+            "FEB": 8.74,
+            "MAR": 10.23,
+            "APR": 9.1,
+            "MAY": 9.17,
+            "JUN": 8.53,
+            "JUL": 8.32,
+            "AUG": 7.46,
+            "SEP": 8.4,
+            "OCT": 6.5,
+            "NOV": 6.12,
+            "DEC": 4.35,
+            "ANN": 10.23
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.01,
+            "MAR": 0.02,
+            "APR": 0.02,
+            "MAY": 0.0,
+            "JUN": 0.01,
+            "JUL": 0.02,
+            "AUG": 0.02,
+            "SEP": 0.03,
+            "OCT": 0.01,
+            "NOV": 0.03,
+            "DEC": 0.01,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 2.53,
+            "FEB": 2.76,
+            "MAR": 3.17,
+            "APR": 3.63,
+            "MAY": 3.33,
+            "JUN": 3.37,
+            "JUL": 3.46,
+            "AUG": 2.98,
+            "SEP": 2.96,
+            "OCT": 2.79,
+            "NOV": 2.75,
+            "DEC": 2.63,
+            "ANN": 3.03
+          },
+          "WS50M_MAX": {
+            "JAN": 7.94,
+            "FEB": 12.44,
+            "MAR": 14.83,
+            "APR": 13.53,
+            "MAY": 12.69,
+            "JUN": 12.0,
+            "JUL": 11.44,
+            "AUG": 10.24,
+            "SEP": 12.14,
+            "OCT": 9.18,
+            "NOV": 8.62,
+            "DEC": 6.63,
+            "ANN": 14.83
+          },
+          "WS50M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.03,
+            "MAR": 0.01,
+            "APR": 0.02,
+            "MAY": 0.05,
+            "JUN": 0.01,
+            "JUL": 0.01,
+            "AUG": 0.02,
+            "SEP": 0.04,
+            "OCT": 0.04,
+            "NOV": 0.02,
+            "DEC": 0.01,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.756,
+        "process": 0.09
+      }
+    }
+  },
+  "Assam": {
+    "latitude": 26.2006,
+    "longitude": 92.9376,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.938,
+          26.201,
+          217.14
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 98.93,
+            "FEB": 98.76,
+            "MAR": 98.49,
+            "APR": 98.26,
+            "MAY": 97.96,
+            "JUN": 97.64,
+            "JUL": 97.63,
+            "AUG": 97.74,
+            "SEP": 98.07,
+            "OCT": 98.51,
+            "NOV": 98.79,
+            "DEC": 98.93,
+            "ANN": 98.31
+          },
+          "T2M": {
+            "JAN": 16.5,
+            "FEB": 19.45,
+            "MAR": 23.75,
+            "APR": 26.75,
+            "MAY": 27.97,
+            "JUN": 28.5,
+            "JUL": 28.31,
+            "AUG": 28.34,
+            "SEP": 27.3,
+            "OCT": 24.87,
+            "NOV": 21.01,
+            "DEC": 17.72,
+            "ANN": 24.22
+          },
+          "WD10M": {
+            "JAN": 243.1,
+            "FEB": 236.3,
+            "MAR": 230.6,
+            "APR": 216.9,
+            "MAY": 202.3,
+            "JUN": 191.6,
+            "JUL": 188.6,
+            "AUG": 192.6,
+            "SEP": 176.2,
+            "OCT": 79.7,
+            "NOV": 83.2,
+            "DEC": 91.5,
+            "ANN": 198.7
+          },
+          "WD50M": {
+            "JAN": 234.6,
+            "FEB": 233.4,
+            "MAR": 228.2,
+            "APR": 214.4,
+            "MAY": 200.0,
+            "JUN": 192.1,
+            "JUL": 189.5,
+            "AUG": 193.0,
+            "SEP": 177.1,
+            "OCT": 87.3,
+            "NOV": 87.0,
+            "DEC": 96.2,
+            "ANN": 197.7
+          },
+          "WS10M": {
+            "JAN": 1.02,
+            "FEB": 1.26,
+            "MAR": 1.53,
+            "APR": 1.61,
+            "MAY": 1.34,
+            "JUN": 1.31,
+            "JUL": 1.24,
+            "AUG": 1.08,
+            "SEP": 0.98,
+            "OCT": 0.91,
+            "NOV": 0.93,
+            "DEC": 0.93,
+            "ANN": 1.18
+          },
+          "WS10M_MAX": {
+            "JAN": 3.03,
+            "FEB": 5.29,
+            "MAR": 5.53,
+            "APR": 5.23,
+            "MAY": 5.01,
+            "JUN": 3.98,
+            "JUL": 3.38,
+            "AUG": 3.02,
+            "SEP": 3.07,
+            "OCT": 3.29,
+            "NOV": 3.32,
+            "DEC": 2.49,
+            "ANN": 5.53
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.01,
+            "MAR": 0.03,
+            "APR": 0.02,
+            "MAY": 0.01,
+            "JUN": 0.0,
+            "JUL": 0.01,
+            "AUG": 0.03,
+            "SEP": 0.01,
+            "OCT": 0.02,
+            "NOV": 0.01,
+            "DEC": 0.0,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 1.77,
+            "FEB": 2.31,
+            "MAR": 2.9,
+            "APR": 3.13,
+            "MAY": 2.66,
+            "JUN": 2.69,
+            "JUL": 2.57,
+            "AUG": 2.25,
+            "SEP": 2.01,
+            "OCT": 1.75,
+            "NOV": 1.68,
+            "DEC": 1.61,
+            "ANN": 2.28
+          },
+          "WS50M_MAX": {
+            "JAN": 5.34,
+            "FEB": 9.32,
+            "MAR": 9.3,
+            "APR": 9.04,
+            "MAY": 9.22,
+            "JUN": 8.05,
+            "JUL": 6.95,
+            "AUG": 5.93,
+            "SEP": 5.4,
+            "OCT": 6.2,
+            "NOV": 5.44,
+            "DEC": 4.35,
+            "ANN": 9.32
+          },
+          "WS50M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.02,
+            "MAR": 0.01,
+            "APR": 0.06,
+            "MAY": 0.01,
+            "JUN": 0.02,
+            "JUL": 0.04,
+            "AUG": 0.01,
+            "SEP": 0.01,
+            "OCT": 0.04,
+            "NOV": 0.03,
+            "DEC": 0.01,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.725,
+        "process": 0.09
+      }
+    }
+  },
+  "Bihar": {
+    "latitude": 25.0961,
+    "longitude": 85.3131,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.313,
+          25.096,
+          108.31
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 100.32,
+            "FEB": 100.11,
+            "MAR": 99.76,
+            "APR": 99.34,
+            "MAY": 98.95,
+            "JUN": 98.62,
+            "JUL": 98.65,
+            "AUG": 98.81,
+            "SEP": 99.19,
+            "OCT": 99.75,
+            "NOV": 100.11,
+            "DEC": 100.29,
+            "ANN": 99.49
+          },
+          "T2M": {
+            "JAN": 15.63,
+            "FEB": 20.06,
+            "MAR": 25.98,
+            "APR": 31.75,
+            "MAY": 34.53,
+            "JUN": 33.87,
+            "JUL": 30.0,
+            "AUG": 28.87,
+            "SEP": 27.77,
+            "OCT": 25.13,
+            "NOV": 20.56,
+            "DEC": 16.41,
+            "ANN": 25.9
+          },
+          "WD10M": {
+            "JAN": 280.3,
+            "FEB": 281.5,
+            "MAR": 281.4,
+            "APR": 281.4,
+            "MAY": 83.0,
+            "JUN": 125.2,
+            "JUL": 127.6,
+            "AUG": 109.4,
+            "SEP": 109.3,
+            "OCT": 275.9,
+            "NOV": 273.0,
+            "DEC": 276.0,
+            "ANN": 259.3
+          },
+          "WD50M": {
+            "JAN": 279.5,
+            "FEB": 281.5,
+            "MAR": 281.6,
+            "APR": 280.1,
+            "MAY": 86.5,
+            "JUN": 129.3,
+            "JUL": 131.6,
+            "AUG": 113.1,
+            "SEP": 116.3,
+            "OCT": 256.4,
+            "NOV": 270.1,
+            "DEC": 274.4,
+            "ANN": 254.3
+          },
+          "WS10M": {
+            "JAN": 2.63,
+            "FEB": 2.87,
+            "MAR": 3.05,
+            "APR": 3.07,
+            "MAY": 3.25,
+            "JUN": 3.6,
+            "JUL": 3.63,
+            "AUG": 3.21,
+            "SEP": 2.84,
+            "OCT": 2.08,
+            "NOV": 2.09,
+            "DEC": 2.3,
+            "ANN": 2.88
+          },
+          "WS10M_MAX": {
+            "JAN": 9.61,
+            "FEB": 11.45,
+            "MAR": 10.74,
+            "APR": 10.02,
+            "MAY": 11.22,
+            "JUN": 14.0,
+            "JUL": 13.77,
+            "AUG": 13.36,
+            "SEP": 13.47,
+            "OCT": 12.37,
+            "NOV": 6.34,
+            "DEC": 7.16,
+            "ANN": 14.0
+          },
+          "WS10M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.05,
+            "MAR": 0.04,
+            "APR": 0.01,
+            "MAY": 0.02,
+            "JUN": 0.06,
+            "JUL": 0.03,
+            "AUG": 0.02,
+            "SEP": 0.04,
+            "OCT": 0.04,
+            "NOV": 0.02,
+            "DEC": 0.01,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 4.01,
+            "FEB": 4.37,
+            "MAR": 4.58,
+            "APR": 4.52,
+            "MAY": 4.5,
+            "JUN": 4.79,
+            "JUL": 5.1,
+            "AUG": 4.79,
+            "SEP": 4.34,
+            "OCT": 3.18,
+            "NOV": 3.18,
+            "DEC": 3.5,
+            "ANN": 4.24
+          },
+          "WS50M_MAX": {
+            "JAN": 11.97,
+            "FEB": 14.5,
+            "MAR": 13.16,
+            "APR": 12.17,
+            "MAY": 14.07,
+            "JUN": 17.48,
+            "JUL": 17.09,
+            "AUG": 16.71,
+            "SEP": 17.58,
+            "OCT": 16.7,
+            "NOV": 9.54,
+            "DEC": 9.3,
+            "ANN": 17.58
+          },
+          "WS50M_MIN": {
+            "JAN": 0.06,
+            "FEB": 0.09,
+            "MAR": 0.03,
+            "APR": 0.06,
+            "MAY": 0.05,
+            "JUN": 0.05,
+            "JUL": 0.08,
+            "AUG": 0.03,
+            "SEP": 0.08,
+            "OCT": 0.01,
+            "NOV": 0.02,
+            "DEC": 0.02,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 1.058,
+        "process": 0.1
+      }
+    }
+  },
+  "Chhattisgarh": {
+    "latitude": 21.2787,
+    "longitude": 81.8661,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.866,
+          21.279,
+          276.76
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 98.35,
+            "FEB": 98.17,
+            "MAR": 97.88,
+            "APR": 97.52,
+            "MAY": 97.11,
+            "JUN": 96.9,
+            "JUL": 96.92,
+            "AUG": 97.03,
+            "SEP": 97.35,
+            "OCT": 97.87,
+            "NOV": 98.22,
+            "DEC": 98.36,
+            "ANN": 97.64
+          },
+          "T2M": {
+            "JAN": 18.34,
+            "FEB": 22.6,
+            "MAR": 28.1,
+            "APR": 33.14,
+            "MAY": 36.27,
+            "JUN": 32.19,
+            "JUL": 27.66,
+            "AUG": 26.74,
+            "SEP": 26.44,
+            "OCT": 24.29,
+            "NOV": 20.74,
+            "DEC": 18.03,
+            "ANN": 26.22
+          },
+          "WD10M": {
+            "JAN": 72.2,
+            "FEB": 59.4,
+            "MAR": 0.8,
+            "APR": 273.7,
+            "MAY": 284.1,
+            "JUN": 253.3,
+            "JUL": 249.6,
+            "AUG": 251.6,
+            "SEP": 281.0,
+            "OCT": 36.8,
+            "NOV": 59.5,
+            "DEC": 73.5,
+            "ANN": 276.2
+          },
+          "WD50M": {
+            "JAN": 72.4,
+            "FEB": 59.2,
+            "MAR": 2.2,
+            "APR": 274.9,
+            "MAY": 285.2,
+            "JUN": 252.9,
+            "JUL": 249.2,
+            "AUG": 251.6,
+            "SEP": 280.4,
+            "OCT": 36.2,
+            "NOV": 60.5,
+            "DEC": 75.0,
+            "ANN": 278.8
+          },
+          "WS10M": {
+            "JAN": 2.17,
+            "FEB": 2.35,
+            "MAR": 2.47,
+            "APR": 2.95,
+            "MAY": 3.5,
+            "JUN": 4.34,
+            "JUL": 4.3,
+            "AUG": 3.74,
+            "SEP": 2.71,
+            "OCT": 2.14,
+            "NOV": 1.93,
+            "DEC": 1.98,
+            "ANN": 2.88
+          },
+          "WS10M_MAX": {
+            "JAN": 7.9,
+            "FEB": 7.99,
+            "MAR": 9.35,
+            "APR": 11.53,
+            "MAY": 10.8,
+            "JUN": 14.07,
+            "JUL": 12.85,
+            "AUG": 11.31,
+            "SEP": 10.21,
+            "OCT": 13.26,
+            "NOV": 6.31,
+            "DEC": 7.13,
+            "ANN": 14.07
+          },
+          "WS10M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.03,
+            "MAR": 0.01,
+            "APR": 0.02,
+            "MAY": 0.01,
+            "JUN": 0.03,
+            "JUL": 0.0,
+            "AUG": 0.06,
+            "SEP": 0.04,
+            "OCT": 0.03,
+            "NOV": 0.03,
+            "DEC": 0.02,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 3.37,
+            "FEB": 3.66,
+            "MAR": 3.8,
+            "APR": 4.45,
+            "MAY": 5.0,
+            "JUN": 5.84,
+            "JUL": 5.98,
+            "AUG": 5.47,
+            "SEP": 4.2,
+            "OCT": 3.29,
+            "NOV": 2.95,
+            "DEC": 3.03,
+            "ANN": 4.26
+          },
+          "WS50M_MAX": {
+            "JAN": 9.76,
+            "FEB": 10.52,
+            "MAR": 11.21,
+            "APR": 13.87,
+            "MAY": 12.79,
+            "JUN": 17.15,
+            "JUL": 17.14,
+            "AUG": 14.28,
+            "SEP": 14.38,
+            "OCT": 17.79,
+            "NOV": 7.96,
+            "DEC": 9.12,
+            "ANN": 17.79
+          },
+          "WS50M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.02,
+            "MAR": 0.04,
+            "APR": 0.05,
+            "MAY": 0.11,
+            "JUN": 0.04,
+            "JUL": 0.04,
+            "AUG": 0.04,
+            "SEP": 0.08,
+            "OCT": 0.03,
+            "NOV": 0.03,
+            "DEC": 0.01,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.721,
+        "process": 0.09
+      }
+    }
+  },
+  "Goa": {
+    "latitude": 15.2993,
+    "longitude": 74.124,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.124,
+          15.299,
+          445.96
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 96.2,
+            "FEB": 96.13,
+            "MAR": 96.01,
+            "APR": 95.87,
+            "MAY": 95.76,
+            "JUN": 95.65,
+            "JUL": 95.69,
+            "AUG": 95.76,
+            "SEP": 95.83,
+            "OCT": 95.95,
+            "NOV": 96.08,
+            "DEC": 96.17,
+            "ANN": 95.92
+          },
+          "T2M": {
+            "JAN": 23.7,
+            "FEB": 25.88,
+            "MAR": 27.92,
+            "APR": 29.21,
+            "MAY": 28.51,
+            "JUN": 25.23,
+            "JUL": 24.07,
+            "AUG": 23.8,
+            "SEP": 23.92,
+            "OCT": 23.95,
+            "NOV": 23.13,
+            "DEC": 22.82,
+            "ANN": 25.17
+          },
+          "WD10M": {
+            "JAN": 80.1,
+            "FEB": 57.4,
+            "MAR": 278.9,
+            "APR": 277.0,
+            "MAY": 273.3,
+            "JUN": 248.2,
+            "JUL": 254.9,
+            "AUG": 261.0,
+            "SEP": 261.9,
+            "OCT": 58.8,
+            "NOV": 78.4,
+            "DEC": 81.0,
+            "ANN": 262.4
+          },
+          "WD50M": {
+            "JAN": 72.8,
+            "FEB": 41.2,
+            "MAR": 294.5,
+            "APR": 284.5,
+            "MAY": 276.3,
+            "JUN": 248.3,
+            "JUL": 255.6,
+            "AUG": 262.3,
+            "SEP": 263.6,
+            "OCT": 53.3,
+            "NOV": 76.8,
+            "DEC": 79.1,
+            "ANN": 267.7
+          },
+          "WS10M": {
+            "JAN": 1.92,
+            "FEB": 1.91,
+            "MAR": 1.94,
+            "APR": 1.95,
+            "MAY": 2.63,
+            "JUN": 3.58,
+            "JUL": 4.15,
+            "AUG": 3.73,
+            "SEP": 2.45,
+            "OCT": 1.82,
+            "NOV": 2.1,
+            "DEC": 2.18,
+            "ANN": 2.53
+          },
+          "WS10M_MAX": {
+            "JAN": 5.94,
+            "FEB": 5.53,
+            "MAR": 5.35,
+            "APR": 5.39,
+            "MAY": 6.65,
+            "JUN": 8.93,
+            "JUL": 8.47,
+            "AUG": 8.16,
+            "SEP": 7.3,
+            "OCT": 6.19,
+            "NOV": 6.35,
+            "DEC": 5.95,
+            "ANN": 8.93
+          },
+          "WS10M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.02,
+            "MAR": 0.04,
+            "APR": 0.04,
+            "MAY": 0.07,
+            "JUN": 0.21,
+            "JUL": 0.22,
+            "AUG": 0.23,
+            "SEP": 0.01,
+            "OCT": 0.04,
+            "NOV": 0.02,
+            "DEC": 0.03,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 3.33,
+            "FEB": 3.24,
+            "MAR": 3.08,
+            "APR": 2.93,
+            "MAY": 3.82,
+            "JUN": 5.62,
+            "JUL": 6.52,
+            "AUG": 5.98,
+            "SEP": 4.18,
+            "OCT": 3.3,
+            "NOV": 3.79,
+            "DEC": 3.87,
+            "ANN": 4.15
+          },
+          "WS50M_MAX": {
+            "JAN": 8.92,
+            "FEB": 8.14,
+            "MAR": 7.76,
+            "APR": 7.26,
+            "MAY": 9.55,
+            "JUN": 13.18,
+            "JUL": 12.39,
+            "AUG": 12.05,
+            "SEP": 10.78,
+            "OCT": 10.19,
+            "NOV": 9.72,
+            "DEC": 9.04,
+            "ANN": 13.18
+          },
+          "WS50M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.02,
+            "MAR": 0.04,
+            "APR": 0.04,
+            "MAY": 0.01,
+            "JUN": 0.14,
+            "JUL": 0.24,
+            "AUG": 0.21,
+            "SEP": 0.06,
+            "OCT": 0.01,
+            "NOV": 0.03,
+            "DEC": 0.06,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.785,
+        "process": 0.08
+      }
+    }
+  },
+  "Gujarat": {
+    "latitude": 22.2587,
+    "longitude": 71.1924,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.192,
+          22.259,
+          118.29
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 100.14,
+            "FEB": 99.98,
+            "MAR": 99.75,
+            "APR": 99.46,
+            "MAY": 99.17,
+            "JUN": 98.81,
+            "JUL": 98.76,
+            "AUG": 98.93,
+            "SEP": 99.26,
+            "OCT": 99.67,
+            "NOV": 99.94,
+            "DEC": 100.1,
+            "ANN": 99.5
+          },
+          "T2M": {
+            "JAN": 19.51,
+            "FEB": 22.77,
+            "MAR": 27.41,
+            "APR": 31.48,
+            "MAY": 33.29,
+            "JUN": 31.99,
+            "JUL": 28.92,
+            "AUG": 27.59,
+            "SEP": 27.49,
+            "OCT": 27.17,
+            "NOV": 24.2,
+            "DEC": 20.54,
+            "ANN": 26.87
+          },
+          "WD10M": {
+            "JAN": 8.3,
+            "FEB": 338.3,
+            "MAR": 311.9,
+            "APR": 284.3,
+            "MAY": 264.2,
+            "JUN": 242.4,
+            "JUL": 244.5,
+            "AUG": 248.3,
+            "SEP": 261.6,
+            "OCT": 358.9,
+            "NOV": 38.0,
+            "DEC": 18.5,
+            "ANN": 279.3
+          },
+          "WD50M": {
+            "JAN": 7.3,
+            "FEB": 338.7,
+            "MAR": 312.6,
+            "APR": 284.5,
+            "MAY": 264.1,
+            "JUN": 242.3,
+            "JUL": 244.6,
+            "AUG": 248.2,
+            "SEP": 261.2,
+            "OCT": 349.0,
+            "NOV": 36.4,
+            "DEC": 17.2,
+            "ANN": 284.6
+          },
+          "WS10M": {
+            "JAN": 3.4,
+            "FEB": 3.54,
+            "MAR": 3.81,
+            "APR": 4.59,
+            "MAY": 6.17,
+            "JUN": 5.98,
+            "JUL": 5.75,
+            "AUG": 5.01,
+            "SEP": 3.5,
+            "OCT": 2.48,
+            "NOV": 2.65,
+            "DEC": 3.14,
+            "ANN": 4.17
+          },
+          "WS10M_MAX": {
+            "JAN": 8.44,
+            "FEB": 12.0,
+            "MAR": 9.95,
+            "APR": 10.88,
+            "MAY": 12.81,
+            "JUN": 16.67,
+            "JUL": 14.66,
+            "AUG": 11.59,
+            "SEP": 11.8,
+            "OCT": 7.87,
+            "NOV": 7.9,
+            "DEC": 9.26,
+            "ANN": 16.67
+          },
+          "WS10M_MIN": {
+            "JAN": 0.08,
+            "FEB": 0.04,
+            "MAR": 0.09,
+            "APR": 0.09,
+            "MAY": 0.04,
+            "JUN": 0.05,
+            "JUL": 0.21,
+            "AUG": 0.13,
+            "SEP": 0.02,
+            "OCT": 0.05,
+            "NOV": 0.01,
+            "DEC": 0.04,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 5.47,
+            "FEB": 5.54,
+            "MAR": 5.69,
+            "APR": 6.18,
+            "MAY": 7.54,
+            "JUN": 7.29,
+            "JUL": 7.37,
+            "AUG": 6.77,
+            "SEP": 5.12,
+            "OCT": 3.81,
+            "NOV": 4.13,
+            "DEC": 5.08,
+            "ANN": 5.84
+          },
+          "WS50M_MAX": {
+            "JAN": 10.09,
+            "FEB": 14.78,
+            "MAR": 11.76,
+            "APR": 13.03,
+            "MAY": 14.84,
+            "JUN": 20.84,
+            "JUL": 18.42,
+            "AUG": 14.22,
+            "SEP": 15.32,
+            "OCT": 10.22,
+            "NOV": 9.95,
+            "DEC": 10.91,
+            "ANN": 20.84
+          },
+          "WS50M_MIN": {
+            "JAN": 0.11,
+            "FEB": 0.12,
+            "MAR": 0.09,
+            "APR": 0.09,
+            "MAY": 0.05,
+            "JUN": 0.1,
+            "JUL": 0.19,
+            "AUG": 0.25,
+            "SEP": 0.03,
+            "OCT": 0.07,
+            "NOV": 0.02,
+            "DEC": 0.03,
+            "ANN": 0.02
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.605,
+        "process": 0.09
+      }
+    }
+  },
+  "Haryana": {
+    "latitude": 29.0588,
+    "longitude": 76.0856,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.086,
+          29.059,
+          220.73
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 99.11,
+            "FEB": 98.89,
+            "MAR": 98.57,
+            "APR": 98.13,
+            "MAY": 97.66,
+            "JUN": 97.3,
+            "JUL": 97.29,
+            "AUG": 97.51,
+            "SEP": 97.93,
+            "OCT": 98.5,
+            "NOV": 98.88,
+            "DEC": 99.07,
+            "ANN": 98.23
+          },
+          "T2M": {
+            "JAN": 13.34,
+            "FEB": 16.99,
+            "MAR": 23.29,
+            "APR": 29.98,
+            "MAY": 34.7,
+            "JUN": 35.82,
+            "JUL": 33.22,
+            "AUG": 31.04,
+            "SEP": 29.28,
+            "OCT": 26.06,
+            "NOV": 20.55,
+            "DEC": 15.32,
+            "ANN": 25.83
+          },
+          "WD10M": {
+            "JAN": 320.0,
+            "FEB": 318.0,
+            "MAR": 312.7,
+            "APR": 300.3,
+            "MAY": 278.5,
+            "JUN": 264.7,
+            "JUL": 204.7,
+            "AUG": 193.2,
+            "SEP": 300.5,
+            "OCT": 330.1,
+            "NOV": 320.6,
+            "DEC": 319.2,
+            "ANN": 295.4
+          },
+          "WD50M": {
+            "JAN": 322.4,
+            "FEB": 322.5,
+            "MAR": 317.1,
+            "APR": 304.3,
+            "MAY": 280.1,
+            "JUN": 263.7,
+            "JUL": 204.2,
+            "AUG": 196.8,
+            "SEP": 285.4,
+            "OCT": 333.8,
+            "NOV": 323.0,
+            "DEC": 321.1,
+            "ANN": 297.8
+          },
+          "WS10M": {
+            "JAN": 2.66,
+            "FEB": 2.85,
+            "MAR": 2.94,
+            "APR": 3.15,
+            "MAY": 3.44,
+            "JUN": 3.61,
+            "JUL": 3.22,
+            "AUG": 2.88,
+            "SEP": 2.59,
+            "OCT": 2.24,
+            "NOV": 2.43,
+            "DEC": 2.58,
+            "ANN": 2.88
+          },
+          "WS10M_MAX": {
+            "JAN": 7.6,
+            "FEB": 10.24,
+            "MAR": 9.52,
+            "APR": 11.58,
+            "MAY": 11.75,
+            "JUN": 11.36,
+            "JUL": 10.43,
+            "AUG": 9.27,
+            "SEP": 10.41,
+            "OCT": 7.66,
+            "NOV": 7.85,
+            "DEC": 8.54,
+            "ANN": 11.75
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.0,
+            "MAR": 0.04,
+            "APR": 0.01,
+            "MAY": 0.05,
+            "JUN": 0.01,
+            "JUL": 0.01,
+            "AUG": 0.01,
+            "SEP": 0.03,
+            "OCT": 0.03,
+            "NOV": 0.02,
+            "DEC": 0.03,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 4.14,
+            "FEB": 4.5,
+            "MAR": 4.52,
+            "APR": 4.79,
+            "MAY": 5.0,
+            "JUN": 5.04,
+            "JUL": 4.52,
+            "AUG": 4.27,
+            "SEP": 3.93,
+            "OCT": 3.34,
+            "NOV": 3.65,
+            "DEC": 3.96,
+            "ANN": 4.3
+          },
+          "WS50M_MAX": {
+            "JAN": 10.61,
+            "FEB": 12.99,
+            "MAR": 12.14,
+            "APR": 13.8,
+            "MAY": 13.95,
+            "JUN": 13.43,
+            "JUL": 12.87,
+            "AUG": 11.96,
+            "SEP": 12.95,
+            "OCT": 10.1,
+            "NOV": 9.98,
+            "DEC": 10.79,
+            "ANN": 13.95
+          },
+          "WS50M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.01,
+            "MAR": 0.08,
+            "APR": 0.03,
+            "MAY": 0.01,
+            "JUN": 0.03,
+            "JUL": 0.01,
+            "AUG": 0.03,
+            "SEP": 0.05,
+            "OCT": 0.01,
+            "NOV": 0.02,
+            "DEC": 0.03,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.751,
+        "process": 0.1
+      }
+    }
+  },
+  "Himachal Pradesh": {
+    "latitude": 31.1048,
+    "longitude": 77.1734,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.173,
+          31.105,
+          897.65
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 91.5,
+            "FEB": 91.39,
+            "MAR": 91.22,
+            "APR": 90.95,
+            "MAY": 90.59,
+            "JUN": 90.28,
+            "JUL": 90.24,
+            "AUG": 90.42,
+            "SEP": 90.78,
+            "OCT": 91.23,
+            "NOV": 91.46,
+            "DEC": 91.52,
+            "ANN": 90.96
+          },
+          "T2M": {
+            "JAN": 10.78,
+            "FEB": 13.45,
+            "MAR": 18.42,
+            "APR": 24.42,
+            "MAY": 29.11,
+            "JUN": 30.25,
+            "JUL": 27.66,
+            "AUG": 25.72,
+            "SEP": 23.91,
+            "OCT": 20.76,
+            "NOV": 16.42,
+            "DEC": 12.56,
+            "ANN": 21.15
+          },
+          "WD10M": {
+            "JAN": 9.7,
+            "FEB": 14.6,
+            "MAR": 339.1,
+            "APR": 319.9,
+            "MAY": 299.9,
+            "JUN": 283.6,
+            "JUL": 246.9,
+            "AUG": 260.1,
+            "SEP": 320.4,
+            "OCT": 348.8,
+            "NOV": 356.4,
+            "DEC": 6.9,
+            "ANN": 322.0
+          },
+          "WD50M": {
+            "JAN": 18.8,
+            "FEB": 27.7,
+            "MAR": 354.5,
+            "APR": 334.8,
+            "MAY": 312.9,
+            "JUN": 292.6,
+            "JUL": 245.1,
+            "AUG": 265.3,
+            "SEP": 334.6,
+            "OCT": 358.0,
+            "NOV": 4.0,
+            "DEC": 14.0,
+            "ANN": 340.2
+          },
+          "WS10M": {
+            "JAN": 2.69,
+            "FEB": 3.07,
+            "MAR": 3.24,
+            "APR": 3.36,
+            "MAY": 3.38,
+            "JUN": 3.01,
+            "JUL": 2.4,
+            "AUG": 2.21,
+            "SEP": 2.28,
+            "OCT": 2.5,
+            "NOV": 2.59,
+            "DEC": 2.62,
+            "ANN": 2.78
+          },
+          "WS10M_MAX": {
+            "JAN": 9.07,
+            "FEB": 13.05,
+            "MAR": 13.73,
+            "APR": 13.35,
+            "MAY": 12.13,
+            "JUN": 10.41,
+            "JUL": 7.8,
+            "AUG": 8.67,
+            "SEP": 9.69,
+            "OCT": 8.05,
+            "NOV": 7.01,
+            "DEC": 10.97,
+            "ANN": 13.73
+          },
+          "WS10M_MIN": {
+            "JAN": 0.05,
+            "FEB": 0.09,
+            "MAR": 0.06,
+            "APR": 0.03,
+            "MAY": 0.06,
+            "JUN": 0.02,
+            "JUL": 0.02,
+            "AUG": 0.01,
+            "SEP": 0.04,
+            "OCT": 0.03,
+            "NOV": 0.01,
+            "DEC": 0.04,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 3.77,
+            "FEB": 4.33,
+            "MAR": 4.49,
+            "APR": 4.56,
+            "MAY": 4.45,
+            "JUN": 3.92,
+            "JUL": 3.17,
+            "AUG": 2.99,
+            "SEP": 3.16,
+            "OCT": 3.47,
+            "NOV": 3.6,
+            "DEC": 3.65,
+            "ANN": 3.79
+          },
+          "WS50M_MAX": {
+            "JAN": 12.08,
+            "FEB": 16.91,
+            "MAR": 17.66,
+            "APR": 16.85,
+            "MAY": 14.54,
+            "JUN": 11.06,
+            "JUL": 9.66,
+            "AUG": 10.49,
+            "SEP": 13.35,
+            "OCT": 10.25,
+            "NOV": 9.22,
+            "DEC": 15.19,
+            "ANN": 17.66
+          },
+          "WS50M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.03,
+            "MAR": 0.11,
+            "APR": 0.06,
+            "MAY": 0.04,
+            "JUN": 0.06,
+            "JUL": 0.01,
+            "AUG": 0.03,
+            "SEP": 0.05,
+            "OCT": 0.05,
+            "NOV": 0.04,
+            "DEC": 0.03,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.672,
+        "process": 0.08
+      }
+    }
+  },
+  "Jharkhand": {
+    "latitude": 23.6102,
+    "longitude": 85.2799,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.28,
+          23.61,
+          608.5
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 94.63,
+            "FEB": 94.51,
+            "MAR": 94.27,
+            "APR": 93.95,
+            "MAY": 93.6,
+            "JUN": 93.31,
+            "JUL": 93.28,
+            "AUG": 93.4,
+            "SEP": 93.75,
+            "OCT": 94.25,
+            "NOV": 94.54,
+            "DEC": 94.63,
+            "ANN": 94.01
+          },
+          "T2M": {
+            "JAN": 14.88,
+            "FEB": 18.95,
+            "MAR": 24.16,
+            "APR": 29.52,
+            "MAY": 31.67,
+            "JUN": 29.7,
+            "JUL": 26.21,
+            "AUG": 25.47,
+            "SEP": 24.73,
+            "OCT": 22.2,
+            "NOV": 18.34,
+            "DEC": 15.17,
+            "ANN": 23.43
+          },
+          "WD10M": {
+            "JAN": 319.3,
+            "FEB": 316.6,
+            "MAR": 314.3,
+            "APR": 307.6,
+            "MAY": 312.5,
+            "JUN": 237.8,
+            "JUL": 197.9,
+            "AUG": 144.2,
+            "SEP": 116.3,
+            "OCT": 1.8,
+            "NOV": 330.2,
+            "DEC": 326.3,
+            "ANN": 310.2
+          },
+          "WD50M": {
+            "JAN": 319.9,
+            "FEB": 317.7,
+            "MAR": 315.2,
+            "APR": 308.7,
+            "MAY": 314.4,
+            "JUN": 235.2,
+            "JUL": 201.6,
+            "AUG": 152.6,
+            "SEP": 137.8,
+            "OCT": 357.2,
+            "NOV": 327.9,
+            "DEC": 325.7,
+            "ANN": 308.6
+          },
+          "WS10M": {
+            "JAN": 2.67,
+            "FEB": 2.93,
+            "MAR": 3.11,
+            "APR": 3.17,
+            "MAY": 3.28,
+            "JUN": 3.7,
+            "JUL": 3.7,
+            "AUG": 3.4,
+            "SEP": 2.99,
+            "OCT": 2.24,
+            "NOV": 2.06,
+            "DEC": 2.29,
+            "ANN": 2.96
+          },
+          "WS10M_MAX": {
+            "JAN": 8.42,
+            "FEB": 10.11,
+            "MAR": 9.27,
+            "APR": 10.19,
+            "MAY": 12.66,
+            "JUN": 15.21,
+            "JUL": 12.17,
+            "AUG": 12.11,
+            "SEP": 12.63,
+            "OCT": 15.39,
+            "NOV": 6.98,
+            "DEC": 7.45,
+            "ANN": 15.39
+          },
+          "WS10M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.03,
+            "MAR": 0.02,
+            "APR": 0.06,
+            "MAY": 0.04,
+            "JUN": 0.01,
+            "JUL": 0.06,
+            "AUG": 0.02,
+            "SEP": 0.03,
+            "OCT": 0.02,
+            "NOV": 0.01,
+            "DEC": 0.03,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 4.03,
+            "FEB": 4.39,
+            "MAR": 4.61,
+            "APR": 4.65,
+            "MAY": 4.65,
+            "JUN": 5.11,
+            "JUL": 5.27,
+            "AUG": 5.01,
+            "SEP": 4.5,
+            "OCT": 3.35,
+            "NOV": 3.06,
+            "DEC": 3.42,
+            "ANN": 4.34
+          },
+          "WS50M_MAX": {
+            "JAN": 10.4,
+            "FEB": 12.51,
+            "MAR": 11.02,
+            "APR": 12.66,
+            "MAY": 16.04,
+            "JUN": 19.07,
+            "JUL": 15.58,
+            "AUG": 15.51,
+            "SEP": 16.94,
+            "OCT": 20.38,
+            "NOV": 8.7,
+            "DEC": 11.23,
+            "ANN": 20.38
+          },
+          "WS50M_MIN": {
+            "JAN": 0.07,
+            "FEB": 0.01,
+            "MAR": 0.04,
+            "APR": 0.06,
+            "MAY": 0.04,
+            "JUN": 0.04,
+            "JUL": 0.09,
+            "AUG": 0.02,
+            "SEP": 0.07,
+            "OCT": 0.02,
+            "NOV": 0.03,
+            "DEC": 0.02,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.749,
+        "process": 0.09
+      }
+    }
+  },
+  "Karnataka": {
+    "latitude": 15.3173,
+    "longitude": 75.7139,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.714,
+          15.317,
+          608.06
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 94.45,
+            "FEB": 94.36,
+            "MAR": 94.22,
+            "APR": 94.07,
+            "MAY": 93.93,
+            "JUN": 93.83,
+            "JUL": 93.85,
+            "AUG": 93.91,
+            "SEP": 94.01,
+            "OCT": 94.19,
+            "NOV": 94.35,
+            "DEC": 94.44,
+            "ANN": 94.13
+          },
+          "T2M": {
+            "JAN": 23.02,
+            "FEB": 25.69,
+            "MAR": 28.78,
+            "APR": 30.49,
+            "MAY": 29.67,
+            "JUN": 26.02,
+            "JUL": 24.91,
+            "AUG": 24.55,
+            "SEP": 24.61,
+            "OCT": 24.26,
+            "NOV": 23.02,
+            "DEC": 22.17,
+            "ANN": 25.6
+          },
+          "WD10M": {
+            "JAN": 101.5,
+            "FEB": 105.9,
+            "MAR": 123.6,
+            "APR": 278.8,
+            "MAY": 276.1,
+            "JUN": 254.8,
+            "JUL": 259.1,
+            "AUG": 264.0,
+            "SEP": 264.2,
+            "OCT": 67.3,
+            "NOV": 85.6,
+            "DEC": 94.0,
+            "ANN": 255.1
+          },
+          "WD50M": {
+            "JAN": 101.5,
+            "FEB": 106.4,
+            "MAR": 123.9,
+            "APR": 276.3,
+            "MAY": 276.0,
+            "JUN": 255.0,
+            "JUL": 259.4,
+            "AUG": 264.3,
+            "SEP": 264.4,
+            "OCT": 67.6,
+            "NOV": 86.2,
+            "DEC": 94.9,
+            "ANN": 251.9
+          },
+          "WS10M": {
+            "JAN": 3.39,
+            "FEB": 3.27,
+            "MAR": 3.08,
+            "APR": 3.01,
+            "MAY": 4.69,
+            "JUN": 6.54,
+            "JUL": 7.3,
+            "AUG": 6.51,
+            "SEP": 4.46,
+            "OCT": 3.24,
+            "NOV": 3.65,
+            "DEC": 3.68,
+            "ANN": 4.41
+          },
+          "WS10M_MAX": {
+            "JAN": 9.24,
+            "FEB": 8.36,
+            "MAR": 8.39,
+            "APR": 9.28,
+            "MAY": 10.78,
+            "JUN": 16.72,
+            "JUL": 15.0,
+            "AUG": 14.4,
+            "SEP": 11.91,
+            "OCT": 9.94,
+            "NOV": 10.6,
+            "DEC": 10.17,
+            "ANN": 16.72
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.02,
+            "MAR": 0.03,
+            "APR": 0.03,
+            "MAY": 0.07,
+            "JUN": 0.02,
+            "JUL": 0.32,
+            "AUG": 0.14,
+            "SEP": 0.04,
+            "OCT": 0.04,
+            "NOV": 0.05,
+            "DEC": 0.07,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 5.25,
+            "FEB": 4.94,
+            "MAR": 4.48,
+            "APR": 4.11,
+            "MAY": 5.93,
+            "JUN": 8.2,
+            "JUL": 9.22,
+            "AUG": 8.42,
+            "SEP": 6.07,
+            "OCT": 4.86,
+            "NOV": 5.62,
+            "DEC": 5.74,
+            "ANN": 6.08
+          },
+          "WS50M_MAX": {
+            "JAN": 11.1,
+            "FEB": 10.37,
+            "MAR": 10.71,
+            "APR": 11.24,
+            "MAY": 12.91,
+            "JUN": 20.96,
+            "JUL": 18.43,
+            "AUG": 17.8,
+            "SEP": 14.77,
+            "OCT": 12.62,
+            "NOV": 13.78,
+            "DEC": 12.4,
+            "ANN": 20.96
+          },
+          "WS50M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.06,
+            "MAR": 0.02,
+            "APR": 0.04,
+            "MAY": 0.02,
+            "JUN": 0.11,
+            "JUL": 0.43,
+            "AUG": 0.16,
+            "SEP": 0.07,
+            "OCT": 0.07,
+            "NOV": 0.06,
+            "DEC": 0.04,
+            "ANN": 0.02
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.617,
+        "process": 0.08
+      }
+    }
+  },
+  "Kerala": {
+    "latitude": 10.8505,
+    "longitude": 76.2711,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.271,
+          10.851,
+          370.89
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 97.04,
+            "FEB": 96.99,
+            "MAR": 96.89,
+            "APR": 96.79,
+            "MAY": 96.71,
+            "JUN": 96.71,
+            "JUL": 96.75,
+            "AUG": 96.78,
+            "SEP": 96.8,
+            "OCT": 96.84,
+            "NOV": 96.9,
+            "DEC": 96.98,
+            "ANN": 96.85
+          },
+          "T2M": {
+            "JAN": 24.77,
+            "FEB": 26.58,
+            "MAR": 28.13,
+            "APR": 28.01,
+            "MAY": 26.67,
+            "JUN": 24.86,
+            "JUL": 24.02,
+            "AUG": 23.89,
+            "SEP": 24.13,
+            "OCT": 24.43,
+            "NOV": 24.1,
+            "DEC": 23.68,
+            "ANN": 25.27
+          },
+          "WD10M": {
+            "JAN": 77.9,
+            "FEB": 78.1,
+            "MAR": 269.5,
+            "APR": 269.7,
+            "MAY": 272.7,
+            "JUN": 266.5,
+            "JUL": 275.7,
+            "AUG": 278.9,
+            "SEP": 272.6,
+            "OCT": 261.8,
+            "NOV": 68.9,
+            "DEC": 72.0,
+            "ANN": 278.6
+          },
+          "WD50M": {
+            "JAN": 77.0,
+            "FEB": 77.5,
+            "MAR": 274.9,
+            "APR": 271.6,
+            "MAY": 273.4,
+            "JUN": 267.2,
+            "JUL": 276.3,
+            "AUG": 279.5,
+            "SEP": 273.1,
+            "OCT": 263.3,
+            "NOV": 67.7,
+            "DEC": 71.0,
+            "ANN": 281.9
+          },
+          "WS10M": {
+            "JAN": 2.08,
+            "FEB": 2.0,
+            "MAR": 1.87,
+            "APR": 1.9,
+            "MAY": 2.45,
+            "JUN": 3.15,
+            "JUL": 3.2,
+            "AUG": 2.97,
+            "SEP": 2.46,
+            "OCT": 1.89,
+            "NOV": 1.77,
+            "DEC": 2.19,
+            "ANN": 2.33
+          },
+          "WS10M_MAX": {
+            "JAN": 6.1,
+            "FEB": 5.97,
+            "MAR": 6.17,
+            "APR": 5.81,
+            "MAY": 7.5,
+            "JUN": 6.83,
+            "JUL": 7.11,
+            "AUG": 7.85,
+            "SEP": 6.97,
+            "OCT": 6.95,
+            "NOV": 7.25,
+            "DEC": 6.08,
+            "ANN": 7.85
+          },
+          "WS10M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.02,
+            "MAR": 0.01,
+            "APR": 0.02,
+            "MAY": 0.03,
+            "JUN": 0.13,
+            "JUL": 0.13,
+            "AUG": 0.22,
+            "SEP": 0.07,
+            "OCT": 0.04,
+            "NOV": 0.01,
+            "DEC": 0.03,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 3.32,
+            "FEB": 3.03,
+            "MAR": 2.62,
+            "APR": 2.63,
+            "MAY": 3.7,
+            "JUN": 4.99,
+            "JUL": 5.11,
+            "AUG": 4.73,
+            "SEP": 3.88,
+            "OCT": 3.01,
+            "NOV": 2.91,
+            "DEC": 3.62,
+            "ANN": 3.63
+          },
+          "WS50M_MAX": {
+            "JAN": 8.45,
+            "FEB": 8.5,
+            "MAR": 7.49,
+            "APR": 7.11,
+            "MAY": 10.96,
+            "JUN": 9.97,
+            "JUL": 10.07,
+            "AUG": 11.38,
+            "SEP": 9.89,
+            "OCT": 9.73,
+            "NOV": 11.37,
+            "DEC": 8.6,
+            "ANN": 11.38
+          },
+          "WS50M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.01,
+            "MAR": 0.03,
+            "APR": 0.03,
+            "MAY": 0.03,
+            "JUN": 0.3,
+            "JUL": 0.09,
+            "AUG": 0.13,
+            "SEP": 0.04,
+            "OCT": 0.03,
+            "NOV": 0.01,
+            "DEC": 0.0,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.653,
+        "process": 0.08
+      }
+    }
+  },
+  "Madhya Pradesh": {
+    "latitude": 22.9734,
+    "longitude": 78.6569,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.657,
+          22.973,
+          386.02
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 97.08,
+            "FEB": 96.92,
+            "MAR": 96.67,
+            "APR": 96.33,
+            "MAY": 95.96,
+            "JUN": 95.71,
+            "JUL": 95.7,
+            "AUG": 95.83,
+            "SEP": 96.18,
+            "OCT": 96.68,
+            "NOV": 96.97,
+            "DEC": 97.08,
+            "ANN": 96.42
+          },
+          "T2M": {
+            "JAN": 18.29,
+            "FEB": 22.01,
+            "MAR": 27.0,
+            "APR": 32.37,
+            "MAY": 35.93,
+            "JUN": 32.54,
+            "JUL": 27.38,
+            "AUG": 26.19,
+            "SEP": 26.03,
+            "OCT": 24.24,
+            "NOV": 21.43,
+            "DEC": 18.98,
+            "ANN": 26.04
+          },
+          "WD10M": {
+            "JAN": 57.9,
+            "FEB": 26.6,
+            "MAR": 314.9,
+            "APR": 290.0,
+            "MAY": 294.3,
+            "JUN": 268.8,
+            "JUL": 259.6,
+            "AUG": 268.9,
+            "SEP": 294.9,
+            "OCT": 62.5,
+            "NOV": 81.8,
+            "DEC": 75.2,
+            "ANN": 288.2
+          },
+          "WD50M": {
+            "JAN": 63.1,
+            "FEB": 43.2,
+            "MAR": 324.4,
+            "APR": 291.1,
+            "MAY": 294.6,
+            "JUN": 267.8,
+            "JUL": 258.7,
+            "AUG": 268.5,
+            "SEP": 292.7,
+            "OCT": 67.4,
+            "NOV": 85.0,
+            "DEC": 78.6,
+            "ANN": 290.1
+          },
+          "WS10M": {
+            "JAN": 2.68,
+            "FEB": 2.85,
+            "MAR": 2.85,
+            "APR": 3.27,
+            "MAY": 4.02,
+            "JUN": 4.44,
+            "JUL": 4.4,
+            "AUG": 3.89,
+            "SEP": 2.7,
+            "OCT": 2.22,
+            "NOV": 2.32,
+            "DEC": 2.53,
+            "ANN": 3.18
+          },
+          "WS10M_MAX": {
+            "JAN": 9.2,
+            "FEB": 9.76,
+            "MAR": 8.28,
+            "APR": 10.13,
+            "MAY": 11.52,
+            "JUN": 12.48,
+            "JUL": 11.88,
+            "AUG": 12.57,
+            "SEP": 9.43,
+            "OCT": 8.58,
+            "NOV": 7.86,
+            "DEC": 7.5,
+            "ANN": 12.57
+          },
+          "WS10M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.05,
+            "MAR": 0.08,
+            "APR": 0.07,
+            "MAY": 0.09,
+            "JUN": 0.08,
+            "JUL": 0.04,
+            "AUG": 0.05,
+            "SEP": 0.03,
+            "OCT": 0.01,
+            "NOV": 0.01,
+            "DEC": 0.05,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 4.22,
+            "FEB": 4.44,
+            "MAR": 4.31,
+            "APR": 4.86,
+            "MAY": 5.71,
+            "JUN": 6.06,
+            "JUL": 6.2,
+            "AUG": 5.68,
+            "SEP": 4.13,
+            "OCT": 3.4,
+            "NOV": 3.69,
+            "DEC": 4.09,
+            "ANN": 4.74
+          },
+          "WS50M_MAX": {
+            "JAN": 11.39,
+            "FEB": 12.06,
+            "MAR": 10.66,
+            "APR": 12.64,
+            "MAY": 13.57,
+            "JUN": 15.78,
+            "JUL": 15.17,
+            "AUG": 16.53,
+            "SEP": 12.95,
+            "OCT": 11.26,
+            "NOV": 10.03,
+            "DEC": 9.69,
+            "ANN": 16.53
+          },
+          "WS50M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.03,
+            "MAR": 0.04,
+            "APR": 0.01,
+            "MAY": 0.1,
+            "JUN": 0.06,
+            "JUL": 0.01,
+            "AUG": 0.07,
+            "SEP": 0.05,
+            "OCT": 0.01,
+            "NOV": 0.06,
+            "DEC": 0.03,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.572,
+        "process": 0.09
+      }
+    }
+  },
+  "Maharashtra": {
+    "latitude": 19.7515,
+    "longitude": 75.7139,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.714,
+          19.752,
+          560.87
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 95.05,
+            "FEB": 94.93,
+            "MAR": 94.77,
+            "APR": 94.55,
+            "MAY": 94.32,
+            "JUN": 94.09,
+            "JUL": 94.07,
+            "AUG": 94.18,
+            "SEP": 94.41,
+            "OCT": 94.76,
+            "NOV": 94.98,
+            "DEC": 95.06,
+            "ANN": 94.6
+          },
+          "T2M": {
+            "JAN": 20.88,
+            "FEB": 24.27,
+            "MAR": 27.75,
+            "APR": 31.54,
+            "MAY": 32.98,
+            "JUN": 28.89,
+            "JUL": 25.96,
+            "AUG": 25.07,
+            "SEP": 24.88,
+            "OCT": 23.8,
+            "NOV": 21.91,
+            "DEC": 20.54,
+            "ANN": 25.7
+          },
+          "WD10M": {
+            "JAN": 80.2,
+            "FEB": 23.3,
+            "MAR": 345.6,
+            "APR": 324.7,
+            "MAY": 305.8,
+            "JUN": 270.3,
+            "JUL": 265.2,
+            "AUG": 272.9,
+            "SEP": 296.1,
+            "OCT": 52.5,
+            "NOV": 93.4,
+            "DEC": 98.3,
+            "ANN": 297.3
+          },
+          "WD50M": {
+            "JAN": 75.2,
+            "FEB": 23.0,
+            "MAR": 347.2,
+            "APR": 324.9,
+            "MAY": 306.0,
+            "JUN": 270.0,
+            "JUL": 265.1,
+            "AUG": 273.0,
+            "SEP": 297.3,
+            "OCT": 53.3,
+            "NOV": 93.5,
+            "DEC": 96.6,
+            "ANN": 302.9
+          },
+          "WS10M": {
+            "JAN": 2.82,
+            "FEB": 2.93,
+            "MAR": 3.01,
+            "APR": 3.4,
+            "MAY": 5.07,
+            "JUN": 5.26,
+            "JUL": 5.65,
+            "AUG": 4.98,
+            "SEP": 3.39,
+            "OCT": 2.63,
+            "NOV": 2.67,
+            "DEC": 2.69,
+            "ANN": 3.71
+          },
+          "WS10M_MAX": {
+            "JAN": 7.71,
+            "FEB": 9.28,
+            "MAR": 8.7,
+            "APR": 9.65,
+            "MAY": 10.42,
+            "JUN": 16.44,
+            "JUL": 13.39,
+            "AUG": 12.23,
+            "SEP": 9.74,
+            "OCT": 9.15,
+            "NOV": 9.95,
+            "DEC": 7.51,
+            "ANN": 16.44
+          },
+          "WS10M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.02,
+            "MAR": 0.06,
+            "APR": 0.09,
+            "MAY": 0.09,
+            "JUN": 0.04,
+            "JUL": 0.09,
+            "AUG": 0.02,
+            "SEP": 0.02,
+            "OCT": 0.07,
+            "NOV": 0.02,
+            "DEC": 0.04,
+            "ANN": 0.02
+          },
+          "WS50M": {
+            "JAN": 4.45,
+            "FEB": 4.5,
+            "MAR": 4.58,
+            "APR": 4.99,
+            "MAY": 6.58,
+            "JUN": 6.63,
+            "JUL": 7.38,
+            "AUG": 6.77,
+            "SEP": 4.94,
+            "OCT": 4.08,
+            "NOV": 4.24,
+            "DEC": 4.28,
+            "ANN": 5.29
+          },
+          "WS50M_MAX": {
+            "JAN": 9.82,
+            "FEB": 11.23,
+            "MAR": 10.67,
+            "APR": 11.76,
+            "MAY": 12.95,
+            "JUN": 20.54,
+            "JUL": 16.55,
+            "AUG": 15.59,
+            "SEP": 12.4,
+            "OCT": 12.33,
+            "NOV": 13.89,
+            "DEC": 9.29,
+            "ANN": 20.54
+          },
+          "WS50M_MIN": {
+            "JAN": 0.08,
+            "FEB": 0.02,
+            "MAR": 0.06,
+            "APR": 0.03,
+            "MAY": 0.08,
+            "JUN": 0.03,
+            "JUL": 0.17,
+            "AUG": 0.1,
+            "SEP": 0.04,
+            "OCT": 0.07,
+            "NOV": 0.03,
+            "DEC": 0.03,
+            "ANN": 0.02
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.582,
+        "process": 0.08
+      }
+    }
+  },
+  "Manipur": {
+    "latitude": 24.6637,
+    "longitude": 93.9063,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.906,
+          24.664,
+          869.25
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 91.66,
+            "FEB": 91.59,
+            "MAR": 91.45,
+            "APR": 91.31,
+            "MAY": 91.06,
+            "JUN": 90.79,
+            "JUL": 90.78,
+            "AUG": 90.86,
+            "SEP": 91.14,
+            "OCT": 91.46,
+            "NOV": 91.63,
+            "DEC": 91.68,
+            "ANN": 91.28
+          },
+          "T2M": {
+            "JAN": 14.7,
+            "FEB": 17.2,
+            "MAR": 20.78,
+            "APR": 23.27,
+            "MAY": 24.36,
+            "JUN": 24.86,
+            "JUL": 24.64,
+            "AUG": 24.65,
+            "SEP": 23.85,
+            "OCT": 21.93,
+            "NOV": 18.73,
+            "DEC": 15.79,
+            "ANN": 21.24
+          },
+          "WD10M": {
+            "JAN": 290.6,
+            "FEB": 284.8,
+            "MAR": 283.8,
+            "APR": 282.0,
+            "MAY": 279.9,
+            "JUN": 270.0,
+            "JUL": 259.0,
+            "AUG": 262.4,
+            "SEP": 280.4,
+            "OCT": 9.7,
+            "NOV": 5.8,
+            "DEC": 349.5,
+            "ANN": 282.4
+          },
+          "WD50M": {
+            "JAN": 289.1,
+            "FEB": 285.3,
+            "MAR": 283.8,
+            "APR": 281.0,
+            "MAY": 278.7,
+            "JUN": 268.6,
+            "JUL": 258.1,
+            "AUG": 265.1,
+            "SEP": 280.9,
+            "OCT": 346.0,
+            "NOV": 336.5,
+            "DEC": 304.1,
+            "ANN": 281.3
+          },
+          "WS10M": {
+            "JAN": 1.08,
+            "FEB": 1.33,
+            "MAR": 1.6,
+            "APR": 1.57,
+            "MAY": 1.39,
+            "JUN": 1.26,
+            "JUL": 1.21,
+            "AUG": 1.15,
+            "SEP": 1.11,
+            "OCT": 0.95,
+            "NOV": 0.94,
+            "DEC": 0.95,
+            "ANN": 1.21
+          },
+          "WS10M_MAX": {
+            "JAN": 3.75,
+            "FEB": 4.51,
+            "MAR": 4.16,
+            "APR": 4.33,
+            "MAY": 5.98,
+            "JUN": 5.05,
+            "JUL": 4.93,
+            "AUG": 5.42,
+            "SEP": 3.72,
+            "OCT": 4.75,
+            "NOV": 3.06,
+            "DEC": 2.95,
+            "ANN": 5.98
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.01,
+            "MAR": 0.02,
+            "APR": 0.01,
+            "MAY": 0.01,
+            "JUN": 0.02,
+            "JUL": 0.03,
+            "AUG": 0.01,
+            "SEP": 0.01,
+            "OCT": 0.01,
+            "NOV": 0.01,
+            "DEC": 0.0,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 1.99,
+            "FEB": 2.57,
+            "MAR": 3.09,
+            "APR": 3.04,
+            "MAY": 2.68,
+            "JUN": 2.45,
+            "JUL": 2.41,
+            "AUG": 2.28,
+            "SEP": 2.19,
+            "OCT": 1.84,
+            "NOV": 1.72,
+            "DEC": 1.68,
+            "ANN": 2.33
+          },
+          "WS50M_MAX": {
+            "JAN": 6.42,
+            "FEB": 7.99,
+            "MAR": 7.34,
+            "APR": 7.89,
+            "MAY": 10.74,
+            "JUN": 8.77,
+            "JUL": 9.19,
+            "AUG": 9.75,
+            "SEP": 6.79,
+            "OCT": 8.63,
+            "NOV": 5.15,
+            "DEC": 5.16,
+            "ANN": 10.74
+          },
+          "WS50M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.02,
+            "MAR": 0.03,
+            "APR": 0.03,
+            "MAY": 0.05,
+            "JUN": 0.02,
+            "JUL": 0.04,
+            "AUG": 0.02,
+            "SEP": 0.01,
+            "OCT": 0.02,
+            "NOV": 0.01,
+            "DEC": 0.01,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.581,
+        "process": 0.09
+      }
+    }
+  },
+  "Meghalaya": {
+    "latitude": 25.467,
+    "longitude": 91.3662,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.366,
+          25.467,
+          1021.1
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 90.14,
+            "FEB": 90.1,
+            "MAR": 89.98,
+            "APR": 89.83,
+            "MAY": 89.56,
+            "JUN": 89.26,
+            "JUL": 89.22,
+            "AUG": 89.31,
+            "SEP": 89.59,
+            "OCT": 89.92,
+            "NOV": 90.1,
+            "DEC": 90.14,
+            "ANN": 89.76
+          },
+          "T2M": {
+            "JAN": 11.88,
+            "FEB": 14.36,
+            "MAR": 18.06,
+            "APR": 20.77,
+            "MAY": 22.16,
+            "JUN": 23.14,
+            "JUL": 23.3,
+            "AUG": 23.31,
+            "SEP": 22.5,
+            "OCT": 20.34,
+            "NOV": 16.54,
+            "DEC": 13.17,
+            "ANN": 19.15
+          },
+          "WD10M": {
+            "JAN": 301.0,
+            "FEB": 255.9,
+            "MAR": 231.5,
+            "APR": 192.0,
+            "MAY": 181.0,
+            "JUN": 183.8,
+            "JUL": 184.6,
+            "AUG": 183.2,
+            "SEP": 182.7,
+            "OCT": 119.4,
+            "NOV": 80.4,
+            "DEC": 78.9,
+            "ANN": 188.8
+          },
+          "WD50M": {
+            "JAN": 333.8,
+            "FEB": 257.5,
+            "MAR": 231.1,
+            "APR": 190.0,
+            "MAY": 178.2,
+            "JUN": 183.0,
+            "JUL": 184.4,
+            "AUG": 183.3,
+            "SEP": 180.7,
+            "OCT": 107.9,
+            "NOV": 75.5,
+            "DEC": 73.1,
+            "ANN": 185.8
+          },
+          "WS10M": {
+            "JAN": 1.95,
+            "FEB": 2.22,
+            "MAR": 2.59,
+            "APR": 3.02,
+            "MAY": 3.02,
+            "JUN": 3.61,
+            "JUL": 3.78,
+            "AUG": 3.02,
+            "SEP": 2.57,
+            "OCT": 1.93,
+            "NOV": 1.78,
+            "DEC": 1.79,
+            "ANN": 2.61
+          },
+          "WS10M_MAX": {
+            "JAN": 6.93,
+            "FEB": 8.36,
+            "MAR": 8.45,
+            "APR": 9.22,
+            "MAY": 11.67,
+            "JUN": 11.76,
+            "JUL": 11.4,
+            "AUG": 12.1,
+            "SEP": 9.86,
+            "OCT": 11.68,
+            "NOV": 11.71,
+            "DEC": 6.08,
+            "ANN": 12.1
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.01,
+            "MAR": 0.05,
+            "APR": 0.05,
+            "MAY": 0.05,
+            "JUN": 0.02,
+            "JUL": 0.05,
+            "AUG": 0.03,
+            "SEP": 0.02,
+            "OCT": 0.01,
+            "NOV": 0.01,
+            "DEC": 0.03,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 2.77,
+            "FEB": 3.14,
+            "MAR": 3.72,
+            "APR": 4.36,
+            "MAY": 4.32,
+            "JUN": 5.02,
+            "JUL": 5.22,
+            "AUG": 4.3,
+            "SEP": 3.79,
+            "OCT": 2.93,
+            "NOV": 2.62,
+            "DEC": 2.61,
+            "ANN": 3.74
+          },
+          "WS50M_MAX": {
+            "JAN": 8.77,
+            "FEB": 11.01,
+            "MAR": 10.88,
+            "APR": 12.14,
+            "MAY": 15.15,
+            "JUN": 15.0,
+            "JUL": 14.78,
+            "AUG": 15.76,
+            "SEP": 12.61,
+            "OCT": 15.07,
+            "NOV": 15.28,
+            "DEC": 7.77,
+            "ANN": 15.76
+          },
+          "WS50M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.02,
+            "MAR": 0.05,
+            "APR": 0.02,
+            "MAY": 0.07,
+            "JUN": 0.07,
+            "JUL": 0.0,
+            "AUG": 0.04,
+            "SEP": 0.03,
+            "OCT": 0.01,
+            "NOV": 0.04,
+            "DEC": 0.02,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.746,
+        "process": 0.08
+      }
+    }
+  },
+  "Mizoram": {
+    "latitude": 23.1645,
+    "longitude": 92.9376,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.938,
+          23.165,
+          964.11
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 90.68,
+            "FEB": 90.63,
+            "MAR": 90.53,
+            "APR": 90.41,
+            "MAY": 90.15,
+            "JUN": 89.89,
+            "JUL": 89.87,
+            "AUG": 89.93,
+            "SEP": 90.18,
+            "OCT": 90.48,
+            "NOV": 90.64,
+            "DEC": 90.69,
+            "ANN": 90.34
+          },
+          "T2M": {
+            "JAN": 15.17,
+            "FEB": 17.57,
+            "MAR": 20.97,
+            "APR": 23.35,
+            "MAY": 24.02,
+            "JUN": 24.02,
+            "JUL": 23.8,
+            "AUG": 23.82,
+            "SEP": 23.48,
+            "OCT": 22.1,
+            "NOV": 18.99,
+            "DEC": 15.96,
+            "ANN": 21.12
+          },
+          "WD10M": {
+            "JAN": 280.1,
+            "FEB": 279.4,
+            "MAR": 265.4,
+            "APR": 246.7,
+            "MAY": 238.6,
+            "JUN": 232.0,
+            "JUL": 228.0,
+            "AUG": 231.5,
+            "SEP": 237.1,
+            "OCT": 246.2,
+            "NOV": 188.2,
+            "DEC": 152.1,
+            "ANN": 242.4
+          },
+          "WD50M": {
+            "JAN": 268.9,
+            "FEB": 274.9,
+            "MAR": 264.0,
+            "APR": 244.8,
+            "MAY": 234.2,
+            "JUN": 227.4,
+            "JUL": 223.3,
+            "AUG": 226.3,
+            "SEP": 230.4,
+            "OCT": 234.3,
+            "NOV": 180.8,
+            "DEC": 166.6,
+            "ANN": 237.4
+          },
+          "WS10M": {
+            "JAN": 1.16,
+            "FEB": 1.21,
+            "MAR": 1.3,
+            "APR": 1.32,
+            "MAY": 1.19,
+            "JUN": 1.24,
+            "JUL": 1.19,
+            "AUG": 1.0,
+            "SEP": 0.89,
+            "OCT": 0.85,
+            "NOV": 0.97,
+            "DEC": 1.1,
+            "ANN": 1.12
+          },
+          "WS10M_MAX": {
+            "JAN": 2.67,
+            "FEB": 3.19,
+            "MAR": 3.78,
+            "APR": 3.56,
+            "MAY": 4.96,
+            "JUN": 4.56,
+            "JUL": 5.08,
+            "AUG": 4.25,
+            "SEP": 3.13,
+            "OCT": 3.82,
+            "NOV": 2.86,
+            "DEC": 2.66,
+            "ANN": 5.08
+          },
+          "WS10M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.01,
+            "MAR": 0.02,
+            "APR": 0.01,
+            "MAY": 0.01,
+            "JUN": 0.02,
+            "JUL": 0.01,
+            "AUG": 0.02,
+            "SEP": 0.02,
+            "OCT": 0.0,
+            "NOV": 0.01,
+            "DEC": 0.01,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 1.89,
+            "FEB": 2.0,
+            "MAR": 2.27,
+            "APR": 2.43,
+            "MAY": 2.3,
+            "JUN": 2.54,
+            "JUL": 2.51,
+            "AUG": 2.12,
+            "SEP": 1.88,
+            "OCT": 1.67,
+            "NOV": 1.7,
+            "DEC": 1.82,
+            "ANN": 2.09
+          },
+          "WS50M_MAX": {
+            "JAN": 4.97,
+            "FEB": 6.02,
+            "MAR": 7.44,
+            "APR": 6.79,
+            "MAY": 10.14,
+            "JUN": 8.68,
+            "JUL": 9.76,
+            "AUG": 8.35,
+            "SEP": 6.35,
+            "OCT": 7.74,
+            "NOV": 5.9,
+            "DEC": 4.55,
+            "ANN": 10.14
+          },
+          "WS50M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.01,
+            "MAR": 0.01,
+            "APR": 0.01,
+            "MAY": 0.02,
+            "JUN": 0.06,
+            "JUL": 0.01,
+            "AUG": 0.04,
+            "SEP": 0.03,
+            "OCT": 0.01,
+            "NOV": 0.01,
+            "DEC": 0.04,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.591,
+        "process": 0.08
+      }
+    }
+  },
+  "Nagaland": {
+    "latitude": 26.1584,
+    "longitude": 94.5624,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.562,
+          26.158,
+          997.11
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 90.36,
+            "FEB": 90.28,
+            "MAR": 90.15,
+            "APR": 90.0,
+            "MAY": 89.76,
+            "JUN": 89.48,
+            "JUL": 89.47,
+            "AUG": 89.56,
+            "SEP": 89.84,
+            "OCT": 90.18,
+            "NOV": 90.35,
+            "DEC": 90.39,
+            "ANN": 89.98
+          },
+          "T2M": {
+            "JAN": 12.9,
+            "FEB": 15.23,
+            "MAR": 18.83,
+            "APR": 21.86,
+            "MAY": 23.71,
+            "JUN": 24.78,
+            "JUL": 24.72,
+            "AUG": 24.78,
+            "SEP": 23.7,
+            "OCT": 21.23,
+            "NOV": 17.29,
+            "DEC": 14.02,
+            "ANN": 20.27
+          },
+          "WD10M": {
+            "JAN": 168.9,
+            "FEB": 221.2,
+            "MAR": 238.0,
+            "APR": 238.2,
+            "MAY": 244.5,
+            "JUN": 243.2,
+            "JUL": 230.6,
+            "AUG": 215.6,
+            "SEP": 183.6,
+            "OCT": 89.3,
+            "NOV": 128.0,
+            "DEC": 139.2,
+            "ANN": 214.3
+          },
+          "WD50M": {
+            "JAN": 172.7,
+            "FEB": 214.3,
+            "MAR": 228.8,
+            "APR": 228.3,
+            "MAY": 227.6,
+            "JUN": 226.1,
+            "JUL": 214.5,
+            "AUG": 192.8,
+            "SEP": 171.3,
+            "OCT": 102.6,
+            "NOV": 130.0,
+            "DEC": 140.8,
+            "ANN": 205.2
+          },
+          "WS10M": {
+            "JAN": 1.31,
+            "FEB": 1.42,
+            "MAR": 1.55,
+            "APR": 1.55,
+            "MAY": 1.27,
+            "JUN": 1.09,
+            "JUL": 1.04,
+            "AUG": 0.96,
+            "SEP": 0.97,
+            "OCT": 1.01,
+            "NOV": 1.17,
+            "DEC": 1.26,
+            "ANN": 1.22
+          },
+          "WS10M_MAX": {
+            "JAN": 3.22,
+            "FEB": 4.8,
+            "MAR": 4.56,
+            "APR": 4.33,
+            "MAY": 4.45,
+            "JUN": 3.35,
+            "JUL": 3.3,
+            "AUG": 3.52,
+            "SEP": 2.8,
+            "OCT": 2.83,
+            "NOV": 2.37,
+            "DEC": 2.65,
+            "ANN": 4.8
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.01,
+            "MAR": 0.01,
+            "APR": 0.01,
+            "MAY": 0.0,
+            "JUN": 0.0,
+            "JUL": 0.0,
+            "AUG": 0.01,
+            "SEP": 0.01,
+            "OCT": 0.02,
+            "NOV": 0.02,
+            "DEC": 0.01,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 1.97,
+            "FEB": 2.31,
+            "MAR": 2.66,
+            "APR": 2.78,
+            "MAY": 2.26,
+            "JUN": 2.03,
+            "JUL": 2.02,
+            "AUG": 1.84,
+            "SEP": 1.8,
+            "OCT": 1.7,
+            "NOV": 1.82,
+            "DEC": 1.88,
+            "ANN": 2.09
+          },
+          "WS50M_MAX": {
+            "JAN": 5.49,
+            "FEB": 8.68,
+            "MAR": 8.17,
+            "APR": 8.01,
+            "MAY": 7.81,
+            "JUN": 6.34,
+            "JUL": 6.33,
+            "AUG": 6.15,
+            "SEP": 5.82,
+            "OCT": 6.04,
+            "NOV": 4.48,
+            "DEC": 4.69,
+            "ANN": 8.68
+          },
+          "WS50M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.01,
+            "MAR": 0.01,
+            "APR": 0.01,
+            "MAY": 0.02,
+            "JUN": 0.03,
+            "JUL": 0.03,
+            "AUG": 0.02,
+            "SEP": 0.04,
+            "OCT": 0.01,
+            "NOV": 0.03,
+            "DEC": 0.0,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.572,
+        "process": 0.08
+      }
+    }
+  },
+  "Odisha": {
+    "latitude": 20.9517,
+    "longitude": 85.0985,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.099,
+          20.952,
+          206.61
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 99.14,
+            "FEB": 98.96,
+            "MAR": 98.65,
+            "APR": 98.31,
+            "MAY": 97.94,
+            "JUN": 97.7,
+            "JUL": 97.69,
+            "AUG": 97.79,
+            "SEP": 98.12,
+            "OCT": 98.62,
+            "NOV": 98.98,
+            "DEC": 99.13,
+            "ANN": 98.42
+          },
+          "T2M": {
+            "JAN": 19.01,
+            "FEB": 23.24,
+            "MAR": 28.33,
+            "APR": 32.61,
+            "MAY": 33.59,
+            "JUN": 30.33,
+            "JUL": 27.48,
+            "AUG": 26.9,
+            "SEP": 26.57,
+            "OCT": 25.0,
+            "NOV": 21.34,
+            "DEC": 18.46,
+            "ANN": 26.07
+          },
+          "WD10M": {
+            "JAN": 349.6,
+            "FEB": 310.0,
+            "MAR": 262.0,
+            "APR": 212.4,
+            "MAY": 171.4,
+            "JUN": 220.1,
+            "JUL": 240.2,
+            "AUG": 239.8,
+            "SEP": 221.7,
+            "OCT": 35.4,
+            "NOV": 357.9,
+            "DEC": 347.8,
+            "ANN": 243.2
+          },
+          "WD50M": {
+            "JAN": 351.4,
+            "FEB": 306.5,
+            "MAR": 252.2,
+            "APR": 210.3,
+            "MAY": 173.9,
+            "JUN": 220.3,
+            "JUL": 238.3,
+            "AUG": 237.6,
+            "SEP": 218.0,
+            "OCT": 37.9,
+            "NOV": 358.2,
+            "DEC": 348.2,
+            "ANN": 241.2
+          },
+          "WS10M": {
+            "JAN": 1.93,
+            "FEB": 2.15,
+            "MAR": 2.33,
+            "APR": 2.79,
+            "MAY": 3.19,
+            "JUN": 3.47,
+            "JUL": 3.44,
+            "AUG": 3.19,
+            "SEP": 2.6,
+            "OCT": 2.13,
+            "NOV": 1.83,
+            "DEC": 1.79,
+            "ANN": 2.57
+          },
+          "WS10M_MAX": {
+            "JAN": 9.28,
+            "FEB": 8.24,
+            "MAR": 7.45,
+            "APR": 8.84,
+            "MAY": 12.69,
+            "JUN": 13.84,
+            "JUL": 13.71,
+            "AUG": 13.15,
+            "SEP": 12.82,
+            "OCT": 16.96,
+            "NOV": 7.82,
+            "DEC": 7.16,
+            "ANN": 16.96
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.01,
+            "MAR": 0.03,
+            "APR": 0.02,
+            "MAY": 0.05,
+            "JUN": 0.02,
+            "JUL": 0.07,
+            "AUG": 0.05,
+            "SEP": 0.03,
+            "OCT": 0.01,
+            "NOV": 0.02,
+            "DEC": 0.01,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 2.9,
+            "FEB": 3.25,
+            "MAR": 3.44,
+            "APR": 3.92,
+            "MAY": 4.29,
+            "JUN": 4.89,
+            "JUL": 5.05,
+            "AUG": 4.78,
+            "SEP": 4.02,
+            "OCT": 3.22,
+            "NOV": 2.73,
+            "DEC": 2.68,
+            "ANN": 3.77
+          },
+          "WS50M_MAX": {
+            "JAN": 11.97,
+            "FEB": 9.78,
+            "MAR": 9.58,
+            "APR": 10.96,
+            "MAY": 16.12,
+            "JUN": 17.92,
+            "JUL": 17.94,
+            "AUG": 16.81,
+            "SEP": 16.74,
+            "OCT": 22.59,
+            "NOV": 10.23,
+            "DEC": 9.9,
+            "ANN": 22.59
+          },
+          "WS50M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.03,
+            "MAR": 0.03,
+            "APR": 0.03,
+            "MAY": 0.04,
+            "JUN": 0.01,
+            "JUL": 0.09,
+            "AUG": 0.04,
+            "SEP": 0.07,
+            "OCT": 0.02,
+            "NOV": 0.05,
+            "DEC": 0.02,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.591,
+        "process": 0.08
+      }
+    }
+  },
+  "Punjab": {
+    "latitude": 31.1471,
+    "longitude": 75.3412,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.341,
+          31.147,
+          240.26
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 98.88,
+            "FEB": 98.68,
+            "MAR": 98.36,
+            "APR": 97.92,
+            "MAY": 97.42,
+            "JUN": 97.05,
+            "JUL": 97.04,
+            "AUG": 97.27,
+            "SEP": 97.71,
+            "OCT": 98.28,
+            "NOV": 98.66,
+            "DEC": 98.85,
+            "ANN": 98.01
+          },
+          "T2M": {
+            "JAN": 12.45,
+            "FEB": 16.05,
+            "MAR": 22.17,
+            "APR": 28.87,
+            "MAY": 34.47,
+            "JUN": 36.03,
+            "JUL": 33.57,
+            "AUG": 31.48,
+            "SEP": 29.23,
+            "OCT": 25.37,
+            "NOV": 19.46,
+            "DEC": 14.37,
+            "ANN": 25.33
+          },
+          "WD10M": {
+            "JAN": 321.2,
+            "FEB": 322.7,
+            "MAR": 323.6,
+            "APR": 321.2,
+            "MAY": 299.3,
+            "JUN": 254.0,
+            "JUL": 187.9,
+            "AUG": 179.5,
+            "SEP": 283.2,
+            "OCT": 343.3,
+            "NOV": 330.0,
+            "DEC": 322.5,
+            "ANN": 306.9
+          },
+          "WD50M": {
+            "JAN": 323.2,
+            "FEB": 327.2,
+            "MAR": 328.5,
+            "APR": 327.0,
+            "MAY": 306.6,
+            "JUN": 255.9,
+            "JUL": 187.3,
+            "AUG": 178.3,
+            "SEP": 271.9,
+            "OCT": 348.4,
+            "NOV": 332.3,
+            "DEC": 324.0,
+            "ANN": 312.4
+          },
+          "WS10M": {
+            "JAN": 2.5,
+            "FEB": 2.76,
+            "MAR": 2.85,
+            "APR": 3.0,
+            "MAY": 3.05,
+            "JUN": 2.83,
+            "JUL": 2.5,
+            "AUG": 2.26,
+            "SEP": 2.05,
+            "OCT": 2.09,
+            "NOV": 2.33,
+            "DEC": 2.4,
+            "ANN": 2.55
+          },
+          "WS10M_MAX": {
+            "JAN": 8.41,
+            "FEB": 12.72,
+            "MAR": 10.9,
+            "APR": 11.53,
+            "MAY": 10.43,
+            "JUN": 10.9,
+            "JUL": 9.96,
+            "AUG": 8.12,
+            "SEP": 10.52,
+            "OCT": 8.03,
+            "NOV": 6.99,
+            "DEC": 11.16,
+            "ANN": 12.72
+          },
+          "WS10M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.02,
+            "MAR": 0.04,
+            "APR": 0.05,
+            "MAY": 0.01,
+            "JUN": 0.08,
+            "JUL": 0.02,
+            "AUG": 0.0,
+            "SEP": 0.01,
+            "OCT": 0.03,
+            "NOV": 0.02,
+            "DEC": 0.01,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 3.86,
+            "FEB": 4.32,
+            "MAR": 4.41,
+            "APR": 4.57,
+            "MAY": 4.44,
+            "JUN": 4.05,
+            "JUL": 3.62,
+            "AUG": 3.4,
+            "SEP": 3.16,
+            "OCT": 3.12,
+            "NOV": 3.48,
+            "DEC": 3.64,
+            "ANN": 3.84
+          },
+          "WS50M_MAX": {
+            "JAN": 11.1,
+            "FEB": 17.29,
+            "MAR": 14.57,
+            "APR": 14.22,
+            "MAY": 12.75,
+            "JUN": 13.95,
+            "JUL": 12.6,
+            "AUG": 10.29,
+            "SEP": 13.9,
+            "OCT": 11.31,
+            "NOV": 9.64,
+            "DEC": 14.84,
+            "ANN": 17.29
+          },
+          "WS50M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.06,
+            "MAR": 0.02,
+            "APR": 0.01,
+            "MAY": 0.03,
+            "JUN": 0.05,
+            "JUL": 0.03,
+            "AUG": 0.04,
+            "SEP": 0.04,
+            "OCT": 0.01,
+            "NOV": 0.01,
+            "DEC": 0.0,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.777,
+        "process": 0.08
+      }
+    }
+  },
+  "Rajasthan": {
+    "latitude": 27.0238,
+    "longitude": 74.2179,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.218,
+          27.024,
+          354.03
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 97.55,
+            "FEB": 97.35,
+            "MAR": 97.09,
+            "APR": 96.72,
+            "MAY": 96.32,
+            "JUN": 95.97,
+            "JUL": 95.92,
+            "AUG": 96.12,
+            "SEP": 96.51,
+            "OCT": 97.03,
+            "NOV": 97.37,
+            "DEC": 97.52,
+            "ANN": 96.79
+          },
+          "T2M": {
+            "JAN": 14.71,
+            "FEB": 18.29,
+            "MAR": 24.24,
+            "APR": 30.22,
+            "MAY": 34.14,
+            "JUN": 34.67,
+            "JUL": 31.78,
+            "AUG": 29.62,
+            "SEP": 28.96,
+            "OCT": 26.52,
+            "NOV": 21.36,
+            "DEC": 16.48,
+            "ANN": 25.94
+          },
+          "WD10M": {
+            "JAN": 50.3,
+            "FEB": 26.1,
+            "MAR": 328.0,
+            "APR": 284.2,
+            "MAY": 258.4,
+            "JUN": 247.8,
+            "JUL": 235.3,
+            "AUG": 232.5,
+            "SEP": 247.1,
+            "OCT": 317.1,
+            "NOV": 56.7,
+            "DEC": 60.8,
+            "ANN": 260.1
+          },
+          "WD50M": {
+            "JAN": 50.9,
+            "FEB": 30.7,
+            "MAR": 340.7,
+            "APR": 287.9,
+            "MAY": 259.2,
+            "JUN": 247.6,
+            "JUL": 234.5,
+            "AUG": 231.2,
+            "SEP": 244.2,
+            "OCT": 340.2,
+            "NOV": 58.3,
+            "DEC": 60.2,
+            "ANN": 263.6
+          },
+          "WS10M": {
+            "JAN": 2.88,
+            "FEB": 3.07,
+            "MAR": 3.13,
+            "APR": 3.41,
+            "MAY": 4.45,
+            "JUN": 4.69,
+            "JUL": 4.21,
+            "AUG": 3.58,
+            "SEP": 3.11,
+            "OCT": 2.57,
+            "NOV": 2.56,
+            "DEC": 2.73,
+            "ANN": 3.37
+          },
+          "WS10M_MAX": {
+            "JAN": 9.65,
+            "FEB": 10.8,
+            "MAR": 10.26,
+            "APR": 13.76,
+            "MAY": 12.43,
+            "JUN": 12.54,
+            "JUL": 11.71,
+            "AUG": 9.47,
+            "SEP": 8.76,
+            "OCT": 8.39,
+            "NOV": 7.98,
+            "DEC": 9.65,
+            "ANN": 13.76
+          },
+          "WS10M_MIN": {
+            "JAN": 0.06,
+            "FEB": 0.06,
+            "MAR": 0.01,
+            "APR": 0.02,
+            "MAY": 0.04,
+            "JUN": 0.09,
+            "JUL": 0.04,
+            "AUG": 0.04,
+            "SEP": 0.04,
+            "OCT": 0.03,
+            "NOV": 0.03,
+            "DEC": 0.04,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 4.47,
+            "FEB": 4.7,
+            "MAR": 4.67,
+            "APR": 4.97,
+            "MAY": 6.18,
+            "JUN": 6.2,
+            "JUL": 5.56,
+            "AUG": 4.99,
+            "SEP": 4.63,
+            "OCT": 3.95,
+            "NOV": 3.97,
+            "DEC": 4.26,
+            "ANN": 4.88
+          },
+          "WS50M_MAX": {
+            "JAN": 11.51,
+            "FEB": 13.13,
+            "MAR": 12.47,
+            "APR": 16.28,
+            "MAY": 14.63,
+            "JUN": 15.61,
+            "JUL": 14.6,
+            "AUG": 12.6,
+            "SEP": 11.21,
+            "OCT": 10.23,
+            "NOV": 9.56,
+            "DEC": 12.09,
+            "ANN": 16.28
+          },
+          "WS50M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.07,
+            "MAR": 0.04,
+            "APR": 0.02,
+            "MAY": 0.07,
+            "JUN": 0.13,
+            "JUL": 0.07,
+            "AUG": 0.03,
+            "SEP": 0.04,
+            "OCT": 0.04,
+            "NOV": 0.01,
+            "DEC": 0.04,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.599,
+        "process": 0.08
+      }
+    }
+  },
+  "Sikkim": {
+    "latitude": 27.533,
+    "longitude": 88.5122,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.512,
+          27.533,
+          3239.61
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 69.12,
+            "FEB": 69.17,
+            "MAR": 69.25,
+            "APR": 69.33,
+            "MAY": 69.26,
+            "JUN": 69.18,
+            "JUL": 69.2,
+            "AUG": 69.3,
+            "SEP": 69.46,
+            "OCT": 69.54,
+            "NOV": 69.44,
+            "DEC": 69.26,
+            "ANN": 69.29
+          },
+          "T2M": {
+            "JAN": -0.2,
+            "FEB": 1.27,
+            "MAR": 4.01,
+            "APR": 7.18,
+            "MAY": 10.17,
+            "JUN": 13.04,
+            "JUL": 13.6,
+            "AUG": 13.35,
+            "SEP": 11.92,
+            "OCT": 8.27,
+            "NOV": 4.71,
+            "DEC": 1.81,
+            "ANN": 7.45
+          },
+          "WD10M": {
+            "JAN": 227.1,
+            "FEB": 221.8,
+            "MAR": 216.5,
+            "APR": 211.2,
+            "MAY": 201.0,
+            "JUN": 192.9,
+            "JUL": 185.3,
+            "AUG": 182.5,
+            "SEP": 185.6,
+            "OCT": 190.2,
+            "NOV": 201.3,
+            "DEC": 221.5,
+            "ANN": 199.7
+          },
+          "WD50M": {
+            "JAN": 240.3,
+            "FEB": 233.5,
+            "MAR": 226.2,
+            "APR": 219.2,
+            "MAY": 206.7,
+            "JUN": 196.0,
+            "JUL": 186.4,
+            "AUG": 182.9,
+            "SEP": 187.0,
+            "OCT": 193.1,
+            "NOV": 209.9,
+            "DEC": 236.7,
+            "ANN": 205.4
+          },
+          "WS10M": {
+            "JAN": 2.0,
+            "FEB": 2.29,
+            "MAR": 2.54,
+            "APR": 2.71,
+            "MAY": 2.86,
+            "JUN": 3.05,
+            "JUL": 2.92,
+            "AUG": 2.64,
+            "SEP": 2.39,
+            "OCT": 2.03,
+            "NOV": 1.77,
+            "DEC": 1.74,
+            "ANN": 2.41
+          },
+          "WS10M_MAX": {
+            "JAN": 8.38,
+            "FEB": 8.92,
+            "MAR": 10.23,
+            "APR": 8.32,
+            "MAY": 8.88,
+            "JUN": 9.0,
+            "JUL": 9.23,
+            "AUG": 8.02,
+            "SEP": 7.17,
+            "OCT": 6.38,
+            "NOV": 6.42,
+            "DEC": 7.12,
+            "ANN": 10.23
+          },
+          "WS10M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.02,
+            "MAR": 0.02,
+            "APR": 0.02,
+            "MAY": 0.01,
+            "JUN": 0.02,
+            "JUL": 0.03,
+            "AUG": 0.01,
+            "SEP": 0.01,
+            "OCT": 0.0,
+            "NOV": 0.01,
+            "DEC": 0.0,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 2.13,
+            "FEB": 2.37,
+            "MAR": 2.58,
+            "APR": 2.75,
+            "MAY": 2.83,
+            "JUN": 3.06,
+            "JUL": 2.99,
+            "AUG": 2.73,
+            "SEP": 2.48,
+            "OCT": 2.06,
+            "NOV": 1.8,
+            "DEC": 1.84,
+            "ANN": 2.47
+          },
+          "WS50M_MAX": {
+            "JAN": 8.92,
+            "FEB": 9.27,
+            "MAR": 12.19,
+            "APR": 9.5,
+            "MAY": 9.73,
+            "JUN": 9.73,
+            "JUL": 10.14,
+            "AUG": 8.67,
+            "SEP": 7.77,
+            "OCT": 6.28,
+            "NOV": 6.88,
+            "DEC": 8.91,
+            "ANN": 12.19
+          },
+          "WS50M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.02,
+            "MAR": 0.02,
+            "APR": 0.01,
+            "MAY": 0.01,
+            "JUN": 0.03,
+            "JUL": 0.04,
+            "AUG": 0.02,
+            "SEP": 0.01,
+            "OCT": 0.01,
+            "NOV": 0.01,
+            "DEC": 0.0,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.726,
+        "process": 0.1
+      }
+    }
+  },
+  "Tamil Nadu": {
+    "latitude": 11.1271,
+    "longitude": 78.6569,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.657,
+          11.127,
+          163.36
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 99.42,
+            "FEB": 99.34,
+            "MAR": 99.17,
+            "APR": 98.98,
+            "MAY": 98.79,
+            "JUN": 98.75,
+            "JUL": 98.79,
+            "AUG": 98.83,
+            "SEP": 98.9,
+            "OCT": 99.04,
+            "NOV": 99.2,
+            "DEC": 99.34,
+            "ANN": 99.04
+          },
+          "T2M": {
+            "JAN": 23.9,
+            "FEB": 26.03,
+            "MAR": 29.25,
+            "APR": 31.22,
+            "MAY": 30.64,
+            "JUN": 29.47,
+            "JUL": 29.1,
+            "AUG": 28.68,
+            "SEP": 28.07,
+            "OCT": 26.83,
+            "NOV": 24.78,
+            "DEC": 23.62,
+            "ANN": 27.64
+          },
+          "WD10M": {
+            "JAN": 54.9,
+            "FEB": 70.0,
+            "MAR": 99.3,
+            "APR": 138.1,
+            "MAY": 240.9,
+            "JUN": 260.7,
+            "JUL": 264.9,
+            "AUG": 264.4,
+            "SEP": 258.1,
+            "OCT": 315.8,
+            "NOV": 40.8,
+            "DEC": 42.0,
+            "ANN": 287.2
+          },
+          "WD50M": {
+            "JAN": 53.9,
+            "FEB": 68.8,
+            "MAR": 98.7,
+            "APR": 139.7,
+            "MAY": 240.0,
+            "JUN": 260.6,
+            "JUL": 264.6,
+            "AUG": 263.8,
+            "SEP": 256.2,
+            "OCT": 315.1,
+            "NOV": 41.1,
+            "DEC": 41.7,
+            "ANN": 296.4
+          },
+          "WS10M": {
+            "JAN": 3.64,
+            "FEB": 3.51,
+            "MAR": 3.22,
+            "APR": 3.03,
+            "MAY": 3.65,
+            "JUN": 5.19,
+            "JUL": 5.51,
+            "AUG": 4.84,
+            "SEP": 3.56,
+            "OCT": 2.71,
+            "NOV": 3.27,
+            "DEC": 3.83,
+            "ANN": 3.83
+          },
+          "WS10M_MAX": {
+            "JAN": 8.52,
+            "FEB": 10.72,
+            "MAR": 8.99,
+            "APR": 9.38,
+            "MAY": 10.97,
+            "JUN": 12.42,
+            "JUL": 12.72,
+            "AUG": 12.33,
+            "SEP": 10.71,
+            "OCT": 9.65,
+            "NOV": 12.56,
+            "DEC": 11.16,
+            "ANN": 12.72
+          },
+          "WS10M_MIN": {
+            "JAN": 0.06,
+            "FEB": 0.01,
+            "MAR": 0.03,
+            "APR": 0.06,
+            "MAY": 0.06,
+            "JUN": 0.03,
+            "JUL": 0.1,
+            "AUG": 0.16,
+            "SEP": 0.08,
+            "OCT": 0.02,
+            "NOV": 0.02,
+            "DEC": 0.05,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 5.5,
+            "FEB": 5.03,
+            "MAR": 4.39,
+            "APR": 4.01,
+            "MAY": 5.03,
+            "JUN": 6.97,
+            "JUL": 7.3,
+            "AUG": 6.59,
+            "SEP": 5.17,
+            "OCT": 4.15,
+            "NOV": 5.1,
+            "DEC": 5.9,
+            "ANN": 5.43
+          },
+          "WS50M_MAX": {
+            "JAN": 10.32,
+            "FEB": 13.61,
+            "MAR": 10.87,
+            "APR": 11.82,
+            "MAY": 13.17,
+            "JUN": 15.37,
+            "JUL": 15.45,
+            "AUG": 14.99,
+            "SEP": 13.02,
+            "OCT": 11.75,
+            "NOV": 16.79,
+            "DEC": 14.57,
+            "ANN": 16.79
+          },
+          "WS50M_MIN": {
+            "JAN": 0.06,
+            "FEB": 0.02,
+            "MAR": 0.03,
+            "APR": 0.04,
+            "MAY": 0.05,
+            "JUN": 0.16,
+            "JUL": 0.07,
+            "AUG": 0.12,
+            "SEP": 0.13,
+            "OCT": 0.02,
+            "NOV": 0.04,
+            "DEC": 0.19,
+            "ANN": 0.02
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.804,
+        "process": 0.09
+      }
+    }
+  },
+  "Telangana": {
+    "latitude": 18.1124,
+    "longitude": 79.0193,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.019,
+          18.112,
+          473.22
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 96.03,
+            "FEB": 95.91,
+            "MAR": 95.7,
+            "APR": 95.47,
+            "MAY": 95.17,
+            "JUN": 95.03,
+            "JUL": 95.04,
+            "AUG": 95.13,
+            "SEP": 95.33,
+            "OCT": 95.67,
+            "NOV": 95.94,
+            "DEC": 96.04,
+            "ANN": 95.54
+          },
+          "T2M": {
+            "JAN": 21.68,
+            "FEB": 25.07,
+            "MAR": 28.96,
+            "APR": 32.21,
+            "MAY": 33.85,
+            "JUN": 29.21,
+            "JUL": 26.5,
+            "AUG": 25.45,
+            "SEP": 25.16,
+            "OCT": 24.09,
+            "NOV": 22.09,
+            "DEC": 20.79,
+            "ANN": 26.25
+          },
+          "WD10M": {
+            "JAN": 112.5,
+            "FEB": 130.9,
+            "MAR": 145.7,
+            "APR": 176.1,
+            "MAY": 280.6,
+            "JUN": 266.6,
+            "JUL": 268.0,
+            "AUG": 273.6,
+            "SEP": 285.3,
+            "OCT": 33.3,
+            "NOV": 71.2,
+            "DEC": 90.9,
+            "ANN": 257.4
+          },
+          "WD50M": {
+            "JAN": 113.8,
+            "FEB": 131.6,
+            "MAR": 145.8,
+            "APR": 175.5,
+            "MAY": 276.9,
+            "JUN": 265.5,
+            "JUL": 267.2,
+            "AUG": 272.8,
+            "SEP": 284.2,
+            "OCT": 33.8,
+            "NOV": 72.6,
+            "DEC": 93.3,
+            "ANN": 251.0
+          },
+          "WS10M": {
+            "JAN": 2.93,
+            "FEB": 3.15,
+            "MAR": 3.12,
+            "APR": 3.16,
+            "MAY": 4.15,
+            "JUN": 5.21,
+            "JUL": 5.49,
+            "AUG": 4.76,
+            "SEP": 3.37,
+            "OCT": 2.71,
+            "NOV": 2.73,
+            "DEC": 2.71,
+            "ANN": 3.63
+          },
+          "WS10M_MAX": {
+            "JAN": 7.81,
+            "FEB": 8.87,
+            "MAR": 8.2,
+            "APR": 8.83,
+            "MAY": 12.35,
+            "JUN": 15.82,
+            "JUL": 13.41,
+            "AUG": 13.51,
+            "SEP": 10.5,
+            "OCT": 9.38,
+            "NOV": 8.82,
+            "DEC": 8.15,
+            "ANN": 15.82
+          },
+          "WS10M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.04,
+            "MAR": 0.03,
+            "APR": 0.06,
+            "MAY": 0.06,
+            "JUN": 0.02,
+            "JUL": 0.13,
+            "AUG": 0.07,
+            "SEP": 0.02,
+            "OCT": 0.09,
+            "NOV": 0.04,
+            "DEC": 0.09,
+            "ANN": 0.02
+          },
+          "WS50M": {
+            "JAN": 4.49,
+            "FEB": 4.7,
+            "MAR": 4.58,
+            "APR": 4.5,
+            "MAY": 5.63,
+            "JUN": 6.93,
+            "JUL": 7.54,
+            "AUG": 6.79,
+            "SEP": 5.05,
+            "OCT": 4.19,
+            "NOV": 4.23,
+            "DEC": 4.18,
+            "ANN": 5.24
+          },
+          "WS50M_MAX": {
+            "JAN": 10.31,
+            "FEB": 10.35,
+            "MAR": 10.69,
+            "APR": 10.71,
+            "MAY": 15.08,
+            "JUN": 20.35,
+            "JUL": 16.52,
+            "AUG": 17.44,
+            "SEP": 13.41,
+            "OCT": 12.82,
+            "NOV": 12.25,
+            "DEC": 9.92,
+            "ANN": 20.35
+          },
+          "WS50M_MIN": {
+            "JAN": 0.08,
+            "FEB": 0.04,
+            "MAR": 0.03,
+            "APR": 0.06,
+            "MAY": 0.06,
+            "JUN": 0.09,
+            "JUL": 0.14,
+            "AUG": 0.09,
+            "SEP": 0.1,
+            "OCT": 0.14,
+            "NOV": 0.06,
+            "DEC": 0.1,
+            "ANN": 0.03
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.717,
+        "process": 0.1
+      }
+    }
+  },
+  "Tripura": {
+    "latitude": 23.9408,
+    "longitude": 91.9882,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.988,
+          23.941,
+          108.45
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 100.2,
+            "FEB": 100.05,
+            "MAR": 99.78,
+            "APR": 99.54,
+            "MAY": 99.23,
+            "JUN": 98.93,
+            "JUL": 98.92,
+            "AUG": 99.01,
+            "SEP": 99.32,
+            "OCT": 99.72,
+            "NOV": 100.02,
+            "DEC": 100.18,
+            "ANN": 99.57
+          },
+          "T2M": {
+            "JAN": 17.63,
+            "FEB": 21.11,
+            "MAR": 25.54,
+            "APR": 27.76,
+            "MAY": 27.87,
+            "JUN": 27.62,
+            "JUL": 27.54,
+            "AUG": 27.46,
+            "SEP": 26.86,
+            "OCT": 25.22,
+            "NOV": 21.77,
+            "DEC": 18.59,
+            "ANN": 24.59
+          },
+          "WD10M": {
+            "JAN": 1.7,
+            "FEB": 325.9,
+            "MAR": 221.5,
+            "APR": 189.8,
+            "MAY": 178.8,
+            "JUN": 177.2,
+            "JUL": 177.8,
+            "AUG": 180.4,
+            "SEP": 182.0,
+            "OCT": 332.7,
+            "NOV": 26.9,
+            "DEC": 27.4,
+            "ANN": 181.8
+          },
+          "WD50M": {
+            "JAN": 357.2,
+            "FEB": 308.3,
+            "MAR": 219.3,
+            "APR": 189.2,
+            "MAY": 178.5,
+            "JUN": 177.9,
+            "JUL": 178.6,
+            "AUG": 180.8,
+            "SEP": 181.4,
+            "OCT": 149.0,
+            "NOV": 25.1,
+            "DEC": 25.9,
+            "ANN": 183.4
+          },
+          "WS10M": {
+            "JAN": 1.18,
+            "FEB": 1.27,
+            "MAR": 1.31,
+            "APR": 1.24,
+            "MAY": 1.09,
+            "JUN": 1.15,
+            "JUL": 1.13,
+            "AUG": 0.92,
+            "SEP": 0.78,
+            "OCT": 0.8,
+            "NOV": 0.94,
+            "DEC": 1.06,
+            "ANN": 1.07
+          },
+          "WS10M_MAX": {
+            "JAN": 2.51,
+            "FEB": 2.74,
+            "MAR": 3.8,
+            "APR": 3.49,
+            "MAY": 4.7,
+            "JUN": 4.82,
+            "JUL": 4.59,
+            "AUG": 4.3,
+            "SEP": 2.59,
+            "OCT": 3.79,
+            "NOV": 2.51,
+            "DEC": 2.45,
+            "ANN": 4.82
+          },
+          "WS10M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.02,
+            "MAR": 0.01,
+            "APR": 0.03,
+            "MAY": 0.02,
+            "JUN": 0.03,
+            "JUL": 0.03,
+            "AUG": 0.01,
+            "SEP": 0.01,
+            "OCT": 0.01,
+            "NOV": 0.01,
+            "DEC": 0.01,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 2.3,
+            "FEB": 2.65,
+            "MAR": 2.93,
+            "APR": 2.99,
+            "MAY": 2.77,
+            "JUN": 2.96,
+            "JUL": 2.93,
+            "AUG": 2.46,
+            "SEP": 2.07,
+            "OCT": 1.82,
+            "NOV": 1.78,
+            "DEC": 1.93,
+            "ANN": 2.46
+          },
+          "WS50M_MAX": {
+            "JAN": 5.4,
+            "FEB": 6.51,
+            "MAR": 8.86,
+            "APR": 8.28,
+            "MAY": 10.36,
+            "JUN": 10.75,
+            "JUL": 9.93,
+            "AUG": 10.18,
+            "SEP": 6.4,
+            "OCT": 9.63,
+            "NOV": 5.91,
+            "DEC": 4.84,
+            "ANN": 10.75
+          },
+          "WS50M_MIN": {
+            "JAN": 0.01,
+            "FEB": 0.04,
+            "MAR": 0.02,
+            "APR": 0.06,
+            "MAY": 0.01,
+            "JUN": 0.04,
+            "JUL": 0.08,
+            "AUG": 0.01,
+            "SEP": 0.02,
+            "OCT": 0.02,
+            "NOV": 0.01,
+            "DEC": 0.03,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 1.028,
+        "process": 0.1
+      }
+    }
+  },
+  "Uttar Pradesh": {
+    "latitude": 26.8467,
+    "longitude": 80.9462,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.946,
+          26.847,
+          117.11
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 100.24,
+            "FEB": 100.03,
+            "MAR": 99.67,
+            "APR": 99.22,
+            "MAY": 98.8,
+            "JUN": 98.46,
+            "JUL": 98.51,
+            "AUG": 98.72,
+            "SEP": 99.1,
+            "OCT": 99.67,
+            "NOV": 100.03,
+            "DEC": 100.22,
+            "ANN": 99.39
+          },
+          "T2M": {
+            "JAN": 14.64,
+            "FEB": 18.85,
+            "MAR": 25.04,
+            "APR": 31.66,
+            "MAY": 35.29,
+            "JUN": 35.34,
+            "JUL": 30.78,
+            "AUG": 29.22,
+            "SEP": 27.98,
+            "OCT": 25.04,
+            "NOV": 20.18,
+            "DEC": 15.76,
+            "ANN": 25.84
+          },
+          "WD10M": {
+            "JAN": 295.5,
+            "FEB": 301.3,
+            "MAR": 303.9,
+            "APR": 306.3,
+            "MAY": 340.7,
+            "JUN": 90.3,
+            "JUL": 119.9,
+            "AUG": 111.7,
+            "SEP": 100.1,
+            "OCT": 300.9,
+            "NOV": 297.1,
+            "DEC": 295.7,
+            "ANN": 307.8
+          },
+          "WD50M": {
+            "JAN": 297.6,
+            "FEB": 304.3,
+            "MAR": 306.8,
+            "APR": 309.1,
+            "MAY": 343.6,
+            "JUN": 93.9,
+            "JUL": 121.9,
+            "AUG": 112.4,
+            "SEP": 101.5,
+            "OCT": 300.9,
+            "NOV": 298.3,
+            "DEC": 297.2,
+            "ANN": 309.0
+          },
+          "WS10M": {
+            "JAN": 2.76,
+            "FEB": 3.06,
+            "MAR": 3.31,
+            "APR": 3.52,
+            "MAY": 3.43,
+            "JUN": 3.65,
+            "JUL": 3.5,
+            "AUG": 3.02,
+            "SEP": 2.75,
+            "OCT": 1.99,
+            "NOV": 2.17,
+            "DEC": 2.46,
+            "ANN": 2.97
+          },
+          "WS10M_MAX": {
+            "JAN": 8.89,
+            "FEB": 10.97,
+            "MAR": 10.56,
+            "APR": 12.37,
+            "MAY": 11.85,
+            "JUN": 14.57,
+            "JUL": 13.62,
+            "AUG": 12.32,
+            "SEP": 14.24,
+            "OCT": 11.98,
+            "NOV": 8.03,
+            "DEC": 10.28,
+            "ANN": 14.57
+          },
+          "WS10M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.02,
+            "MAR": 0.02,
+            "APR": 0.02,
+            "MAY": 0.06,
+            "JUN": 0.05,
+            "JUL": 0.04,
+            "AUG": 0.01,
+            "SEP": 0.0,
+            "OCT": 0.03,
+            "NOV": 0.01,
+            "DEC": 0.02,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 4.36,
+            "FEB": 4.85,
+            "MAR": 5.18,
+            "APR": 5.35,
+            "MAY": 4.94,
+            "JUN": 5.07,
+            "JUL": 5.03,
+            "AUG": 4.56,
+            "SEP": 4.22,
+            "OCT": 3.03,
+            "NOV": 3.34,
+            "DEC": 3.82,
+            "ANN": 4.48
+          },
+          "WS50M_MAX": {
+            "JAN": 12.27,
+            "FEB": 14.01,
+            "MAR": 12.23,
+            "APR": 14.72,
+            "MAY": 14.29,
+            "JUN": 17.53,
+            "JUL": 17.37,
+            "AUG": 15.93,
+            "SEP": 18.87,
+            "OCT": 15.83,
+            "NOV": 10.07,
+            "DEC": 12.55,
+            "ANN": 18.87
+          },
+          "WS50M_MIN": {
+            "JAN": 0.07,
+            "FEB": 0.04,
+            "MAR": 0.05,
+            "APR": 0.05,
+            "MAY": 0.04,
+            "JUN": 0.04,
+            "JUL": 0.04,
+            "AUG": 0.02,
+            "SEP": 0.06,
+            "OCT": 0.02,
+            "NOV": 0.03,
+            "DEC": 0.01,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "POWER",
+          "MERRA2"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.722,
+        "process": 0.1
+      }
+    }
+  },
+  "Uttarakhand": {
+    "latitude": 30.0668,
+    "longitude": 79.0193,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.019,
+          30.067,
+          1266.18
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 87.63,
+            "FEB": 87.55,
+            "MAR": 87.42,
+            "APR": 87.21,
+            "MAY": 86.92,
+            "JUN": 86.64,
+            "JUL": 86.61,
+            "AUG": 86.76,
+            "SEP": 87.08,
+            "OCT": 87.48,
+            "NOV": 87.65,
+            "DEC": 87.67,
+            "ANN": 87.22
+          },
+          "T2M": {
+            "JAN": 9.78,
+            "FEB": 12.3,
+            "MAR": 16.84,
+            "APR": 22.4,
+            "MAY": 26.32,
+            "JUN": 26.97,
+            "JUL": 24.29,
+            "AUG": 23.01,
+            "SEP": 21.58,
+            "OCT": 18.3,
+            "NOV": 14.69,
+            "DEC": 11.39,
+            "ANN": 19.01
+          },
+          "WD10M": {
+            "JAN": 235.5,
+            "FEB": 232.6,
+            "MAR": 257.9,
+            "APR": 259.8,
+            "MAY": 254.9,
+            "JUN": 245.6,
+            "JUL": 224.2,
+            "AUG": 222.5,
+            "SEP": 240.0,
+            "OCT": 266.7,
+            "NOV": 253.8,
+            "DEC": 234.1,
+            "ANN": 243.1
+          },
+          "WD50M": {
+            "JAN": 240.7,
+            "FEB": 236.5,
+            "MAR": 270.6,
+            "APR": 268.9,
+            "MAY": 261.7,
+            "JUN": 249.9,
+            "JUL": 223.4,
+            "AUG": 221.9,
+            "SEP": 242.9,
+            "OCT": 289.3,
+            "NOV": 269.4,
+            "DEC": 238.6,
+            "ANN": 248.2
+          },
+          "WS10M": {
+            "JAN": 2.0,
+            "FEB": 2.41,
+            "MAR": 2.7,
+            "APR": 3.0,
+            "MAY": 3.19,
+            "JUN": 2.89,
+            "JUL": 2.45,
+            "AUG": 2.19,
+            "SEP": 2.02,
+            "OCT": 2.0,
+            "NOV": 1.9,
+            "DEC": 1.86,
+            "ANN": 2.38
+          },
+          "WS10M_MAX": {
+            "JAN": 10.84,
+            "FEB": 10.96,
+            "MAR": 10.4,
+            "APR": 11.21,
+            "MAY": 10.04,
+            "JUN": 10.87,
+            "JUL": 8.02,
+            "AUG": 8.46,
+            "SEP": 7.29,
+            "OCT": 6.41,
+            "NOV": 6.96,
+            "DEC": 8.01,
+            "ANN": 11.21
+          },
+          "WS10M_MIN": {
+            "JAN": 0.0,
+            "FEB": 0.01,
+            "MAR": 0.07,
+            "APR": 0.02,
+            "MAY": 0.04,
+            "JUN": 0.01,
+            "JUL": 0.02,
+            "AUG": 0.01,
+            "SEP": 0.02,
+            "OCT": 0.04,
+            "NOV": 0.02,
+            "DEC": 0.02,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 2.42,
+            "FEB": 2.95,
+            "MAR": 3.29,
+            "APR": 3.66,
+            "MAY": 3.86,
+            "JUN": 3.51,
+            "JUL": 3.06,
+            "AUG": 2.77,
+            "SEP": 2.5,
+            "OCT": 2.45,
+            "NOV": 2.29,
+            "DEC": 2.23,
+            "ANN": 2.91
+          },
+          "WS50M_MAX": {
+            "JAN": 12.61,
+            "FEB": 12.59,
+            "MAR": 11.97,
+            "APR": 12.82,
+            "MAY": 11.08,
+            "JUN": 12.42,
+            "JUL": 9.47,
+            "AUG": 9.77,
+            "SEP": 9.28,
+            "OCT": 7.91,
+            "NOV": 7.72,
+            "DEC": 10.04,
+            "ANN": 12.82
+          },
+          "WS50M_MIN": {
+            "JAN": 0.0,
+            "FEB": 0.01,
+            "MAR": 0.04,
+            "APR": 0.03,
+            "MAY": 0.04,
+            "JUN": 0.03,
+            "JUL": 0.02,
+            "AUG": 0.05,
+            "SEP": 0.04,
+            "OCT": 0.03,
+            "NOV": 0.0,
+            "DEC": 0.01,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.634,
+        "process": 0.08
+      }
+    }
+  },
+  "West Bengal": {
+    "latitude": 22.9868,
+    "longitude": 87.855,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.855,
+          22.987,
+          15.81
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 101.37,
+            "FEB": 101.17,
+            "MAR": 100.83,
+            "APR": 100.46,
+            "MAY": 100.11,
+            "JUN": 99.81,
+            "JUL": 99.8,
+            "AUG": 99.92,
+            "SEP": 100.27,
+            "OCT": 100.78,
+            "NOV": 101.15,
+            "DEC": 101.34,
+            "ANN": 100.58
+          },
+          "T2M": {
+            "JAN": 16.87,
+            "FEB": 21.59,
+            "MAR": 27.04,
+            "APR": 31.51,
+            "MAY": 32.13,
+            "JUN": 30.25,
+            "JUL": 28.71,
+            "AUG": 28.26,
+            "SEP": 27.64,
+            "OCT": 25.81,
+            "NOV": 21.56,
+            "DEC": 17.4,
+            "ANN": 25.74
+          },
+          "WD10M": {
+            "JAN": 329.8,
+            "FEB": 307.3,
+            "MAR": 258.4,
+            "APR": 201.2,
+            "MAY": 182.0,
+            "JUN": 179.7,
+            "JUL": 174.2,
+            "AUG": 159.5,
+            "SEP": 158.0,
+            "OCT": 6.5,
+            "NOV": 342.6,
+            "DEC": 338.3,
+            "ANN": 208.5
+          },
+          "WD50M": {
+            "JAN": 331.0,
+            "FEB": 307.7,
+            "MAR": 255.0,
+            "APR": 200.8,
+            "MAY": 182.0,
+            "JUN": 180.3,
+            "JUL": 175.1,
+            "AUG": 162.0,
+            "SEP": 162.1,
+            "OCT": 4.6,
+            "NOV": 342.5,
+            "DEC": 338.8,
+            "ANN": 210.1
+          },
+          "WS10M": {
+            "JAN": 2.51,
+            "FEB": 2.54,
+            "MAR": 2.77,
+            "APR": 3.46,
+            "MAY": 3.76,
+            "JUN": 3.95,
+            "JUL": 3.95,
+            "AUG": 3.34,
+            "SEP": 2.76,
+            "OCT": 2.14,
+            "NOV": 2.13,
+            "DEC": 2.38,
+            "ANN": 2.98
+          },
+          "WS10M_MAX": {
+            "JAN": 7.21,
+            "FEB": 8.69,
+            "MAR": 9.06,
+            "APR": 10.51,
+            "MAY": 16.8,
+            "JUN": 11.69,
+            "JUL": 10.98,
+            "AUG": 12.72,
+            "SEP": 11.24,
+            "OCT": 13.59,
+            "NOV": 10.83,
+            "DEC": 6.57,
+            "ANN": 16.8
+          },
+          "WS10M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.01,
+            "MAR": 0.03,
+            "APR": 0.01,
+            "MAY": 0.02,
+            "JUN": 0.02,
+            "JUL": 0.07,
+            "AUG": 0.04,
+            "SEP": 0.04,
+            "OCT": 0.0,
+            "NOV": 0.02,
+            "DEC": 0.02,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 3.8,
+            "FEB": 3.8,
+            "MAR": 4.18,
+            "APR": 4.88,
+            "MAY": 5.1,
+            "JUN": 5.49,
+            "JUL": 5.7,
+            "AUG": 5.03,
+            "SEP": 4.34,
+            "OCT": 3.3,
+            "NOV": 3.23,
+            "DEC": 3.68,
+            "ANN": 4.38
+          },
+          "WS50M_MAX": {
+            "JAN": 9.62,
+            "FEB": 10.75,
+            "MAR": 11.86,
+            "APR": 12.73,
+            "MAY": 21.61,
+            "JUN": 15.62,
+            "JUL": 13.84,
+            "AUG": 16.93,
+            "SEP": 15.11,
+            "OCT": 17.82,
+            "NOV": 14.25,
+            "DEC": 9.16,
+            "ANN": 21.61
+          },
+          "WS50M_MIN": {
+            "JAN": 0.03,
+            "FEB": 0.01,
+            "MAR": 0.04,
+            "APR": 0.03,
+            "MAY": 0.04,
+            "JUN": 0.13,
+            "JUL": 0.1,
+            "AUG": 0.03,
+            "SEP": 0.01,
+            "OCT": 0.0,
+            "NOV": 0.03,
+            "DEC": 0.01,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.624,
+        "process": 0.08
+      }
+    }
+  },
+  "Delhi": {
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.103,
+          28.704,
+          230.32
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 98.98,
+            "FEB": 98.77,
+            "MAR": 98.46,
+            "APR": 98.02,
+            "MAY": 97.56,
+            "JUN": 97.21,
+            "JUL": 97.2,
+            "AUG": 97.43,
+            "SEP": 97.84,
+            "OCT": 98.39,
+            "NOV": 98.76,
+            "DEC": 98.95,
+            "ANN": 98.13
+          },
+          "T2M": {
+            "JAN": 13.52,
+            "FEB": 17.25,
+            "MAR": 23.51,
+            "APR": 30.19,
+            "MAY": 34.89,
+            "JUN": 35.8,
+            "JUL": 32.73,
+            "AUG": 30.25,
+            "SEP": 28.69,
+            "OCT": 25.64,
+            "NOV": 20.33,
+            "DEC": 15.31,
+            "ANN": 25.71
+          },
+          "WD10M": {
+            "JAN": 318.3,
+            "FEB": 318.7,
+            "MAR": 313.9,
+            "APR": 305.3,
+            "MAY": 288.8,
+            "JUN": 279.2,
+            "JUL": 198.2,
+            "AUG": 186.3,
+            "SEP": 319.0,
+            "OCT": 334.1,
+            "NOV": 320.0,
+            "DEC": 317.9,
+            "ANN": 303.8
+          },
+          "WD50M": {
+            "JAN": 320.1,
+            "FEB": 322.3,
+            "MAR": 317.2,
+            "APR": 308.4,
+            "MAY": 290.0,
+            "JUN": 278.5,
+            "JUL": 199.9,
+            "AUG": 191.4,
+            "SEP": 309.4,
+            "OCT": 336.1,
+            "NOV": 321.1,
+            "DEC": 318.9,
+            "ANN": 305.5
+          },
+          "WS10M": {
+            "JAN": 2.74,
+            "FEB": 2.95,
+            "MAR": 3.05,
+            "APR": 3.26,
+            "MAY": 3.5,
+            "JUN": 3.59,
+            "JUL": 3.21,
+            "AUG": 2.85,
+            "SEP": 2.63,
+            "OCT": 2.26,
+            "NOV": 2.48,
+            "DEC": 2.63,
+            "ANN": 2.93
+          },
+          "WS10M_MAX": {
+            "JAN": 9.07,
+            "FEB": 11.07,
+            "MAR": 9.88,
+            "APR": 10.95,
+            "MAY": 11.05,
+            "JUN": 12.01,
+            "JUL": 10.95,
+            "AUG": 10.99,
+            "SEP": 10.5,
+            "OCT": 8.16,
+            "NOV": 8.42,
+            "DEC": 9.14,
+            "ANN": 12.01
+          },
+          "WS10M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.06,
+            "MAR": 0.02,
+            "APR": 0.02,
+            "MAY": 0.04,
+            "JUN": 0.02,
+            "JUL": 0.02,
+            "AUG": 0.01,
+            "SEP": 0.01,
+            "OCT": 0.0,
+            "NOV": 0.01,
+            "DEC": 0.02,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 4.32,
+            "FEB": 4.71,
+            "MAR": 4.75,
+            "APR": 4.98,
+            "MAY": 5.12,
+            "JUN": 5.02,
+            "JUL": 4.52,
+            "AUG": 4.24,
+            "SEP": 3.98,
+            "OCT": 3.37,
+            "NOV": 3.77,
+            "DEC": 4.09,
+            "ANN": 4.4
+          },
+          "WS50M_MAX": {
+            "JAN": 11.82,
+            "FEB": 15.31,
+            "MAR": 12.46,
+            "APR": 13.68,
+            "MAY": 14.48,
+            "JUN": 14.41,
+            "JUL": 13.94,
+            "AUG": 14.13,
+            "SEP": 13.81,
+            "OCT": 10.22,
+            "NOV": 11.03,
+            "DEC": 10.97,
+            "ANN": 15.31
+          },
+          "WS50M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.07,
+            "MAR": 0.02,
+            "APR": 0.01,
+            "MAY": 0.09,
+            "JUN": 0.03,
+            "JUL": 0.02,
+            "AUG": 0.02,
+            "SEP": 0.0,
+            "OCT": 0.02,
+            "NOV": 0.01,
+            "DEC": 0.01,
+            "ANN": 0.0
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.76,
+        "process": 0.08
+      }
+    }
+  },
+  "Jammu and Kashmir": {
+    "latitude": 33.7782,
+    "longitude": 76.5762,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.576,
+          33.778,
+          4452.1
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 58.67,
+            "FEB": 58.72,
+            "MAR": 59.0,
+            "APR": 59.22,
+            "MAY": 59.33,
+            "JUN": 59.31,
+            "JUL": 59.3,
+            "AUG": 59.38,
+            "SEP": 59.44,
+            "OCT": 59.4,
+            "NOV": 59.22,
+            "DEC": 58.94,
+            "ANN": 59.16
+          },
+          "T2M": {
+            "JAN": -16.59,
+            "FEB": -15.04,
+            "MAR": -9.9,
+            "APR": -3.13,
+            "MAY": 1.35,
+            "JUN": 5.75,
+            "JUL": 9.62,
+            "AUG": 9.35,
+            "SEP": 4.5,
+            "OCT": -1.86,
+            "NOV": -8.23,
+            "DEC": -13.97,
+            "ANN": -3.12
+          },
+          "WD10M": {
+            "JAN": 216.2,
+            "FEB": 216.4,
+            "MAR": 225.9,
+            "APR": 240.5,
+            "MAY": 260.6,
+            "JUN": 273.5,
+            "JUL": 275.1,
+            "AUG": 271.2,
+            "SEP": 258.4,
+            "OCT": 253.5,
+            "NOV": 230.9,
+            "DEC": 218.7,
+            "ANN": 246.0
+          },
+          "WD50M": {
+            "JAN": 218.1,
+            "FEB": 218.0,
+            "MAR": 226.8,
+            "APR": 240.3,
+            "MAY": 260.8,
+            "JUN": 273.9,
+            "JUL": 275.6,
+            "AUG": 271.5,
+            "SEP": 258.0,
+            "OCT": 253.5,
+            "NOV": 231.5,
+            "DEC": 220.3,
+            "ANN": 245.7
+          },
+          "WS10M": {
+            "JAN": 2.26,
+            "FEB": 2.54,
+            "MAR": 2.4,
+            "APR": 2.66,
+            "MAY": 2.68,
+            "JUN": 2.59,
+            "JUL": 2.53,
+            "AUG": 2.4,
+            "SEP": 2.33,
+            "OCT": 2.17,
+            "NOV": 2.22,
+            "DEC": 2.25,
+            "ANN": 2.42
+          },
+          "WS10M_MAX": {
+            "JAN": 12.83,
+            "FEB": 13.53,
+            "MAR": 15.36,
+            "APR": 13.13,
+            "MAY": 12.76,
+            "JUN": 10.87,
+            "JUL": 9.07,
+            "AUG": 7.96,
+            "SEP": 9.14,
+            "OCT": 9.11,
+            "NOV": 9.83,
+            "DEC": 11.47,
+            "ANN": 15.36
+          },
+          "WS10M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.07,
+            "MAR": 0.04,
+            "APR": 0.05,
+            "MAY": 0.01,
+            "JUN": 0.06,
+            "JUL": 0.02,
+            "AUG": 0.04,
+            "SEP": 0.02,
+            "OCT": 0.0,
+            "NOV": 0.01,
+            "DEC": 0.02,
+            "ANN": 0.0
+          },
+          "WS50M": {
+            "JAN": 2.61,
+            "FEB": 2.95,
+            "MAR": 2.67,
+            "APR": 2.92,
+            "MAY": 2.9,
+            "JUN": 2.79,
+            "JUL": 2.75,
+            "AUG": 2.64,
+            "SEP": 2.58,
+            "OCT": 2.43,
+            "NOV": 2.53,
+            "DEC": 2.6,
+            "ANN": 2.69
+          },
+          "WS50M_MAX": {
+            "JAN": 14.61,
+            "FEB": 16.12,
+            "MAR": 17.98,
+            "APR": 14.9,
+            "MAY": 14.68,
+            "JUN": 12.18,
+            "JUL": 9.71,
+            "AUG": 8.68,
+            "SEP": 10.06,
+            "OCT": 9.76,
+            "NOV": 11.32,
+            "DEC": 13.19,
+            "ANN": 17.98
+          },
+          "WS50M_MIN": {
+            "JAN": 0.04,
+            "FEB": 0.06,
+            "MAR": 0.01,
+            "APR": 0.02,
+            "MAY": 0.02,
+            "JUN": 0.03,
+            "JUL": 0.06,
+            "AUG": 0.01,
+            "SEP": 0.03,
+            "OCT": 0.04,
+            "NOV": 0.03,
+            "DEC": 0.03,
+            "ANN": 0.01
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.589,
+        "process": 0.08
+      }
+    }
+  },
+  "Ladakh": {
+    "latitude": 34.1526,
+    "longitude": 77.5771,
+    "wind_data": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.577,
+          34.153,
+          4532.61
+        ]
+      },
+      "properties": {
+        "parameter": {
+          "PS": {
+            "JAN": 58.07,
+            "FEB": 58.12,
+            "MAR": 58.4,
+            "APR": 58.63,
+            "MAY": 58.74,
+            "JUN": 58.72,
+            "JUL": 58.71,
+            "AUG": 58.78,
+            "SEP": 58.84,
+            "OCT": 58.8,
+            "NOV": 58.62,
+            "DEC": 58.34,
+            "ANN": 58.57
+          },
+          "T2M": {
+            "JAN": -16.01,
+            "FEB": -14.6,
+            "MAR": -9.37,
+            "APR": -2.81,
+            "MAY": 1.51,
+            "JUN": 6.12,
+            "JUL": 10.18,
+            "AUG": 9.83,
+            "SEP": 4.79,
+            "OCT": -1.74,
+            "NOV": -7.96,
+            "DEC": -13.6,
+            "ANN": -2.75
+          },
+          "WD10M": {
+            "JAN": 208.6,
+            "FEB": 209.3,
+            "MAR": 223.0,
+            "APR": 242.3,
+            "MAY": 263.0,
+            "JUN": 275.3,
+            "JUL": 275.8,
+            "AUG": 271.7,
+            "SEP": 258.4,
+            "OCT": 254.2,
+            "NOV": 226.4,
+            "DEC": 210.4,
+            "ANN": 244.9
+          },
+          "WD50M": {
+            "JAN": 210.0,
+            "FEB": 210.6,
+            "MAR": 222.8,
+            "APR": 241.4,
+            "MAY": 262.0,
+            "JUN": 274.2,
+            "JUL": 274.3,
+            "AUG": 270.2,
+            "SEP": 256.3,
+            "OCT": 252.3,
+            "NOV": 225.8,
+            "DEC": 211.6,
+            "ANN": 243.2
+          },
+          "WS10M": {
+            "JAN": 2.76,
+            "FEB": 3.03,
+            "MAR": 2.86,
+            "APR": 3.03,
+            "MAY": 2.99,
+            "JUN": 2.91,
+            "JUL": 2.79,
+            "AUG": 2.6,
+            "SEP": 2.59,
+            "OCT": 2.4,
+            "NOV": 2.58,
+            "DEC": 2.7,
+            "ANN": 2.77
+          },
+          "WS10M_MAX": {
+            "JAN": 13.73,
+            "FEB": 14.84,
+            "MAR": 16.57,
+            "APR": 13.8,
+            "MAY": 13.85,
+            "JUN": 11.27,
+            "JUL": 9.49,
+            "AUG": 8.79,
+            "SEP": 10.16,
+            "OCT": 9.81,
+            "NOV": 12.59,
+            "DEC": 13.5,
+            "ANN": 16.57
+          },
+          "WS10M_MIN": {
+            "JAN": 0.02,
+            "FEB": 0.08,
+            "MAR": 0.02,
+            "APR": 0.01,
+            "MAY": 0.04,
+            "JUN": 0.04,
+            "JUL": 0.03,
+            "AUG": 0.03,
+            "SEP": 0.01,
+            "OCT": 0.04,
+            "NOV": 0.02,
+            "DEC": 0.04,
+            "ANN": 0.01
+          },
+          "WS50M": {
+            "JAN": 3.26,
+            "FEB": 3.57,
+            "MAR": 3.24,
+            "APR": 3.39,
+            "MAY": 3.31,
+            "JUN": 3.2,
+            "JUL": 3.13,
+            "AUG": 2.96,
+            "SEP": 2.97,
+            "OCT": 2.77,
+            "NOV": 3.05,
+            "DEC": 3.23,
+            "ANN": 3.17
+          },
+          "WS50M_MAX": {
+            "JAN": 16.16,
+            "FEB": 17.26,
+            "MAR": 18.8,
+            "APR": 15.73,
+            "MAY": 15.95,
+            "JUN": 12.76,
+            "JUL": 10.19,
+            "AUG": 8.87,
+            "SEP": 11.23,
+            "OCT": 10.79,
+            "NOV": 14.36,
+            "DEC": 15.37,
+            "ANN": 18.8
+          },
+          "WS50M_MIN": {
+            "JAN": 0.06,
+            "FEB": 0.1,
+            "MAR": 0.08,
+            "APR": 0.04,
+            "MAY": 0.03,
+            "JUN": 0.02,
+            "JUL": 0.02,
+            "AUG": 0.04,
+            "SEP": 0.03,
+            "OCT": 0.02,
+            "NOV": 0.05,
+            "DEC": 0.07,
+            "ANN": 0.02
+          }
+        }
+      },
+      "header": {
+        "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+        "api": {
+          "version": "v2.8.2",
+          "name": "POWER Climatology API"
+        },
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "fill_value": -999.0,
+        "time_standard": "LST",
+        "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+      },
+      "messages": [
+        "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+      ],
+      "parameters": {
+        "PS": {
+          "units": "kPa",
+          "longname": "Surface Pressure"
+        },
+        "T2M": {
+          "units": "C",
+          "longname": "Temperature at 2 Meters"
+        },
+        "WD10M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 10 Meters"
+        },
+        "WD50M": {
+          "units": "Degrees",
+          "longname": "Wind Direction at 50 Meters"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters"
+        },
+        "WS10M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Maximum"
+        },
+        "WS10M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 10 Meters Minimum"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        },
+        "WS50M_MAX": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Maximum"
+        },
+        "WS50M_MIN": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters Minimum"
+        }
+      },
+      "times": {
+        "data": 0.593,
+        "process": 0.08
+      }
+    }
+  }
+}
