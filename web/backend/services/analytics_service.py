@@ -213,3 +213,84 @@ def compare_states(state_ids: list[str], year: int) -> dict:
         "correlation_energy_gdp": _pearson(gdp_vals, capacity_vals),
         "state_comparison": sorted(comparison, key=lambda x: x["gdp_billion_inr"], reverse=True),
     }
+
+
+# ── Emission factors (IPCC standards) ────────────────────
+EMISSION_FACTORS: dict[str, float] = {
+    "coal": 0.82,
+    "gas": 0.43,
+    "oil": 0.65,
+    "nuclear": 0.012,
+    "hydro": 0.024,
+    "solar": 0.020,
+    "wind": 0.011,
+    "biomass": 0.23,
+    "geothermal": 0.038,
+    "waste": 0.30,
+    "other": 0.50,
+}
+
+
+def get_emission_factors() -> dict[str, float]:
+    """Return IPCC standard emission factors (kg CO₂ / kWh) by fuel type."""
+    return EMISSION_FACTORS
+
+
+def get_state_emissions(year: int) -> list[dict]:
+    """Per-state CO₂ data with intensity metrics and year-on-year trend."""
+    em_rows = {r["state_id"]: r for r in _load_emissions() if r["year"] == year}
+    em_prev = {r["state_id"]: r for r in _load_emissions() if r["year"] == year - 1}
+    gdp_rows = {r["state_id"]: r for r in _load_gdp() if r["year"] == year}
+
+    result = []
+    for sid, em in em_rows.items():
+        gdp_row = gdp_rows.get(sid)
+        total_capacity = gdp_row["total_capacity_mw"] if gdp_row else 0
+        renewable_pct = gdp_row["renewable_share_percent"] if gdp_row else 0
+
+        # Derived carbon intensity (kg CO₂ / kWh)
+        # rough generation = capacity × 0.55 capacity_factor × 8760h / 1000 => GWh
+        approx_gwh = total_capacity * 0.55 * 8760 / 1000 if total_capacity > 0 else 1
+        intensity_kg_kwh = round(em["total_emissions_mt"] * 1e9 / (approx_gwh * 1e6), 4)
+
+        # Year-on-year trend
+        prev_em = em_prev.get(sid)
+        if prev_em and prev_em["total_emissions_mt"] > 0:
+            trend_pct = round(
+                (em["total_emissions_mt"] - prev_em["total_emissions_mt"])
+                / prev_em["total_emissions_mt"] * 100,
+                1,
+            )
+        else:
+            trend_pct = 0.0
+
+        result.append({
+            "state_id": sid,
+            "state": em["state"],
+            "year": year,
+            "total_emissions_mt": em["total_emissions_mt"],
+            "coal_emissions_mt": em["coal_emissions_mt"],
+            "non_coal_emissions_mt": round(em["total_emissions_mt"] - em["coal_emissions_mt"], 2),
+            "intensity_kg_kwh": intensity_kg_kwh,
+            "renewable_share_percent": renewable_pct,
+            "trend_pct": trend_pct,
+        })
+
+    return sorted(result, key=lambda x: x["total_emissions_mt"], reverse=True)
+
+
+def get_national_emissions_trend() -> list[dict]:
+    """National total CO₂ emissions aggregated by year (for trend line chart)."""
+    by_year: dict[int, dict] = {}
+    for row in _load_emissions():
+        y = row["year"]
+        if y not in by_year:
+            by_year[y] = {"year": y, "total_emissions_mt": 0.0, "coal_emissions_mt": 0.0}
+        by_year[y]["total_emissions_mt"] = round(
+            by_year[y]["total_emissions_mt"] + row["total_emissions_mt"], 2
+        )
+        by_year[y]["coal_emissions_mt"] = round(
+            by_year[y]["coal_emissions_mt"] + row["coal_emissions_mt"], 2
+        )
+
+    return sorted(by_year.values(), key=lambda x: x["year"])

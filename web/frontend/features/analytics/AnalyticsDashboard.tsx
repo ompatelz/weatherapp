@@ -14,6 +14,7 @@ import {
 import type { StateAnalyticsEntry } from "@/types";
 import { motion } from "framer-motion";
 import { useAnalyticsData } from "./hooks/useAnalyticsData";
+import EmissionsTab from "./EmissionsTab";
 
 /* ── Helpers ─── */
 
@@ -85,6 +86,7 @@ export default function AnalyticsDashboard({ onNavigate, onStateClick }: Props =
 
     const [filterText, setFilterText] = useState("");
     const [activeNav, setActiveNav] = useState(1);
+    const [activeTab, setActiveTab] = useState<"overview" | "emissions">("overview");
 
     const filteredTable = filteredData.filter((r) =>
         r.state.toLowerCase().includes(filterText.toLowerCase())
@@ -212,299 +214,321 @@ export default function AnalyticsDashboard({ onNavigate, onStateClick }: Props =
                     </div>
                 </header>
 
+                {/* ── Tab Bar ── */}
+                <div className="flex items-center gap-1 px-6 py-2 border-b border-[#262C3A] bg-[#161A22] shrink-0">
+                    {(["overview", "emissions"] as const).map(tab => (
+                        <button
+                            key={tab}
+                            onClick={() => setActiveTab(tab)}
+                            className={`px-4 py-1.5 rounded text-xs font-semibold capitalize transition-colors ${activeTab === tab
+                                ? "bg-[#20d3ee]/10 text-[#20d3ee] border border-[#20d3ee]/20"
+                                : "text-slate-400 hover:text-white hover:bg-white/5"
+                                }`}
+                        >
+                            {tab === "emissions" ? "🌿 Carbon Emissions" : "📊 Overview"}
+                        </button>
+                    ))}
+                </div>
+
                 {/* Scrollable Content */}
                 <div className="flex-1 overflow-y-auto p-6 space-y-6">
-                    {/* ── Metric Tiles ── */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                        <TileCard
-                            label="Correlation Index"
-                            value={correlationIndex.toFixed(2)}
-                            icon="info"
-                            changeVal="+2.1%"
-                            changeDir="up"
-                            barPct={correlationIndex * 100}
-                        />
-                        <TileCard
-                            label="Energy Intensity"
-                            value={`${energyIntensity}`}
-                            unit="MJ/GDP"
-                            icon="speed"
-                            changeVal="-1.4%"
-                            changeDir="down"
-                            barPct={42}
-                        />
-                        <TileCard
-                            label="Emissions Intensity"
-                            value={`${emissionsIntensity}`}
-                            unit="kg CO2"
-                            icon="co2"
-                            changeVal="-3.2%"
-                            changeDir="down"
-                            barPct={52}
-                        />
-                        <TileCard
-                            label="Renewable Share"
-                            value={`${renewableShare}%`}
-                            icon="eco"
-                            changeVal="+5.7%"
-                            changeDir="up"
-                            barPct={Number(renewableShare) || 25}
-                        />
-                    </div>
+                    {activeTab === "emissions" ? (
+                        <EmissionsTab year={year} />
+                    ) : (
+                        <>
+                            {/* ── Metric Tiles ── */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                                <TileCard
+                                    label="Correlation Index"
+                                    value={correlationIndex.toFixed(2)}
+                                    icon="info"
+                                    changeVal="+2.1%"
+                                    changeDir="up"
+                                    barPct={correlationIndex * 100}
+                                />
+                                <TileCard
+                                    label="Energy Intensity"
+                                    value={`${energyIntensity}`}
+                                    unit="MJ/GDP"
+                                    icon="speed"
+                                    changeVal="-1.4%"
+                                    changeDir="down"
+                                    barPct={42}
+                                />
+                                <TileCard
+                                    label="Emissions Intensity"
+                                    value={`${emissionsIntensity}`}
+                                    unit="kg CO2"
+                                    icon="co2"
+                                    changeVal="-3.2%"
+                                    changeDir="down"
+                                    barPct={52}
+                                />
+                                <TileCard
+                                    label="Renewable Share"
+                                    value={`${renewableShare}%`}
+                                    icon="eco"
+                                    changeVal="+5.7%"
+                                    changeDir="up"
+                                    barPct={Number(renewableShare) || 25}
+                                />
+                            </div>
 
-                    {/* ── Charts Row ── */}
-                    <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-                        {/* Energy vs GDP Scatter */}
-                        <div className="bg-[#161A22] border border-[#262C3A] rounded-lg p-5">
-                            <div className="flex items-center justify-between mb-6">
-                                <div>
-                                    <h3 className="text-sm font-bold text-slate-200">Energy Consumption vs. GDP</h3>
-                                    <p className="text-[11px] text-slate-500">
-                                        Correlation by State (Linear regression r²={((correlationIndex ** 2) || 0.88).toFixed(2)})
-                                    </p>
-                                </div>
-                                <button className="p-1 rounded bg-[#0F1115] text-slate-400 border border-[#262C3A] hover:text-[#20d3ee] transition-colors">
-                                    <span className="material-symbols-outlined text-xs">fullscreen</span>
-                                </button>
-                            </div>
-                            <ResponsiveContainer width="100%" height={260}>
-                                <ScatterChart margin={{ top: 10, right: 10, bottom: 10, left: 10 }}>
-                                    <CartesianGrid stroke="#262C3A" strokeDasharray="3 3" />
-                                    <XAxis
-                                        type="number"
-                                        dataKey="x"
-                                        name="GDP"
-                                        tick={{ fill: "#475569", fontSize: 10 }}
-                                        axisLine={{ stroke: "#262C3A" }}
-                                        tickLine={false}
-                                        label={{ value: "GDP (₹B)", position: "insideBottomRight", offset: -5, fill: "#475569", fontSize: 10 }}
-                                    />
-                                    <YAxis
-                                        type="number"
-                                        dataKey="y"
-                                        name="Capacity"
-                                        tick={{ fill: "#475569", fontSize: 10 }}
-                                        axisLine={{ stroke: "#262C3A" }}
-                                        tickLine={false}
-                                        label={{ value: "Capacity (GW)", angle: -90, position: "insideLeft", fill: "#475569", fontSize: 10 }}
-                                    />
-                                    <ZAxis range={[40, 300]} />
-                                    <Tooltip
-                                        contentStyle={{
-                                            backgroundColor: "#0F1115",
-                                            border: "1px solid #262C3A",
-                                            borderRadius: "8px",
-                                            fontSize: 11,
-                                        }}
-                                        cursor={{ strokeDasharray: "3 3", stroke: "#20d3ee" }}
-                                    />
-                                    <Scatter data={scatterDataGDP} fill="#20d3ee" fillOpacity={0.6} stroke="#20d3ee" strokeWidth={1} />
-                                </ScatterChart>
-                            </ResponsiveContainer>
-                            <div className="mt-4 flex justify-center gap-6">
-                                <ChartLegend dot="bg-[#20d3ee]" label="Top Tier States" />
-                                <ChartLegend dot="bg-slate-600" label="Emerging Economies" />
-                            </div>
-                        </div>
-
-                        {/* Emissions vs RE Scatter */}
-                        <div className="bg-[#161A22] border border-[#262C3A] rounded-lg p-5">
-                            <div className="flex items-center justify-between mb-6">
-                                <div>
-                                    <h3 className="text-sm font-bold text-slate-200">Emissions vs. Renewable Adoption</h3>
-                                    <p className="text-[11px] text-slate-500">Inversion trend analysis by regional cluster</p>
-                                </div>
-                                <button className="p-1 rounded bg-[#0F1115] text-slate-400 border border-[#262C3A] hover:text-[#20d3ee] transition-colors">
-                                    <span className="material-symbols-outlined text-xs">tune</span>
-                                </button>
-                            </div>
-                            <ResponsiveContainer width="100%" height={260}>
-                                <ScatterChart margin={{ top: 10, right: 10, bottom: 10, left: 10 }}>
-                                    <CartesianGrid stroke="#262C3A" strokeDasharray="3 3" />
-                                    <XAxis
-                                        type="number"
-                                        dataKey="x"
-                                        name="RE Share"
-                                        tick={{ fill: "#475569", fontSize: 10 }}
-                                        axisLine={{ stroke: "#262C3A" }}
-                                        tickLine={false}
-                                        label={{ value: "RE Share (%)", position: "insideBottomRight", offset: -5, fill: "#475569", fontSize: 10 }}
-                                    />
-                                    <YAxis
-                                        type="number"
-                                        dataKey="y"
-                                        name="Emissions"
-                                        tick={{ fill: "#475569", fontSize: 10 }}
-                                        axisLine={{ stroke: "#262C3A" }}
-                                        tickLine={false}
-                                        label={{ value: "Emissions (Mt)", angle: -90, position: "insideLeft", fill: "#475569", fontSize: 10 }}
-                                    />
-                                    <ZAxis range={[50, 200]} />
-                                    <Tooltip
-                                        contentStyle={{
-                                            backgroundColor: "#0F1115",
-                                            border: "1px solid #262C3A",
-                                            borderRadius: "8px",
-                                            fontSize: 11,
-                                        }}
-                                        cursor={{ strokeDasharray: "3 3", stroke: "#f43f5e" }}
-                                    />
-                                    <Scatter
-                                        data={scatterDataEmissions}
-                                        fill="#f43f5e"
-                                        fillOpacity={0.5}
-                                        stroke="#f43f5e"
-                                        strokeWidth={1}
-                                    />
-                                </ScatterChart>
-                            </ResponsiveContainer>
-                            <div className="mt-4 flex justify-center gap-6">
-                                <ChartLegend dot="bg-rose-500" label="High Carbon Risk" />
-                                <ChartLegend dot="bg-[#20d3ee]" label="Decarbonized Zones" />
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* ── Data Table ── */}
-                    <div className="bg-[#161A22] border border-[#262C3A] rounded-lg overflow-hidden">
-                        <div className="px-6 py-4 border-b border-[#262C3A] flex items-center justify-between bg-[#161A22]/50">
-                            <div className="flex items-center gap-4">
-                                <h3 className="text-sm font-bold">State-wise Efficiency Benchmarks</h3>
-                                <div className="px-2 py-0.5 rounded bg-[#20d3ee]/10 border border-[#20d3ee]/20 text-[10px] font-bold text-[#20d3ee] uppercase">
-                                    {filteredData.length || 32} Entities Loaded
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <div className="relative">
-                                    <span className="material-symbols-outlined absolute left-2 top-1/2 -translate-y-1/2 text-slate-500 text-xs">
-                                        search
-                                    </span>
-                                    <input
-                                        className="bg-[#0F1115] border-[#262C3A] text-[11px] rounded py-1 pl-7 pr-3 text-slate-200 focus:border-[#20d3ee] focus:ring-0 w-48"
-                                        placeholder="Filter states..."
-                                        type="text"
-                                        value={filterText}
-                                        onChange={(e) => setFilterText(e.target.value)}
-                                    />
-                                </div>
-                                <button
-                                    onClick={() => {
-                                        const rows = filteredTable.map((r) => {
-                                            const mPrice = marketData?.prices.find(p => p.state_id === r.state_id)?.price_inr_per_mwh;
-                                            return {
-                                                State: r.state,
-                                                "Capacity (GW)": (r.total_capacity_mw / 1000).toFixed(2),
-                                                "CO2 Output (Mt)": r.total_emissions_mt.toFixed(2),
-                                                "Efficiency Score": (r.renewable_share_percent / 100).toFixed(2),
-                                                "GDP (Billion INR)": r.gdp_billion_inr.toFixed(1),
-                                                "Live DAM (₹/MWh)": mPrice ? mPrice.toFixed(0) : "N/A"
-                                            };
-                                        });
-                                        downloadCSV(rows, "efficiency_benchmarks.csv");
-                                    }}
-                                    className="flex items-center gap-1.5 px-3 py-1 bg-transparent border border-[#262C3A] rounded text-[11px] font-bold text-slate-400 hover:text-white hover:border-slate-500 transition-all uppercase tracking-tight"
-                                >
-                                    <span className="material-symbols-outlined text-[16px]">download</span>
-                                    CSV Export
-                                </button>
-                            </div>
-                        </div>
-
-                        <div className="overflow-x-auto">
-                            <table className="w-full text-left border-collapse">
-                                <thead className="bg-[#0F1115]/30 text-[10px] font-bold text-slate-500 uppercase tracking-widest">
-                                    <tr>
-                                        <th className="px-6 py-3 border-b border-[#262C3A]">
-                                            <div className="flex items-center gap-1 cursor-pointer hover:text-[#20d3ee]">
-                                                Region/State
-                                                <span className="material-symbols-outlined text-[14px]">expand_more</span>
-                                            </div>
-                                        </th>
-                                        <th className="px-6 py-3 border-b border-[#262C3A]">GDP Class</th>
-                                        <th className="px-6 py-3 border-b border-[#262C3A] text-right">Capacity (GW)</th>
-                                        <th className="px-6 py-3 border-b border-[#262C3A] text-right">CO2 Output (Mt)</th>
-                                        <th className="px-6 py-3 border-b border-[#262C3A] text-right">Efficiency (RE%)</th>
-                                        <th className="px-6 py-3 border-b border-[#262C3A] text-right">GDP (B-INR)</th>
-                                        <th className="px-6 py-3 border-b border-[#262C3A] text-right">Live DAM Price</th>
-                                        <th className="px-6 py-3 border-b border-[#262C3A] text-center">Status</th>
-                                    </tr>
-                                </thead>
-                                <tbody className="text-xs text-slate-300 divide-y divide-[#262C3A]/50 tabular-nums">
-                                    {filteredTable.map((row) => {
-                                        const isNeg = false;
-                                        const effScore = row.renewable_share_percent;
-                                        const statusColor =
-                                            effScore >= 40
-                                                ? "bg-emerald-500"
-                                                : effScore >= 20
-                                                    ? "bg-amber-500"
-                                                    : "bg-rose-500";
-                                        const barColor = effScore >= 40 ? "bg-[#20d3ee]" : "bg-rose-500";
-
-                                        return (
-                                            <motion.tr
-                                                key={row.state}
-                                                initial={{ opacity: 0, y: 10 }}
-                                                animate={{ opacity: 1, y: 0 }}
-                                                transition={{ duration: 0.3, delay: filteredTable.indexOf(row) * 0.05 }}
-                                                className="hover:bg-white/5 transition-colors cursor-pointer"
-                                                onClick={() => {
-                                                    if (onStateClick) onStateClick(row.state_id);
-                                                    if (onNavigate) onNavigate("map");
+                            {/* ── Charts Row ── */}
+                            <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                                {/* Energy vs GDP Scatter */}
+                                <div className="bg-[#161A22] border border-[#262C3A] rounded-lg p-5">
+                                    <div className="flex items-center justify-between mb-6">
+                                        <div>
+                                            <h3 className="text-sm font-bold text-slate-200">Energy Consumption vs. GDP</h3>
+                                            <p className="text-[11px] text-slate-500">
+                                                Correlation by State (Linear regression r²={((correlationIndex ** 2) || 0.88).toFixed(2)})
+                                            </p>
+                                        </div>
+                                        <button className="p-1 rounded bg-[#0F1115] text-slate-400 border border-[#262C3A] hover:text-[#20d3ee] transition-colors">
+                                            <span className="material-symbols-outlined text-xs">fullscreen</span>
+                                        </button>
+                                    </div>
+                                    <ResponsiveContainer width="100%" height={260}>
+                                        <ScatterChart margin={{ top: 10, right: 10, bottom: 10, left: 10 }}>
+                                            <CartesianGrid stroke="#262C3A" strokeDasharray="3 3" />
+                                            <XAxis
+                                                type="number"
+                                                dataKey="x"
+                                                name="GDP"
+                                                tick={{ fill: "#475569", fontSize: 10 }}
+                                                axisLine={{ stroke: "#262C3A" }}
+                                                tickLine={false}
+                                                label={{ value: "GDP (₹B)", position: "insideBottomRight", offset: -5, fill: "#475569", fontSize: 10 }}
+                                            />
+                                            <YAxis
+                                                type="number"
+                                                dataKey="y"
+                                                name="Capacity"
+                                                tick={{ fill: "#475569", fontSize: 10 }}
+                                                axisLine={{ stroke: "#262C3A" }}
+                                                tickLine={false}
+                                                label={{ value: "Capacity (GW)", angle: -90, position: "insideLeft", fill: "#475569", fontSize: 10 }}
+                                            />
+                                            <ZAxis range={[40, 300]} />
+                                            <Tooltip
+                                                contentStyle={{
+                                                    backgroundColor: "#0F1115",
+                                                    border: "1px solid #262C3A",
+                                                    borderRadius: "8px",
+                                                    fontSize: 11,
                                                 }}
-                                            >
-                                                <td className="px-6 py-2.5 font-medium text-slate-200">{row.state}</td>
-                                                <td className="px-6 py-2.5">
-                                                    <span className="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400 font-bold">
-                                                        {row.gdp_billion_inr > 5000 ? "Top Tier" : "Emerging"}
-                                                    </span>
-                                                </td>
-                                                <td className="px-6 py-2.5 text-right">{(row.total_capacity_mw / 1000).toFixed(2)}</td>
-                                                <td className="px-6 py-2.5 text-right">{row.total_emissions_mt.toFixed(2)}</td>
-                                                <td className="px-6 py-2.5 text-right">
-                                                    <div className="flex items-center justify-end gap-2">
-                                                        <span>{effScore}%</span>
-                                                        <div className="w-12 h-1 bg-[#262C3A] rounded-full overflow-hidden">
-                                                            <div
-                                                                className={`${barColor} h-full`}
-                                                                style={{ width: `${effScore}%` }}
-                                                            />
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td className="px-6 py-2.5 text-right text-slate-300">
-                                                    ₹{row.gdp_billion_inr.toFixed(1)}B
-                                                </td>
-                                                <td className="px-6 py-2.5 text-right font-mono text-[#20d3ee]">
-                                                    {marketData?.prices.find(p => p.state_id === row.state_id)?.price_inr_per_mwh
-                                                        ? `₹${marketData.prices.find(p => p.state_id === row.state_id)?.price_inr_per_mwh.toFixed(0)}`
-                                                        : "—"}
-                                                </td>
-                                                <td className="px-6 py-2.5 text-center">
-                                                    <span
-                                                        className={`w-1.5 h-1.5 rounded-full ${statusColor} inline-block`}
-                                                    />
-                                                </td>
-                                            </motion.tr>
-                                        );
-                                    })}
-                                </tbody>
-                            </table>
-                        </div>
+                                                cursor={{ strokeDasharray: "3 3", stroke: "#20d3ee" }}
+                                            />
+                                            <Scatter data={scatterDataGDP} fill="#20d3ee" fillOpacity={0.6} stroke="#20d3ee" strokeWidth={1} />
+                                        </ScatterChart>
+                                    </ResponsiveContainer>
+                                    <div className="mt-4 flex justify-center gap-6">
+                                        <ChartLegend dot="bg-[#20d3ee]" label="Top Tier States" />
+                                        <ChartLegend dot="bg-slate-600" label="Emerging Economies" />
+                                    </div>
+                                </div>
 
-                        <div className="px-6 py-3 border-t border-[#262C3A] flex items-center justify-between text-[11px] text-slate-500">
-                            <p>Showing 1-{filteredTable.length} of 32 states</p>
-                            <div className="flex items-center gap-2">
-                                <button className="p-1 hover:text-white transition-colors disabled:opacity-30" disabled>
-                                    <span className="material-symbols-outlined text-[16px]">chevron_left</span>
-                                </button>
-                                <span className="px-2 text-[#20d3ee] font-bold">1</span>
-                                <button className="p-1 hover:text-white transition-colors">
-                                    <span className="material-symbols-outlined text-[16px]">chevron_right</span>
-                                </button>
+                                {/* Emissions vs RE Scatter */}
+                                <div className="bg-[#161A22] border border-[#262C3A] rounded-lg p-5">
+                                    <div className="flex items-center justify-between mb-6">
+                                        <div>
+                                            <h3 className="text-sm font-bold text-slate-200">Emissions vs. Renewable Adoption</h3>
+                                            <p className="text-[11px] text-slate-500">Inversion trend analysis by regional cluster</p>
+                                        </div>
+                                        <button className="p-1 rounded bg-[#0F1115] text-slate-400 border border-[#262C3A] hover:text-[#20d3ee] transition-colors">
+                                            <span className="material-symbols-outlined text-xs">tune</span>
+                                        </button>
+                                    </div>
+                                    <ResponsiveContainer width="100%" height={260}>
+                                        <ScatterChart margin={{ top: 10, right: 10, bottom: 10, left: 10 }}>
+                                            <CartesianGrid stroke="#262C3A" strokeDasharray="3 3" />
+                                            <XAxis
+                                                type="number"
+                                                dataKey="x"
+                                                name="RE Share"
+                                                tick={{ fill: "#475569", fontSize: 10 }}
+                                                axisLine={{ stroke: "#262C3A" }}
+                                                tickLine={false}
+                                                label={{ value: "RE Share (%)", position: "insideBottomRight", offset: -5, fill: "#475569", fontSize: 10 }}
+                                            />
+                                            <YAxis
+                                                type="number"
+                                                dataKey="y"
+                                                name="Emissions"
+                                                tick={{ fill: "#475569", fontSize: 10 }}
+                                                axisLine={{ stroke: "#262C3A" }}
+                                                tickLine={false}
+                                                label={{ value: "Emissions (Mt)", angle: -90, position: "insideLeft", fill: "#475569", fontSize: 10 }}
+                                            />
+                                            <ZAxis range={[50, 200]} />
+                                            <Tooltip
+                                                contentStyle={{
+                                                    backgroundColor: "#0F1115",
+                                                    border: "1px solid #262C3A",
+                                                    borderRadius: "8px",
+                                                    fontSize: 11,
+                                                }}
+                                                cursor={{ strokeDasharray: "3 3", stroke: "#f43f5e" }}
+                                            />
+                                            <Scatter
+                                                data={scatterDataEmissions}
+                                                fill="#f43f5e"
+                                                fillOpacity={0.5}
+                                                stroke="#f43f5e"
+                                                strokeWidth={1}
+                                            />
+                                        </ScatterChart>
+                                    </ResponsiveContainer>
+                                    <div className="mt-4 flex justify-center gap-6">
+                                        <ChartLegend dot="bg-rose-500" label="High Carbon Risk" />
+                                        <ChartLegend dot="bg-[#20d3ee]" label="Decarbonized Zones" />
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+
+                            {/* ── Data Table ── */}
+                            <div className="bg-[#161A22] border border-[#262C3A] rounded-lg overflow-hidden">
+                                <div className="px-6 py-4 border-b border-[#262C3A] flex items-center justify-between bg-[#161A22]/50">
+                                    <div className="flex items-center gap-4">
+                                        <h3 className="text-sm font-bold">State-wise Efficiency Benchmarks</h3>
+                                        <div className="px-2 py-0.5 rounded bg-[#20d3ee]/10 border border-[#20d3ee]/20 text-[10px] font-bold text-[#20d3ee] uppercase">
+                                            {filteredData.length || 32} Entities Loaded
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <div className="relative">
+                                            <span className="material-symbols-outlined absolute left-2 top-1/2 -translate-y-1/2 text-slate-500 text-xs">
+                                                search
+                                            </span>
+                                            <input
+                                                className="bg-[#0F1115] border-[#262C3A] text-[11px] rounded py-1 pl-7 pr-3 text-slate-200 focus:border-[#20d3ee] focus:ring-0 w-48"
+                                                placeholder="Filter states..."
+                                                type="text"
+                                                value={filterText}
+                                                onChange={(e) => setFilterText(e.target.value)}
+                                            />
+                                        </div>
+                                        <button
+                                            onClick={() => {
+                                                const rows = filteredTable.map((r) => {
+                                                    const mPrice = marketData?.prices.find(p => p.state_id === r.state_id)?.price_inr_per_mwh;
+                                                    return {
+                                                        State: r.state,
+                                                        "Capacity (GW)": (r.total_capacity_mw / 1000).toFixed(2),
+                                                        "CO2 Output (Mt)": r.total_emissions_mt.toFixed(2),
+                                                        "Efficiency Score": (r.renewable_share_percent / 100).toFixed(2),
+                                                        "GDP (Billion INR)": r.gdp_billion_inr.toFixed(1),
+                                                        "Live DAM (₹/MWh)": mPrice ? mPrice.toFixed(0) : "N/A"
+                                                    };
+                                                });
+                                                downloadCSV(rows, "efficiency_benchmarks.csv");
+                                            }}
+                                            className="flex items-center gap-1.5 px-3 py-1 bg-transparent border border-[#262C3A] rounded text-[11px] font-bold text-slate-400 hover:text-white hover:border-slate-500 transition-all uppercase tracking-tight"
+                                        >
+                                            <span className="material-symbols-outlined text-[16px]">download</span>
+                                            CSV Export
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div className="overflow-x-auto">
+                                    <table className="w-full text-left border-collapse">
+                                        <thead className="bg-[#0F1115]/30 text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+                                            <tr>
+                                                <th className="px-6 py-3 border-b border-[#262C3A]">
+                                                    <div className="flex items-center gap-1 cursor-pointer hover:text-[#20d3ee]">
+                                                        Region/State
+                                                        <span className="material-symbols-outlined text-[14px]">expand_more</span>
+                                                    </div>
+                                                </th>
+                                                <th className="px-6 py-3 border-b border-[#262C3A]">GDP Class</th>
+                                                <th className="px-6 py-3 border-b border-[#262C3A] text-right">Capacity (GW)</th>
+                                                <th className="px-6 py-3 border-b border-[#262C3A] text-right">CO2 Output (Mt)</th>
+                                                <th className="px-6 py-3 border-b border-[#262C3A] text-right">Efficiency (RE%)</th>
+                                                <th className="px-6 py-3 border-b border-[#262C3A] text-right">GDP (B-INR)</th>
+                                                <th className="px-6 py-3 border-b border-[#262C3A] text-right">Live DAM Price</th>
+                                                <th className="px-6 py-3 border-b border-[#262C3A] text-center">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody className="text-xs text-slate-300 divide-y divide-[#262C3A]/50 tabular-nums">
+                                            {filteredTable.map((row) => {
+                                                const isNeg = false;
+                                                const effScore = row.renewable_share_percent;
+                                                const statusColor =
+                                                    effScore >= 40
+                                                        ? "bg-emerald-500"
+                                                        : effScore >= 20
+                                                            ? "bg-amber-500"
+                                                            : "bg-rose-500";
+                                                const barColor = effScore >= 40 ? "bg-[#20d3ee]" : "bg-rose-500";
+
+                                                return (
+                                                    <motion.tr
+                                                        key={row.state}
+                                                        initial={{ opacity: 0, y: 10 }}
+                                                        animate={{ opacity: 1, y: 0 }}
+                                                        transition={{ duration: 0.3, delay: filteredTable.indexOf(row) * 0.05 }}
+                                                        className="hover:bg-white/5 transition-colors cursor-pointer"
+                                                        onClick={() => {
+                                                            if (onStateClick) onStateClick(row.state_id);
+                                                            if (onNavigate) onNavigate("map");
+                                                        }}
+                                                    >
+                                                        <td className="px-6 py-2.5 font-medium text-slate-200">{row.state}</td>
+                                                        <td className="px-6 py-2.5">
+                                                            <span className="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400 font-bold">
+                                                                {row.gdp_billion_inr > 5000 ? "Top Tier" : "Emerging"}
+                                                            </span>
+                                                        </td>
+                                                        <td className="px-6 py-2.5 text-right">{(row.total_capacity_mw / 1000).toFixed(2)}</td>
+                                                        <td className="px-6 py-2.5 text-right">{row.total_emissions_mt.toFixed(2)}</td>
+                                                        <td className="px-6 py-2.5 text-right">
+                                                            <div className="flex items-center justify-end gap-2">
+                                                                <span>{effScore}%</span>
+                                                                <div className="w-12 h-1 bg-[#262C3A] rounded-full overflow-hidden">
+                                                                    <div
+                                                                        className={`${barColor} h-full`}
+                                                                        style={{ width: `${effScore}%` }}
+                                                                    />
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td className="px-6 py-2.5 text-right text-slate-300">
+                                                            ₹{row.gdp_billion_inr.toFixed(1)}B
+                                                        </td>
+                                                        <td className="px-6 py-2.5 text-right font-mono text-[#20d3ee]">
+                                                            {marketData?.prices.find(p => p.state_id === row.state_id)?.price_inr_per_mwh
+                                                                ? `₹${marketData.prices.find(p => p.state_id === row.state_id)?.price_inr_per_mwh.toFixed(0)}`
+                                                                : "—"}
+                                                        </td>
+                                                        <td className="px-6 py-2.5 text-center">
+                                                            <span
+                                                                className={`w-1.5 h-1.5 rounded-full ${statusColor} inline-block`}
+                                                            />
+                                                        </td>
+                                                    </motion.tr>
+                                                );
+                                            })}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div className="px-6 py-3 border-t border-[#262C3A] flex items-center justify-between text-[11px] text-slate-500">
+                                    <p>Showing 1-{filteredTable.length} of 32 states</p>
+                                    <div className="flex items-center gap-2">
+                                        <button className="p-1 hover:text-white transition-colors disabled:opacity-30" disabled>
+                                            <span className="material-symbols-outlined text-[16px]">chevron_left</span>
+                                        </button>
+                                        <span className="px-2 text-[#20d3ee] font-bold">1</span>
+                                        <button className="p-1 hover:text-white transition-colors">
+                                            <span className="material-symbols-outlined text-[16px]">chevron_right</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </>
+                    )}
                 </div>
             </main>
         </div>

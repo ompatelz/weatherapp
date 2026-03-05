@@ -14,6 +14,9 @@ from services.analytics_service import (
     compare_states,
     get_available_states,
     get_available_years_analytics,
+    get_state_emissions,
+    get_national_emissions_trend,
+    get_emission_factors,
 )
 
 router = APIRouter(prefix="/api/analytics", tags=["analytics"])
@@ -103,3 +106,25 @@ def compare(
         )
 
     return compare_states(state_ids, year)
+
+
+@router.get("/emissions/state")
+def state_emissions(
+    year: Optional[int] = Query(default=None, description="Year for state emissions"),
+):
+    """Per-state CO₂ output, intensity, and year-on-year trend."""
+    if year is None:
+        year = get_available_years_analytics()["max_year"]
+    return {"year": year, "data": get_state_emissions(year)}
+
+
+@router.get("/emissions/trend")
+def national_emissions_trend():
+    """National CO₂ total aggregated by year."""
+    return {"data": get_national_emissions_trend()}
+
+
+@router.get("/emissions/factors")
+def emission_factors():
+    """IPCC emission factors (kg CO₂ / kWh) by fuel type."""
+    return get_emission_factors()
