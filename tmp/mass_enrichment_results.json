@@ -1,0 +1,914 @@
+[
+  {
+    "old_name": "Mithapur Solar Power Plant",
+    "new_name": "Mithapur Solar Power Plant",
+    "capacity": 25.0,
+    "operator": "Tata Power Solar Systems Limited (TPREL)",
+    "match_score": 1.0,
+    "osm_id": "way/184938245"
+  },
+  {
+    "old_name": "Bap - Punj Lloyd",
+    "new_name": "Bap - Punj Lloyd",
+    "capacity": 5.0,
+    "operator": "Punj Lloyd Solar Private Limited",
+    "match_score": 0.64,
+    "osm_id": "way/222885307"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/222885309"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/222885311"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/222885312"
+  },
+  {
+    "old_name": "Chandrapur Taluka Coal Plant",
+    "new_name": "Chandrapur Taluka Coal Plant",
+    "capacity": 5.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.71,
+    "osm_id": "way/242827233"
+  },
+  {
+    "old_name": "Dhariwal Power Plant",
+    "new_name": "Dhariwal Power Plant",
+    "capacity": 600.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.71,
+    "osm_id": "way/242827252"
+  },
+  {
+    "old_name": "Chandrapur Taluka Coal Plant",
+    "new_name": "Chandrapur Taluka Coal Plant",
+    "capacity": 5.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.71,
+    "osm_id": "way/242827285"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/311222089"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 2.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/311222095"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/311222104"
+  },
+  {
+    "old_name": "Tinwari - MB Solar Power Plant",
+    "new_name": "Tinwari - MB Solar Power Plant",
+    "capacity": 5.0,
+    "operator": "Moser Baer Solar Limited (MBSL)",
+    "match_score": 1.0,
+    "osm_id": "way/311566564"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/393047705"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/393047706"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/393047707"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/393047710"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/393047712"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/393047724"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/393047730"
+  },
+  {
+    "old_name": "Pampore Power Plant",
+    "new_name": "Pampore Power Plant",
+    "capacity": 175.0,
+    "operator": "Unknown",
+    "match_score": 0.62,
+    "osm_id": "way/418645215"
+  },
+  {
+    "old_name": "Vasavi Solar Power Ltd",
+    "new_name": "Vasavi Solar Power Ltd",
+    "capacity": 5.0,
+    "operator": "Vasavi Solar Power Private Limited",
+    "match_score": 0.74,
+    "osm_id": "way/423619216"
+  },
+  {
+    "old_name": "Ramagundam mandal Solar Plant",
+    "new_name": "Ramagundam mandal Solar Plant",
+    "capacity": 10.0,
+    "operator": "Government of India",
+    "match_score": 0.77,
+    "osm_id": "way/436023261"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 100.0,
+    "operator": "Reliance Power Limited",
+    "match_score": 0.76,
+    "osm_id": "way/440212611"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/475174313"
+  },
+  {
+    "old_name": "Baira Dam",
+    "new_name": "Baira Dam",
+    "capacity": 180.0,
+    "operator": "Unknown",
+    "match_score": 0.63,
+    "osm_id": "way/513690648"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/654730194"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 25.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/654730197"
+  },
+  {
+    "old_name": "Kamuthi Solar Plant",
+    "new_name": "Kamuthi Solar Plant",
+    "capacity": 648.0,
+    "operator": "Adani Power Limited",
+    "match_score": 0.86,
+    "osm_id": "way/719469800"
+  },
+  {
+    "old_name": "NTPC Mandsaur",
+    "new_name": "NTPC Mandsaur",
+    "capacity": 50.0,
+    "operator": "NTPC Limited",
+    "match_score": 0.7,
+    "osm_id": "way/760955345"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/835271856"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/835271857"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/835271858"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/868066338"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/868076330"
+  },
+  {
+    "old_name": "Mumbai Solar Plant",
+    "new_name": "Mumbai Solar Plant",
+    "capacity": 75.0,
+    "operator": "Ongc Gas corp",
+    "match_score": 0.62,
+    "osm_id": "way/913226054"
+  },
+  {
+    "old_name": "Chanderia Smelter Power Plant",
+    "new_name": "Chanderia Smelter Power Plant",
+    "capacity": 234.0,
+    "operator": "Hindustan Zinc ltd",
+    "match_score": 0.74,
+    "osm_id": "way/939095327"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/942214475"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/942214476"
+  },
+  {
+    "old_name": "Sami Taluka Solar Plant",
+    "new_name": "Sami Taluka Solar Plant",
+    "capacity": 5.0,
+    "operator": "Lanco Solar Energy Private Limited",
+    "match_score": 0.61,
+    "osm_id": "way/984065809"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 2.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/984622290"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/984622291"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/984636567"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/984641371"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/984641377"
+  },
+  {
+    "old_name": "Harapanahalli taluku Solar Plant",
+    "new_name": "Harapanahalli taluku Solar Plant",
+    "capacity": 4.0,
+    "operator": "Unknown",
+    "match_score": 0.61,
+    "osm_id": "way/984757740"
+  },
+  {
+    "old_name": "Tuljapur Solar Plant",
+    "new_name": "Tuljapur Solar Plant",
+    "capacity": 20.0,
+    "operator": "Essel MP Energy Limited",
+    "match_score": 0.6,
+    "osm_id": "way/984974648"
+  },
+  {
+    "old_name": "Tuljapur Solar Plant",
+    "new_name": "Tuljapur Solar Plant",
+    "capacity": 20.0,
+    "operator": "Essel MP Energy Limited",
+    "match_score": 0.6,
+    "osm_id": "way/984974649"
+  },
+  {
+    "old_name": "Tuljapur Solar Plant",
+    "new_name": "Tuljapur Solar Plant",
+    "capacity": 20.0,
+    "operator": "Essel MP Energy Limited",
+    "match_score": 0.6,
+    "osm_id": "way/984974650"
+  },
+  {
+    "old_name": "Tuljapur Solar Plant",
+    "new_name": "Tuljapur Solar Plant",
+    "capacity": 20.0,
+    "operator": "Essel MP Energy Limited",
+    "match_score": 0.6,
+    "osm_id": "way/984974651"
+  },
+  {
+    "old_name": "Tuljapur Solar Plant",
+    "new_name": "Tuljapur Solar Plant",
+    "capacity": 20.0,
+    "operator": "Essel MP Energy Limited",
+    "match_score": 0.6,
+    "osm_id": "way/984974652"
+  },
+  {
+    "old_name": "Tuljapur Solar Plant",
+    "new_name": "Tuljapur Solar Plant",
+    "capacity": 20.0,
+    "operator": "Essel MP Energy Limited",
+    "match_score": 0.6,
+    "osm_id": "way/984974653"
+  },
+  {
+    "old_name": "Karjat Solar Plant",
+    "new_name": "Karjat Solar Plant",
+    "capacity": 5.2,
+    "operator": "Firestone Trading Private Limited",
+    "match_score": 0.68,
+    "osm_id": "way/984974661"
+  },
+  {
+    "old_name": "Sakri Taluka Solar Plant",
+    "new_name": "Sakri Taluka Solar Plant",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.76,
+    "osm_id": "way/984974681"
+  },
+  {
+    "old_name": "Sakri Taluka Solar Plant",
+    "new_name": "Sakri Taluka Solar Plant",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.76,
+    "osm_id": "way/984974682"
+  },
+  {
+    "old_name": "Sakri Taluka Solar Plant",
+    "new_name": "Sakri Taluka Solar Plant",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.76,
+    "osm_id": "way/984974683"
+  },
+  {
+    "old_name": "Kalwakurthy mandal Solar Plant",
+    "new_name": "Kalwakurthy mandal Solar Plant",
+    "capacity": 10.0,
+    "operator": "Unknown",
+    "match_score": 0.61,
+    "osm_id": "way/985546660"
+  },
+  {
+    "old_name": "Raniganj Solar Plant",
+    "new_name": "Raniganj Solar Plant",
+    "capacity": 2.0,
+    "operator": "West Bengal Energy Development Corporation Limited (WBEDCL)",
+    "match_score": 0.62,
+    "osm_id": "way/988636077"
+  },
+  {
+    "old_name": "Raniganj Solar Plant",
+    "new_name": "Raniganj Solar Plant",
+    "capacity": 2.0,
+    "operator": "West Bengal Energy Development Corporation Limited (WBEDCL)",
+    "match_score": 0.62,
+    "osm_id": "way/988636078"
+  },
+  {
+    "old_name": "Raniganj Solar Plant",
+    "new_name": "Raniganj Solar Plant",
+    "capacity": 2.0,
+    "operator": "West Bengal Energy Development Corporation Limited (WBEDCL)",
+    "match_score": 0.62,
+    "osm_id": "way/988636079"
+  },
+  {
+    "old_name": "Jhansi Solar Plant",
+    "new_name": "Jhansi Solar Plant",
+    "capacity": 2.0,
+    "operator": "Astonfield Management Limited",
+    "match_score": 0.68,
+    "osm_id": "way/999053883"
+  },
+  {
+    "old_name": "Gwal Pahari Solar Power Plant",
+    "new_name": "Gwal Pahari Solar Power Plant",
+    "capacity": 3.0,
+    "operator": "Solar Energy Centre",
+    "match_score": 1.0,
+    "osm_id": "way/999227746"
+  },
+  {
+    "old_name": "Gwal Pahari Solar Power Plant",
+    "new_name": "Gwal Pahari Solar Power Plant",
+    "capacity": 3.0,
+    "operator": "Solar Energy Centre",
+    "match_score": 1.0,
+    "osm_id": "way/999227747"
+  },
+  {
+    "old_name": "Gadarpur Solar Farm",
+    "new_name": "Gadarpur Solar Farm",
+    "capacity": 12.5,
+    "operator": "Unknown",
+    "match_score": 0.74,
+    "osm_id": "way/999236374"
+  },
+  {
+    "old_name": "Jamuria Solar Plant",
+    "new_name": "Jamuria Solar Plant",
+    "capacity": 2.0,
+    "operator": "West Bengal Energy Development Corporation Limited (WBEDCL)",
+    "match_score": 0.86,
+    "osm_id": "way/999246057"
+  },
+  {
+    "old_name": "Katol",
+    "new_name": "Katol",
+    "capacity": 4.0,
+    "operator": "Unknown",
+    "match_score": 0.83,
+    "osm_id": "way/999353831"
+  },
+  {
+    "old_name": "Katol",
+    "new_name": "Katol",
+    "capacity": 4.0,
+    "operator": "Unknown",
+    "match_score": 0.83,
+    "osm_id": "way/999353832"
+  },
+  {
+    "old_name": "Katol",
+    "new_name": "Katol",
+    "capacity": 4.0,
+    "operator": "Unknown",
+    "match_score": 0.83,
+    "osm_id": "way/999353833"
+  },
+  {
+    "old_name": "Dharashiv Solar Plant",
+    "new_name": "Dharashiv Solar Plant",
+    "capacity": 1.0,
+    "operator": "Dr Babasaheb Ambedkar SSK Limited",
+    "match_score": 0.67,
+    "osm_id": "way/999615887"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/1003478075"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/1003478076"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/1003478077"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/1003478078"
+  },
+  {
+    "old_name": "Visakhapatnam (Rural) Solar Plant",
+    "new_name": "Visakhapatnam (Rural) Solar Plant",
+    "capacity": 10.0,
+    "operator": "Unknown",
+    "match_score": 0.63,
+    "osm_id": "way/1007116398"
+  },
+  {
+    "old_name": "Sakri Taluka Solar Plant",
+    "new_name": "Sakri Taluka Solar Plant",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.76,
+    "osm_id": "way/1009712065"
+  },
+  {
+    "old_name": "KODAYAR-I&II",
+    "new_name": "KODAYAR-I&II",
+    "capacity": 100.0,
+    "operator": "Unknown",
+    "match_score": 1.0,
+    "osm_id": "way/1032969702"
+  },
+  {
+    "old_name": "SEWA-III",
+    "new_name": "SEWA-III",
+    "capacity": 9.0,
+    "operator": "Unknown",
+    "match_score": 1.0,
+    "osm_id": "way/1053790164"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 10.0,
+    "operator": "Green Infra Solar Farms Private Limited (GIS)",
+    "match_score": 0.67,
+    "osm_id": "way/1143180477"
+  },
+  {
+    "old_name": "Jafrabad Taluka Solar Plant",
+    "new_name": "Jafrabad Taluka Solar Plant",
+    "capacity": 15.0,
+    "operator": "Sunkon Energy Private Limited",
+    "match_score": 0.75,
+    "osm_id": "way/1149131315"
+  },
+  {
+    "old_name": "Lokmangal Sugar Ethanol power station",
+    "new_name": "Lokmangal Sugar Ethanol power station",
+    "capacity": 31.5,
+    "operator": "Lokmangal Lokmangal group",
+    "match_score": 0.77,
+    "osm_id": "way/1190472384"
+  },
+  {
+    "old_name": "Karchhana Solar Plant",
+    "new_name": "Karchhana Solar Plant",
+    "capacity": 5.8,
+    "operator": "EMC Limited",
+    "match_score": 0.64,
+    "osm_id": "way/1237981253"
+  },
+  {
+    "old_name": "Karchhana Solar Plant",
+    "new_name": "Karchhana Solar Plant",
+    "capacity": 5.8,
+    "operator": "EMC Limited",
+    "match_score": 0.64,
+    "osm_id": "way/1237981254"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503734"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503735"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503737"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503738"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503739"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503740"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503741"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503742"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503743"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503744"
+  },
+  {
+    "old_name": "Pokaran Tehsil Solar Plant",
+    "new_name": "Pokaran Tehsil Solar Plant",
+    "capacity": 50.0,
+    "operator": "Godawari Green Energy Limited (GGEL)",
+    "match_score": 0.62,
+    "osm_id": "way/1242503745"
+  },
+  {
+    "old_name": "Karchhana Solar Plant",
+    "new_name": "Karchhana Solar Plant",
+    "capacity": 5.8,
+    "operator": "EMC Limited",
+    "match_score": 0.64,
+    "osm_id": "way/1245451308"
+  },
+  {
+    "old_name": "RANGIT-III",
+    "new_name": "RANGIT-III",
+    "capacity": 60.0,
+    "operator": "Unknown",
+    "match_score": 1.0,
+    "osm_id": "way/1255371187"
+  },
+  {
+    "old_name": "Sakri Taluka Solar Plant",
+    "new_name": "Sakri Taluka Solar Plant",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.76,
+    "osm_id": "way/1259058036"
+  },
+  {
+    "old_name": "NIMBAHERA JK CEMENT",
+    "new_name": "NIMBAHERA JK CEMENT",
+    "capacity": 33.2,
+    "operator": "Jk Cement ltd",
+    "match_score": 1.0,
+    "osm_id": "way/1261946201"
+  },
+  {
+    "old_name": "Bap Tehsil Solar Plant",
+    "new_name": "Bap Tehsil Solar Plant",
+    "capacity": 5.0,
+    "operator": "SEI Solar Energy Private Limited",
+    "match_score": 0.63,
+    "osm_id": "way/1262903981"
+  },
+  {
+    "old_name": "Anjar Taluka Solar Plant",
+    "new_name": "Anjar Taluka Solar Plant",
+    "capacity": 5.0,
+    "operator": "Taxus Infrastructure and Power Projects Pvt Ltd",
+    "match_score": 0.64,
+    "osm_id": "way/1263553234"
+  },
+  {
+    "old_name": "Visakhapatnam (Rural) Solar Plant",
+    "new_name": "Visakhapatnam (Rural) Solar Plant",
+    "capacity": 10.0,
+    "operator": "Unknown",
+    "match_score": 0.63,
+    "osm_id": "way/1264578955"
+  },
+  {
+    "old_name": "Visakhapatnam (Rural) Solar Plant",
+    "new_name": "Visakhapatnam (Rural) Solar Plant",
+    "capacity": 10.0,
+    "operator": "Unknown",
+    "match_score": 0.63,
+    "osm_id": "way/1266360189"
+  },
+  {
+    "old_name": "Ramagundam mandal Solar Plant",
+    "new_name": "Ramagundam mandal Solar Plant",
+    "capacity": 10.0,
+    "operator": "Government of India",
+    "match_score": 0.77,
+    "osm_id": "way/1268738327"
+  },
+  {
+    "old_name": "Visakhapatnam (Urban) Solar Plant",
+    "new_name": "Visakhapatnam (Urban) Solar Plant",
+    "capacity": 10.0,
+    "operator": "Unknown",
+    "match_score": 0.63,
+    "osm_id": "way/1329170689"
+  },
+  {
+    "old_name": "Sakri Taluka Solar Plant",
+    "new_name": "Sakri Taluka Solar Plant",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.76,
+    "osm_id": "way/1349273310"
+  },
+  {
+    "old_name": "Sakri Taluka Solar Plant",
+    "new_name": "Sakri Taluka Solar Plant",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.76,
+    "osm_id": "way/1349273311"
+  },
+  {
+    "old_name": "KUNDAH II/Geddai",
+    "new_name": "KUNDAH II/Geddai",
+    "capacity": 555.0,
+    "operator": "Unknown",
+    "match_score": 0.62,
+    "osm_id": "way/1463910410"
+  },
+  {
+    "old_name": "U.ROGNICHU",
+    "new_name": "U.ROGNICHU",
+    "capacity": 8.0,
+    "operator": "Unknown",
+    "match_score": 1.0,
+    "osm_id": "way/1463999928"
+  },
+  {
+    "old_name": "Bhadravati taluk Hydro Plant",
+    "new_name": "Bhadravati taluk Hydro Plant",
+    "capacity": 41.0,
+    "operator": "Mysore Mills ltd",
+    "match_score": 0.6,
+    "osm_id": "way/1468898818"
+  },
+  {
+    "old_name": "Shimsha solar plant",
+    "new_name": "Shimsha solar plant",
+    "capacity": 5.0,
+    "operator": "Karnataka Power Corporation Limited",
+    "match_score": 0.68,
+    "osm_id": "relation/11267932"
+  },
+  {
+    "old_name": "Sakri 1A Solar",
+    "new_name": "Sakri 1A Solar",
+    "capacity": 100.0,
+    "operator": "Maharashtra State Power Generation Co Ltd (MAHAGENCO)",
+    "match_score": 0.7,
+    "osm_id": "relation/12352988"
+  },
+  {
+    "old_name": "Arkay Valantharvi Power Plant",
+    "new_name": "Arkay Valantharvi Power Plant",
+    "capacity": 52.8,
+    "operator": "Unknown",
+    "match_score": 0.6,
+    "osm_id": "relation/13555371"
+  },
+  {
+    "old_name": "Bidar",
+    "new_name": "Bidar",
+    "capacity": 15.0,
+    "operator": "Unknown",
+    "match_score": 0.83,
+    "osm_id": "relation/16706086"
+  },
+  {
+    "old_name": "Nilanga Solar Plant",
+    "new_name": "Nilanga Solar Plant",
+    "capacity": 5.0,
+    "operator": "Shree Saibaba Green Power Private Limited",
+    "match_score": 0.65,
+    "osm_id": "relation/16736412"
+  },
+  {
+    "old_name": "Ramagundam mandal Solar Plant",
+    "new_name": "Ramagundam mandal Solar Plant",
+    "capacity": 10.0,
+    "operator": "Government of India",
+    "match_score": 0.77,
+    "osm_id": "relation/17362922"
+  },
+  {
+    "old_name": "Charanka solar park",
+    "new_name": "Charanka solar park",
+    "capacity": 615.0,
+    "operator": "Charanka Solar Park",
+    "match_score": 0.76,
+    "osm_id": "relation/17501686"
+  }
+]

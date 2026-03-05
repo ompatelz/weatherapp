@@ -1,0 +1,297 @@
+state_id,state_name,year,total_capacity_mw,solar,wind,hydro,nuclear,bioenergy,generation_gwh
+maharashtra,Maharashtra,2019,16740,3200,5100,3800,1840,2800,112000
+maharashtra,Maharashtra,2020,18240,4200,5400,3900,1840,2900,118000
+maharashtra,Maharashtra,2021,20200,5500,5700,4000,2000,3000,123500
+maharashtra,Maharashtra,2022,22200,7000,6000,4100,2000,3100,129800
+maharashtra,Maharashtra,2023,24300,8400,6300,4200,2200,3200,136100
+maharashtra,Maharashtra,2024,26400,9800,6600,4300,2400,3300,142300
+maharashtra,Maharashtra,2025,27720,10290,6930,4515,2520,3465,149415
+maharashtra,Maharashtra,2026,58916,21872,14729,9595,5356,7364,156530
+gujarat,Gujarat,2019,12780,3800,6200,800,880,1100,95000
+gujarat,Gujarat,2020,14930,5200,6800,850,880,1200,102000
+gujarat,Gujarat,2021,17480,7000,7400,900,880,1300,108400
+gujarat,Gujarat,2022,19930,8800,7900,950,880,1400,115200
+gujarat,Gujarat,2023,22300,10200,8400,1000,1200,1500,122000
+gujarat,Gujarat,2024,24850,12000,9000,1050,1200,1600,128500
+gujarat,Gujarat,2025,26092,12600,9450,1102,1260,1680,134925
+gujarat,Gujarat,2026,68509,33085,24812,2893,3308,4411,141350
+tamil_nadu,Tamil Nadu,2019,16740,2800,9200,2200,1540,1000,85000
+tamil_nadu,Tamil Nadu,2020,18140,3600,9600,2300,1540,1100,91000
+tamil_nadu,Tamil Nadu,2021,19940,4800,10000,2400,1540,1200,95800
+tamil_nadu,Tamil Nadu,2022,22100,6000,10500,2500,1800,1300,101300
+tamil_nadu,Tamil Nadu,2023,24000,7200,11000,2600,1800,1400,107000
+tamil_nadu,Tamil Nadu,2024,26000,8500,11500,2700,1800,1500,112400
+tamil_nadu,Tamil Nadu,2025,27300,8925,12075,2835,1890,1575,118020
+tamil_nadu,Tamil Nadu,2026,45697,14942,20213,4744,3163,2635,123640
+rajasthan,Rajasthan,2019,11880,4200,4300,1800,1180,400,72000
+rajasthan,Rajasthan,2020,13880,5800,4600,1850,1180,450,78000
+rajasthan,Rajasthan,2021,16080,7500,5000,1900,1180,500,83200
+rajasthan,Rajasthan,2022,18280,9200,5400,1950,1180,550,88500
+rajasthan,Rajasthan,2023,20700,11000,5800,2000,1300,600,93800
+rajasthan,Rajasthan,2024,23200,13000,6200,2050,1300,650,98600
+rajasthan,Rajasthan,2025,24359,13650,6510,2152,1365,682,103530
+rajasthan,Rajasthan,2026,57424,32182,15346,5072,3217,1607,108460
+karnataka,Karnataka,2019,14780,3000,4800,4200,880,1900,68000
+karnataka,Karnataka,2020,16480,4200,5000,4400,880,2000,74500
+karnataka,Karnataka,2021,18180,5400,5200,4600,880,2100,78900
+karnataka,Karnataka,2022,21000,7200,5500,4800,1300,2200,83600
+karnataka,Karnataka,2023,23200,8800,5800,5000,1300,2300,88000
+karnataka,Karnataka,2024,25000,10000,6100,5200,1300,2400,92100
+karnataka,Karnataka,2025,26250,10500,6405,5460,1365,2520,96705
+karnataka,Karnataka,2026,36893,14759,9001,7674,1918,3541,101310
+uttar_pradesh,Uttar Pradesh,2019,8700,1800,500,3200,400,2800,66000
+uttar_pradesh,Uttar Pradesh,2020,10000,2800,600,3300,400,2900,72000
+uttar_pradesh,Uttar Pradesh,2021,11900,4000,700,3400,800,3000,76200
+uttar_pradesh,Uttar Pradesh,2022,13700,5500,800,3500,800,3100,80100
+uttar_pradesh,Uttar Pradesh,2023,15500,7000,900,3600,800,3200,84500
+uttar_pradesh,Uttar Pradesh,2024,17700,8500,1000,3700,1200,3300,88700
+uttar_pradesh,Uttar Pradesh,2025,18585,8925,1050,3885,1260,3465,93135
+uttar_pradesh,Uttar Pradesh,2026,38640,18558,2182,8077,2619,7204,97570
+andhra_pradesh,Andhra Pradesh,2019,10100,3000,4000,2000,800,300,60000
+andhra_pradesh,Andhra Pradesh,2020,11650,4200,4200,2100,800,350,65000
+andhra_pradesh,Andhra Pradesh,2021,13400,5500,4500,2200,800,400,69500
+andhra_pradesh,Andhra Pradesh,2022,15550,7000,4800,2300,1000,450,73800
+andhra_pradesh,Andhra Pradesh,2023,17200,8200,5100,2400,1000,500,77600
+andhra_pradesh,Andhra Pradesh,2024,18950,9500,5400,2500,1000,550,81200
+andhra_pradesh,Andhra Pradesh,2025,19897,9975,5670,2625,1050,577,85260
+andhra_pradesh,Andhra Pradesh,2026,31065,15577,8853,4098,1638,899,89320
+madhya_pradesh,Madhya Pradesh,2019,8400,2500,2600,2200,500,600,55000
+madhya_pradesh,Madhya Pradesh,2020,10050,3800,2800,2300,500,650,60000
+madhya_pradesh,Madhya Pradesh,2021,11800,5200,3000,2400,500,700,63800
+madhya_pradesh,Madhya Pradesh,2022,13450,6500,3200,2500,500,750,67500
+madhya_pradesh,Madhya Pradesh,2023,15500,8000,3400,2600,700,800,71000
+madhya_pradesh,Madhya Pradesh,2024,17350,9500,3600,2700,700,850,74500
+madhya_pradesh,Madhya Pradesh,2025,18217,9975,3780,2835,735,892,78225
+madhya_pradesh,Madhya Pradesh,2026,33130,18144,6875,5155,1335,1621,81950
+telangana,Telangana,2019,5900,1800,200,2800,600,500,45000
+telangana,Telangana,2020,7150,2800,300,2900,600,550,50000
+telangana,Telangana,2021,8400,3800,400,3000,600,600,53600
+telangana,Telangana,2022,9850,4800,500,3100,800,650,56800
+telangana,Telangana,2023,11100,5800,600,3200,800,700,59700
+telangana,Telangana,2024,12350,6800,700,3300,800,750,62400
+telangana,Telangana,2025,12967,7140,735,3465,840,787,65520
+telangana,Telangana,2026,19752,10879,1118,5278,1279,1198,68640
+punjab,Punjab,2019,5700,900,100,3600,500,600,36000
+punjab,Punjab,2020,6400,1400,150,3700,500,650,40000
+punjab,Punjab,2021,7200,2000,200,3800,500,700,42300
+punjab,Punjab,2022,8100,2600,250,3900,600,750,44800
+punjab,Punjab,2023,8900,3200,300,4000,600,800,47000
+punjab,Punjab,2024,9700,3800,350,4100,600,850,48900
+punjab,Punjab,2025,10184,3990,367,4305,630,892,51345
+punjab,Punjab,2026,9089,3562,327,3843,562,795,53790
+west_bengal,West Bengal,2019,2450,200,50,1300,500,400,38000
+west_bengal,West Bengal,2020,2830,400,80,1400,500,450,43000
+west_bengal,West Bengal,2021,3700,800,100,1500,800,500,45200
+west_bengal,West Bengal,2022,4470,1400,120,1600,800,550,47800
+west_bengal,West Bengal,2023,5250,2000,150,1700,800,600,50100
+west_bengal,West Bengal,2024,6230,2600,180,1800,1000,650,52300
+west_bengal,West Bengal,2025,6541,2730,189,1890,1050,682,54915
+west_bengal,West Bengal,2026,15347,6408,442,4434,2463,1600,57530
+kerala,Kerala,2019,2660,300,100,2100,60,100,16000
+kerala,Kerala,2020,3000,500,120,2200,60,120,18000
+kerala,Kerala,2021,3440,800,140,2300,60,140,19100
+kerala,Kerala,2022,3880,1100,160,2400,60,160,20000
+kerala,Kerala,2023,4360,1400,180,2500,100,180,21100
+kerala,Kerala,2024,4800,1700,200,2600,100,200,22100
+kerala,Kerala,2025,5040,1785,210,2730,105,210,23205
+kerala,Kerala,2026,4958,1757,206,2686,103,206,24310
+chhattisgarh,Chhattisgarh,2019,2050,500,50,1200,0,300,34000
+chhattisgarh,Chhattisgarh,2020,2510,800,60,1300,0,350,38000
+chhattisgarh,Chhattisgarh,2021,3070,1200,70,1400,0,400,40000
+chhattisgarh,Chhattisgarh,2022,3830,1800,80,1500,0,450,42000
+chhattisgarh,Chhattisgarh,2023,4590,2400,90,1600,0,500,44000
+chhattisgarh,Chhattisgarh,2024,5450,3000,100,1700,100,550,45800
+chhattisgarh,Chhattisgarh,2025,5722,3150,105,1785,105,577,48090
+chhattisgarh,Chhattisgarh,2026,26354,14513,482,8223,482,2654,50380
+haryana,Haryana,2019,1800,600,200,200,300,500,30000
+haryana,Haryana,2020,2570,1200,300,220,300,550,34000
+haryana,Haryana,2021,3740,2000,400,240,500,600,36000
+haryana,Haryana,2022,4910,3000,500,260,500,650,38000
+haryana,Haryana,2023,6080,4000,600,280,500,700,40000
+haryana,Haryana,2024,7450,5000,700,300,700,750,41500
+haryana,Haryana,2025,7822,5250,735,315,735,787,43575
+haryana,Haryana,2026,8700,5842,817,349,817,875,45650
+jharkhand,Jharkhand,2019,420,100,20,200,0,100,12000
+jharkhand,Jharkhand,2020,570,200,30,220,0,120,14000
+jharkhand,Jharkhand,2021,820,400,40,240,0,140,15200
+jharkhand,Jharkhand,2022,1170,700,50,260,0,160,16200
+jharkhand,Jharkhand,2023,1520,1000,60,280,0,180,17200
+jharkhand,Jharkhand,2024,2070,1400,70,300,100,200,18200
+jharkhand,Jharkhand,2025,2173,1470,73,315,105,210,19110
+jharkhand,Jharkhand,2026,7499,5080,250,1085,361,723,20020
+bihar,Bihar,2019,910,200,10,400,0,300,13000
+bihar,Bihar,2020,1220,400,20,450,0,350,15500
+bihar,Bihar,2021,1630,700,30,500,0,400,16500
+bihar,Bihar,2022,2340,1100,40,550,200,450,17500
+bihar,Bihar,2023,2850,1500,50,600,200,500,18500
+bihar,Bihar,2024,3460,2000,60,650,200,550,19500
+bihar,Bihar,2025,3632,2100,63,682,210,577,20475
+bihar,Bihar,2026,10816,6258,187,2031,624,1716,21450
+odisha,Odisha,2019,2750,300,50,2200,0,200,22000
+odisha,Odisha,2020,3230,600,80,2300,0,250,26000
+odisha,Odisha,2021,3800,1000,100,2400,0,300,28000
+odisha,Odisha,2022,4470,1500,120,2500,0,350,29500
+odisha,Odisha,2023,5350,2000,150,2600,200,400,31000
+odisha,Odisha,2024,6030,2500,180,2700,200,450,32800
+odisha,Odisha,2025,6331,2625,189,2835,210,472,34440
+odisha,Odisha,2026,13082,5427,389,5859,433,974,36080
+assam,Assam,2019,540,50,10,400,0,80,6000
+assam,Assam,2020,665,100,15,450,0,100,7000
+assam,Assam,2021,820,180,20,500,0,120,7600
+assam,Assam,2022,995,280,25,550,0,140,8100
+assam,Assam,2023,1190,400,30,600,0,160,8700
+assam,Assam,2024,1415,550,35,650,0,180,9200
+assam,Assam,2025,1484,577,36,682,0,189,9660
+assam,Assam,2026,2203,857,52,1014,0,280,10120
+uttarakhand,Uttarakhand,2019,4080,200,30,3800,0,50,11000
+uttarakhand,Uttarakhand,2020,4350,350,40,3900,0,60,13000
+uttarakhand,Uttarakhand,2021,4620,500,50,4000,0,70,13800
+uttarakhand,Uttarakhand,2022,4940,700,60,4100,0,80,14600
+uttarakhand,Uttarakhand,2023,5260,900,70,4200,0,90,15500
+uttarakhand,Uttarakhand,2024,5580,1100,80,4300,0,100,16400
+uttarakhand,Uttarakhand,2025,5859,1155,84,4515,0,105,17220
+uttarakhand,Uttarakhand,2026,6670,1315,95,5141,0,119,18040
+himachal_pradesh,Himachal Pradesh,2019,10370,100,20,10200,0,50,25000
+himachal_pradesh,Himachal Pradesh,2020,10690,200,30,10400,0,60,28000
+himachal_pradesh,Himachal Pradesh,2021,11060,350,40,10600,0,70,30000
+himachal_pradesh,Himachal Pradesh,2022,11430,500,50,10800,0,80,31800
+himachal_pradesh,Himachal Pradesh,2023,11850,700,60,11000,0,90,33500
+himachal_pradesh,Himachal Pradesh,2024,12270,900,70,11200,0,100,35200
+himachal_pradesh,Himachal Pradesh,2025,12883,945,73,11760,0,105,36960
+himachal_pradesh,Himachal Pradesh,2026,12778,939,71,11665,0,103,38720
+jammu_kashmir,Jammu and Kashmir,2019,2880,50,10,2800,0,20,7500
+jammu_kashmir,Jammu and Kashmir,2020,3040,100,15,2900,0,25,8500
+jammu_kashmir,Jammu and Kashmir,2021,3250,200,20,3000,0,30,9100
+jammu_kashmir,Jammu and Kashmir,2022,3510,350,25,3100,0,35,9700
+jammu_kashmir,Jammu and Kashmir,2023,3770,500,30,3200,0,40,10200
+jammu_kashmir,Jammu and Kashmir,2024,4080,700,35,3300,0,45,10800
+jammu_kashmir,Jammu and Kashmir,2025,4283,735,36,3465,0,47,11340
+jammu_kashmir,Jammu and Kashmir,2026,4495,771,37,3638,0,49,11880
+goa,Goa,2019,70,30,20,10,0,10,1200
+goa,Goa,2020,99,50,25,12,0,12,1400
+goa,Goa,2021,138,80,30,14,0,14,1500
+goa,Goa,2022,187,120,35,16,0,16,1600
+goa,Goa,2023,236,160,40,18,0,18,1700
+goa,Goa,2024,285,200,45,20,0,20,1800
+goa,Goa,2025,299,210,47,21,0,21,1890
+goa,Goa,2026,75,54,11,5,0,5,1980
+arunachal_pradesh,Arunachal Pradesh,2019,512,5,2,500,0,5,1500
+arunachal_pradesh,Arunachal Pradesh,2020,571,10,3,550,0,8,1800
+arunachal_pradesh,Arunachal Pradesh,2021,634,20,4,600,0,10,2000
+arunachal_pradesh,Arunachal Pradesh,2022,697,30,5,650,0,12,2100
+arunachal_pradesh,Arunachal Pradesh,2023,766,45,6,700,0,15,2300
+arunachal_pradesh,Arunachal Pradesh,2024,835,60,7,750,0,18,2400
+arunachal_pradesh,Arunachal Pradesh,2025,875,63,7,787,0,18,2520
+arunachal_pradesh,Arunachal Pradesh,2026,1771,129,13,1595,0,34,2640
+manipur,Manipur,2019,131,5,1,120,0,5,500
+manipur,Manipur,2020,150,10,2,130,0,8,650
+manipur,Manipur,2021,171,18,3,140,0,10,700
+manipur,Manipur,2022,191,25,4,150,0,12,750
+manipur,Manipur,2023,215,35,5,160,0,15,800
+manipur,Manipur,2024,239,45,6,170,0,18,850
+manipur,Manipur,2025,249,47,6,178,0,18,892
+manipur,Manipur,2026,163,32,3,117,0,11,935
+meghalaya,Meghalaya,2019,367,5,2,350,0,10,900
+meghalaya,Meghalaya,2020,398,10,3,370,0,15,1100
+meghalaya,Meghalaya,2021,434,20,4,390,0,20,1200
+meghalaya,Meghalaya,2022,470,30,5,410,0,25,1300
+meghalaya,Meghalaya,2023,506,40,6,430,0,30,1400
+meghalaya,Meghalaya,2024,542,50,7,450,0,35,1500
+meghalaya,Meghalaya,2025,567,52,7,472,0,36,1575
+meghalaya,Meghalaya,2026,395,38,4,329,0,24,1650
+mizoram,Mizoram,2019,111,5,1,100,0,5,350
+mizoram,Mizoram,2020,130,10,2,110,0,8,450
+mizoram,Mizoram,2021,151,18,3,120,0,10,500
+mizoram,Mizoram,2022,171,25,4,130,0,12,540
+mizoram,Mizoram,2023,194,35,5,140,0,14,580
+mizoram,Mizoram,2024,217,45,6,150,0,16,620
+mizoram,Mizoram,2025,226,47,6,157,0,16,651
+mizoram,Mizoram,2026,139,30,3,97,0,9,682
+nagaland,Nagaland,2019,104,5,1,90,0,8,400
+nagaland,Nagaland,2020,124,10,2,100,0,12,550
+nagaland,Nagaland,2021,146,18,3,110,0,15,600
+nagaland,Nagaland,2022,167,25,4,120,0,18,650
+nagaland,Nagaland,2023,190,35,5,130,0,20,700
+nagaland,Nagaland,2024,213,45,6,140,0,22,750
+nagaland,Nagaland,2025,223,47,6,147,0,23,787
+nagaland,Nagaland,2026,111,25,2,73,0,11,825
+sikkim,Sikkim,2019,2008,2,1,2000,0,5,4200
+sikkim,Sikkim,2020,2065,5,2,2050,0,8,5000
+sikkim,Sikkim,2021,2123,10,3,2100,0,10,5400
+sikkim,Sikkim,2022,2181,15,4,2150,0,12,5800
+sikkim,Sikkim,2023,2239,20,5,2200,0,14,6200
+sikkim,Sikkim,2024,2297,25,6,2250,0,16,6500
+sikkim,Sikkim,2025,2410,26,6,2362,0,16,6825
+sikkim,Sikkim,2026,2344,26,5,2299,0,14,7150
+tripura,Tripura,2019,92,10,2,60,0,20,1600
+tripura,Tripura,2020,118,20,3,70,0,25,2000
+tripura,Tripura,2021,154,40,4,80,0,30,2200
+tripura,Tripura,2022,190,60,5,90,0,35,2300
+tripura,Tripura,2023,226,80,6,100,0,40,2500
+tripura,Tripura,2024,262,100,7,110,0,45,2600
+tripura,Tripura,2025,274,105,7,115,0,47,2730
+tripura,Tripura,2026,1118,431,27,469,0,191,2860
+delhi,Delhi,2019,300,200,0,0,0,100,12000
+delhi,Delhi,2020,520,400,0,0,0,120,14000
+delhi,Delhi,2021,840,700,0,0,0,140,14800
+delhi,Delhi,2022,1260,1100,0,0,0,160,15600
+delhi,Delhi,2023,1680,1500,0,0,0,180,16500
+delhi,Delhi,2024,2200,2000,0,0,0,200,17400
+delhi,Delhi,2025,2310,2100,0,0,0,210,18270
+delhi,Delhi,2026,2588,2354,0,0,0,234,19140
+puducherry,Puducherry,2019,20,10,5,0,0,5,700
+puducherry,Puducherry,2020,36,20,8,0,0,8,850
+puducherry,Puducherry,2021,55,35,10,0,0,10,900
+puducherry,Puducherry,2022,74,50,12,0,0,12,960
+puducherry,Puducherry,2023,98,70,14,0,0,14,1030
+puducherry,Puducherry,2024,122,90,16,0,0,16,1100
+puducherry,Puducherry,2025,126,94,16,0,0,16,1155
+puducherry,Puducherry,2026,110,84,13,0,0,13,1210
+chandigarh,Chandigarh,2019,25,20,0,0,0,5,200
+chandigarh,Chandigarh,2020,43,35,0,0,0,8,260
+chandigarh,Chandigarh,2021,60,50,0,0,0,10,280
+chandigarh,Chandigarh,2022,82,70,0,0,0,12,300
+chandigarh,Chandigarh,2023,104,90,0,0,0,14,330
+chandigarh,Chandigarh,2024,126,110,0,0,0,16,350
+chandigarh,Chandigarh,2025,131,115,0,0,0,16,367
+chandigarh,Chandigarh,2026,78,69,0,0,0,9,385
+andaman_nicobar,Andaman and Nicobar,2019,18,10,5,0,0,3,200
+andaman_nicobar,Andaman and Nicobar,2020,33,20,8,0,0,5,260
+andaman_nicobar,Andaman and Nicobar,2021,52,35,10,0,0,7,280
+andaman_nicobar,Andaman and Nicobar,2022,71,50,12,0,0,9,300
+andaman_nicobar,Andaman and Nicobar,2023,95,70,14,0,0,11,320
+andaman_nicobar,Andaman and Nicobar,2024,119,90,16,0,0,13,340
+andaman_nicobar,Andaman and Nicobar,2025,123,94,16,0,0,13,357
+andaman_nicobar,Andaman and Nicobar,2026,130,101,16,0,0,13,374
+dadra_nagar_haveli,Dadra and Nagar Haveli,2019,30,20,0,5,0,5,360
+dadra_nagar_haveli,Dadra and Nagar Haveli,2020,53,40,0,5,0,8,440
+dadra_nagar_haveli,Dadra and Nagar Haveli,2021,75,60,0,5,0,10,470
+dadra_nagar_haveli,Dadra and Nagar Haveli,2022,97,80,0,5,0,12,500
+dadra_nagar_haveli,Dadra and Nagar Haveli,2023,119,100,0,5,0,14,540
+dadra_nagar_haveli,Dadra and Nagar Haveli,2024,141,120,0,5,0,16,580
+dadra_nagar_haveli,Dadra and Nagar Haveli,2025,147,126,0,5,0,16,609
+dadra_nagar_haveli,Dadra and Nagar Haveli,2026,153,132,0,5,0,16,638
+daman_diu,Daman and Diu,2019,18,10,5,0,0,3,160
+daman_diu,Daman and Diu,2020,33,20,8,0,0,5,210
+daman_diu,Daman and Diu,2021,47,30,10,0,0,7,230
+daman_diu,Daman and Diu,2022,61,40,12,0,0,9,245
+daman_diu,Daman and Diu,2023,80,55,14,0,0,11,260
+daman_diu,Daman and Diu,2024,99,70,16,0,0,13,280
+daman_diu,Daman and Diu,2025,102,73,16,0,0,13,294
+daman_diu,Daman and Diu,2026,105,76,16,0,0,13,308
+lakshadweep,Lakshadweep,2019,4,2,1,0,0,1,25
+lakshadweep,Lakshadweep,2020,5,3,1,0,0,1,30
+lakshadweep,Lakshadweep,2021,9,5,2,0,0,2,32
+lakshadweep,Lakshadweep,2022,11,7,2,0,0,2,34
+lakshadweep,Lakshadweep,2023,16,10,3,0,0,3,37
+lakshadweep,Lakshadweep,2024,19,13,3,0,0,3,40
+lakshadweep,Lakshadweep,2025,19,13,3,0,0,3,42
+lakshadweep,Lakshadweep,2026,33,23,5,0,0,5,44
+ladakh,Ladakh,2019,117,10,5,100,0,2,280
+ladakh,Ladakh,2020,146,25,8,110,0,3,350
+ladakh,Ladakh,2021,179,45,10,120,0,4,380
+ladakh,Ladakh,2022,217,70,12,130,0,5,420
+ladakh,Ladakh,2023,261,100,15,140,0,6,460
+ladakh,Ladakh,2024,305,130,18,150,0,7,500
+ladakh,Ladakh,2025,318,136,18,157,0,7,525
+ladakh,Ladakh,2026,146,64,7,72,0,3,550

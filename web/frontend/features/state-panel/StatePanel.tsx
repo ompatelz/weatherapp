@@ -10,11 +10,12 @@ import jsPDF from "jspdf";
 
 interface Props {
     state: StateDetail | null;
+    plant?: any | null;
     loading: boolean;
     onClose: () => void;
 }
 
-export default function StatePanel({ state, loading, onClose }: Props) {
+export default function StatePanel({ state, plant, loading, onClose }: Props) {
     const [isCompareOpen, setIsCompareOpen] = useState(false);
     const panelRef = useRef<HTMLDivElement>(null);
 
@@ -33,7 +34,7 @@ export default function StatePanel({ state, loading, onClose }: Props) {
         }
     };
 
-    if (!state && !loading) return null;
+    if (!state && !plant && !loading) return null;
 
     /* Compute quick derived values */
     const totalGW = state ? (state.capacity.total_mw / 1000).toFixed(1) : "—";
@@ -52,10 +53,10 @@ export default function StatePanel({ state, loading, onClose }: Props) {
             <div className="p-4 border-b border-[#262C3A] flex items-center justify-between sticky top-0 bg-[#161A22] z-10">
                 <div>
                     <h2 className="text-lg font-bold">
-                        {loading ? "Loading…" : state?.name}
+                        {loading ? "Loading…" : plant ? plant.name : state?.name}
                     </h2>
                     <p className="text-[10px] text-slate-400 uppercase tracking-widest font-medium">
-                        State Overview
+                        {plant ? "Power Plant Overview" : "State Overview"}
                     </p>
                 </div>
                 <button
@@ -70,6 +71,57 @@ export default function StatePanel({ state, loading, onClose }: Props) {
             {loading ? (
                 <div className="flex items-center justify-center h-64">
                     <div className="w-10 h-10 border-4 border-[#20d3ee] border-t-transparent rounded-full animate-spin" />
+                </div>
+            ) : plant ? (
+                <div className="p-5 flex flex-col gap-5 h-full">
+                    {/* Basic Info */}
+                    <div className="bg-[#0F1115]/50 border border-[#262C3A] rounded-lg p-4 flex flex-col gap-3 shadow-md">
+                        <div className="flex items-center justify-between">
+                            <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Primary Fuel</span>
+                            <span className="px-2 py-0.5 rounded text-[11px] font-bold bg-[#262C3A] border border-slate-600 shadow-sm text-slate-200">
+                                {plant.type.charAt(0).toUpperCase() + plant.type.slice(1)}
+                            </span>
+                        </div>
+                        <div className="h-px bg-slate-800/50 w-full" />
+                        <div className="flex items-center justify-between">
+                            <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Capacity</span>
+                            <span className="text-base font-bold text-[#20d3ee]">
+                                {plant.capacity_mw > 0 ? `${plant.capacity_mw.toLocaleString()} MW` : "Unknown"}
+                            </span>
+                        </div>
+                    </div>
+
+                    {/* Operational Details */}
+                    <div>
+                        <h3 className="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3 ml-1">
+                            Operational Details
+                        </h3>
+                        <div className="bg-[#0F1115]/30 border border-[#262C3A] rounded-lg px-4 py-3 flex flex-col gap-4">
+                            <div className="flex flex-col">
+                                <span className="text-[10px] uppercase text-slate-500 font-semibold mb-1">Operator / Owner</span>
+                                <span className="text-sm font-medium text-slate-200 leading-snug">
+                                    {plant.operator || "Unknown"}
+                                </span>
+                            </div>
+                            <div className="h-px bg-[#262C3A]" />
+                            <div className="flex flex-col">
+                                <span className="text-[10px] uppercase text-slate-500 font-semibold mb-1">Location</span>
+                                <span className="text-sm font-medium text-slate-200 leading-snug">
+                                    {plant.state || "Unknown"}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a
+                        href={`https://www.openstreetmap.org/${plant.osm_id}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-6 flex items-center justify-center gap-2 py-2.5 bg-[#20d3ee]/10 hover:bg-[#20d3ee]/20 border border-[#20d3ee]/30 text-[#20d3ee] rounded-md transition-colors text-xs font-semibold"
+                    >
+                        <span>View Source on OpenStreetMap</span>
+                        <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+                    </a>
                 </div>
             ) : state ? (
                 <div className="p-4 flex flex-col gap-4">

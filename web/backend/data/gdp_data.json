@@ -1102,5 +1102,373 @@
         "gdp_billion_inr": 13000,
         "total_capacity_mw": 2200,
         "renewable_share_percent": 90.9
+    },
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2025,
+        "gdp_billion_inr": 44205,
+        "total_capacity_mw": 27720,
+        "renewable_share_percent": 56.4
+    },
+    {
+        "state_id": "maharashtra",
+        "state": "Maharashtra",
+        "year": 2026,
+        "gdp_billion_inr": 46415,
+        "total_capacity_mw": 29106,
+        "renewable_share_percent": 56.4
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2025,
+        "gdp_billion_inr": 29715,
+        "total_capacity_mw": 26092,
+        "renewable_share_percent": 84.9
+    },
+    {
+        "state_id": "gujarat",
+        "state": "Gujarat",
+        "year": 2026,
+        "gdp_billion_inr": 31200,
+        "total_capacity_mw": 27396,
+        "renewable_share_percent": 84.9
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2025,
+        "gdp_billion_inr": 30975,
+        "total_capacity_mw": 27300,
+        "renewable_share_percent": 75.6
+    },
+    {
+        "state_id": "tamil_nadu",
+        "state": "Tamil Nadu",
+        "year": 2026,
+        "gdp_billion_inr": 32523,
+        "total_capacity_mw": 28665,
+        "renewable_share_percent": 75.6
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2025,
+        "gdp_billion_inr": 19005,
+        "total_capacity_mw": 24360,
+        "renewable_share_percent": 80.0
+    },
+    {
+        "state_id": "rajasthan",
+        "state": "Rajasthan",
+        "year": 2026,
+        "gdp_billion_inr": 19955,
+        "total_capacity_mw": 25578,
+        "renewable_share_percent": 80.0
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2025,
+        "gdp_billion_inr": 29925,
+        "total_capacity_mw": 26250,
+        "renewable_share_percent": 85.2
+    },
+    {
+        "state_id": "karnataka",
+        "state": "Karnataka",
+        "year": 2026,
+        "gdp_billion_inr": 31421,
+        "total_capacity_mw": 27562,
+        "renewable_share_percent": 85.2
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2025,
+        "gdp_billion_inr": 28560,
+        "total_capacity_mw": 18585,
+        "renewable_share_percent": 71.2
+    },
+    {
+        "state_id": "uttar_pradesh",
+        "state": "Uttar Pradesh",
+        "year": 2026,
+        "gdp_billion_inr": 29988,
+        "total_capacity_mw": 19514,
+        "renewable_share_percent": 71.2
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2025,
+        "gdp_billion_inr": 18480,
+        "total_capacity_mw": 19897,
+        "renewable_share_percent": 91.6
+    },
+    {
+        "state_id": "andhra_pradesh",
+        "state": "Andhra Pradesh",
+        "year": 2026,
+        "gdp_billion_inr": 19404,
+        "total_capacity_mw": 20891,
+        "renewable_share_percent": 91.6
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2025,
+        "gdp_billion_inr": 16485,
+        "total_capacity_mw": 18217,
+        "renewable_share_percent": 91.0
+    },
+    {
+        "state_id": "madhya_pradesh",
+        "state": "Madhya Pradesh",
+        "year": 2026,
+        "gdp_billion_inr": 17309,
+        "total_capacity_mw": 19127,
+        "renewable_share_percent": 91.0
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2025,
+        "gdp_billion_inr": 19110,
+        "total_capacity_mw": 12967,
+        "renewable_share_percent": 87.4
+    },
+    {
+        "state_id": "telangana",
+        "state": "Telangana",
+        "year": 2026,
+        "gdp_billion_inr": 20065,
+        "total_capacity_mw": 13615,
+        "renewable_share_percent": 87.4
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2025,
+        "gdp_billion_inr": 9030,
+        "total_capacity_mw": 10185,
+        "renewable_share_percent": 84.5
+    },
+    {
+        "state_id": "punjab",
+        "state": "Punjab",
+        "year": 2026,
+        "gdp_billion_inr": 9481,
+        "total_capacity_mw": 10694,
+        "renewable_share_percent": 84.5
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2025,
+        "gdp_billion_inr": 20580,
+        "total_capacity_mw": 6541,
+        "renewable_share_percent": 76.4
+    },
+    {
+        "state_id": "west_bengal",
+        "state": "West Bengal",
+        "year": 2026,
+        "gdp_billion_inr": 21609,
+        "total_capacity_mw": 6868,
+        "renewable_share_percent": 76.4
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2025,
+        "gdp_billion_inr": 14700,
+        "total_capacity_mw": 5040,
+        "renewable_share_percent": 93.8
+    },
+    {
+        "state_id": "kerala",
+        "state": "Kerala",
+        "year": 2026,
+        "gdp_billion_inr": 15435,
+        "total_capacity_mw": 5292,
+        "renewable_share_percent": 93.8
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2025,
+        "gdp_billion_inr": 5985,
+        "total_capacity_mw": 5722,
+        "renewable_share_percent": 89.0
+    },
+    {
+        "state_id": "chhattisgarh",
+        "state": "Chhattisgarh",
+        "year": 2026,
+        "gdp_billion_inr": 6284,
+        "total_capacity_mw": 6008,
+        "renewable_share_percent": 89.0
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2025,
+        "gdp_billion_inr": 13440,
+        "total_capacity_mw": 7822,
+        "renewable_share_percent": 80.5
+    },
+    {
+        "state_id": "haryana",
+        "state": "Haryana",
+        "year": 2026,
+        "gdp_billion_inr": 14112,
+        "total_capacity_mw": 8213,
+        "renewable_share_percent": 80.5
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2025,
+        "gdp_billion_inr": 5565,
+        "total_capacity_mw": 2173,
+        "renewable_share_percent": 85.0
+    },
+    {
+        "state_id": "jharkhand",
+        "state": "Jharkhand",
+        "year": 2026,
+        "gdp_billion_inr": 5843,
+        "total_capacity_mw": 2281,
+        "renewable_share_percent": 85.0
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2025,
+        "gdp_billion_inr": 9660,
+        "total_capacity_mw": 3633,
+        "renewable_share_percent": 78.0
+    },
+    {
+        "state_id": "bihar",
+        "state": "Bihar",
+        "year": 2026,
+        "gdp_billion_inr": 10143,
+        "total_capacity_mw": 3814,
+        "renewable_share_percent": 78.0
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2025,
+        "gdp_billion_inr": 9030,
+        "total_capacity_mw": 6331,
+        "renewable_share_percent": 89.6
+    },
+    {
+        "state_id": "odisha",
+        "state": "Odisha",
+        "year": 2026,
+        "gdp_billion_inr": 9481,
+        "total_capacity_mw": 6647,
+        "renewable_share_percent": 89.6
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2025,
+        "gdp_billion_inr": 6090,
+        "total_capacity_mw": 1485,
+        "renewable_share_percent": 87.3
+    },
+    {
+        "state_id": "assam",
+        "state": "Assam",
+        "year": 2026,
+        "gdp_billion_inr": 6394,
+        "total_capacity_mw": 1559,
+        "renewable_share_percent": 87.3
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2025,
+        "gdp_billion_inr": 4515,
+        "total_capacity_mw": 5859,
+        "renewable_share_percent": 98.2
+    },
+    {
+        "state_id": "uttarakhand",
+        "state": "Uttarakhand",
+        "year": 2026,
+        "gdp_billion_inr": 4740,
+        "total_capacity_mw": 6151,
+        "renewable_share_percent": 98.2
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2025,
+        "gdp_billion_inr": 2940,
+        "total_capacity_mw": 12883,
+        "renewable_share_percent": 99.2
+    },
+    {
+        "state_id": "himachal_pradesh",
+        "state": "Himachal Pradesh",
+        "year": 2026,
+        "gdp_billion_inr": 3087,
+        "total_capacity_mw": 13527,
+        "renewable_share_percent": 99.2
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2025,
+        "gdp_billion_inr": 2835,
+        "total_capacity_mw": 4284,
+        "renewable_share_percent": 98.9
+    },
+    {
+        "state_id": "jammu_kashmir",
+        "state": "Jammu and Kashmir",
+        "year": 2026,
+        "gdp_billion_inr": 2976,
+        "total_capacity_mw": 4498,
+        "renewable_share_percent": 98.9
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2025,
+        "gdp_billion_inr": 1417,
+        "total_capacity_mw": 299,
+        "renewable_share_percent": 93.0
+    },
+    {
+        "state_id": "goa",
+        "state": "Goa",
+        "year": 2026,
+        "gdp_billion_inr": 1487,
+        "total_capacity_mw": 313,
+        "renewable_share_percent": 93.0
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2025,
+        "gdp_billion_inr": 13650,
+        "total_capacity_mw": 2310,
+        "renewable_share_percent": 90.9
+    },
+    {
+        "state_id": "delhi",
+        "state": "Delhi",
+        "year": 2026,
+        "gdp_billion_inr": 14332,
+        "total_capacity_mw": 2425,
+        "renewable_share_percent": 90.9
     }
 ]

@@ -37,6 +37,7 @@ export default function HomePage() {
   const [selectedYear, setSelectedYear] = useState(2026);
   const [selectedState, setSelectedState] = useState<StateDetail | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedPlant, setSelectedPlant] = useState<any | null>(null);
   const [loading, setLoading] = useState(false);
   const [activeSidebar, setActiveSidebar] = useState(0);
 
@@ -54,6 +55,7 @@ export default function HomePage() {
   const handleStateSelect = useCallback(
     async (stateId: string, _name: string) => {
       setSelectedId(stateId);
+      setSelectedPlant(null);
       setLoading(true);
       try {
         const data = await fetchStateDetail(stateId);
@@ -68,9 +70,15 @@ export default function HomePage() {
     []
   );
 
+  const handlePlantSelect = useCallback((plant: any) => {
+    setSelectedPlant(plant);
+    setView("map");
+  }, []);
+
   const handleClose = useCallback(() => {
     setSelectedState(null);
     setSelectedId(null);
+    setSelectedPlant(null);
   }, []);
 
   return (
@@ -167,6 +175,7 @@ export default function HomePage() {
                     <div className="flex-1 relative bg-[#0B0D11]">
                       <IndiaMap
                         onStateSelect={handleStateSelect}
+                        onPlantSelect={handlePlantSelect}
                         selectedStateId={selectedId}
                         selectedYear={selectedYear}
                         onYearChange={setSelectedYear}
@@ -174,6 +183,7 @@ export default function HomePage() {
                     </div>
                     <StatePanel
                       state={selectedState}
+                      plant={selectedPlant}
                       loading={loading}
                       onClose={handleClose}
                     />

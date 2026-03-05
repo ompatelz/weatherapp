@@ -70,3 +70,38 @@ body {
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
+
+/* ── Map Popup Dark Theme Overrides ─── */
+.plant-popup .maplibregl-popup-content {
+  background-color: #020617 !important;
+  /* Slate 950 - very dark */
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  border: 1px solid #475569 !important;
+  /* Slate 600 - lighter border */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.7), 0 4px 6px -4px rgba(0, 0, 0, 0.7) !important;
+  padding: 16px !important;
+}
+
+.plant-popup .maplibregl-popup-tip {
+  border-top-color: #475569 !important;
+  border-bottom-color: #475569 !important;
+}
+
+.plant-popup .maplibregl-popup-close-button {
+  color: #cbd5e1 !important;
+  font-size: 16px;
+  right: 4px;
+  top: 4px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.plant-popup .maplibregl-popup-close-button:hover {
+  background-color: #1e293b !important;
+  color: #ffffff !important;
+}
+
+.plant-popup .maplibregl-popup-content div {
+  background-color: transparent !important;
+}

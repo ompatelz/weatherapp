@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-03T23:06:47.468362",
+  "local_stats": {
+    "state_count": 37,
+    "state_year_points": 296,
+    "power_plant_count": 3801,
+    "correlation_errors": [
+      {
+        "year": 2025,
+        "error": 400
+      },
+      {
+        "year": 2026,
+        "error": 400
+      }
+    ]
+  },
+  "live_checks": {
+    "generation_timestamp": "Live",
+    "market_timestamp": "2026-02-28T12:00:00Z",
+    "generation_national_mw": 330248,
+    "generation_states_count": 37,
+    "wiki_parity_states": 9,
+    "wiki_parity": [
+      {
+        "state": "maharashtra",
+        "local_gw": 27.72,
+        "wiki_approx_gw": 25,
+        "gap_pct": 10.88
+      },
+      {
+        "state": "gujarat",
+        "local_gw": 26.09,
+        "wiki_approx_gw": 25,
+        "gap_pct": 4.36
+      },
+      {
+        "state": "tamil_nadu",
+        "local_gw": 27.3,
+        "wiki_approx_gw": 20,
+        "gap_pct": 36.5
+      },
+      {
+        "state": "rajasthan",
+        "local_gw": 24.36,
+        "wiki_approx_gw": 30,
+        "gap_pct": 18.8
+      },
+      {
+        "state": "karnataka",
+        "local_gw": 26.25,
+        "wiki_approx_gw": 18,
+        "gap_pct": 45.83
+      },
+      {
+        "state": "uttar_pradesh",
+        "local_gw": 18.59,
+        "wiki_approx_gw": 15,
+        "gap_pct": 23.93
+      },
+      {
+        "state": "andhra_pradesh",
+        "local_gw": 19.9,
+        "wiki_approx_gw": 16,
+        "gap_pct": 24.37
+      },
+      {
+        "state": "madhya_pradesh",
+        "local_gw": 18.22,
+        "wiki_approx_gw": 15,
+        "gap_pct": 21.47
+      },
+      {
+        "state": "telangana",
+        "local_gw": 12.97,
+        "wiki_approx_gw": 12,
+        "gap_pct": 8.08
+      }
+    ],
+    "wiki_mean_gap_pct": 21.58,
+    "wiki_high_gap_states": 7,
+    "local_plant_count": 3801
+  },
+  "observations": [
+    "Analytics correlation returned errors for years: [2025, 2026]. Backend may not support those years.",
+    "/api/generation/live uses a fixed 'Live' timestamp \u2014 this is simulation-style output.",
+    "Capacity vs Wikipedia approx: 9 states checked, mean abs gap 21.58%, 7 states above 10% gap.",
+    "Local power plant count: 3801",
+    "Report generated: 2026-03-03 23:06. Data freshness depends on last scraper run."
+  ]
+}

@@ -27,16 +27,18 @@ const TYPE_COLORS: Record<string, string> = {
 
 interface Props {
     onStateSelect: (stateId: string, stateName: string) => void;
+    onPlantSelect?: (plant: any) => void;
     selectedStateId: string | null;
     selectedYear: number;
     onYearChange: (year: number) => void;
 }
 
-export default function IndiaMap({ onStateSelect, selectedStateId, selectedYear, onYearChange }: Props) {
+export default function IndiaMap({ onStateSelect, onPlantSelect, selectedStateId, selectedYear, onYearChange }: Props) {
     const mapContainer = useRef<HTMLDivElement>(null);
     const mapRef = useRef<maplibregl.Map | null>(null);
     const hoveredId = useRef<string | number | null>(null);
     const popupRef = useRef<maplibregl.Popup | null>(null);
+    const popupTimeoutRef = useRef<NodeJS.Timeout | null>(null);
     const [mapError, setMapError] = useState<string | null>(null);
     const [mapLoaded, setMapLoaded] = useState(false);
 
@@ -64,6 +66,20 @@ export default function IndiaMap({ onStateSelect, selectedStateId, selectedYear,
                 features?: maplibregl.MapGeoJSONFeature[];
             }
         ) => {
+            const map = mapRef.current;
+            if (!map) return;
+
+            let plantFeatures: maplibregl.MapGeoJSONFeature[] = [];
+            try {
+                const activeLayers = ["power-plants-circle", "power-plants-cluster"].filter(l => map.getLayer(l));
+                if (activeLayers.length > 0) {
+                    plantFeatures = map.queryRenderedFeatures(e.point, { layers: activeLayers });
+                }
+            } catch (err) {
+                console.warn(err);
+            }
+            if (plantFeatures.length > 0) return;
+
             const feature = e.features?.[0];
             if (!feature) return;
 
@@ -75,9 +91,6 @@ export default function IndiaMap({ onStateSelect, selectedStateId, selectedYear,
             onStateSelect(stateId, name);
 
             /* ── Fly-to animation ── */
-            const map = mapRef.current;
-            if (!map) return;
-
             // Compute centroid from bounds
             const geom = feature.geometry;
             if (geom && geom.type !== "GeometryCollection" && "coordinates" in geom) {
@@ -282,8 +295,22 @@ export default function IndiaMap({ onStateSelect, selectedStateId, selectedYear,
                         map.getCanvas().style.cursor = "";
                     });
 
-                    // ── Click popup ──
+                    // ── Click plant ──
                     map.on("click", "power-plants-circle", (e) => {
+                        const feat = e.features?.[0];
+                        if (!feat) return;
+                        if (onPlantSelect) {
+                            onPlantSelect(feat.properties);
+                        }
+                    });
+
+                    // ── Hover popup ──
+                    map.on("mouseenter", "power-plants-circle", (e) => {
+                        map.getCanvas().style.cursor = "pointer";
+                        if (popupTimeoutRef.current) {
+                            clearTimeout(popupTimeoutRef.current);
+                            popupTimeoutRef.current = null;
+                        }
                         const feat = e.features?.[0];
                         if (!feat) return;
                         const props = feat.properties;
@@ -303,46 +330,71 @@ export default function IndiaMap({ onStateSelect, selectedStateId, selectedYear,
 
                         const html = `
                             <div style="font-family: 'Inter', sans-serif; min-width: 200px;">
-                                <div style="font-size: 14px; font-weight: 600; color: #f1f5f9; margin-bottom: 8px;">
+                                <div style="font-size: 14px; font-weight: 600; color: #ffffff; margin-bottom: 8px;">
                                     ${props.name}
                                 </div>
                                 <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px;">
                                     <span style="width: 8px; height: 8px; border-radius: 50%; background: ${color}; display: inline-block;"></span>
-                                    <span style="font-size: 12px; color: #94a3b8;">${typeLabel}</span>
+                                    <span style="font-size: 12px; color: #cbd5e1;">${typeLabel}</span>
                                 </div>
-                                <div style="font-size: 12px; color: #94a3b8; margin-bottom: 2px;">
-                                    <strong style="color: #cbd5e1;">Capacity:</strong> ${cap}
+                                <div style="font-size: 12px; color: #cbd5e1; margin-bottom: 2px;">
+                                    <strong style="color: #e2e8f0;">Capacity:</strong> ${cap}
                                 </div>
-                                <div style="font-size: 12px; color: #94a3b8; margin-bottom: 2px;">
-                                    <strong style="color: #cbd5e1;">Operator:</strong> ${props.operator}
+                                <div style="font-size: 12px; color: #cbd5e1; margin-bottom: 2px;">
+                                    <strong style="color: #e2e8f0;">Operator:</strong> ${props.operator}
                                 </div>
-                                <div style="font-size: 12px; color: #94a3b8; margin-bottom: 2px;">
-                                    <strong style="color: #cbd5e1;">State:</strong> ${props.state}
+                                <div style="font-size: 12px; color: #cbd5e1; margin-bottom: 2px;">
+                                    <strong style="color: #e2e8f0;">State:</strong> ${props.state}
                                 </div>
                                 <a href="https://www.openstreetmap.org/${props.osm_id}"
                                    target="_blank" rel="noopener noreferrer"
-                                   style="font-size: 11px; color: #22d3ee; text-decoration: none; display: inline-block; margin-top: 4px;">
+                                   style="font-size: 11px; color: #38bdf8; text-decoration: none; display: inline-block; margin-top: 4px; font-weight: 500;">
                                    View on OpenStreetMap →
                                 </a>
                             </div>
                         `;
 
                         popupRef.current = new maplibregl.Popup({
-                            closeButton: true,
+                            closeButton: false, // Turn off close button since it's hover-based now
+                            closeOnClick: false,
                             maxWidth: "280px",
                             className: "plant-popup",
                         })
                             .setLngLat(coords)
                             .setHTML(html)
                             .addTo(map);
+
+                        const popupElem = popupRef.current.getElement();
+                        if (popupElem) {
+                            const contentElem = popupElem.querySelector(".maplibregl-popup-content");
+                            if (contentElem) {
+                                contentElem.addEventListener("mouseenter", () => {
+                                    if (popupTimeoutRef.current) {
+                                        clearTimeout(popupTimeoutRef.current);
+                                        popupTimeoutRef.current = null;
+                                    }
+                                });
+                                contentElem.addEventListener("mouseleave", () => {
+                                    popupTimeoutRef.current = setTimeout(() => {
+                                        if (popupRef.current) {
+                                            popupRef.current.remove();
+                                            popupRef.current = null;
+                                        }
+                                    }, 300);
+                                });
+                            }
+                        }
                     });
 
-                    // Cursor change on hover
-                    map.on("mouseenter", "power-plants-circle", () => {
-                        map.getCanvas().style.cursor = "pointer";
-                    });
+                    // Cursor change and popup close on mouseleave
                     map.on("mouseleave", "power-plants-circle", () => {
                         map.getCanvas().style.cursor = "";
+                        popupTimeoutRef.current = setTimeout(() => {
+                            if (popupRef.current) {
+                                popupRef.current.remove();
+                                popupRef.current = null;
+                            }
+                        }, 300);
                     });
                 }
             } catch (err) {
@@ -601,7 +653,7 @@ export default function IndiaMap({ onStateSelect, selectedStateId, selectedYear,
             50000, 0.6,
             100000, 0.9
         ];
-        
+
         let targetOpacity: any;
         if (selectedStateId) {
             targetOpacity = [
